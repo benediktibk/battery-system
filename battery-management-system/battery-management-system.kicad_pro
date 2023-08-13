@@ -330,7 +330,9 @@
   },
   "libraries": {
     "pinned_footprint_libs": [],
-    "pinned_symbol_libs": []
+    "pinned_symbol_libs": [
+      "benediktibk"
+    ]
   },
   "meta": {
     "filename": "battery-management-system.kicad_pro",
