@@ -6,3 +6,6 @@ fp-info-cache
 # LTSpice
 *.log
 *.raw
+
+# LibreOffice Calc
+.~lock.*
