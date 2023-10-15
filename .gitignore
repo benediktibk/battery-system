@@ -1,2 +1,8 @@
+# KiCad
 *.zip
 fp-info-cache
+\#auto_saved_files#
+
+# LTSpice
+*.log
+*.raw

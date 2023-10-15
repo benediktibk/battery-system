@@ -1,0 +1,23 @@
+* Z:\home\benedikt\Development\battery-system\simulations\charge_and_discharge_fets.asc
+R1 N010 0 0.1
+V1 N001 N010 12
+V3 N003 N009 14
+R2 N009 0 10
+M§Qcharge N001 N005 N002 N002 AO6407
+M§Qdischarge N003 N006 N002 N002 AO6407
+V4 N008 0 3
+M1 N006 N008 0 0 NMOS
+D1 N003 N004 D
+D2 N001 N004 D
+R3 N004 N006 100000
+V2 N007 0 3
+M2 N005 N007 0 0 NMOS
+R4 N004 N005 100000
+.model D D
+.lib C:\users\benedikt@benediktschmidt.at\Documents\LTspiceXVII\lib\cmp\standard.dio
+.model NMOS NMOS
+.model PMOS PMOS
+.lib C:\users\benedikt@benediktschmidt.at\Documents\LTspiceXVII\lib\cmp\standard.mos
+.op
+.backanno
+.end
