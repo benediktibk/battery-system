@@ -1,0 +1,31 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid e1d0df69-12d5-4033-9119-ca5696369cc9)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "5V_USB" (shape input) (at 71.12 66.04 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2ee425e3-8622-43e0-9784-52888f65212a)
+  )
+  (hierarchical_label "PACK_EXT" (shape input) (at 71.12 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 6347fe60-fcc9-4e96-af06-95d012408c86)
+  )
+  (hierarchical_label "5V_EXT" (shape input) (at 71.12 60.96 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 64f29e7e-d939-4817-83d2-c4dc3e35dd7c)
+  )
+  (hierarchical_label "5V" (shape output) (at 72.39 93.98 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid a30364c5-72d5-41c4-b459-eed50fa9e3e5)
+  )
+  (hierarchical_label "3V3" (shape output) (at 71.12 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid ae587194-a085-4b9d-b3e7-feac3cdae77a)
+  )
+)

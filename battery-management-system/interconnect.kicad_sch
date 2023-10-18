@@ -1,0 +1,19 @@
+(kicad_sch (version 20211123) (generator eeschema)
+
+  (uuid f02f2b57-2380-46e3-b4c3-c8bc1036b7ae)
+
+  (paper "A4")
+
+  (lib_symbols
+  )
+
+
+  (hierarchical_label "5V" (shape input) (at 85.09 55.88 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 2b55a445-84c2-4ce4-905e-fea800016f10)
+  )
+  (hierarchical_label "5V_EXT" (shape output) (at 85.09 68.58 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid cf565258-e7de-476b-8d60-8bd76a5b506f)
+  )
+)

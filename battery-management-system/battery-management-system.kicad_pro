@@ -414,6 +414,26 @@
     [
       "5272f0ff-3069-41a9-bca2-80beede8b4b2",
       ""
+    ],
+    [
+      "31b87c35-c096-4dc0-8978-834bec283b57",
+      "Battery Pack"
+    ],
+    [
+      "b1377397-46a1-4623-af59-88e4e694ca35",
+      "Power Supply"
+    ],
+    [
+      "afdb149d-bd78-484c-a496-c5b66260efca",
+      "USB"
+    ],
+    [
+      "409f87d1-afa6-40d2-ba42-d5009501b8f9",
+      "MCU"
+    ],
+    [
+      "3df28b0f-4877-411d-a6e0-0c6dff0863b2",
+      "Interconnect"
     ]
   ],
   "text_variables": {}
