@@ -434,6 +434,10 @@
     [
       "3df28b0f-4877-411d-a6e0-0c6dff0863b2",
       "Interconnect"
+    ],
+    [
+      "3d1e17ba-3c41-4767-81ce-6010cdb0d005",
+      "Cell Measurement"
     ]
   ],
   "text_variables": {}

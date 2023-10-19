@@ -254,6 +254,14 @@
   )
 
 
+  (hierarchical_label "UART_TX" (shape output) (at 78.74 77.47 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7bf11f7a-8a32-44d3-b67d-449f278229b3)
+  )
+  (hierarchical_label "UART_RX" (shape input) (at 78.74 83.82 0)
+    (effects (font (size 1.27 1.27)) (justify left))
+    (uuid 7d6e7584-58c1-47aa-91d2-ba0d986d881b)
+  )
   (hierarchical_label "5V_USB" (shape output) (at 99.06 45.72 0)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 9cf5c122-49f8-47b2-a9ad-9de4876ca0bf)
