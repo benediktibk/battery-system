@@ -629,9 +629,6 @@
     (path "/afdb149d-bd78-484c-a496-c5b66260efca/74ecd035-0ca5-4e8b-b1ad-98c981e1dbea"
       (reference "J7") (unit 1) (value "USB_B_Micro") (footprint "")
     )
-    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/b16a598d-ca72-40ca-94a7-b037885df236"
-      (reference "J8") (unit 1) (value "Conn_ARM_JTAG_SWD_10") (footprint "")
-    )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/69a85d78-ccff-4a0d-94c9-262d9c9ab009"
       (reference "L1") (unit 1) (value "22µH") (footprint "")
     )
@@ -688,6 +685,9 @@
     )
     (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/8c1b6e26-682d-4d75-b9b0-b59dcfa951d3"
       (reference "U4") (unit 1) (value "STM32L071CZTx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/b61a069c-a399-4a6a-8471-1c5314d5e954"
+      (reference "U5") (unit 1) (value "ARM-JTAG-SWD") (footprint "ARM-JTAG-SWD:ARM-JTAG-10-SWD-IDC")
     )
   )
 )
