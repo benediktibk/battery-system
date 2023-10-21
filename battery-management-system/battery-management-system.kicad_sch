@@ -648,7 +648,7 @@
       (reference "Q4") (unit 1) (value "DMN3730U") (footprint "Package_TO_SOT_SMD:SOT-23")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/a84a082d-df41-4472-8429-3c4925b9047e"
-      (reference "R1") (unit 1) (value "R") (footprint "")
+      (reference "R1") (unit 1) (value "2mOhm") (footprint "")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/7f5e33a5-ac63-4bbc-8059-f6e22d6e4880"
       (reference "R2") (unit 1) (value "220k") (footprint "Resistor_SMD:R_0603_1608Metric")

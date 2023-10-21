@@ -1158,7 +1158,7 @@
     (property "Reference" "R1" (id 0) (at 77.47 128.2699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "R" (id 1) (at 77.47 130.8099 0)
+    (property "Value" "2mOhm" (id 1) (at 77.47 130.8099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "" (id 2) (at 73.152 129.54 90)
