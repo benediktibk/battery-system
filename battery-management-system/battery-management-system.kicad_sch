@@ -594,19 +594,19 @@
       (reference "C8") (unit 1) (value "47µF") (footprint "")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/092ca6f4-fdcb-44e6-90ef-4d9b0fdc07e5"
-      (reference "D1") (unit 1) (value "BAT54WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D1") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/d2c5aec5-2923-48d6-b31c-4e4e170ded88"
-      (reference "D2") (unit 1) (value "BAT54WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D2") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/4ef206af-3dea-474f-a62c-16d4493d33fb"
-      (reference "D3") (unit 1) (value "BAT54WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D3") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/efce9688-dced-4800-8319-e2892316dd58"
-      (reference "D4") (unit 1) (value "BAT54WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D4") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/bee29060-b1d7-4e94-a9d0-405ee8e6cc24"
-      (reference "D5") (unit 1) (value "BAT54WS") (footprint "Diode_SMD:D_SOD-323")
+      (reference "D5") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/c05dab11-7671-4893-aee3-ae5910fcb06b"
       (reference "J1") (unit 1) (value "Conn_01x01") (footprint "")
@@ -626,8 +626,8 @@
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/3ff65ee9-3c23-4455-88b0-19d16262ead9"
       (reference "J6") (unit 1) (value "Conn_01x01") (footprint "")
     )
-    (path "/afdb149d-bd78-484c-a496-c5b66260efca/74ecd035-0ca5-4e8b-b1ad-98c981e1dbea"
-      (reference "J7") (unit 1) (value "USB_B_Micro") (footprint "")
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/e6385f63-1923-4174-afdf-067d23dbe10d"
+      (reference "J7") (unit 1) (value "AMPHENOL_micro_usb_10118194-0001LF") (footprint "benediktibk:AMPHENOL_10118194-0001LF")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/69a85d78-ccff-4a0d-94c9-262d9c9ab009"
       (reference "L1") (unit 1) (value "22µH") (footprint "")
@@ -636,16 +636,16 @@
       (reference "L2") (unit 1) (value "22µH") (footprint "")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/b530fb55-a111-4448-8dbc-7bca13343237"
-      (reference "Q1") (unit 1) (value "DMN3730U") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q1") (unit 1) (value "DMN3730U") (footprint "benediktibk:SOT-23")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/a7596260-bf23-49b5-a470-350c2c1cbf25"
-      (reference "Q2") (unit 1) (value "TJ40S04M3L") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q2") (unit 1) (value "TJ40S04M3L") (footprint "benediktibk:TO-252-2")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/9e288798-337a-4adf-9e99-105e28615e75"
-      (reference "Q3") (unit 1) (value "TJ40S04M3L") (footprint "Package_TO_SOT_SMD:TO-252-2")
+      (reference "Q3") (unit 1) (value "TJ40S04M3L") (footprint "benediktibk:TO-252-2")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/a8ffca26-5f44-4111-8bae-eb2be27afdea"
-      (reference "Q4") (unit 1) (value "DMN3730U") (footprint "Package_TO_SOT_SMD:SOT-23")
+      (reference "Q4") (unit 1) (value "DMN3730U") (footprint "benediktibk:SOT-23")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/a84a082d-df41-4472-8429-3c4925b9047e"
       (reference "R1") (unit 1) (value "2mOhm") (footprint "")
@@ -675,19 +675,19 @@
       (reference "R9") (unit 1) (value "32k") (footprint "")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/37dd1db2-65e6-42bb-beb1-e1e8abb4ce76"
-      (reference "U1") (unit 1) (value "L6982C33DR") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+      (reference "U1") (unit 1) (value "L6982C33DR") (footprint "benediktibk:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/d25ea7b4-95fc-4846-a7ef-3ac293425769"
-      (reference "U2") (unit 1) (value "L6982C33DR") (footprint "Package_SO:SO-8_3.9x4.9mm_P1.27mm")
+      (reference "U2") (unit 1) (value "L6982C33DR") (footprint "benediktibk:SO-8_3.9x4.9mm_P1.27mm")
     )
     (path "/afdb149d-bd78-484c-a496-c5b66260efca/183b21c6-535a-4b63-825e-4bd9d15f3ab3"
-      (reference "U3") (unit 1) (value "FT230XS") (footprint "Package_SO:SSOP-16_3.9x4.9mm_P0.635mm")
+      (reference "U3") (unit 1) (value "FT230XS") (footprint "benediktibk:SSOP-16_3.9x4.9mm_P0.635mm")
     )
     (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/8c1b6e26-682d-4d75-b9b0-b59dcfa951d3"
-      (reference "U4") (unit 1) (value "STM32L071CZTx") (footprint "Package_QFP:LQFP-48_7x7mm_P0.5mm")
+      (reference "U4") (unit 1) (value "STM32L071CZTx") (footprint "benediktibk:LQFP-48_7x7mm_P0.5mm")
     )
     (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/b61a069c-a399-4a6a-8471-1c5314d5e954"
-      (reference "U5") (unit 1) (value "ARM-JTAG-SWD") (footprint "ARM-JTAG-SWD:ARM-JTAG-10-SWD-IDC")
+      (reference "U5") (unit 1) (value "ARM-JTAG-SWD") (footprint "benediktibk:ARM-JTAG-10-SWD-IDC")
     )
   )
 )
