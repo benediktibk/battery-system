@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/benedikt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
-    <date>Sat 21 Oct 2023 12:15:37 PM CEST</date>
+    <date>Sat 21 Oct 2023 02:15:07 PM CEST</date>
     <tool>Eeschema 6.0.11+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -274,66 +274,104 @@
       <tstamps>a84a082d-df41-4472-8429-3c4925b9047e</tstamps>
     </comp>
     <comp ref="R2">
-      <value>220k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_220kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="678-9986"/>
       <property name="Sheetname" value="Battery Pack"/>
       <property name="Sheetfile" value="battery_pack.kicad_sch"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>7f5e33a5-ac63-4bbc-8059-f6e22d6e4880</tstamps>
     </comp>
     <comp ref="R3">
-      <value>220k</value>
-      <footprint>Resistor_SMD:R_0603_1608Metric</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_220kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <libsource lib="" part="R_220kOhm_SMD_0603_100mW_1%_1" description="Resistor"/>
+      <property name="RS order number" value="678-9986"/>
       <property name="Sheetname" value="Battery Pack"/>
       <property name="Sheetfile" value="battery_pack.kicad_sch"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>a9d92d9d-e982-47cc-b2b3-bf9b97724f34</tstamps>
     </comp>
     <comp ref="C1">
-      <value>10µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_10uF_SMD_1210_50V_20%</value>
+      <footprint>benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">172-1575</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_10uF_SMD_1210_50V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="172-1575"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>55b9f1b1-1fd4-489c-92bd-7a27229a5fd3</tstamps>
     </comp>
     <comp ref="C2">
-      <value>10µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_10uF_SMD_1210_50V_20%</value>
+      <footprint>benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">172-1575</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_10uF_SMD_1210_50V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="172-1575"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>3996af2c-36ef-4feb-a567-4f47b06c3fd3</tstamps>
     </comp>
     <comp ref="C3">
-      <value>1µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_1uF_SMD_0603_50V_10%</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_1uF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="103-4112"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>a4d6794b-0a18-4069-8a18-5b528a55e6e5</tstamps>
     </comp>
     <comp ref="C4">
-      <value>1µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_1uF_SMD_0603_50V_10%</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_1uF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="103-4112"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>48fe7775-9260-4216-a05d-9cfde66654aa</tstamps>
+      <tstamps>49b81c1a-2656-4bc3-acd3-402fcc4b549e</tstamps>
     </comp>
     <comp ref="C5">
-      <value>100nF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_100nF_SMD_0603_50V</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>cad6fc89-75de-4388-8ad7-11106d72f582</tstamps>
     </comp>
     <comp ref="C6">
-      <value>100nF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_100nF_SMD_0603_50V</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
@@ -398,68 +436,134 @@
       <tstamps>bee29060-b1d7-4e94-a9d0-405ee8e6cc24</tstamps>
     </comp>
     <comp ref="L1">
-      <value>22µH</value>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <value>L_22uH_2A_10%</value>
+      <footprint>benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP</footprint>
+      <fields>
+        <field name="RS order number">800-4388</field>
+      </fields>
+      <libsource lib="benediktibk" part="L_22uH_2A_10%" description="Inductor"/>
+      <property name="RS order number" value="800-4388"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>69a85d78-ccff-4a0d-94c9-262d9c9ab009</tstamps>
     </comp>
     <comp ref="L2">
-      <value>22µH</value>
-      <libsource lib="Device" part="L" description="Inductor"/>
+      <value>L_22uH_2A_10%</value>
+      <footprint>benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP</footprint>
+      <fields>
+        <field name="RS order number">800-4388</field>
+      </fields>
+      <libsource lib="benediktibk" part="L_22uH_2A_10%" description="Inductor"/>
+      <property name="RS order number" value="800-4388"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>c9c03f61-0307-46ad-9343-564933d74005</tstamps>
     </comp>
     <comp ref="R4">
-      <value>400k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_390kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0279</field>
+      </fields>
+      <libsource lib="" part="R_390kOhm_SMD_0603_100mW_1%_1" description="Resistor"/>
+      <property name="RS order number" value="679-0279"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>f7098c6e-993d-4de5-b110-3e051ce9093e</tstamps>
+      <tstamps>06970e0c-ea90-4b97-a0b9-320fd6ed5736</tstamps>
     </comp>
     <comp ref="R5">
-      <value>100k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_100kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>6df7a885-31dc-4c2d-8ebe-f14fb8a24dd3</tstamps>
     </comp>
     <comp ref="R6">
-      <value>40k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_10kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <libsource lib="" part="R_10kOhm_SMD_0603_100mW_1%_1" description="Resistor"/>
+      <property name="RS order number" value="125-1173"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>e80560fc-115d-444d-bf0d-61598ad8af9c</tstamps>
+      <tstamps>f6dd7c91-63d9-4307-a47e-f03569a2a27f</tstamps>
     </comp>
     <comp ref="R7">
-      <value>400k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_39kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0285</field>
+      </fields>
+      <libsource lib="" part="R_39kOhm_SMD_0603_100mW_1%_1" description="Resistor"/>
+      <property name="RS order number" value="679-0285"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>8f94a3f8-2586-4461-a376-b85f03e26026</tstamps>
+      <tstamps>9ff5dc86-a47e-43c3-983f-f62c61380b9c</tstamps>
     </comp>
     <comp ref="R8">
-      <value>50k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_390kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0279</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_390kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="679-0279"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>9192d559-65c7-4a3e-b60f-374992b8fd69</tstamps>
+      <tstamps>079d05df-8bd6-4e12-a31c-df48bb054e9f</tstamps>
     </comp>
     <comp ref="R9">
-      <value>32k</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_10kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1173"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>0e9df7dd-aea9-4c09-a37a-79821457a4f3</tstamps>
+      <tstamps>0307e6fd-98c5-41e5-ba5e-0aec455c2e44</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>R_43kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0386</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_43kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="679-0386"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
+      <tstamps>e9836a19-c22e-4fa7-9f9e-2f576e3bd079</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>R_39kOhm_SMD_0603_100mW_1%</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0285</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_39kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="679-0285"/>
+      <property name="Sheetname" value="Power Supply"/>
+      <property name="Sheetfile" value="power_supply.kicad_sch"/>
+      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
+      <tstamps>08cd49e6-9ce9-4026-83e7-590377f01941</tstamps>
     </comp>
     <comp ref="U1">
       <value>L6982C33DR</value>
@@ -601,6 +705,78 @@
         <pin num="8" name="PGND" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="" part="R_10kOhm_SMD_0603_100mW_1%_1">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10kOhm_SMD_0603_100mW_1%_1</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="R_220kOhm_SMD_0603_100mW_1%_1">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_220kOhm_SMD_0603_100mW_1%_1</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="R_390kOhm_SMD_0603_100mW_1%_1">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_390kOhm_SMD_0603_100mW_1%_1</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0279</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="R_39kOhm_SMD_0603_100mW_1%_1">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_39kOhm_SMD_0603_100mW_1%_1</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0285</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="" part="TJ40S04M3L_1">
       <description>P-MOSFET transistor, drain/gate/source</description>
       <docs>~</docs>
@@ -641,41 +817,6 @@
       <fields>
         <field name="Reference">C</field>
         <field name="Value">C</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="L">
-      <description>Inductor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="Device" part="R">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R</field>
         <field name="Datasheet">~</field>
       </fields>
       <pins>
@@ -741,6 +882,60 @@
       <pins>
         <pin num="1" name="K" type="passive"/>
         <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_100nF_SMD_0603_50V">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100nF_SMD_0603_50V</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_10uF_SMD_1210_50V_20%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_10uF_SMD_1210_50V_20%</field>
+        <field name="Footprint">benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">172-1575</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_1uF_SMD_0603_50V_10%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF_SMD_0603_50V_10%</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="DMN3730U">
@@ -813,6 +1008,81 @@
         <pin num="8" name="PGND" type="power_out"/>
       </pins>
     </libpart>
+    <libpart lib="benediktibk" part="L_22uH_2A_10%">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_22uH_2A_10%</field>
+        <field name="Footprint">benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">800-4388</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_220kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%">
       <description>Resistor</description>
       <docs>~</docs>
@@ -825,6 +1095,60 @@
         <field name="Footprint">benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="RS order number">    231-3683</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_390kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_390kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0279</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_39kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_39kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0285</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_43kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_43kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0386</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -957,7 +1281,7 @@
     <net code="14" name="/Interconnect/5V">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
     <net code="15" name="/Interconnect/5V_EXT">
       <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
@@ -991,8 +1315,8 @@
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="AGND" pintype="power_in"/>
       <node ref="U1" pin="8" pinfunction="PGND" pintype="power_out"/>
       <node ref="U2" pin="6" pinfunction="AGND" pintype="power_in"/>
@@ -1046,271 +1370,279 @@
     </net>
     <net code="37" name="Net-(R4-Pad2)">
       <node ref="R4" pin="2" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
-    </net>
-    <net code="38" name="Net-(R5-Pad2)">
-      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
     </net>
-    <net code="39" name="Net-(R7-Pad2)">
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
-      <node ref="U2" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
+    <net code="38" name="Net-(R5-Pad1)">
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
+    </net>
+    <net code="39" name="Net-(R5-Pad2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
     </net>
     <net code="40" name="Net-(R8-Pad2)">
       <node ref="R8" pin="2" pintype="passive"/>
       <node ref="R9" pin="1" pintype="passive"/>
     </net>
-    <net code="41" name="Net-(U5-PadGND@1)">
+    <net code="41" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U2" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
+    </net>
+    <net code="42" name="Net-(R10-Pad2)">
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(U5-PadGND@1)">
       <node ref="U5" pin="GND@1" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U5" pin="GND@2" pinfunction="GND" pintype="bidirectional"/>
       <node ref="U5" pin="GND@3" pinfunction="GND" pintype="bidirectional"/>
     </net>
-    <net code="42" name="unconnected-(J7-Pad1)">
+    <net code="44" name="unconnected-(J7-Pad1)">
       <node ref="J7" pin="1" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="43" name="unconnected-(J7-Pad2)">
+    <net code="45" name="unconnected-(J7-Pad2)">
       <node ref="J7" pin="2" pinfunction="D-" pintype="passive"/>
     </net>
-    <net code="44" name="unconnected-(J7-Pad3)">
+    <net code="46" name="unconnected-(J7-Pad3)">
       <node ref="J7" pin="3" pinfunction="D+" pintype="passive"/>
     </net>
-    <net code="45" name="unconnected-(J7-Pad4)">
+    <net code="47" name="unconnected-(J7-Pad4)">
       <node ref="J7" pin="4" pinfunction="ID" pintype="passive"/>
     </net>
-    <net code="46" name="unconnected-(J7-Pad5)">
+    <net code="48" name="unconnected-(J7-Pad5)">
       <node ref="J7" pin="5" pinfunction="GND" pintype="passive"/>
     </net>
-    <net code="47" name="unconnected-(J7-PadS1)">
+    <net code="49" name="unconnected-(J7-PadS1)">
       <node ref="J7" pin="S1" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="48" name="unconnected-(J7-PadS2)">
+    <net code="50" name="unconnected-(J7-PadS2)">
       <node ref="J7" pin="S2" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="49" name="unconnected-(J7-PadS3)">
+    <net code="51" name="unconnected-(J7-PadS3)">
       <node ref="J7" pin="S3" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="50" name="unconnected-(J7-PadS4)">
+    <net code="52" name="unconnected-(J7-PadS4)">
       <node ref="J7" pin="S4" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="51" name="unconnected-(J7-PadS5)">
+    <net code="53" name="unconnected-(J7-PadS5)">
       <node ref="J7" pin="S5" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="52" name="unconnected-(J7-PadS6)">
+    <net code="54" name="unconnected-(J7-PadS6)">
       <node ref="J7" pin="S6" pinfunction="SHIELD" pintype="passive"/>
     </net>
-    <net code="53" name="unconnected-(U3-Pad1)">
+    <net code="55" name="unconnected-(U3-Pad1)">
       <node ref="U3" pin="1" pinfunction="TXD" pintype="output"/>
     </net>
-    <net code="54" name="unconnected-(U3-Pad2)">
+    <net code="56" name="unconnected-(U3-Pad2)">
       <node ref="U3" pin="2" pinfunction="~{RTS}" pintype="output"/>
     </net>
-    <net code="55" name="unconnected-(U3-Pad3)">
+    <net code="57" name="unconnected-(U3-Pad3)">
       <node ref="U3" pin="3" pinfunction="VCCIO" pintype="power_in"/>
     </net>
-    <net code="56" name="unconnected-(U3-Pad4)">
+    <net code="58" name="unconnected-(U3-Pad4)">
       <node ref="U3" pin="4" pinfunction="RXD" pintype="input"/>
     </net>
-    <net code="57" name="unconnected-(U3-Pad5)">
+    <net code="59" name="unconnected-(U3-Pad5)">
       <node ref="U3" pin="5" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="58" name="unconnected-(U3-Pad6)">
+    <net code="60" name="unconnected-(U3-Pad6)">
       <node ref="U3" pin="6" pinfunction="~{CTS}" pintype="input"/>
     </net>
-    <net code="59" name="unconnected-(U3-Pad7)">
+    <net code="61" name="unconnected-(U3-Pad7)">
       <node ref="U3" pin="7" pinfunction="CBUS2" pintype="bidirectional"/>
     </net>
-    <net code="60" name="unconnected-(U3-Pad8)">
+    <net code="62" name="unconnected-(U3-Pad8)">
       <node ref="U3" pin="8" pinfunction="USBDP" pintype="bidirectional"/>
     </net>
-    <net code="61" name="unconnected-(U3-Pad9)">
+    <net code="63" name="unconnected-(U3-Pad9)">
       <node ref="U3" pin="9" pinfunction="USBDM" pintype="bidirectional"/>
     </net>
-    <net code="62" name="unconnected-(U3-Pad10)">
+    <net code="64" name="unconnected-(U3-Pad10)">
       <node ref="U3" pin="10" pinfunction="3V3OUT" pintype="power_out"/>
     </net>
-    <net code="63" name="unconnected-(U3-Pad11)">
+    <net code="65" name="unconnected-(U3-Pad11)">
       <node ref="U3" pin="11" pinfunction="~{RESET}" pintype="input"/>
     </net>
-    <net code="64" name="unconnected-(U3-Pad12)">
+    <net code="66" name="unconnected-(U3-Pad12)">
       <node ref="U3" pin="12" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="65" name="unconnected-(U3-Pad13)">
+    <net code="67" name="unconnected-(U3-Pad13)">
       <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
     </net>
-    <net code="66" name="unconnected-(U3-Pad14)">
+    <net code="68" name="unconnected-(U3-Pad14)">
       <node ref="U3" pin="14" pinfunction="CBUS1" pintype="bidirectional"/>
     </net>
-    <net code="67" name="unconnected-(U3-Pad15)">
+    <net code="69" name="unconnected-(U3-Pad15)">
       <node ref="U3" pin="15" pinfunction="CBUS0" pintype="bidirectional"/>
     </net>
-    <net code="68" name="unconnected-(U3-Pad16)">
+    <net code="70" name="unconnected-(U3-Pad16)">
       <node ref="U3" pin="16" pinfunction="CBUS3" pintype="bidirectional"/>
     </net>
-    <net code="69" name="unconnected-(U4-Pad1)">
+    <net code="71" name="unconnected-(U4-Pad1)">
       <node ref="U4" pin="1" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="70" name="unconnected-(U4-Pad2)">
+    <net code="72" name="unconnected-(U4-Pad2)">
       <node ref="U4" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="71" name="unconnected-(U4-Pad3)">
+    <net code="73" name="unconnected-(U4-Pad3)">
       <node ref="U4" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="72" name="unconnected-(U4-Pad4)">
+    <net code="74" name="unconnected-(U4-Pad4)">
       <node ref="U4" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="73" name="unconnected-(U4-Pad5)">
+    <net code="75" name="unconnected-(U4-Pad5)">
       <node ref="U4" pin="5" pinfunction="PH0" pintype="input"/>
     </net>
-    <net code="74" name="unconnected-(U4-Pad6)">
+    <net code="76" name="unconnected-(U4-Pad6)">
       <node ref="U4" pin="6" pinfunction="PH1" pintype="input"/>
     </net>
-    <net code="75" name="unconnected-(U4-Pad7)">
+    <net code="77" name="unconnected-(U4-Pad7)">
       <node ref="U4" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="76" name="unconnected-(U4-Pad8)">
+    <net code="78" name="unconnected-(U4-Pad8)">
       <node ref="U4" pin="8" pinfunction="VSSA" pintype="power_in"/>
     </net>
-    <net code="77" name="unconnected-(U4-Pad9)">
+    <net code="79" name="unconnected-(U4-Pad9)">
       <node ref="U4" pin="9" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="78" name="unconnected-(U4-Pad10)">
+    <net code="80" name="unconnected-(U4-Pad10)">
       <node ref="U4" pin="10" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="79" name="unconnected-(U4-Pad11)">
+    <net code="81" name="unconnected-(U4-Pad11)">
       <node ref="U4" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="80" name="unconnected-(U4-Pad12)">
+    <net code="82" name="unconnected-(U4-Pad12)">
       <node ref="U4" pin="12" pinfunction="PA2" pintype="bidirectional"/>
     </net>
-    <net code="81" name="unconnected-(U4-Pad13)">
+    <net code="83" name="unconnected-(U4-Pad13)">
       <node ref="U4" pin="13" pinfunction="PA3" pintype="bidirectional"/>
     </net>
-    <net code="82" name="unconnected-(U4-Pad14)">
+    <net code="84" name="unconnected-(U4-Pad14)">
       <node ref="U4" pin="14" pinfunction="PA4" pintype="bidirectional"/>
     </net>
-    <net code="83" name="unconnected-(U4-Pad15)">
+    <net code="85" name="unconnected-(U4-Pad15)">
       <node ref="U4" pin="15" pinfunction="PA5" pintype="bidirectional"/>
     </net>
-    <net code="84" name="unconnected-(U4-Pad16)">
+    <net code="86" name="unconnected-(U4-Pad16)">
       <node ref="U4" pin="16" pinfunction="PA6" pintype="bidirectional"/>
     </net>
-    <net code="85" name="unconnected-(U4-Pad17)">
+    <net code="87" name="unconnected-(U4-Pad17)">
       <node ref="U4" pin="17" pinfunction="PA7" pintype="bidirectional"/>
     </net>
-    <net code="86" name="unconnected-(U4-Pad18)">
+    <net code="88" name="unconnected-(U4-Pad18)">
       <node ref="U4" pin="18" pinfunction="PB0" pintype="bidirectional"/>
     </net>
-    <net code="87" name="unconnected-(U4-Pad19)">
+    <net code="89" name="unconnected-(U4-Pad19)">
       <node ref="U4" pin="19" pinfunction="PB1" pintype="bidirectional"/>
     </net>
-    <net code="88" name="unconnected-(U4-Pad20)">
+    <net code="90" name="unconnected-(U4-Pad20)">
       <node ref="U4" pin="20" pinfunction="PB2" pintype="bidirectional"/>
     </net>
-    <net code="89" name="unconnected-(U4-Pad21)">
+    <net code="91" name="unconnected-(U4-Pad21)">
       <node ref="U4" pin="21" pinfunction="PB10" pintype="bidirectional"/>
     </net>
-    <net code="90" name="unconnected-(U4-Pad22)">
+    <net code="92" name="unconnected-(U4-Pad22)">
       <node ref="U4" pin="22" pinfunction="PB11" pintype="bidirectional"/>
     </net>
-    <net code="91" name="unconnected-(U4-Pad23)">
+    <net code="93" name="unconnected-(U4-Pad23)">
       <node ref="U4" pin="23" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="92" name="unconnected-(U4-Pad24)">
+    <net code="94" name="unconnected-(U4-Pad24)">
       <node ref="U4" pin="24" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="93" name="unconnected-(U4-Pad25)">
+    <net code="95" name="unconnected-(U4-Pad25)">
       <node ref="U4" pin="25" pinfunction="PB12" pintype="bidirectional"/>
     </net>
-    <net code="94" name="unconnected-(U4-Pad26)">
+    <net code="96" name="unconnected-(U4-Pad26)">
       <node ref="U4" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="95" name="unconnected-(U4-Pad27)">
+    <net code="97" name="unconnected-(U4-Pad27)">
       <node ref="U4" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="96" name="unconnected-(U4-Pad28)">
+    <net code="98" name="unconnected-(U4-Pad28)">
       <node ref="U4" pin="28" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="97" name="unconnected-(U4-Pad29)">
+    <net code="99" name="unconnected-(U4-Pad29)">
       <node ref="U4" pin="29" pinfunction="PA8" pintype="bidirectional"/>
     </net>
-    <net code="98" name="unconnected-(U4-Pad30)">
+    <net code="100" name="unconnected-(U4-Pad30)">
       <node ref="U4" pin="30" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="99" name="unconnected-(U4-Pad31)">
+    <net code="101" name="unconnected-(U4-Pad31)">
       <node ref="U4" pin="31" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="100" name="unconnected-(U4-Pad32)">
+    <net code="102" name="unconnected-(U4-Pad32)">
       <node ref="U4" pin="32" pinfunction="PA11" pintype="bidirectional"/>
     </net>
-    <net code="101" name="unconnected-(U4-Pad33)">
+    <net code="103" name="unconnected-(U4-Pad33)">
       <node ref="U4" pin="33" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="102" name="unconnected-(U4-Pad34)">
+    <net code="104" name="unconnected-(U4-Pad34)">
       <node ref="U4" pin="34" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="103" name="unconnected-(U4-Pad35)">
+    <net code="105" name="unconnected-(U4-Pad35)">
       <node ref="U4" pin="35" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="104" name="unconnected-(U4-Pad36)">
+    <net code="106" name="unconnected-(U4-Pad36)">
       <node ref="U4" pin="36" pinfunction="VDDIO2" pintype="power_in"/>
     </net>
-    <net code="105" name="unconnected-(U4-Pad37)">
+    <net code="107" name="unconnected-(U4-Pad37)">
       <node ref="U4" pin="37" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="106" name="unconnected-(U4-Pad38)">
+    <net code="108" name="unconnected-(U4-Pad38)">
       <node ref="U4" pin="38" pinfunction="PA15" pintype="bidirectional"/>
     </net>
-    <net code="107" name="unconnected-(U4-Pad39)">
+    <net code="109" name="unconnected-(U4-Pad39)">
       <node ref="U4" pin="39" pinfunction="PB3" pintype="bidirectional"/>
     </net>
-    <net code="108" name="unconnected-(U4-Pad40)">
+    <net code="110" name="unconnected-(U4-Pad40)">
       <node ref="U4" pin="40" pinfunction="PB4" pintype="bidirectional"/>
     </net>
-    <net code="109" name="unconnected-(U4-Pad41)">
+    <net code="111" name="unconnected-(U4-Pad41)">
       <node ref="U4" pin="41" pinfunction="PB5" pintype="bidirectional"/>
     </net>
-    <net code="110" name="unconnected-(U4-Pad42)">
+    <net code="112" name="unconnected-(U4-Pad42)">
       <node ref="U4" pin="42" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="111" name="unconnected-(U4-Pad43)">
+    <net code="113" name="unconnected-(U4-Pad43)">
       <node ref="U4" pin="43" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="112" name="unconnected-(U4-Pad44)">
+    <net code="114" name="unconnected-(U4-Pad44)">
       <node ref="U4" pin="44" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="113" name="unconnected-(U4-Pad45)">
+    <net code="115" name="unconnected-(U4-Pad45)">
       <node ref="U4" pin="45" pinfunction="PB8" pintype="bidirectional"/>
     </net>
-    <net code="114" name="unconnected-(U4-Pad46)">
+    <net code="116" name="unconnected-(U4-Pad46)">
       <node ref="U4" pin="46" pinfunction="PB9" pintype="bidirectional"/>
     </net>
-    <net code="115" name="unconnected-(U4-Pad47)">
+    <net code="117" name="unconnected-(U4-Pad47)">
       <node ref="U4" pin="47" pinfunction="VSS" pintype="power_in"/>
     </net>
-    <net code="116" name="unconnected-(U4-Pad48)">
+    <net code="118" name="unconnected-(U4-Pad48)">
       <node ref="U4" pin="48" pinfunction="VDD" pintype="power_in"/>
     </net>
-    <net code="117" name="unconnected-(U5-PadRESET)">
+    <net code="119" name="unconnected-(U5-PadRESET)">
       <node ref="U5" pin="RESET" pinfunction="RESET" pintype="bidirectional"/>
     </net>
-    <net code="118" name="unconnected-(U5-PadRXI)">
+    <net code="120" name="unconnected-(U5-PadRXI)">
       <node ref="U5" pin="RXI" pinfunction="RXI" pintype="bidirectional"/>
     </net>
-    <net code="119" name="unconnected-(U5-PadSWCLK)">
+    <net code="121" name="unconnected-(U5-PadSWCLK)">
       <node ref="U5" pin="SWCLK" pinfunction="SWCLK" pintype="bidirectional"/>
     </net>
-    <net code="120" name="unconnected-(U5-PadSWDIO)">
+    <net code="122" name="unconnected-(U5-PadSWDIO)">
       <node ref="U5" pin="SWDIO" pinfunction="SWDIO" pintype="bidirectional"/>
     </net>
-    <net code="121" name="unconnected-(U5-PadSWO)">
+    <net code="123" name="unconnected-(U5-PadSWO)">
       <node ref="U5" pin="SWO" pinfunction="SWO" pintype="bidirectional"/>
     </net>
-    <net code="122" name="unconnected-(U5-PadTXO)">
+    <net code="124" name="unconnected-(U5-PadTXO)">
       <node ref="U5" pin="TXO" pinfunction="TXO" pintype="bidirectional"/>
     </net>
-    <net code="123" name="unconnected-(U5-PadVREF)">
+    <net code="125" name="unconnected-(U5-PadVREF)">
       <node ref="U5" pin="VREF" pinfunction="VREF" pintype="bidirectional"/>
     </net>
   </nets>
