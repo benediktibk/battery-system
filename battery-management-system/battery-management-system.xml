@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/benedikt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
-    <date>Sat 21 Oct 2023 02:15:07 PM CEST</date>
+    <date>Sat 21 Oct 2023 02:31:54 PM CEST</date>
     <tool>Eeschema 6.0.11+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -378,16 +378,26 @@
       <tstamps>1bab1b90-9975-4685-bd26-b6e8101f818d</tstamps>
     </comp>
     <comp ref="C7">
-      <value>47µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_47uF_SMD_1206_25V_20%</value>
+      <footprint>benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47uF_SMD_1206_25V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-3060"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>339a4312-b4f7-4565-a161-5d2d814593d2</tstamps>
     </comp>
     <comp ref="C8">
-      <value>47µF</value>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <value>C_47uF_SMD_1206_25V_20%</value>
+      <footprint>benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47uF_SMD_1206_25V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-3060"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
@@ -808,22 +818,6 @@
         <pin num="1" name="Pin_1" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="Device" part="C">
-      <description>Unpolarized capacitor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>C_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">C</field>
-        <field name="Value">C</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="benediktibk" part="AMPHENOL_micro_usb_10118194-0001LF">
       <fields>
         <field name="Reference">J</field>
@@ -932,6 +926,24 @@
         <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="RS order number">103-4112</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_47uF_SMD_1206_25V_20%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_47uF_SMD_1206_25V_20%</field>
+        <field name="Footprint">benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">788-3060</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -1239,9 +1251,6 @@
   <libraries>
     <library logical="Connector_Generic">
       <uri>/usr/share/kicad/symbols//Connector_Generic.kicad_sym</uri>
-    </library>
-    <library logical="Device">
-      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
     </library>
     <library logical="benediktibk">
       <uri>/home/benedikt/Development/electronics-library/symbols/benediktibk.kicad_sym</uri>
