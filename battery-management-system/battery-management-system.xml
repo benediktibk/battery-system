@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/benedikt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
-    <date>Sat 21 Oct 2023 11:50:54 AM CEST</date>
+    <date>Sat 21 Oct 2023 12:15:37 PM CEST</date>
     <tool>Eeschema 6.0.11+dfsg-1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -261,8 +261,13 @@
       <tstamps>a8ffca26-5f44-4111-8bae-eb2be27afdea</tstamps>
     </comp>
     <comp ref="R1">
-      <value>2mOhm</value>
-      <libsource lib="Device" part="R" description="Resistor"/>
+      <value>R_2mOhm_SMD_2512_5W_1%</value>
+      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">    231-3683</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%" description="Resistor"/>
+      <property name="RS order number" value="    231-3683"/>
       <property name="Sheetname" value="Battery Pack"/>
       <property name="Sheetfile" value="battery_pack.kicad_sch"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
@@ -806,6 +811,24 @@
         <pin num="6" name="AGND" type="power_in"/>
         <pin num="7" name="VIN" type="power_in"/>
         <pin num="8" name="PGND" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2mOhm_SMD_2512_5W_1%</field>
+        <field name="Footprint">benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">    231-3683</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="STM32L071CZTx">
