@@ -570,7 +570,7 @@
       (reference "#PWR0115") (unit 1) (value "GND") (footprint "")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/f8cd8874-78b7-4d19-b8d3-96552e07500a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/55b9f1b1-1fd4-489c-92bd-7a27229a5fd3"
       (reference "C1") (unit 1) (value "10uF") (footprint "benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
@@ -633,7 +633,7 @@
       (reference "J7") (unit 1) (value "AMPHENOL_micro_usb_10118194-0001LF") (footprint "benediktibk:AMPHENOL_10118194-0001LF")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/139cffd5-1f62-44fc-a7d6-bb06ab21b1fe"
-      (reference "J?") (unit 1) (value "VBAT+") (footprint "benediktibk:Connector_M6")
+      (reference "J8") (unit 1) (value "VBAT+") (footprint "benediktibk:Connector_M6")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/69a85d78-ccff-4a0d-94c9-262d9c9ab009"
       (reference "L1") (unit 1) (value "22uH") (footprint "benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP")
