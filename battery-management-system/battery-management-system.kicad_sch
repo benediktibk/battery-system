@@ -572,6 +572,27 @@
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/f8cd8874-78b7-4d19-b8d3-96552e07500a"
       (reference "#PWR0116") (unit 1) (value "GND") (footprint "")
     )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/2f780b6b-5bad-4130-88e2-40b7d321aadf"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/59ffb996-3626-458c-aa5d-e1cae92c5ea6"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/71d8099b-5e14-49be-909e-cb77cdace919"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/8d1ac626-fcf0-451e-bf22-307b0ed4ba81"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/a75f26ed-90c8-4e06-ae13-378bba9e6d3d"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/db75ae8c-346b-47e3-9fe0-4e13aee993e5"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/effb47cd-3926-4a3e-a603-e070a0098b08"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/55b9f1b1-1fd4-489c-92bd-7a27229a5fd3"
       (reference "C1") (unit 1) (value "10uF") (footprint "benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
@@ -596,6 +617,18 @@
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/b1aa8ffe-33a6-483e-8cb7-4437f79e9c72"
       (reference "C8") (unit 1) (value "47uF") (footprint "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder")
     )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/27f3fd6a-e5e9-4bd1-bbae-2776f127b692"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/45bedb03-df18-40c3-926b-46df061da1b9"
+      (reference "C?") (unit 1) (value "4.7uF") (footprint "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/56ab21e8-69ec-4433-af57-5991357ecf37"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/5e718f7f-6dfe-45d3-91b3-cf660d972ced"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/092ca6f4-fdcb-44e6-90ef-4d9b0fdc07e5"
       (reference "D1") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
@@ -610,6 +643,9 @@
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/bee29060-b1d7-4e94-a9d0-405ee8e6cc24"
       (reference "D5") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/668d6f18-53ed-4b46-a20e-add7efc6f3a1"
+      (reference "FB?") (unit 1) (value "BLM18P") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/c05dab11-7671-4893-aee3-ae5910fcb06b"
       (reference "J1") (unit 1) (value "CELL4_PLUS") (footprint "benediktibk:Connector_M6")
@@ -685,6 +721,12 @@
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/08cd49e6-9ce9-4026-83e7-590377f01941"
       (reference "R11") (unit 1) (value "39kOhm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/a3b812ea-9980-4b5e-af1d-c10d3f622bba"
+      (reference "R?") (unit 1) (value "27Ohm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/afdb149d-bd78-484c-a496-c5b66260efca/c95d7492-d2e4-48c7-9389-f0e89edef353"
+      (reference "R?") (unit 1) (value "27Ohm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/37dd1db2-65e6-42bb-beb1-e1e8abb4ce76"
       (reference "U1") (unit 1) (value "L6982C33DR") (footprint "benediktibk:SO-8_3.9x4.9mm_P1.27mm")
