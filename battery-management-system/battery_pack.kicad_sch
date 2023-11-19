@@ -1144,8 +1144,8 @@
     (property "RS order number" "768-9269" (id 4) (at 222.504 50.8 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f1488))
-    (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f1488))
+    (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f1489))
+    (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f1489))
   )
 
   (symbol (lib_id "benediktibk:Connector_M6") (at 233.68 45.72 0) (unit 1)
@@ -1183,8 +1183,8 @@
     (property "RS order number" "768-9269" (id 4) (at 219.456 59.69 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf22))
-    (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf22))
+    (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf23))
+    (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf23))
   )
 
   (symbol (lib_id "benediktibk:Connector_M6") (at 66.04 90.17 0) (mirror y) (unit 1)

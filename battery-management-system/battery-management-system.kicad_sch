@@ -653,6 +653,24 @@
     (path "/3d1e17ba-3c41-4767-81ce-6010cdb0d005/47f79b60-1f12-40fc-b6aa-cc34205d7965"
       (reference "#PWR0137") (unit 1) (value "GND") (footprint "")
     )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/43440a3c-bdb1-495a-9f30-83e4e4e6757f"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/6a80c9d9-9c9e-483b-bb67-73249180e970"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/7e6cf452-80de-48b1-9557-214966ef1214"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/95651f6c-d8d9-41db-9080-4f9df300e2d8"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/d472f9cd-3420-4921-8868-b9cfe2bb2480"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/fafe741e-2f1c-4771-b468-342da48a7495"
+      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/55b9f1b1-1fd4-489c-92bd-7a27229a5fd3"
       (reference "C1") (unit 1) (value "10uF") (footprint "benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
     )
@@ -704,6 +722,27 @@
     (path "/3d1e17ba-3c41-4767-81ce-6010cdb0d005/4c9098b7-5bda-4c98-9443-24ea71db9a79"
       (reference "C17") (unit 1) (value "1uF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
     )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/0004bba1-f2df-42ba-b33f-b1147a547a17"
+      (reference "C?") (unit 1) (value "1uF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/13a0bc40-8622-48f6-95d0-aa4e88137f11"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/19e0c796-0856-448c-9e13-ec1f67dd9e6d"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/6cbe457f-4917-4956-bfff-a60e1dd97964"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/742c8847-7d66-4836-94dd-286bd5a13566"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/e9f74365-c999-4fa2-9754-be42029b6ece"
+      (reference "C?") (unit 1) (value "10uF") (footprint "benediktibk:C_1210_3225Metric_Pad1.33x2.70mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/f04f609b-09c0-4cf5-ab03-a5f66cd517c1"
+      (reference "C?") (unit 1) (value "100nF") (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder")
+    )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/092ca6f4-fdcb-44e6-90ef-4d9b0fdc07e5"
       (reference "D1") (unit 1) (value "BAT54WS") (footprint "benediktibk:D_SOD-323")
     )
@@ -733,6 +772,9 @@
     )
     (path "/afdb149d-bd78-484c-a496-c5b66260efca/668d6f18-53ed-4b46-a20e-add7efc6f3a1"
       (reference "FB1") (unit 1) (value "BLM18P") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/e9d7b21f-31cd-4447-90d2-e9a9cc508fe5"
+      (reference "FB?") (unit 1) (value "BLM18P") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
     (path "/31b87c35-c096-4dc0-8978-834bec283b57/c05dab11-7671-4893-aee3-ae5910fcb06b"
       (reference "J1") (unit 1) (value "CELL4_PLUS") (footprint "benediktibk:Connector_M6")
@@ -890,6 +932,15 @@
     (path "/3d1e17ba-3c41-4767-81ce-6010cdb0d005/e217bf96-ca96-421d-8b0b-f9a5d68642df"
       (reference "R31") (unit 1) (value "100kOhm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
     )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/2dc4050b-3c21-4cf0-b29a-28f8f857b5b2"
+      (reference "R?") (unit 1) (value "10kOhm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/ceb358a0-0d76-4213-87e6-1c28a84a6015"
+      (reference "R?") (unit 1) (value "10kOhm") (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/65c986af-48fa-4096-bf14-99b5258dfba9"
+      (reference "RESET") (unit 1) (value "TMG1-01") (footprint "benediktibk:TMG1-01")
+    )
     (path "/b1377397-46a1-4623-af59-88e4e694ca35/37dd1db2-65e6-42bb-beb1-e1e8abb4ce76"
       (reference "U1") (unit 1) (value "L6982C33DR") (footprint "benediktibk:SO-8_3.9x4.9mm_P1.27mm")
     )
@@ -922,6 +973,9 @@
     )
     (path "/3d1e17ba-3c41-4767-81ce-6010cdb0d005/736ce44c-d8a4-4c5a-91d7-5cc81a584b4f"
       (reference "U7") (unit 3) (value "LM2904M8-13") (footprint "benediktibk:MSOP-8_3x3mm_P0.65mm")
+    )
+    (path "/409f87d1-afa6-40d2-ba42-d5009501b8f9/d5486622-a81e-4228-a61b-995786e03070"
+      (reference "U?") (unit 1) (value "AT24C512C") (footprint "benediktibk:SOIC-8_3.9x4.9mm_P1.27mm")
     )
   )
 )
