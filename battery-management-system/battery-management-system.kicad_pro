@@ -454,6 +454,10 @@
     [
       "3d1e17ba-3c41-4767-81ce-6010cdb0d005",
       "Cell Measurement"
+    ],
+    [
+      "3cb0d78b-1dc8-4b57-8c9a-18900dc8da61",
+      "Temperature Sensors"
     ]
   ],
   "text_variables": {}
