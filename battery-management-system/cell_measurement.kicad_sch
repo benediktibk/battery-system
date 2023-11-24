@@ -2312,14 +2312,14 @@
     (property "RS order number" "133-3375" (at 72.39 175.26 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "4" (uuid 02c1e389-32c2-491d-ad5d-944f65955a25))
-    (pin "8" (uuid 7f56c8fa-f752-4d24-8c17-8ff87dccb3d5))
-    (pin "7" (uuid 429ede0d-525a-4490-aa65-71e0d60f0715))
-    (pin "6" (uuid 140ccf48-86b6-4e14-a685-148e78cc2c9e))
+    (pin "4" (uuid 02c1e389-32c2-491d-ad5d-944f65955a26))
+    (pin "8" (uuid 7f56c8fa-f752-4d24-8c17-8ff87dccb3d6))
+    (pin "7" (uuid 429ede0d-525a-4490-aa65-71e0d60f0716))
+    (pin "6" (uuid 140ccf48-86b6-4e14-a685-148e78cc2c9f))
     (pin "3" (uuid fae86b2a-e942-44a5-85d2-3236e572d416))
     (pin "2" (uuid 810d95a3-a845-4a10-a8c3-ceae3a9af456))
     (pin "1" (uuid e2cc0a6c-ad8a-4f5f-8a32-01426d9549b2))
-    (pin "5" (uuid 00bad9ea-381c-44ef-900d-6f8ea0e4110f))
+    (pin "5" (uuid 00bad9ea-381c-44ef-900d-6f8ea0e41110))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"

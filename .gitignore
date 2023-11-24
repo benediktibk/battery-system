@@ -2,6 +2,7 @@
 *.zip
 fp-info-cache
 \#auto_saved_files#
+*.kicad_sch.lck
 
 # LTSpice
 *.log
