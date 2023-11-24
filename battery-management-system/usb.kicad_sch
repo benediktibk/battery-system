@@ -1213,11 +1213,11 @@
     (uuid fe213de1-8048-49fd-b5ab-d40b90837364)
   )
 
-  (hierarchical_label "UART_TX" (shape output) (at 257.81 87.63 0) (fields_autoplaced)
+  (hierarchical_label "UART_RX" (shape input) (at 257.81 87.63 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7bf11f7a-8a32-44d3-b67d-449f278229b3)
   )
-  (hierarchical_label "UART_RX" (shape input) (at 257.81 85.09 0) (fields_autoplaced)
+  (hierarchical_label "UART_TX" (shape output) (at 257.81 85.09 0) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify left))
     (uuid 7d6e7584-58c1-47aa-91d2-ba0d986d881b)
   )

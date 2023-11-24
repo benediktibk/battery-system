@@ -458,6 +458,10 @@
     [
       "3cb0d78b-1dc8-4b57-8c9a-18900dc8da61",
       "Temperature Sensors"
+    ],
+    [
+      "3d1b4e38-a765-486c-a970-a0d54d5b41d9",
+      "Cell Balancing"
     ]
   ],
   "text_variables": {}
