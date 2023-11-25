@@ -636,6 +636,10 @@
         )
       )
       (symbol "ICL7660_1_1"
+        (pin bidirectional line (at 17.78 -10.16 180) (length 2.54)
+          (name "NC" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
         (pin bidirectional line (at 17.78 -2.54 180) (length 2.54)
           (name "CAP+" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
@@ -1222,13 +1226,20 @@
 
   (no_connect (at 142.24 148.59) (uuid 0b7bbb40-567d-440f-b154-8c3efa2f42c6))
   (no_connect (at 30.48 148.59) (uuid 442ecbb1-11f6-4ac6-a0f9-a587688c13c5))
+  (no_connect (at 142.24 152.4) (uuid 460f0913-a718-4b70-b74e-b943241bde0e))
+  (no_connect (at 58.42 187.96) (uuid 5de64528-19f6-41c1-8e40-529856912c82))
   (no_connect (at 114.3 144.78) (uuid 5f14725b-5e8d-4623-bd9e-da02ddd48841))
   (no_connect (at 30.48 184.15) (uuid 7b5027dd-4920-43f9-b5b8-a19385087db0))
   (no_connect (at 114.3 148.59) (uuid 7ec68e9e-7366-4127-9bb8-341867199c15))
   (no_connect (at 30.48 180.34) (uuid ac8c0ca6-bc58-4378-b272-06560ad448ca))
   (no_connect (at 30.48 144.78) (uuid e6f69fdb-949f-405c-979b-d1b3fa00e0cf))
+  (no_connect (at 58.42 152.4) (uuid eb095cf7-37dd-4046-a77f-e8e1c4877a8a))
   (no_connect (at 58.42 148.59) (uuid f14c2b07-613d-49f8-b292-f20c0258a0af))
 
+  (wire (pts (xy 60.96 184.15) (xy 60.96 189.23))
+    (stroke (width 0) (type default))
+    (uuid 000d8852-77d9-419c-8bc3-7590fd987bdb)
+  )
   (wire (pts (xy 66.04 130.81) (xy 66.04 129.54))
     (stroke (width 0) (type default))
     (uuid 058a3137-440a-43b9-bd63-da538f8d532d)
@@ -1404,6 +1415,10 @@
   (wire (pts (xy 184.15 69.85) (xy 184.15 72.39))
     (stroke (width 0) (type default))
     (uuid 41619c11-69c8-4f8f-b467-6416b67e1dee)
+  )
+  (wire (pts (xy 60.96 184.15) (xy 58.42 184.15))
+    (stroke (width 0) (type default))
+    (uuid 426c57de-e18c-431b-bafd-15b1ba1fd675)
   )
   (wire (pts (xy 162.56 91.44) (xy 162.56 90.17))
     (stroke (width 0) (type default))
@@ -1645,6 +1660,10 @@
     (stroke (width 0) (type default))
     (uuid 8a62d5b6-4710-419d-9584-0d3192332ef8)
   )
+  (wire (pts (xy 60.96 189.23) (xy 66.04 189.23))
+    (stroke (width 0) (type default))
+    (uuid 8a98f7cc-3786-4a36-9665-f0fa9ea78f3e)
+  )
   (wire (pts (xy 162.56 109.22) (xy 162.56 110.49))
     (stroke (width 0) (type default))
     (uuid 8afbaae9-dc04-45f7-a04f-963cc73a89e9)
@@ -1729,10 +1748,6 @@
     (stroke (width 0) (type default))
     (uuid a5430485-896a-4394-afc4-6bfb7d3c852c)
   )
-  (wire (pts (xy 66.04 189.23) (xy 58.42 189.23))
-    (stroke (width 0) (type default))
-    (uuid a545680b-23ca-4fcf-9900-f3e348fa1f24)
-  )
   (wire (pts (xy 142.24 85.09) (xy 142.24 91.44))
     (stroke (width 0) (type default))
     (uuid aaa7d361-2729-4c7c-86c1-12d23397d0fc)
@@ -1756,10 +1771,6 @@
   (wire (pts (xy 184.15 134.62) (xy 184.15 135.89))
     (stroke (width 0) (type default))
     (uuid b466eab7-610f-4fd4-9a45-28c769b6503b)
-  )
-  (wire (pts (xy 58.42 189.23) (xy 58.42 184.15))
-    (stroke (width 0) (type default))
-    (uuid b6e3b77d-27d2-497c-aa81-2712cc0a14e5)
   )
   (wire (pts (xy 106.68 134.62) (xy 101.6 134.62))
     (stroke (width 0) (type default))
@@ -2483,6 +2494,7 @@
     (pin "6" (uuid 56695a20-49b1-4f89-ba43-4430f834a208))
     (pin "4" (uuid 54fc5e87-da87-4880-a8ce-6a19b761ae7a))
     (pin "2" (uuid 55814728-46a9-49d8-830e-c41131e09848))
+    (pin "1" (uuid 53cdd245-fb18-436a-8882-66a2b04a8ee4))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
@@ -2906,6 +2918,7 @@
     (pin "6" (uuid ece92767-29d0-47b3-bd13-f00df91b4319))
     (pin "4" (uuid aa9a75e5-6b0c-4219-8bac-f960aec61328))
     (pin "2" (uuid f20c6b38-c13c-40c4-8f45-b72d19c0b90d))
+    (pin "1" (uuid 127e3cc7-bdc6-4f8d-a84e-43fab6ffafd0))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
@@ -3406,6 +3419,7 @@
     (pin "6" (uuid d15bfe12-c24f-4ab7-b842-9f9dfea9cddf))
     (pin "4" (uuid b021e4d2-184e-410a-bb70-eee0955fe702))
     (pin "2" (uuid ce613062-3e88-4e3c-97e2-85e768642015))
+    (pin "1" (uuid f1c5a291-407a-45b9-91a9-509613d7bd43))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"

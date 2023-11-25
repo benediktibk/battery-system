@@ -927,12 +927,12 @@
         )
       )
       (symbol "VBT3045BP_1_1"
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
         (pin passive line (at -3.81 0 0) (length 2.54)
           (name "K" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 3.81 0 180) (length 2.54)
+          (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
         )
       )
@@ -1425,7 +1425,7 @@
     (property "RS order number" "768-9269" (at 174.244 49.53 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f148b))
+    (pin "1" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f148b))
     (pin "2" (uuid f31d1aab-9e1c-4ecb-b79c-a39ab47f148c))
     (instances
       (project "battery-management-system"
@@ -1455,7 +1455,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid 155350a4-9f02-48c3-9442-f987dabd45cb))
-    (pin "2" (uuid fa4df2f4-d7c2-4654-ba9d-0f61afa33c8f))
+    (pin "1" (uuid fa4df2f4-d7c2-4654-ba9d-0f61afa33c8f))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
@@ -1512,7 +1512,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf25))
-    (pin "2" (uuid e9831103-ced6-4705-80d3-aabebfb2bf26))
+    (pin "1" (uuid e9831103-ced6-4705-80d3-aabebfb2bf26))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
@@ -1600,7 +1600,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "2" (uuid a98cecd0-b0ab-4438-95f8-09e05d228e4d))
-    (pin "2" (uuid fe335824-08e1-4872-b543-809adc96471d))
+    (pin "1" (uuid fe335824-08e1-4872-b543-809adc96471d))
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
