@@ -1979,7 +1979,7 @@
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid a88a5552-b4bc-472d-90bb-05f9517c873d)
   )
-  (hierarchical_label "15V" (shape input) (at 143.51 93.98 180) (fields_autoplaced)
+  (hierarchical_label "18V" (shape input) (at 143.51 93.98 180) (fields_autoplaced)
     (effects (font (size 1.27 1.27)) (justify right))
     (uuid afaac8a3-1ba8-4c4d-bbae-b45faa744f86)
   )
