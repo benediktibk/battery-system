@@ -22,10 +22,10 @@
       "keepouts": false,
       "lockedItems": true,
       "otherItems": false,
-      "pads": false,
+      "pads": true,
       "text": false,
       "tracks": true,
-      "vias": false,
+      "vias": true,
       "zones": true
     },
     "visible_items": [
@@ -64,7 +64,7 @@
       35,
       36
     ],
-    "visible_layers": "fffffff_fffffffd",
+    "visible_layers": "fffffff_fffffff9",
     "zone_display_mode": 0
   },
   "meta": {
