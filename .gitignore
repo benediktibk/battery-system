@@ -3,6 +3,7 @@
 fp-info-cache
 \#auto_saved_files#
 *.kicad_sch.lck
+*.kicad_pcb.lck
 
 # LTSpice
 *.log
