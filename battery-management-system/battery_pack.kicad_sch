@@ -5,264 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "BAT54WS_1" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "D" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "BAT54WS_1" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "benediktibk:D_SOD-323" (at 0.762 3.302 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 0 0)) hide)
-      )
-      (property "RS order number" "738-4844" (at -1.524 -5.08 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "diode Schottky" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Schottky diode" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "BAT54WS_1_0_1"
-        (polyline
-          (pts
-            (xy 1.27 0)
-            (xy -1.27 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 1.27 1.27)
-            (xy 1.27 -1.27)
-            (xy -1.27 0)
-            (xy 1.27 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -1.905 0.635)
-            (xy -1.905 1.27)
-            (xy -1.27 1.27)
-            (xy -1.27 -1.27)
-            (xy -0.635 -1.27)
-            (xy -0.635 -0.635)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "BAT54WS_1_1_1"
-        (pin passive line (at -3.81 0 0) (length 2.54)
-          (name "K" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 3.81 0 180) (length 2.54)
-          (name "A" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "R_220kOhm_SMD_0603_100mW_1%_1" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R_220kOhm_SMD_0603_100mW_1%_1" (at -5.588 -1.016 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at -10.16 0.508 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "RS order number" "678-9986" (at -17.78 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_220kOhm_SMD_0603_100mW_1%_1_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_220kOhm_SMD_0603_100mW_1%_1_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "TJ40S04M3L_1" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (at 5.08 1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "TJ40S04M3L_1" (at 5.08 -1.27 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "benediktibk:TO-252-2" (at 5.08 2.54 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "RS order number" "171-2479" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "transistor PMOS P-MOS P-MOSFET" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "P-MOSFET transistor, drain/gate/source" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "TJ40S04M3L_1_0_1"
-        (polyline
-          (pts
-            (xy 0.254 0)
-            (xy -2.54 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.254 1.905)
-            (xy 0.254 -1.905)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 0.762 -2.286)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0.508)
-            (xy 0.762 -0.508)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 2.286)
-            (xy 0.762 1.27)
-          )
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 2.54)
-            (xy 2.54 1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 -2.54)
-            (xy 2.54 0)
-            (xy 0.762 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.778)
-            (xy 3.302 1.778)
-            (xy 3.302 -1.778)
-            (xy 0.762 -1.778)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.286 0)
-            (xy 1.27 0.381)
-            (xy 1.27 -0.381)
-            (xy 2.286 0)
-          )
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 2.794 -0.508)
-            (xy 2.921 -0.381)
-            (xy 3.683 -0.381)
-            (xy 3.81 -0.254)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 -0.381)
-            (xy 2.921 0.254)
-            (xy 3.683 0.254)
-            (xy 3.302 -0.381)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-        (circle (center 1.651 0) (radius 2.794)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-        (circle (center 2.54 -1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-        (circle (center 2.54 1.778) (radius 0.254)
-          (stroke (width 0) (type default))
-          (fill (type outline))
-        )
-      )
-      (symbol "TJ40S04M3L_1_1_1"
-        (pin input line (at -5.08 0 0) (length 2.54)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "benediktibk:BAT54WS" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -1349,7 +1091,7 @@
   (symbol (lib_id "benediktibk:SBR2065D1") (at 172.72 44.45 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 16f03af3-31ea-4af5-8c3d-2cb3b6191520)
-    (property "Reference" "D8" (at 173.0375 38.1 0)
+    (property "Reference" "D3" (at 173.0375 38.1 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SBR2065D1" (at 173.0375 40.64 0)
@@ -1369,7 +1111,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "D8") (unit 1)
+          (reference "D3") (unit 1)
         )
       )
     )
@@ -1378,7 +1120,7 @@
   (symbol (lib_id "benediktibk:SBR2065D1") (at 226.06 69.85 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1ea31dfc-fa46-450f-8513-75850f0cc1ec)
-    (property "Reference" "D14" (at 228.6 68.2625 90)
+    (property "Reference" "D6" (at 228.6 68.2625 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SBR2065D1" (at 228.6 70.8025 90)
@@ -1398,7 +1140,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "D14") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1435,7 +1177,7 @@
   (symbol (lib_id "benediktibk:SBR2065D1") (at 172.72 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 44f05401-3e8d-4123-bca2-9dc6d2cbbd3e)
-    (property "Reference" "D9" (at 172.4025 46.99 0)
+    (property "Reference" "D4" (at 172.4025 46.99 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "SBR2065D1" (at 172.4025 49.53 0)
@@ -1455,7 +1197,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "D9") (unit 1)
+          (reference "D4") (unit 1)
         )
       )
     )
@@ -1521,7 +1263,7 @@
   (symbol (lib_id "benediktibk:SBR2065D1") (at 218.44 60.96 90) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a4e9905-b73e-4982-b8c5-4151ea64091e)
-    (property "Reference" "D13" (at 220.98 59.3725 90)
+    (property "Reference" "D5" (at 220.98 59.3725 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "SBR2065D1" (at 220.98 61.9125 90)
@@ -1541,7 +1283,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "D13") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )
@@ -1550,7 +1292,7 @@
   (symbol (lib_id "power:GND") (at 144.78 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6786ccdf-ba3c-4b25-86fd-0141e67419da)
-    (property "Reference" "#PWR0101" (at 144.78 104.14 0)
+    (property "Reference" "#PWR06" (at 144.78 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 102.87 0)
@@ -1566,7 +1308,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR0101") (unit 1)
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -1575,7 +1317,7 @@
   (symbol (lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%") (at 196.85 69.85 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 67b6951b-3487-4468-9b06-0cdaea1207cf)
-    (property "Reference" "R47" (at 199.39 68.58 0)
+    (property "Reference" "R5" (at 199.39 68.58 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kOhm" (at 199.39 71.12 0)
@@ -1595,7 +1337,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "R47") (unit 1)
+          (reference "R5") (unit 1)
         )
       )
     )
@@ -1604,7 +1346,7 @@
   (symbol (lib_id "power:GND") (at 95.25 97.79 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6c9b85ea-6ec0-4773-a4f7-9b7776401c1c)
-    (property "Reference" "#PWR0102" (at 95.25 104.14 0)
+    (property "Reference" "#PWR05" (at 95.25 104.14 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 95.25 102.87 0)
@@ -1620,7 +1362,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR0102") (unit 1)
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -1629,7 +1371,7 @@
   (symbol (lib_id "benediktibk:DMN3730U") (at 194.31 82.55 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6f7b8b1a-a193-43b2-907e-cdc3df78b57a)
-    (property "Reference" "Q10" (at 200.66 81.2799 0)
+    (property "Reference" "Q5" (at 200.66 81.2799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "DMN3730U" (at 199.39 83.82 0)
@@ -1650,7 +1392,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "Q10") (unit 1)
+          (reference "Q5") (unit 1)
         )
       )
     )
@@ -1659,7 +1401,7 @@
   (symbol (lib_id "power:GND") (at 40.64 143.51 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 70eaff69-be9d-48d8-b6eb-6fed1d32eedd)
-    (property "Reference" "#PWR0103" (at 40.64 149.86 0)
+    (property "Reference" "#PWR04" (at 40.64 149.86 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 40.64 148.59 0)
@@ -1675,7 +1417,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR0103") (unit 1)
+          (reference "#PWR04") (unit 1)
         )
       )
     )
@@ -1739,7 +1481,7 @@
     )
   )
 
-  (symbol (lib_name "TJ40S04M3L_1") (lib_id "benediktibk:TJ40S04M3L") (at 135.89 46.99 270) (mirror x) (unit 1)
+  (symbol (lib_id "benediktibk:TJ40S04M3L") (at 135.89 46.99 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9e288798-337a-4adf-9e99-105e28615e75)
     (property "Reference" "Q3" (at 135.89 36.83 90)
@@ -1858,7 +1600,7 @@
     )
   )
 
-  (symbol (lib_name "R_220kOhm_SMD_0603_100mW_1%_1") (lib_id "benediktibk:R_220kOhm_SMD_0603_100mW_1%") (at 144.78 66.04 0) (unit 1)
+  (symbol (lib_id "benediktibk:R_220kOhm_SMD_0603_100mW_1%") (at 144.78 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid a9d92d9d-e982-47cc-b2b3-bf9b97724f34)
     (property "Reference" "R3" (at 147.32 64.7699 0)
@@ -1920,7 +1662,7 @@
   (symbol (lib_id "power:GND") (at 184.15 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bde3f81e-f0ed-4701-bdc9-5a728d77147d)
-    (property "Reference" "#PWR015" (at 184.15 105.41 0)
+    (property "Reference" "#PWR07" (at 184.15 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 184.15 104.14 0)
@@ -1936,7 +1678,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR07") (unit 1)
         )
       )
     )
@@ -1998,7 +1740,7 @@
     )
   )
 
-  (symbol (lib_name "BAT54WS_1") (lib_id "benediktibk:BAT54WS") (at 144.78 52.07 90) (unit 1)
+  (symbol (lib_id "benediktibk:BAT54WS") (at 144.78 52.07 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d2c5aec5-2923-48d6-b31c-4e4e170ded88)
     (property "Reference" "D2" (at 147.32 51.1174 90)
@@ -2030,7 +1772,7 @@
   (symbol (lib_id "power:GND") (at 196.85 99.06 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9fd59f3-b9bd-4edc-adc5-926a4c87d6f2)
-    (property "Reference" "#PWR014" (at 196.85 105.41 0)
+    (property "Reference" "#PWR08" (at 196.85 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 196.85 104.14 0)
@@ -2046,7 +1788,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR08") (unit 1)
         )
       )
     )
@@ -2055,7 +1797,7 @@
   (symbol (lib_id "benediktibk:Connector_M6") (at 267.97 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid edffe2df-4ded-4088-8be8-c6b6451ff846)
-    (property "Reference" "J10" (at 270.51 52.0699 0)
+    (property "Reference" "J7" (at 270.51 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "VBAT+_CHARGE" (at 270.51 54.6099 0)
@@ -2074,7 +1816,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "J10") (unit 1)
+          (reference "J7") (unit 1)
         )
       )
     )
@@ -2111,7 +1853,7 @@
   (symbol (lib_id "power:GND") (at 226.06 93.98 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f8cd8874-78b7-4d19-b8d3-96552e07500a)
-    (property "Reference" "#PWR0116" (at 226.06 100.33 0)
+    (property "Reference" "#PWR09" (at 226.06 100.33 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 226.06 99.06 0)
@@ -2127,7 +1869,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "#PWR0116") (unit 1)
+          (reference "#PWR09") (unit 1)
         )
       )
     )
@@ -2164,7 +1906,7 @@
   (symbol (lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%") (at 184.15 90.17 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid fe1cfcb9-1fc0-4004-b14b-f7fddcd388f7)
-    (property "Reference" "R46" (at 186.69 88.9 0)
+    (property "Reference" "R4" (at 186.69 88.9 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kOhm" (at 186.69 91.44 0)
@@ -2184,7 +1926,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
-          (reference "R46") (unit 1)
+          (reference "R4") (unit 1)
         )
       )
     )

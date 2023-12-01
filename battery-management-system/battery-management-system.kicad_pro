@@ -459,8 +459,8 @@
       "/Cell Balancing/CELL3": "CONTROL_SIGNAL",
       "/Cell Balancing/CELL4": "CONTROL_SIGNAL",
       "GND": "SUPPLY",
-      "Net-(J23-Pin_1)": "1A",
-      "Net-(Q11-S)": "1A"
+      "Net-(J28-Pin_1)": "1A",
+      "Net-(Q15-S)": "1A"
     },
     "netclass_patterns": []
   },
