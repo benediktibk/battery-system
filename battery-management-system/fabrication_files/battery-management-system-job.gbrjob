@@ -3,9 +3,9 @@
     "GenerationSoftware": {
       "Vendor": "KiCad",
       "Application": "Pcbnew",
-      "Version": "7.0.9-7.0.9~ubuntu22.04.1"
+      "Version": "7.0.9-7.0.9~ubuntu23.04.1"
     },
-    "CreationDate": "2023-11-29T19:20:40+01:00"
+    "CreationDate": "2023-12-02T20:50:27+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
@@ -61,16 +61,6 @@
       "FilePolarity": "Positive"
     },
     {
-      "Path": "battery-management-system-F_Paste.gbr",
-      "FileFunction": "SolderPaste,Top",
-      "FilePolarity": "Positive"
-    },
-    {
-      "Path": "battery-management-system-B_Paste.gbr",
-      "FileFunction": "SolderPaste,Bot",
-      "FilePolarity": "Positive"
-    },
-    {
       "Path": "battery-management-system-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
@@ -79,16 +69,6 @@
       "Path": "battery-management-system-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
-    },
-    {
-      "Path": "battery-management-system-F_Mask.gbr",
-      "FileFunction": "SolderMask,Top",
-      "FilePolarity": "Negative"
-    },
-    {
-      "Path": "battery-management-system-B_Mask.gbr",
-      "FileFunction": "SolderMask,Bot",
-      "FilePolarity": "Negative"
     },
     {
       "Path": "battery-management-system-Edge_Cuts.gbr",
