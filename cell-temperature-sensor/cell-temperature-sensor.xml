@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/benedikt/Development/battery-system/cell-temperature-sensor/cell-temperature-sensor.kicad_sch</source>
+    <date>Sat 02 Dec 2023 10:18:41 PM CET</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>cell-temperature-sensor.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>abbf3cbb-83b5-4408-8072-43e717981457</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>3V3</value>
+      <footprint>benediktibk:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="benediktibk" part="SolderWirePad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f6a58090-d54b-4f27-ac24-19690d410816</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>SCL</value>
+      <footprint>benediktibk:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="benediktibk" part="SolderWirePad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>51c9cd7d-c7aa-4124-bedb-63e54e10c596</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>SDA</value>
+      <footprint>benediktibk:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="benediktibk" part="SolderWirePad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7ac1c2cd-bea1-402b-ad1a-2a65c2a812e1</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>GND</value>
+      <footprint>benediktibk:SolderWirePad_1x01_SMD_5x10mm</footprint>
+      <libsource lib="benediktibk" part="SolderWirePad" description="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ee1b3970-5ef9-40bf-a0c5-68407f9bf4c8</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>802e66ce-7e61-4811-96f5-c7585ae4e508</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>be8b5f7d-c963-4e07-83fc-d46b49a89cf1</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b3c30507-11fd-4be9-817a-b7bd20713d08</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>96cc075c-d140-4c5c-985d-2cb473037dac</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5a055486-13a5-4284-a658-0284f9b10553</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>100kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2531"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="dnp"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>642453b4-1c88-4562-84f9-60e404f80ed0</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>NCT75DR2G</value>
+      <footprint>benediktibk:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
+      <fields>
+        <field name="I2C Address">0x48</field>
+        <field name="RS order number">805-1854</field>
+      </fields>
+      <libsource lib="benediktibk" part="NCT75DR2G" description="I2C Serial EEPROM, 2Kb, SOT-23"/>
+      <property name="RS order number" value="805-1854"/>
+      <property name="I2C Address" value="0x48"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="cell-temperature-sensor.kicad_sch"/>
+      <property name="ki_description" value="I2C Serial EEPROM, 2Kb, SOT-23"/>
+      <property name="ki_keywords" value="I2C Serial EEPROM"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1510aa69-6264-4a68-9e31-5216a6ff1cea</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="benediktibk" part="C_100nF_SMD_0603_50V">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100nF_SMD_0603_50V</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="NCT75DR2G">
+      <description>I2C Serial EEPROM, 2Kb, SOT-23</description>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">NCT75DR2G</field>
+        <field name="Footprint">benediktibk:SOIC-8_3.9x4.9mm_P1.27mm</field>
+        <field name="RS order number">805-1854</field>
+      </fields>
+      <pins>
+        <pin num="1" name="SDA" type="bidirectional"/>
+        <pin num="2" name="SCL" type="input"/>
+        <pin num="3" name="ALERT" type="input"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="A2" type="input"/>
+        <pin num="6" name="A1" type="input"/>
+        <pin num="7" name="A0" type="input"/>
+        <pin num="8" name="V_{CC}" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_100kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">213-2531</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="SolderWirePad">
+      <description>Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">SolderWirePad</field>
+        <field name="Footprint">benediktibk:SolderWirePad_1x01_SMD_5x10mm</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="benediktibk">
+      <uri>/home/benedikt/Development/electronics-library/symbols/benediktibk.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="V_{CC}" pintype="power_in"/>
+    </net>
+    <net code="2" name="/SCL">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="SCL" pintype="input"/>
+    </net>
+    <net code="3" name="/SDA">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="5" name="Net-(U1-A0)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="A0" pintype="input"/>
+    </net>
+    <net code="6" name="Net-(U1-A1)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="A1" pintype="input"/>
+    </net>
+    <net code="7" name="Net-(U1-A2)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="A2" pintype="input"/>
+    </net>
+    <net code="8" name="unconnected-(U1-ALERT-Pad3)">
+      <node ref="U1" pin="3" pinfunction="ALERT" pintype="input+no_connect"/>
+    </net>
+  </nets>
+</export>
