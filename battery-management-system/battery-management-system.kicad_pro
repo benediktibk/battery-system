@@ -452,14 +452,11 @@
     },
     "net_colors": null,
     "netclass_assignments": {
-      "/BALANCE_CAP_MINUS_RAW": "1A",
-      "/BALANCE_CAP_PLUS_RAW": "1A",
       "/Cell Balancing/CELL1": "CONTROL_SIGNAL",
       "/Cell Balancing/CELL2": "CONTROL_SIGNAL",
       "/Cell Balancing/CELL3": "CONTROL_SIGNAL",
       "/Cell Balancing/CELL4": "CONTROL_SIGNAL",
       "GND": "SUPPLY",
-      "Net-(J28-Pin_1)": "1A",
       "Net-(Q15-S)": "1A"
     },
     "netclass_patterns": []
