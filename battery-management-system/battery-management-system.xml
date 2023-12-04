@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/benedikt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
-    <date>Sat 02 Dec 2023 11:58:51 PM CET</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
+    <source>/home/bschmidt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
+    <date>Mo 04 Dez 2023 11:04:33</date>
+    <tool>Eeschema 7.0.9-7.0.9~ubuntu22.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -2983,21 +2983,6 @@
       <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
       <tstamps>c40efdd4-de74-49a7-8fcb-fc3468182927</tstamps>
     </comp>
-    <comp ref="C48">
-      <value>90F</value>
-      <footprint>benediktibk:vishay_super_cap_form_g</footprint>
-      <fields>
-        <field name="RS order number">875-6720</field>
-      </fields>
-      <libsource lib="benediktibk" part="C_90F_THT_4_2V" description="Unpolarized capacitor"/>
-      <property name="RS order number" value="875-6720"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>b5b82515-afd8-4bb5-bd4a-a77df84a9d1e</tstamps>
-    </comp>
     <comp ref="D22">
       <value>BAS416</value>
       <footprint>benediktibk:D_SOD-323</footprint>
@@ -3669,7 +3654,6 @@
       <pins>
         <pin num="1" name="" type="passive"/>
         <pin num="2" name="" type="passive"/>
-        <pin num="3" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="Conn_01x02">
@@ -4570,7 +4554,7 @@
   </libparts>
   <libraries>
     <library logical="benediktibk">
-      <uri>/home/benedikt/Development/electronics-library/symbols/benediktibk.kicad_sym</uri>
+      <uri>/home/bschmidt/Development/electronics-library/symbols/benediktibk.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
@@ -4690,20 +4674,15 @@
       <node ref="R62" pin="1" pintype="passive"/>
     </net>
     <net code="7" name="/BALANCE_CAP_MINUS_RAW">
-      <node ref="C46" pin="1" pintype="passive"/>
-      <node ref="C47" pin="1" pintype="passive"/>
-      <node ref="C48" pin="1" pintype="passive"/>
+      <node ref="C46" pin="2" pintype="passive"/>
+      <node ref="C47" pin="2" pintype="passive"/>
       <node ref="J28" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="R49" pin="1" pintype="passive"/>
       <node ref="R64" pin="1" pintype="passive"/>
     </net>
     <net code="8" name="/BALANCE_CAP_PLUS_RAW">
-      <node ref="C46" pin="2" pintype="passive"/>
-      <node ref="C46" pin="3" pintype="passive"/>
-      <node ref="C47" pin="2" pintype="passive"/>
-      <node ref="C47" pin="3" pintype="passive"/>
-      <node ref="C48" pin="2" pintype="passive"/>
-      <node ref="C48" pin="3" pintype="passive"/>
+      <node ref="C46" pin="1" pintype="passive"/>
+      <node ref="C47" pin="1" pintype="passive"/>
       <node ref="R47" pin="1" pintype="passive"/>
       <node ref="SW1" pin="7" pinfunction="+" pintype="passive"/>
       <node ref="SW3" pin="7" pinfunction="+" pintype="passive"/>
