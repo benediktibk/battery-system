@@ -261,11 +261,11 @@
         )
       )
     )
-    (symbol "benediktibk:DMN3730U" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+    (symbol "benediktibk:DMN3404L" (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
       (property "Reference" "Q" (at 5.08 1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
-      (property "Value" "DMN3730U" (at 5.08 -1.27 0)
+      (property "Value" "DMN3404L" (at 5.08 -1.27 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "benediktibk:SOT-23" (at 5.08 2.54 0)
@@ -274,7 +274,7 @@
       (property "Datasheet" "~" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "RS order number" "823-2946" (at -2.54 -5.08 0)
+      (property "RS order number" "751-4171" (at -2.54 -5.08 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "transistor NMOS N-MOS N-MOSFET" (at 0 0 0)
@@ -283,7 +283,7 @@
       (property "ki_description" "n-MOSFET transistor, drain/gate/source" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "DMN3730U_0_1"
+      (symbol "DMN3404L_0_1"
         (polyline
           (pts
             (xy 0.254 0)
@@ -394,7 +394,7 @@
           (fill (type outline))
         )
       )
-      (symbol "DMN3730U_1_1"
+      (symbol "DMN3404L_1_1"
         (pin input line (at -5.08 0 0) (length 2.54)
           (name "G" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1928,13 +1928,13 @@
     )
   )
 
-  (symbol (lib_id "benediktibk:DMN3730U") (at 41.91 118.11 0) (unit 1)
+  (symbol (lib_id "benediktibk:DMN3404L") (at 41.91 118.11 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b567e4ab-f37f-4a71-9e54-c205bbabf42e)
-    (property "Reference" "Q9" (at 48.26 116.8399 0)
+    (property "Reference" "Q9" (at 48.26 116.84 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "DMN3730U" (at 48.26 119.3799 0)
+    (property "Value" "DMN3404L" (at 48.26 119.38 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Footprint" "benediktibk:SOT-23" (at 46.99 115.57 0)
@@ -1943,7 +1943,7 @@
     (property "Datasheet" "~" (at 41.91 118.11 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "RS order number" "823-2946" (at 39.37 123.19 0)
+    (property "RS order number" "751-4171" (at 39.37 123.19 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 85cf7e71-85b2-4a5f-a749-b845985c6931))
