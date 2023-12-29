@@ -293,7 +293,7 @@
   (symbol (lib_id "benediktibk:rspro_header_4pin_3_5mm") (at 58.42 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 22847079-42e7-42aa-81e3-4560b1c6657a)
-    (property "Reference" "J24" (at 60.96 53.34 0)
+    (property "Reference" "J21" (at 60.96 53.34 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TEMP_CELL3" (at 60.96 55.88 0)
@@ -318,7 +318,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "J24") (unit 1)
+          (reference "J21") (unit 1)
         )
       )
     )
@@ -327,7 +327,7 @@
   (symbol (lib_id "benediktibk:rspro_header_4pin_3_5mm") (at 58.42 27.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b1d70ac8-4c26-4d98-a5c2-01825ca2a641)
-    (property "Reference" "J22" (at 60.96 27.94 0)
+    (property "Reference" "J19" (at 60.96 27.94 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TEMP_CELL1" (at 60.96 30.48 0)
@@ -352,7 +352,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "J22") (unit 1)
+          (reference "J19") (unit 1)
         )
       )
     )
@@ -361,7 +361,7 @@
   (symbol (lib_id "benediktibk:rspro_header_4pin_3_5mm") (at 58.42 40.64 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid b7bca747-81aa-485a-9bae-47aa2b2460bc)
-    (property "Reference" "J23" (at 60.96 40.64 0)
+    (property "Reference" "J20" (at 60.96 40.64 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TEMP_CELL2" (at 60.96 43.18 0)
@@ -386,7 +386,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "J23") (unit 1)
+          (reference "J20") (unit 1)
         )
       )
     )
@@ -395,7 +395,7 @@
   (symbol (lib_id "power:GND") (at 49.53 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4c73ada-65fe-437a-978c-9ae2ec38d1bc)
-    (property "Reference" "#PWR082" (at 49.53 81.28 0)
+    (property "Reference" "#PWR071" (at 49.53 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 80.01 0)
@@ -411,7 +411,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "#PWR082") (unit 1)
+          (reference "#PWR071") (unit 1)
         )
       )
     )
@@ -420,7 +420,7 @@
   (symbol (lib_id "benediktibk:rspro_header_4pin_3_5mm") (at 58.42 66.04 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid ff9fe887-3792-412b-87e7-6c8b7e6e123e)
-    (property "Reference" "J25" (at 60.96 66.04 0)
+    (property "Reference" "J22" (at 60.96 66.04 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "TEMP_CELL4" (at 60.96 68.58 0)
@@ -445,7 +445,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "J25") (unit 1)
+          (reference "J22") (unit 1)
         )
       )
     )
