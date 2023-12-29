@@ -2778,6 +2778,31 @@
     )
   )
 
+  (symbol (lib_id "power:PWR_FLAG") (at 219.71 72.39 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 94057c33-bb7c-4513-b39f-4888c7b11976)
+    (property "Reference" "#FLG09" (at 219.71 70.485 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 219.71 68.58 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 219.71 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 219.71 72.39 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 47537a10-c096-4b36-9716-8ec31bda4652))
+    (instances
+      (project "battery-management-system"
+        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
+          (reference "#FLG09") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:PWR_FLAG") (at 74.93 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 98a4c23d-927f-4d50-a587-0ae6374c6eef)
