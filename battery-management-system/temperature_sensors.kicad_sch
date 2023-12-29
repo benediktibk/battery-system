@@ -395,7 +395,7 @@
   (symbol (lib_id "power:GND") (at 49.53 74.93 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f4c73ada-65fe-437a-978c-9ae2ec38d1bc)
-    (property "Reference" "#PWR071" (at 49.53 81.28 0)
+    (property "Reference" "#PWR073" (at 49.53 81.28 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 49.53 80.01 0)
@@ -411,7 +411,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61"
-          (reference "#PWR071") (unit 1)
+          (reference "#PWR073") (unit 1)
         )
       )
     )
