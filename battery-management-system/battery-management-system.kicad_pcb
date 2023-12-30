@@ -14015,7 +14015,7 @@
 
   (gr_rect (start 20 20) (end 120 131)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp be911d30-3d20-48f2-898f-0d77a42ba8e2))
-  (gr_text "BMS R01" (at 76 -4) (layer "F.SilkS") (tstamp e213bcf6-f158-4255-a0d1-d067005a36b3)
+  (gr_text "BMS R01" (at 24.47 86.31 90) (layer "F.SilkS") (tstamp e213bcf6-f158-4255-a0d1-d067005a36b3)
     (effects (font (size 2 2) (thickness 0.4) bold) (justify left bottom))
   )
 
