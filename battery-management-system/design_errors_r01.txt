@@ -1,0 +1,3 @@
+bat54ws: bigger pads
+power supply: wrong inductance (too low maximum frequency)
+
