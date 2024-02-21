@@ -326,6 +326,14 @@
     [
       "f3858519-f688-4645-91dc-9843c9d0ed53",
       ""
+    ],
+    [
+      "67b0f940-ee28-426e-86d0-0e12eee6baf8",
+      "Boost Converter"
+    ],
+    [
+      "8f8f2bb4-fdfe-4421-bc8c-e8dc6b7f806e",
+      "Output Filter"
     ]
   ],
   "text_variables": {}
