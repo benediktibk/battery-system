@@ -1,3 +1,7 @@
 bat54ws: bigger pads
 power supply: wrong inductance (too low maximum frequency)
-
+power supply: L6982CDR instead of L6982C33DR
+connectors: use actual connectors instead of M6 holes
+stencil: weird negative holes
+size: limit to cheap size of JLCPCB
+BOM export: connectors
