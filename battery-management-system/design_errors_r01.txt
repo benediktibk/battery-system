@@ -5,3 +5,7 @@ connectors: use actual connectors instead of M6 holes
 stencil: weird negative holes
 size: limit to cheap size of JLCPCB
 BOM export: connectors
+TMG1-01: footprint
+JTAG buches: footprint
+TJ40S04M3L: courtyard (J25)
+Q1 and Q4: pull down for gates (charge and discharge)
