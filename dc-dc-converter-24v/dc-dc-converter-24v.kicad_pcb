@@ -69,9 +69,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory "")
+      (outputdirectory "fabrication_files")
     )
   )
 
@@ -116,7 +116,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 00144263-4993-4db5-998c-960063b693c5)
-    (at 171.4775 63.4)
+    (at 104.015 45.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "678-9986")
@@ -171,7 +171,7 @@
 
   (footprint "benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 02de345c-e2e7-4e9b-bd06-ed892768f79a)
-    (at 167.1275 65.91)
+    (at 99.665 48.11)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "RS order number" "466-3706")
@@ -236,7 +236,7 @@
 
   (footprint "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 0dba533e-2057-47c3-b175-90584b584c72)
-    (at 136.6075 117.69)
+    (at 69.145 99.89)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "788-3060")
@@ -278,9 +278,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1da4da40-3500-429c-be36-d9da4a4a98df))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7dd6ccd7-2051-49a2-8369-ccd711704d40))
-    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 4 "/Output Filter/24VFILT") (pintype "passive") (tstamp 8cd86781-4142-443e-934c-96a20231be83))
-    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 2 "GND") (pintype "passive") (tstamp 09624fcc-7a57-4314-ba08-c6d133f56f2b))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -291,7 +291,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 1374c4d5-5b40-400a-9587-825a40ecc73a)
-    (at 167.1275 73.44)
+    (at 99.665 55.64)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "213-2266")
@@ -346,7 +346,7 @@
 
   (footprint "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 1b323b12-624c-4e79-af65-4bb42dc8da48)
-    (at 174.3075 55.31)
+    (at 106.845 37.51)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "788-3060")
@@ -388,9 +388,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 547c9214-9a7c-410a-8fd3-af0fb3f09ffd))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp a5ad1c77-7ab3-440e-99f0-814398554524))
-    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 14 "/Boost Converter/12V") (pintype "passive") (tstamp 1d92809b-b930-4b3c-9dd1-3eff1f5adf12))
-    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 2 "GND") (pintype "passive") (tstamp faaeb82b-157e-45b6-b52c-996ce9d42123))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -401,7 +401,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 1d3049f0-7c74-4b6d-9c14-ae00ab165e5d)
-    (at 175.8275 60.89)
+    (at 108.365 43.09)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1172")
@@ -456,7 +456,7 @@
 
   (footprint "benediktibk:Connector_M6" (layer "F.Cu")
     (tstamp 210f8073-3d7b-46c9-a667-e1a9959e5033)
-    (at 109.0225 74.825)
+    (at 41.56 57.025)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "RS order number" "")
@@ -500,7 +500,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 247e82a3-a035-4633-977e-54a0494c98fa)
-    (at 162.7775 60.89)
+    (at 95.315 43.09)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "242-7372")
@@ -555,7 +555,7 @@
 
   (footprint "benediktibk:SQJA42EPT1_GE3" (layer "F.Cu")
     (tstamp 2a421259-debf-4edb-83c0-278e5c7c6f4e)
-    (at 162.8275 54.961)
+    (at 95.365 37.161)
     (descr "SQJA42EP-T1_GE3-4")
     (tags "MOSFET (N-Channel)")
     (property "RS order number" "188-5140")
@@ -629,7 +629,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 32f023cd-1551-4c15-8fd7-f3222bed382a)
-    (at 162.7775 68.42)
+    (at 95.315 50.62)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "242-7372")
@@ -684,7 +684,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 3ba89668-4d25-4e35-a829-77eddf0ad8f0)
-    (at 167.1275 70.93)
+    (at 99.665 53.13)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "213-2266")
@@ -739,7 +739,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 405947e0-cfae-4576-bbec-e5240b7506d8)
-    (at 167.1275 75.95)
+    (at 99.665 58.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1173")
@@ -794,7 +794,7 @@
 
   (footprint "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp 4139b3e8-5279-4190-918a-38de79d5f97a)
-    (at 171.8575 81.22)
+    (at 104.395 63.42)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "113-8707")
@@ -836,9 +836,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp fe324716-b9a6-4595-a5ff-51bda61af0a6))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp e6b3c94d-0e5b-4d62-af16-8af09e8c880f))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 1 "/Boost Converter/Vout") (pintype "passive") (tstamp b8b9cd2c-bc62-4733-9368-9f449a9fa807))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "GND") (pintype "passive") (tstamp 76de5287-1a93-40db-ba67-89321553ea91))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -849,7 +849,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 452c3989-f727-401b-b4a9-15c767b6a5d1)
-    (at 171.4775 73.44)
+    (at 104.015 55.64)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "901-3516")
@@ -904,7 +904,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 49eabe70-1d6e-46d0-83b7-5c60ab7b2833)
-    (at 171.4775 60.89)
+    (at 104.015 43.09)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "708-9013")
@@ -959,7 +959,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 4b2d3d3c-285d-4662-97e0-1d5a86dc7a42)
-    (at 162.7775 65.91)
+    (at 95.315 48.11)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "103-4112")
@@ -1014,7 +1014,7 @@
 
   (footprint "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (layer "F.Cu")
     (tstamp 555db90d-b660-482c-8522-aeb954772700)
-    (at 124.4025 57.485)
+    (at 56.94 39.685)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "Sheetfile" "dc-dc-converter-24v.kicad_sch")
@@ -1053,7 +1053,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 56bae19f-644d-4fe0-be2a-448b3c9873ac)
-    (at 167.1275 78.46)
+    (at 99.665 60.66)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "199-5507")
@@ -1108,7 +1108,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 577b1e5f-ca92-4abe-8e9f-9ee36c367a74)
-    (at 175.8275 63.4)
+    (at 108.365 45.6)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1173")
@@ -1163,7 +1163,7 @@
 
   (footprint "benediktibk:Connector_M6" (layer "F.Cu")
     (tstamp 5be214b2-e5b9-4075-b8dc-dd643de855de)
-    (at 109.0225 91.185)
+    (at 41.56 73.385)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "RS order number" "")
@@ -1207,7 +1207,7 @@
 
   (footprint "benediktibk:SQJA42EPT1_GE3" (layer "F.Cu")
     (tstamp 5ed1133d-4f61-4208-9cbd-3c0235818993)
-    (at 146.1275 54.961)
+    (at 78.665 37.161)
     (descr "SQJA42EP-T1_GE3-4")
     (tags "MOSFET (N-Channel)")
     (property "RS order number" "188-5140")
@@ -1281,7 +1281,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 6252c3f3-318c-4f62-bba8-1701e7247848)
-    (at 167.1275 60.89)
+    (at 99.665 43.09)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "103-4112")
@@ -1336,7 +1336,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 62836f3c-216c-4402-971e-f98ad5e67b3e)
-    (at 171.4775 78.46)
+    (at 104.015 60.66)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1172")
@@ -1391,7 +1391,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 656f4851-d71b-4fff-82b5-8cd4f5c8ad12)
-    (at 175.8275 65.91)
+    (at 108.365 48.11)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "199-5491")
@@ -1446,7 +1446,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 68e50c6d-4113-46b3-a84f-63866c488641)
-    (at 175.8275 68.42)
+    (at 108.365 50.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "679-0077")
@@ -1501,7 +1501,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 6cb65369-c2f8-4f9c-8af6-e350783b6342)
-    (at 167.1275 63.4)
+    (at 99.665 45.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "135-6508")
@@ -1556,7 +1556,7 @@
 
   (footprint "benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder" (layer "F.Cu")
     (tstamp 6e417c00-6a24-4056-96b0-1ab7810df09f)
-    (at 138.1525 85.155)
+    (at 70.69 67.355)
     (descr "Resistor SMD 2512 (6332 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "824-0304")
@@ -1602,9 +1602,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 573b0af9-4ff3-4d0a-ae14-a23426c9db2a))
     (fp_line (start 3.15 1.6) (end -3.15 1.6)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5a2e9833-1314-4f18-9f8e-df5594c4722c))
-    (pad "1" smd roundrect (at -3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571)
+    (pad "1" smd roundrect (at -3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1785707143)
       (net 26 "Net-(Q1-S)") (pintype "passive") (tstamp cb090b34-12a8-4c8e-8f05-211d12f33d2e))
-    (pad "2" smd roundrect (at 3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.178571)
+    (pad "2" smd roundrect (at 3.05 0) (size 1.4 3.35) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1785707143)
       (net 2 "GND") (pintype "passive") (tstamp 13a34268-85f9-4f25-824b-5daea07254e4))
     (model "${KICAD6_3DMODEL_DIR}/Resistor_SMD.3dshapes/R_2512_6332Metric.wrl"
       (offset (xyz 0 0 0))
@@ -1615,7 +1615,7 @@
 
   (footprint "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (layer "F.Cu")
     (tstamp 769a3a98-3af3-4c59-b7bb-3b42e224b064)
-    (at 124.4025 71.885)
+    (at 56.94 54.085)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "Sheetfile" "dc-dc-converter-24v.kicad_sch")
@@ -1654,7 +1654,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 78666a9a-ec9d-427b-8955-ae8051002a05)
-    (at 162.7775 73.44)
+    (at 95.315 55.64)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "135-8365")
@@ -1709,7 +1709,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 788f670c-48e7-49e6-9f3f-8af6ce564504)
-    (at 162.7775 70.93)
+    (at 95.315 53.13)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "135-6233")
@@ -1764,7 +1764,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 85b05446-461c-4ab9-934b-3dbb6d5a00b1)
-    (at 171.4775 75.95)
+    (at 104.015 58.15)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1173")
@@ -1819,7 +1819,7 @@
 
   (footprint "benediktibk:SQJA42EPT1_GE3" (layer "F.Cu")
     (tstamp 90a0f462-37a0-4db6-9e9c-1f9971007bcf)
-    (at 137.7775 54.961)
+    (at 70.315 37.161)
     (descr "SQJA42EP-T1_GE3-4")
     (tags "MOSFET (N-Channel)")
     (property "RS order number" "188-5140")
@@ -1893,7 +1893,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp 91bbd426-127e-46ec-afff-ccb9beb7ddaa)
-    (at 171.4775 68.42)
+    (at 104.015 50.62)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "125-1171")
@@ -1948,7 +1948,7 @@
 
   (footprint "benediktibk:Connector_M6" (layer "F.Cu")
     (tstamp 95daf55d-24df-4572-a826-366aa36d8af7)
-    (at 109.0225 58.465)
+    (at 41.56 40.665)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "RS order number" "")
@@ -1992,7 +1992,7 @@
 
   (footprint "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder" (layer "F.Cu")
     (tstamp 975b856d-97c7-471f-a3ca-15b8ed9eff4a)
-    (at 174.3075 51.96)
+    (at 106.845 34.16)
     (descr "Capacitor SMD 1206 (3216 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "788-3060")
@@ -2034,9 +2034,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 191989e5-dc55-46f5-8f72-0be9f23fe024))
     (fp_line (start 1.6 0.8) (end -1.6 0.8)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 5d32678e-c306-41e4-9804-6b4a1d40efb6))
-    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "1" smd roundrect (at -1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 1 "/Boost Converter/Vout") (pintype "passive") (tstamp 93dac306-f302-4307-9439-f636988a1498))
-    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.188679)
+    (pad "2" smd roundrect (at 1.5625 0) (size 1.325 1.8) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.1886792453)
       (net 2 "GND") (pintype "passive") (tstamp 1ef9f5e6-dbd1-43e1-8484-1581ac8adcf7))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_1206_3216Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2047,7 +2047,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp a5ed58d7-2c55-4c7f-8582-9395565962c7)
-    (at 162.7775 78.46)
+    (at 95.315 60.66)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "242-7372")
@@ -2102,7 +2102,7 @@
 
   (footprint "benediktibk:ETQP8" (layer "F.Cu")
     (tstamp a6f7fabb-9d01-4eaa-a53f-6533c57fbeee)
-    (at 148.0775 104.49)
+    (at 80.615 86.69)
     (descr "ETQP8")
     (tags "Inductor")
     (property "RS order number" " 238-3683")
@@ -2160,7 +2160,7 @@
 
   (footprint "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp adf79de5-26de-4bbe-8913-bd538647943e)
-    (at 171.8575 84.23)
+    (at 104.395 66.43)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "788-0496")
@@ -2202,9 +2202,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f5b622ca-0b06-4caa-9cb6-2bfff0763c10))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 8f10a87d-100b-4774-8ba1-d74f4d432bb0))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 8 "Net-(U1-SLOPE)") (pintype "passive") (tstamp 6f46822b-b68d-4774-9764-8af4e844272a))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "GND") (pintype "passive") (tstamp b1f37ff6-94df-4b3b-8fba-2889e0654913))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -2215,7 +2215,7 @@
 
   (footprint "benediktibk:SQJA42EPT1_GE3" (layer "F.Cu")
     (tstamp aedf1ac6-d7bd-48db-8921-6501d61b3062)
-    (at 154.4775 54.961)
+    (at 87.015 37.161)
     (descr "SQJA42EP-T1_GE3-4")
     (tags "MOSFET (N-Channel)")
     (property "RS order number" "188-5140")
@@ -2289,7 +2289,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp af87f0c2-40be-4be1-8b2c-d5b5e24d89b8)
-    (at 162.7775 75.95)
+    (at 95.315 58.15)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "242-7372")
@@ -2344,7 +2344,7 @@
 
   (footprint "benediktibk:LM5176" (layer "F.Cu")
     (tstamp b01647a2-1da2-4b2b-839d-1b64c1e489f9)
-    (at 165.0275 85.34)
+    (at 97.565 67.54)
     (descr "HTSSOP, 28 Pin (https://www.trinamic.com/fileadmin/assets/Support/AppNotes/AN005x-IC_Package_PCB_Footprint_Guidelines_HTSSOP28_rev1.00.pdf), generated with kicad-footprint-generator ipc_gullwing_generator.py")
     (tags "HTSSOP SO")
     (property "RS order number" "")
@@ -2400,7 +2400,7 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f86e507e-2514-455e-b9cd-8c8e862ec2c2))
     (fp_line (start 2.2 4.85) (end -2.2 4.85)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp f3b249a6-33f2-4d8a-b782-7b1cd1ceffe8))
-    (pad "" smd roundrect (at 0 0) (size 2.22 5) (layers "F.Paste") (roundrect_rratio 0.112613) (tstamp 50fb7328-45e5-4cf9-8ded-76a70d99960a))
+    (pad "" smd roundrect (at 0 0) (size 2.22 5) (layers "F.Paste") (roundrect_rratio 0.1126130631) (tstamp 50fb7328-45e5-4cf9-8ded-76a70d99960a))
     (pad "1" smd roundrect (at -2.875 -4.225) (size 1.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
       (net 32 "Net-(U1-EN{slash}UVLO)") (pinfunction "EN/UVLO") (pintype "input") (tstamp 3896a65f-0b48-4372-b998-cfc13a80589b))
     (pad "2" smd roundrect (at -2.875 -3.575) (size 1.55 0.4) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.25)
@@ -2468,7 +2468,7 @@
 
   (footprint "benediktibk:D_SOD-323" (layer "F.Cu")
     (tstamp b16ed776-e59e-419c-9ca2-dff6754bfc10)
-    (at 169.1525 51.785)
+    (at 101.69 33.985)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "RS order number" "738-4844")
@@ -2547,7 +2547,7 @@
 
   (footprint "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (layer "F.Cu")
     (tstamp b223f86b-2ac8-49e3-8f17-3ca9b29307f2)
-    (at 124.4025 86.285)
+    (at 56.94 68.485)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "Sheetfile" "dc-dc-converter-24v.kicad_sch")
@@ -2586,7 +2586,7 @@
 
   (footprint "benediktibk:ETQP8" (layer "F.Cu")
     (tstamp b3b753f9-b0c5-4a5a-9cf0-cc17fbb5a74f)
-    (at 148.0775 71.16)
+    (at 80.615 53.36)
     (descr "ETQP8")
     (tags "Inductor")
     (property "RS order number" " 238-3683")
@@ -2644,7 +2644,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp bf7eec63-1af8-495d-a024-314967a6d5d9)
-    (at 171.4775 65.91)
+    (at 104.015 48.11)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "679-0386")
@@ -2699,7 +2699,7 @@
 
   (footprint "benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp c5da7e6c-c353-4432-a11d-99c79d98a3f4)
-    (at 167.1275 68.42)
+    (at 99.665 50.62)
     (descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
     (tags "diode handsolder")
     (property "RS order number" "466-3706")
@@ -2764,7 +2764,7 @@
 
   (footprint "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp d1242f2c-e17e-4589-96cc-ac5f3c906731)
-    (at 171.4775 70.93)
+    (at 104.015 53.13)
     (descr "Resistor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "resistor handsolder")
     (property "RS order number" "901-3563")
@@ -2819,7 +2819,7 @@
 
   (footprint "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (layer "F.Cu")
     (tstamp d356aa4f-7335-4e34-9595-ff195ab7f284)
-    (at 124.4025 100.685)
+    (at 56.94 82.885)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "Sheetfile" "dc-dc-converter-24v.kicad_sch")
@@ -2858,7 +2858,7 @@
 
   (footprint "benediktibk:D_SOD-323" (layer "F.Cu")
     (tstamp d4ad5b5d-26c1-47cb-84a4-b0846aa5ad31)
-    (at 169.1525 54.785)
+    (at 101.69 36.985)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "RS order number" "738-4844")
@@ -2937,7 +2937,7 @@
 
   (footprint "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (layer "F.Cu")
     (tstamp d88c2702-1cc6-4876-bc4d-2e5c370664d9)
-    (at 162.7775 63.4)
+    (at 95.315 45.6)
     (descr "Capacitor SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "242-7372")
@@ -2992,7 +2992,7 @@
 
   (footprint "benediktibk:Connector_M6" (layer "F.Cu")
     (tstamp dd595080-d640-4911-90fc-d07a410b3f2a)
-    (at 109.0225 107.545)
+    (at 41.56 89.745)
     (descr "Mounting Hole 6.4mm, M6")
     (tags "mounting hole 6.4mm m6")
     (property "RS order number" "")
@@ -3036,7 +3036,7 @@
 
   (footprint "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp de0a0efc-2882-42a0-b4a4-51c993f37a09)
-    (at 142.0175 117.52)
+    (at 74.555 99.72)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "113-8707")
@@ -3078,9 +3078,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp dc220832-c604-4010-9dc0-bd06e6b894d2))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 7b43e5af-fffc-4d84-8fd3-bf6c569cd055))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 4 "/Output Filter/24VFILT") (pintype "passive") (tstamp f264b511-99b7-4ca9-8a70-0c788e5642b8))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "GND") (pintype "passive") (tstamp 423e5706-cb92-4b35-86ee-c896619c9c5e))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3091,7 +3091,7 @@
 
   (footprint "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (layer "F.Cu")
     (tstamp e78455b8-dd4e-4875-9482-db5fbbc07eeb)
-    (at 171.8575 87.24)
+    (at 104.395 69.44)
     (descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
     (tags "capacitor handsolder")
     (property "RS order number" "113-8707")
@@ -3133,9 +3133,9 @@
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 1587716d-f1be-4469-b18b-52d08d3b745b))
     (fp_line (start 1 0.625) (end -1 0.625)
       (stroke (width 0.1) (type solid)) (layer "F.Fab") (tstamp 36e7a328-c6fb-4924-8d42-102e75050b78))
-    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "1" smd roundrect (at -1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 14 "/Boost Converter/12V") (pintype "passive") (tstamp 0166f65e-9f79-48df-87fe-9a619cb24a76))
-    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.212766)
+    (pad "2" smd roundrect (at 1.0375 0) (size 1.175 1.45) (layers "F.Cu" "F.Paste" "F.Mask") (roundrect_rratio 0.2127659574)
       (net 2 "GND") (pintype "passive") (tstamp 6c35f0c6-3175-4895-9c7e-8217db969f83))
     (model "${KICAD6_3DMODEL_DIR}/Capacitor_SMD.3dshapes/C_0805_2012Metric.wrl"
       (offset (xyz 0 0 0))
@@ -3146,7 +3146,7 @@
 
   (footprint "benediktibk:D_SOD-323" (layer "F.Cu")
     (tstamp feb631a9-2ec9-4b40-a1f4-1072d8b8c477)
-    (at 169.1525 57.785)
+    (at 101.69 39.985)
     (descr "SOD-323")
     (tags "SOD-323")
     (property "RS order number" "738-4844")
@@ -3222,5 +3222,8 @@
       (rotate (xyz 0 0 0))
     )
   )
+
+  (gr_rect (start 20 20) (end 120 120)
+    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp dafc1062-202f-4a04-aeae-90a9ea4972ee))
 
 )
