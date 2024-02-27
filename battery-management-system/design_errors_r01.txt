@@ -6,6 +6,6 @@ stencil: weird negative holes
 size: limit to cheap size of JLCPCB
 BOM export: connectors
 TMG1-01: footprint
-JTAG buches: footprint
+JTAG socket: footprint
 TJ40S04M3L: courtyard (J25)
-Q1 and Q4: pull down for gates (charge and discharge)
+Q1 and Q4: pull down for gates (charge and discharge), 220kOhm
