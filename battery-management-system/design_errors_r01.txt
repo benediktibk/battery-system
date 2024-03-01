@@ -9,3 +9,4 @@ TMG1-01: footprint
 JTAG socket: footprint
 TJ40S04M3L: courtyard (J25)
 Q1 and Q4: pull down for gates (charge and discharge), 220kOhm
+120 Ohm: fix order number (is actually 150 Ohm)
