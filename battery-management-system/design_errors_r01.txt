@@ -10,3 +10,6 @@ JTAG socket: footprint
 TJ40S04M3L: courtyard (J25)
 Q1 and Q4: pull down for gates (charge and discharge), 220kOhm
 120 Ohm: fix order number (is actually 150 Ohm)
+Q40: choose smaller PMOS
+Q34, Q35, Q36, Q37, Q39: pull downs on gate
+Q38: pull up on gate
