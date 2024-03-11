@@ -13,3 +13,10 @@ fp-info-cache
 
 # LibreOffice Calc
 .~lock.*
+
+# Zephyr
+software/zephyr
+software/modules
+
+# Python
+software/.venv

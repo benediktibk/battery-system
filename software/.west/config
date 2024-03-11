@@ -1,0 +1,6 @@
+[manifest]
+path = manifest
+file = manifest.yml
+
+[zephyr]
+base = zephyr

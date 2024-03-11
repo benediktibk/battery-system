@@ -1,0 +1,14 @@
+manifest:
+  remotes:
+    - name: benediktibk
+      url-base: git@github.com:benediktibk
+
+  projects:  
+    - name: zephyr
+      remote: benediktibk
+      revision: fcb73bd4f68b0cf545591bf80328f79a4ea399bf
+      import:
+        name-allowlist:
+          - hal_stm32
+          - picolibc
+          - cmsis
