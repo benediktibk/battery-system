@@ -1,0 +1,55 @@
+ #include <st/l4/stm32l451v(c-e)tx-pinctrl.dtsi>
+
+/ {
+	chosen {
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+		zephyr,console = &uart;
+		zephyr,shell-uart = &uart;
+	};
+};
+
+&clk_hse {
+	status = "okay";
+	clock-frequency = <DT_FREQ_M(4)>;
+};
+
+&pll {
+	status = "okay";
+	div-m = <1>;
+	mul-n = <40>;
+	div-p = <7>;
+	div-q = <2>;
+	div-r = <2>;
+	clocks = <&clk_hse>;
+};
+
+&rcc {
+	clocks = <&pll>;
+	clock-frequency = <DT_FREQ_M(80)>;
+	ahb-prescaler = <1>;
+	apb1-prescaler = <1>;
+	apb2-prescaler = <1>;
+};
+
+&uart4 {
+	status = "disabled";
+	pinctrl-0 = <&uart4_tx_pa0>,	// UART4_TX
+				<&uart4_rx_pa1>;	// UART4_RX
+	pinctrl-names = "default";
+	current-speed = <115200>;
+};
+
+&flash0 {
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <0x1>;
+		#size-cells = <0x1>;
+
+		main_partition: main_partition@0 {
+			label = "main";
+			reg = <0x0 0x10000>;
+			read-only;
+		};
+	};
+};

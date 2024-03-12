@@ -18,5 +18,8 @@ fp-info-cache
 software/zephyr
 software/modules
 
+# build directory
+software/build
+
 # Python
 software/.venv

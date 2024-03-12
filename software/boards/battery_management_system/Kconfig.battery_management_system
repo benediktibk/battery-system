@@ -1,0 +1,4 @@
+# SPDX-License-Identifier: Apache-2.0
+
+config BOARD_BATTERY_MANAGEMENT_SYSTEM
+	select SOC_STM32L071XX

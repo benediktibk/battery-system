@@ -1,8 +1,8 @@
-flash-battery-system-%-internal: build/%/battery_system.elf
-	west flash --build-dir build/$*/battery_system
+flash-battery-management-system-%-internal: build/%/battery_management_system.elf
+	west flash --build-dir build/$*/battery_management_system
 
-guiconfig-battery-system-%-internal:
-	west build -d build/$*/battery_system -t guiconfig -s battery_system
+guiconfig-battery-management-system-%-internal:
+	west build -d build/$*/battery_management_system -t guiconfig -s battery_management_system
 
-initlevels-battery-system-%-internal:
-	CONF_FILE="prj.base.conf prj.$*.conf" west build -d build/$*/battery_system -t initlevels --board $(BATTERYSYSTEMBOARD) -s battery_system
+initlevels-battery-management-system-%-internal:
+	CONF_FILE="prj.base.conf prj.$*.conf" west build -d build/$*/battery_management_system -t initlevels --board $(BATTERYSYSTEMBOARD) -s battery_management_system

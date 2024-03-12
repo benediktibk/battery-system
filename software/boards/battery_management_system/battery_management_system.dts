@@ -1,0 +1,6 @@
+/dts-v1/;
+#include <st/l0/stm32l071.dtsi>
+
+/ {
+	model = "battery management system board";
+};
