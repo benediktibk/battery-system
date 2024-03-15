@@ -26,6 +26,14 @@ initlevels-battery-management-system-debug: initlevels-battery-management-system
 
 initlevels-battery-management-system-release: initlevels-battery-management-system-release-internal
 
+rom-battery-management-system-debug: rom-battery-management-system-debug-internal
+
+rom-battery-management-system-release: rom-battery-management-system-release-internal
+
+ram-battery-management-system-debug: ram-battery-management-system-debug-internal
+
+ram-battery-management-system-release: ram-battery-management-system-release-internal
+
 include makefiles/build_directories.inc
 include makefiles/binaries.inc
 include makefiles/west_tools.inc
