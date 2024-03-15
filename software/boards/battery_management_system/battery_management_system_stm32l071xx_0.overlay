@@ -1,46 +1,41 @@
- #include <st/l4/stm32l451v(c-e)tx-pinctrl.dtsi>
-
 / {
 	chosen {
-		zephyr,sram = &sram0;
 		zephyr,flash = &flash0;
-		zephyr,console = &uart;
-		zephyr,shell-uart = &uart;
+		zephyr,console = &usart1;
+		zephyr,shell-uart = &usart1;
 	};
 };
 
-&clk_hse {
+&clk_hsi {
 	status = "okay";
-	clock-frequency = <DT_FREQ_M(4)>;
+	clock-frequency = <DT_FREQ_M(16)>;
 };
 
 &pll {
 	status = "okay";
-	div-m = <1>;
-	mul-n = <40>;
-	div-p = <7>;
-	div-q = <2>;
-	div-r = <2>;
-	clocks = <&clk_hse>;
+	div = <2>;
+	mul = <4>;
+	clocks = <&clk_hsi>;
 };
 
 &rcc {
 	clocks = <&pll>;
-	clock-frequency = <DT_FREQ_M(80)>;
+	clock-frequency = <DT_FREQ_M(32)>;
 	ahb-prescaler = <1>;
 	apb1-prescaler = <1>;
 	apb2-prescaler = <1>;
 };
 
-&uart4 {
-	status = "disabled";
-	pinctrl-0 = <&uart4_tx_pa0>,	// UART4_TX
-				<&uart4_rx_pa1>;	// UART4_RX
+&usart1 {
+	status = "okay";
+	pinctrl-0 = <&usart1_tx_pa9>,
+				<&usart1_rx_pa10>;
 	pinctrl-names = "default";
 	current-speed = <115200>;
 };
 
 &flash0 {
+	reg = <0x8000000 0x30000>;
 	partitions {
 		compatible = "fixed-partitions";
 		#address-cells = <0x1>;
@@ -48,8 +43,12 @@
 
 		main_partition: main_partition@0 {
 			label = "main";
-			reg = <0x0 0x10000>;
+			reg = <0x0 0x30000>;
 			read-only;
 		};
 	};
+};
+
+&sram0 {
+	reg = <0x20000000 0x1800>;
 };

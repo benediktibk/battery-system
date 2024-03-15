@@ -1,4 +1,4 @@
-identifier: battery_management_system@0/stm32l071
+identifier: battery_management_system@0/stm32l071xx
 name: Battery Management System
 type: mcu
 arch: arm
@@ -6,6 +6,6 @@ toolchain:
   - zephyr
   - gnuarmemb
   - xtools
-ram: 160
-flash: 512
+ram: 6
+flash: 192
 vendor: benediktibk

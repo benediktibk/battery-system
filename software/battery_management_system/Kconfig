@@ -1,0 +1,17 @@
+source "Kconfig.zephyr"
+
+menu "battery management system"
+
+menuconfig BATTERY_MANAGEMENT_SYSTEM_LOG
+	bool "Enable battery management system logging and debugging"
+	select LOG
+	help
+	  Enable logging of battery management system
+
+module = BATTERY_MANAGEMENT_SYSTEM
+module-dep = BATTERY_MANAGEMENT_SYSTEM_LOG
+module-str = Log level for battery management system
+module-help = Enables log levels for battery management system
+source "subsys/net/Kconfig.template.log_config.net"
+
+endmenu

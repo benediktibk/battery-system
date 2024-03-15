@@ -5,6 +5,6 @@ BUILDDIRECTORIES += build/release
 BUILDDIRECTORIES += build/release/battery_management_system
 
 build/guard: $(ALLMAKEFILES)
-    rm -f $@
+	rm -f $@
 	mkdir -p $(BUILDDIRECTORIES)
 	touch $@

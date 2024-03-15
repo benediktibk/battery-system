@@ -1,5 +1,7 @@
 /dts-v1/;
+#include <common/mem.h>
 #include <st/l0/stm32l071.dtsi>
+#include <st/l0/stm32l071c(b-z)tx-pinctrl.dtsi>
 
 / {
 	model = "battery management system board";

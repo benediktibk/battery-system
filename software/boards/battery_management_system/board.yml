@@ -2,8 +2,9 @@ board:
   name: battery_management_system
   vendor: benediktibk
   socs:
-    - name: stm32l071
+    - name: stm32l071xx
   revision:
     format: number
+    default: "0"
     revisions:
     - name: "0"

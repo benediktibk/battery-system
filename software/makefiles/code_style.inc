@@ -1,4 +1,4 @@
-CLANGSOURCESBATTERYMANAGEMENTSYSTEM := $(shell find battery_system -type f -name '*.[ch]')
+CLANGSOURCESBATTERYMANAGEMENTSYSTEM := $(shell find battery_management_system -type f -name '*.[ch]')
 CLANGSOURCESCOMPLETE := $(CLANGSOURCESBATTERYMANAGEMENTSYSTEM)
 
 format:
