@@ -43,6 +43,14 @@
 	current-speed = <115200>;
 };
 
+&lpuart1 {
+	status = "okay";
+	pinctrl-0 = <&lpuart1_tx_pb10>,
+				<&lpuart1_rx_pb11>;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+};
+
 &flash0 {
 	reg = <0x8000000 0x30000>;
 	partitions {
