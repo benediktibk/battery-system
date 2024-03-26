@@ -1,0 +1,21 @@
+description: Status Leds
+
+compatible: "benediktibk,status-leds"
+
+include: ["base.yaml"]
+
+properties:
+  system-active-gpios:
+    type: phandle-array
+    required: true
+    description: GPIO for system active led
+
+  debug-gpios:
+    type: phandle-array
+    required: true
+    description: GPIO for debug led
+
+  error-gpios:
+    type: phandle-array
+    required: true
+    description: GPIO for error led

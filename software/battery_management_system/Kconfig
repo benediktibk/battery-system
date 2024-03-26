@@ -14,4 +14,14 @@ module-str = Log level for battery management system
 module-help = Enables log levels for battery management system
 source "subsys/net/Kconfig.template.log_config.net"
 
+menuconfig STATUS_LEDS
+	bool "status leds"
+	default y
+	depends on DT_HAS_BENEDIKTIBK_STATUS_LEDS_ENABLED
+
+config STATUS_LEDS_POST_KERNEL_INIT_PRIORITY
+	int "initialization priority for status leds"
+	default 80
+	depends on STATUS_LEDS
+
 endmenu

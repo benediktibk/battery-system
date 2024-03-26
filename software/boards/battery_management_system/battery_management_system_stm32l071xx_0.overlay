@@ -5,6 +5,14 @@
 		zephyr,console = &usart1;
 		zephyr,shell-uart = &usart1;
 	};
+
+	status_leds: status_leds {
+		compatible = "benediktibk,status-leds";
+		status = "okay";
+		system-active-gpios = <&gpioc 15 GPIO_ACTIVE_HIGH>;
+		error-gpios = <&gpioc 14 GPIO_ACTIVE_HIGH>;
+		debug-gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;
+	};
 };
 
 &clk_hsi {
