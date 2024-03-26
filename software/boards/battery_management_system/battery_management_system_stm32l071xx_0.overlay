@@ -56,6 +56,16 @@
 	pinctrl-0 = <&i2c1_scl_pb6>,
 				<&i2c1_sda_pb7>;
 	pinctrl-names = "default";
+
+	ext_memory: ext_memory@50 {
+		compatible = "atmel,at24";
+		reg = <0x50>;
+		status = "okay";
+		size = <65536>;
+		pagesize = <128>;
+		address-width = <16>;
+		timeout = <5>;
+	};
 };
 
 &flash0 {
