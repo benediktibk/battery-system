@@ -13,4 +13,5 @@ target_include_directories(app PRIVATE include)
 target_sources(app PRIVATE
 	src/main.c
 	src/status_leds.c
+	src/status_leds_shell.c
 )
