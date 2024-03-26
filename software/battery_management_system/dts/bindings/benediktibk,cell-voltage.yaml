@@ -1,0 +1,11 @@
+description: Cell Voltage Measurement
+
+compatible: "benediktibk,cell-voltage"
+
+include: ["base.yaml"]
+
+properties:
+  adc:
+    type: phandle
+    required: true
+    description: ADC device

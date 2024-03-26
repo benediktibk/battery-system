@@ -1,5 +1,5 @@
 flash-battery-management-system-%-internal: build/%/battery_management_system.elf
-	west flash --build-dir build/$*/battery_management_system
+	gdb-multiarch --batch --command=scripts/flash.gdb $<
 
 guiconfig-battery-management-system-%-internal:
 	west build -d build/$*/battery_management_system -t guiconfig -s battery_management_system
