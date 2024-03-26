@@ -85,21 +85,21 @@ static int status_leds_init(const struct device *device)
         return -1;
     }
 
-    int result = gpio_pin_configure_dt(&config->gpio_system_active, GPIO_OUTPUT_ACTIVE);
+    int result = gpio_pin_configure_dt(&config->gpio_system_active, GPIO_OUTPUT_INACTIVE);
 
     if (result != 0) {
         LOG_ERR("pin configuration for system active GPIO failed");
         return -2;
     }
 
-    result = gpio_pin_configure_dt(&config->gpio_error, GPIO_OUTPUT_ACTIVE);
+    result = gpio_pin_configure_dt(&config->gpio_error, GPIO_OUTPUT_INACTIVE);
 
     if (result != 0) {
         LOG_ERR("pin configuration for error GPIO failed");
         return -2;
     }
 
-    result = gpio_pin_configure_dt(&config->gpio_debug, GPIO_OUTPUT_ACTIVE);
+    result = gpio_pin_configure_dt(&config->gpio_debug, GPIO_OUTPUT_INACTIVE);
 
     if (result != 0) {
         LOG_ERR("pin configuration for debug GPIO failed");
