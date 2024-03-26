@@ -13,12 +13,4 @@ int main(void)
 {
     LOG_INF("starting battery management system");
     status_leds_set_system_active(status_leds_device, true);
-
-    bool value = true;
-
-    while (true) {
-        k_sleep(K_MSEC(500));
-        status_leds_set_debug(status_leds_device, value);
-        value = !value;
-    }
 }
