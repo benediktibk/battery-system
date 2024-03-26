@@ -51,6 +51,13 @@
 	current-speed = <115200>;
 };
 
+&i2c1 {
+	status = "okay";
+	pinctrl-0 = <&i2c1_scl_pb6>,
+				<&i2c1_sda_pb7>;
+	pinctrl-names = "default";
+};
+
 &flash0 {
 	reg = <0x8000000 0x30000>;
 	partitions {
