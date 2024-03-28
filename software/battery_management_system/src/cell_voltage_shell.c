@@ -8,10 +8,10 @@
 
 LOG_MODULE_DECLARE(battery_management_system, CONFIG_BATTERY_MANAGEMENT_SYSTEM_LOG_LEVEL);
 
-#define STATUS_LEDS_LIST_ENTRY(node_id) DEVICE_DT_GET(node_id),
+#define CELL_VOLTAGE_LIST_ENTRY(node_id) DEVICE_DT_GET(node_id),
 
 static const struct device *cell_voltage_shell_devices[] = {
-    DT_FOREACH_STATUS_OKAY(benediktibk_cell_voltage, STATUS_LEDS_LIST_ENTRY)
+    DT_FOREACH_STATUS_OKAY(benediktibk_cell_voltage, CELL_VOLTAGE_LIST_ENTRY)
 };
 
 static int cell_voltage_shell_measure(

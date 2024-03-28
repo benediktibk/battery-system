@@ -1,0 +1,16 @@
+description: Cells Measurement
+
+compatible: "benediktibk,cells-measurement"
+
+include: ["base.yaml"]
+
+properties:
+  enable-gpios:
+    type: phandle-array
+    required: true
+    description: enable GPIO
+
+  cell-voltages:
+    type: phandles
+    required: true
+    description: cell voltage measurement devices

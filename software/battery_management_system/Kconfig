@@ -34,4 +34,14 @@ config CELL_VOLTAGE_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on CELL_VOLTAGE
 
+menuconfig CELLS_MEASUREMENT
+	bool "cells measurement"
+	default y
+	depends on DT_HAS_BENEDIKTIBK_CELLS_MEASUREMENT_ENABLED
+
+config CELLS_MEASUREMENT_POST_KERNEL_INIT_PRIORITY
+	int "initialization priority for cells measurement"
+	default 80
+	depends on CELLS_MEASUREMENT
+
 endmenu
