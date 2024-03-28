@@ -65,7 +65,7 @@
 		status = "okay";
 		charge-gpios = <&gpiob 13 GPIO_ACTIVE_HIGH>;
 		discharge-gpios = <&gpiob 14 GPIO_ACTIVE_HIGH>;
-		charge-available-gpios = <&gpiob 15 GPIO_ACTIVE_HIGH>;
+		charge-available-gpios = <&gpiob 15 GPIO_ACTIVE_LOW>;
 	};
 };
 
