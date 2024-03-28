@@ -13,6 +13,42 @@
 		error-gpios = <&gpioc 14 GPIO_ACTIVE_HIGH>;
 		debug-gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;
 	};
+
+	cell_voltage1: cell_voltage1 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <0>;
+		voltage-divider-upper = <24>;
+		voltage-divider-lower = <100>;
+	};
+
+	cell_voltage2: cell_voltage2 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <1>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <68>;
+	};
+
+	cell_voltage3: cell_voltage3 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <2>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <36>;
+	};
+
+	cell_voltage4: cell_voltage4 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <3>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <24>;
+	};
 };
 
 &clk_hsi {
@@ -85,4 +121,17 @@
 
 &sram0 {
 	reg = <0x20000000 0x1800>;
+};
+
+&adc1 {
+	status = "okay";
+	pinctrl-0 = <&adc_in0_pa0>,
+				<&adc_in1_pa1>,
+				<&adc_in2_pa2>,
+				<&adc_in3_pa3>;
+	pinctrl-names = "default";
+	#address-cells = <1>;
+	#size-cells = <0>;
+	st,adc-clock-source = <SYNC>;
+	st,adc-prescaler = <1>;
 };

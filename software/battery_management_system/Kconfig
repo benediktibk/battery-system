@@ -24,4 +24,14 @@ config STATUS_LEDS_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on STATUS_LEDS
 
+menuconfig CELL_VOLTAGE
+	bool "cell voltage"
+	default y
+	depends on DT_HAS_BENEDIKTIBK_CELL_VOLTAGE_ENABLED
+
+config CELL_VOLTAGE_POST_KERNEL_INIT_PRIORITY
+	int "initialization priority for cell voltage"
+	default 80
+	depends on CELL_VOLTAGE
+
 endmenu

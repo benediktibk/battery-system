@@ -9,3 +9,18 @@ properties:
     type: phandle
     required: true
     description: ADC device
+  
+  adc-channel:
+    type: int
+    required: true
+    description: ADC channel index
+  
+  voltage-divider-upper:
+    type: int
+    required: true
+    description: upper value of voltage divider
+  
+  voltage-divider-lower:
+    type: int
+    required: true
+    description: lower value of voltage divider
