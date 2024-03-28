@@ -1,0 +1,21 @@
+description: Power Control
+
+compatible: "benediktibk,power-control"
+
+include: ["base.yaml"]
+
+properties:
+  charge-gpios:
+    type: phandle-array
+    required: true
+    description: charge GPIO
+  
+  discharge-gpios:
+    type: phandle-array
+    required: true
+    description: discharge GPIO
+  
+  charge-available-gpios:
+    type: phandle-array
+    required: true
+    description: charge available GPIO

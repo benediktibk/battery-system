@@ -15,7 +15,9 @@ target_sources(app PRIVATE
 	src/status_leds.c
 	src/cell_voltage.c
 	src/cells_measurement.c
+	src/power_control.c
 	src/status_leds_shell.c
 	src/cell_voltage_shell.c
 	src/cells_measurement_shell.c
+	src/power_control_shell.c
 )

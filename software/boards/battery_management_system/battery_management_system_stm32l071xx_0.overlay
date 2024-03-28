@@ -59,6 +59,14 @@
 						<&cell_voltage4>;
 		enable-gpios = <&gpioa 12 GPIO_ACTIVE_HIGH>;
 	};
+
+	power_control: power_control {
+		compatible = "benediktibk,power-control";
+		status = "okay";
+		charge-gpios = <&gpiob 13 GPIO_ACTIVE_HIGH>;
+		discharge-gpios = <&gpiob 14 GPIO_ACTIVE_HIGH>;
+		charge-available-gpios = <&gpiob 15 GPIO_ACTIVE_HIGH>;
+	};
 };
 
 &clk_hsi {

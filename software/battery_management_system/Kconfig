@@ -44,4 +44,14 @@ config CELLS_MEASUREMENT_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on CELLS_MEASUREMENT
 
+menuconfig POWER_CONTROL
+	bool "power control"
+	default y
+	depends on DT_HAS_BENEDIKTIBK_POWER_CONTROL_ENABLED
+
+config POWER_CONTROL_POST_KERNEL_INIT_PRIORITY
+	int "initialization priority for power control"
+	default 80
+	depends on POWER_CONTROL
+
 endmenu
