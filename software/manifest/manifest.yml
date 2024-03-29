@@ -6,7 +6,7 @@ manifest:
   projects:  
     - name: zephyr
       remote: benediktibk
-      revision: 36c12482c6ff4349307c93c67e9cd914ed0c6d1c
+      revision: ff13cb5adc0b4abeb3aeb8a94de59b509d4988a3
       import:
         name-allowlist:
           - hal_stm32
