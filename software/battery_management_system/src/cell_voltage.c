@@ -19,7 +19,7 @@ struct cell_voltage_data {
 
 bool cell_voltage_measure(
     const struct device *device,
-    uint32_t *value)
+    uint16_t *value)
 {
     const struct cell_voltage_config *config = device->config;
     int32_t buffer;

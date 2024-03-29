@@ -5,17 +5,21 @@
 #include <stdint.h>
 #include <zephyr/device.h>
 
+#define CELL_COUNT 4
+
+struct cell_voltages {
+    uint16_t value[CELL_COUNT]; // in mV
+};
+
 /*!
- * @brief read out cell voltage
+ * @brief read out cell voltages
  * 
  * @param device instance of cells measurement
- * @param index cell index
- * @param value cell voltage in mV
+ * @param values cell voltages
  * @return success
  */
 bool cells_measurement_measure(
     const struct device *device,
-    uint8_t index,
-    uint32_t *value);
+    struct cell_voltages *cell_voltages);
 
 #endif

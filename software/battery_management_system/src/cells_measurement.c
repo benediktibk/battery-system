@@ -20,31 +20,16 @@ struct cells_measurement_data {
 
 bool cells_measurement_measure(
     const struct device *device,
-    uint8_t index,
-    uint32_t *value)
+    struct cell_voltages *cell_voltages)
 {
     const struct cells_measurement_config *config = device->config;
-    bool success;
-
-    if (index >= config->cell_voltage_devices_count) {
-        LOG_ERR("invalid cell index %i", index);
-        return false;
-    }
+    bool success = true;
+    struct cell_voltages cell_voltages_raw;
 
     gpio_pin_set_dt(&config->enable_gpio, 1);
 
-    if (index == 0) {
-        success = cell_voltage_measure(config->cell_voltage_devices[0], value);
-    } else {
-        const struct device *lower_device = config->cell_voltage_devices[index - 1];
-        const struct device *upper_device = config->cell_voltage_devices[index];
-
-        uint32_t lower_value;
-        uint32_t upper_value;
-
-        success = cell_voltage_measure(lower_device, &lower_value);
-        success &= cell_voltage_measure(upper_device, &upper_value);
-        *value = upper_value - lower_value;
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        success &= cell_voltage_measure(config->cell_voltage_devices[i], &cell_voltages_raw.value[i]);
     }
 
     gpio_pin_set_dt(&config->enable_gpio, 0);
@@ -52,6 +37,12 @@ bool cells_measurement_measure(
     if (!success) {
         LOG_ERR("cell voltage measurement failed");
         return false;
+    }
+
+    cell_voltages->value[0] = cell_voltages_raw.value[0];
+
+    for (size_t i = 1; i < CELL_COUNT; ++i) {
+        cell_voltages->value[i] = cell_voltages_raw.value[i] - cell_voltages_raw.value[i - 1];
     }
 
     return true;

@@ -4,15 +4,27 @@
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
 
+#include "cells_measurement.h"
 #include "power_control.h"
 #include "status_leds.h"
 
 LOG_MODULE_REGISTER(battery_management_system, CONFIG_BATTERY_MANAGEMENT_SYSTEM_LOG_LEVEL);
 
+struct battery_state {
+    int32_t battery_current; // in µA
+    int8_t cell_temperatures[CELL_COUNT]; // in °C
+    uint16_t cell_voltages[CELL_COUNT]; // in mV
+    int8_t bms_pcb_temperature; // in °C
+    int8_t battery_monitor_temperature; // in °C
+    uint8_t state_of_charge; // in percent
+};
+
 const struct device *status_leds_device = DEVICE_DT_GET(DT_NODELABEL(status_leds));
 const struct device *power_control_device = DEVICE_DT_GET(DT_NODELABEL(power_control));
 const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
 const struct device *battery_monitor_device = DEVICE_DT_GET(DT_NODELABEL(battery_monitor));
+const struct device *cells_measurement_device = DEVICE_DT_GET(DT_NODELABEL(cells_measurement));
+static struct battery_state battery_state = { 0 };
 
 static bool check_device_ready(const struct device *device)
 {
@@ -45,14 +57,14 @@ static bool check_ready(void)
     return true;
 }
 
-static bool check_bms_pcb_temperature(void)
+static bool fetch_bms_pcb_temperature(void)
 {
     struct sensor_value sensor_value;
 
     int result = sensor_sample_fetch(bms_temp_device);
 
     if (result != 0) {
-        LOG_ERR("unable to check PCB temperature of BMS");
+        LOG_ERR("unable to fetch PCB temperature of BMS");
         return false;
     }
 
@@ -63,17 +75,12 @@ static bool check_bms_pcb_temperature(void)
         return false;
     }
 
-    LOG_DBG("BMS PCB temperature: %i °C", sensor_value.val1);
-
-    if (sensor_value.val1 >= CONFIG_MAXIMUM_BMS_PCB_TEMPERATURE_CELSIUS) {
-        LOG_ERR("BMS PCB temperature is too high: %i °C", sensor_value.val1);
-        return false;
-    }
+    battery_state.bms_pcb_temperature = sensor_value.val1;
 
     return true;
 }
 
-static void check_battery_monitor(void)
+static bool fetch_battery_monitor(void)
 {
     struct sensor_value sensor_value;
 
@@ -81,32 +88,54 @@ static void check_battery_monitor(void)
 
     if (result != 0) {
         LOG_ERR("unable to read out battery monitor");
-        return;
+        return false;
     }
 
     result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_AVG_CURRENT, &sensor_value);
 
     if (result != 0) {
         LOG_ERR("unable to get current from battery monitor");
+        return false;
     }
 
-    LOG_DBG("battery current: %9i µA", sensor_value.val1 * 1000 * 1000 + sensor_value.val2);
+    battery_state.battery_current = sensor_value.val1 * 1000 * 1000 + sensor_value.val2;
 
     result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_TEMP, &sensor_value);
 
     if (result != 0) {
         LOG_ERR("unable to get temperature from battery monitor");
+        return false;
     }
 
-    LOG_DBG("battery monitor temperature: %i °C", sensor_value.val1);
+    battery_state.bms_pcb_temperature = sensor_value.val1;
 
     result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_STATE_OF_CHARGE, &sensor_value);
 
     if (result != 0) {
         LOG_ERR("unable to get state of charge from battery monitor");
+        return false;
     }
 
-    LOG_DBG("battery state of charge: %i %%", sensor_value.val1);
+    battery_state.state_of_charge = sensor_value.val1;
+
+    return true;
+}
+
+static bool fetch_cell_voltages(void)
+{
+    struct cell_voltages cell_voltages;
+
+    bool success = cells_measurement_measure(cells_measurement_device, &cell_voltages);
+
+    if (!success) {
+        return false;
+    }
+
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        battery_state.cell_voltages[i] = cell_voltages.value[i];
+    }
+
+    return true;
 }
 
 static void emergency_shutdown(void)
@@ -119,8 +148,62 @@ static void emergency_shutdown(void)
     // This won't return if battery powered
 }
 
+static bool execute(void)
+{
+    if (!fetch_battery_monitor()) {
+        return false;
+    }
+
+    if (!fetch_bms_pcb_temperature()) {
+        return false;
+    }
+
+    if (!fetch_cell_voltages()) {
+        return false;
+    }
+
+    if (battery_state.bms_pcb_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
+        LOG_ERR("BMS temperature is too high: %i °C", battery_state.bms_pcb_temperature);
+        return false;
+    }
+
+    if (battery_state.battery_monitor_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
+        LOG_ERR("BMS PCB temperature is too high: %i °C", battery_state.battery_monitor_temperature);
+        return false;
+    }
+
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        if (battery_state.cell_temperatures[i] < CONFIG_MINIMUM_CELL_TEMPERATURE_CELSIUS) {
+            LOG_ERR("cell %i temperature is too low: %i °C", i, battery_state.cell_temperatures[i]);
+            return false;
+        }
+
+        if (battery_state.cell_temperatures[i] > CONFIG_MAXIMUM_CELL_TEMPERATURE_CELSIUS) {
+            LOG_ERR("cell %i temperature is too high: %i °C", i, battery_state.cell_temperatures[i]);
+            return false;
+        }
+    }
+
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
+            LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
+            return false;
+        }
+
+        if (battery_state.cell_voltages[i] > CONFIG_MAXIMUM_CELL_VOLTAGE_MV) {
+            LOG_ERR("cell %i voltage is too high: %i mV", i, battery_state.cell_voltages[i]);
+            return false;
+        }
+    }
+
+    return true;
+}
+
 int main(void)
 {
+    int64_t error_start;
+    bool error_detected = false;
+
     if (!check_ready()) {
         emergency_shutdown();
         return -1;
@@ -130,14 +213,26 @@ int main(void)
     status_leds_set_system_active(status_leds_device, true);
 
     while (true) {
-        bool error_detected = false;
-
-        if (!check_bms_pcb_temperature()) {
-            emergency_shutdown();
-            return -1;
+        if (!execute()) {
+            if (!error_detected) {
+                error_start = k_uptime_get();
+                error_detected = true;
+            }
+        } else {
+            error_detected = false;
         }
 
-        check_battery_monitor();
+        int64_t now = k_uptime_get();
+
+        if (error_detected) {
+            int64_t error_length = now - error_start;
+
+            if (error_length > CONFIG_MAXIMUM_ERROR_TIME_MS) {
+                LOG_ERR("error persisted too long, for %lli ms", error_length);
+                emergency_shutdown();
+                return -1;
+            }
+        }
 
         status_leds_set_error(status_leds_device, error_detected);
         k_sleep(K_MSEC(CONFIG_BMS_LOOP_TIME_MS));

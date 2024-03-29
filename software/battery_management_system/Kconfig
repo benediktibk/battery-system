@@ -67,7 +67,22 @@ config CELL_BALANCER_POST_KERNEL_INIT_PRIORITY
 config BMS_LOOP_TIME_MS
 	int "loop time for BMS in ms"
 
-config MAXIMUM_BMS_PCB_TEMPERATURE_CELSIUS
+config MAXIMUM_PCB_TEMPERATURE_CELSIUS
+	int "maximum PCB temperature in degree celsius"
+
+config MINIMUM_CELL_TEMPERATURE_CELSIUS
+	int "minimum BMS PCB temperature in degree celsius"
+
+config MAXIMUM_CELL_TEMPERATURE_CELSIUS
 	int "maximum BMS PCB temperature in degree celsius"
+
+config MAXIMUM_ERROR_TIME_MS
+	int "maximum time an error can persist in ms"
+
+	config MINIMUM_CELL_VOLTAGE_MV
+		int "minimum cell voltage in mV"
+
+config MAXIMUM_CELL_VOLTAGE_MV
+	int "maximum cell voltage in mV"
 
 endmenu

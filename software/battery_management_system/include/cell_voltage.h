@@ -14,6 +14,6 @@
  */
 bool cell_voltage_measure(
     const struct device *device,
-    uint32_t *value);
+    uint16_t *value);
 
 #endif
