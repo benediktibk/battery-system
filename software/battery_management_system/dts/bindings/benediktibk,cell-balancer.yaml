@@ -1,0 +1,21 @@
+description: Cell Balancer
+
+compatible: "benediktibk,cell-balancer"
+
+include: ["base.yaml"]
+
+properties:
+  enable-gpios:
+    type: phandle-array
+    required: true
+    description: enable GPIO
+
+  cell-select-a0-gpios:
+    type: phandle-array
+    required: true
+    description: cell select A0 GPIO
+
+  cell-select-a1-gpios:
+    type: phandle-array
+    required: true
+    description: cell select A1 GPIO

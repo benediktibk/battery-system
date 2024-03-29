@@ -54,6 +54,16 @@ config POWER_CONTROL_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on POWER_CONTROL
 
+menuconfig CELL_BALANCER
+	bool "cell balancer"
+	default y
+	depends on DT_HAS_BENEDIKTIBK_CELL_BALANCER_ENABLED
+
+config CELL_BALANCER_POST_KERNEL_INIT_PRIORITY
+	int "initialization priority for cell balancer"
+	default 80
+	depends on CELL_BALANCER
+
 config BMS_LOOP_TIME_MS
 	int "loop time for BMS in ms"
 

@@ -67,6 +67,14 @@
 		discharge-gpios = <&gpiob 14 GPIO_ACTIVE_HIGH>;
 		charge-available-gpios = <&gpiob 15 GPIO_ACTIVE_LOW>;
 	};
+
+	cell_balancer: cell_balancer {
+		compatible = "benediktibk,cell-balancer";
+		status = "okay";
+		enable-gpios = <&gpioh 0 GPIO_ACTIVE_HIGH>;
+		cell-select-a0-gpios = <&gpiob 8 GPIO_ACTIVE_HIGH>;
+		cell-select-a1-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
+	};
 };
 
 &clk_hsi {
