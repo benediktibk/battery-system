@@ -133,22 +133,30 @@
 		status = "okay";
 	};
 
-	cell_temp2: cell_temp2@4A {
+	cell_temp2: cell_temp2@4a {
 		compatible = "onnn,nct75";
-		reg = <0x4A>;
+		reg = <0x4a>;
 		status = "okay";
 	};
 
-	cell_temp3: cell_temp3@4B {
+	cell_temp3: cell_temp3@4b {
 		compatible = "onnn,nct75";
-		reg = <0x4B>;
+		reg = <0x4b>;
 		status = "okay";
 	};
 
-	cell_temp4: cell_temp4@4C {
+	cell_temp4: cell_temp4@4c {
 		compatible = "onnn,nct75";
-		reg = <0x4C>;
+		reg = <0x4c>;
 		status = "okay";
+	};
+
+	battery_monitor: battery_monitor@70 {
+		compatible = "st,stc3100";
+		reg = <0x70>;
+		status = "okay";
+		sense-resistor = <2>;
+		nominal-capacity = <88000>;
 	};
 };
 

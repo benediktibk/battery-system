@@ -12,6 +12,7 @@ LOG_MODULE_REGISTER(battery_management_system, CONFIG_BATTERY_MANAGEMENT_SYSTEM_
 const struct device *status_leds_device = DEVICE_DT_GET(DT_NODELABEL(status_leds));
 const struct device *power_control_device = DEVICE_DT_GET(DT_NODELABEL(power_control));
 const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
+const struct device *battery_monitor_device = DEVICE_DT_GET(DT_NODELABEL(battery_monitor));
 
 static bool check_device_ready(const struct device *device)
 {
@@ -34,6 +35,10 @@ static bool check_ready(void)
     }
 
     if (!check_device_ready(bms_temp_device)) {
+        return false;
+    }
+
+    if (!check_device_ready(battery_monitor_device)) {
         return false;
     }
 
@@ -68,6 +73,42 @@ static bool check_bms_pcb_temperature(void)
     return true;
 }
 
+static void check_battery_monitor(void)
+{
+    struct sensor_value sensor_value;
+
+    int result = sensor_sample_fetch(battery_monitor_device);
+
+    if (result != 0) {
+        LOG_ERR("unable to read out battery monitor");
+        return;
+    }
+
+    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_AVG_CURRENT, &sensor_value);
+
+    if (result != 0) {
+        LOG_ERR("unable to get current from battery monitor");
+    }
+
+    LOG_DBG("battery current: %9i µA", sensor_value.val1 * 1000 * 1000 + sensor_value.val2);
+
+    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_TEMP, &sensor_value);
+
+    if (result != 0) {
+        LOG_ERR("unable to get temperature from battery monitor");
+    }
+
+    LOG_DBG("battery monitor temperature: %i °C", sensor_value.val1);
+
+    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_STATE_OF_CHARGE, &sensor_value);
+
+    if (result != 0) {
+        LOG_ERR("unable to get state of charge from battery monitor");
+    }
+
+    LOG_DBG("battery state of charge: %i %%", sensor_value.val1);
+}
+
 static void emergency_shutdown(void)
 {
     LOG_ERR("executing emergency shutdown");
@@ -95,6 +136,8 @@ int main(void)
             emergency_shutdown();
             return -1;
         }
+
+        check_battery_monitor();
 
         status_leds_set_error(status_leds_device, error_detected);
         k_sleep(K_MSEC(CONFIG_BMS_LOOP_TIME_MS));
