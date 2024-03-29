@@ -2,6 +2,7 @@
 
 #include <autoconf.h>
 #include <zephyr/drivers/gpio.h>
+#include <zephyr/drivers/pwm.h>
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
 
@@ -11,6 +12,8 @@ struct cell_balancer_config {
     const struct gpio_dt_spec enable_gpio;
     const struct gpio_dt_spec select_a0_gpio;
     const struct gpio_dt_spec select_a1_gpio;
+    const struct device *pwm_device;
+    uint8_t pwm_channel;
 };
 
 struct cell_balancer_data {
@@ -28,6 +31,18 @@ bool cell_balancer_disable(
         return false;
     }
 
+    result = pwm_set(
+        config->pwm_device,
+        config->pwm_channel,
+        CONFIG_CELL_BALANCER_PERIOD_NS,
+        0,
+        0);
+
+    if (result != 0) {
+        LOG_ERR("unable to deactivate PWM");
+        return false;
+    }
+
     return true;
 }
 
@@ -42,7 +57,19 @@ bool cell_balancer_enable(
         return false;
     }
 
-    int result = gpio_pin_set_dt(&config->select_a0_gpio, index & BIT(0));
+    int result = pwm_set(
+        config->pwm_device,
+        config->pwm_channel,
+        CONFIG_CELL_BALANCER_PERIOD_NS,
+        CONFIG_CELL_BALANCER_PULSE_NS,
+        0);
+
+    if (result != 0) {
+        LOG_ERR("unable to configure PWM");
+        return false;
+    }
+
+    result = gpio_pin_set_dt(&config->select_a0_gpio, index & BIT(0));
 
     if (result != 0) {
         LOG_ERR("unable to set A0 for cell balancer");
@@ -87,6 +114,11 @@ static int cell_balancer_init(const struct device *device)
         return -2;
     }
 
+    if (!device_is_ready(config->pwm_device)) {
+        LOG_ERR("PWM %s is not yet ready", config->pwm_device->name);
+        return -2;
+    }
+
     int result = gpio_pin_configure_dt(&config->enable_gpio, GPIO_OUTPUT_INACTIVE);
 
     if (result != 0) {
@@ -121,6 +153,8 @@ static int cell_balancer_init(const struct device *device)
         .enable_gpio = GPIO_DT_SPEC_GET_BY_IDX(DT_DRV_INST(index), enable_gpios, 0),            \
         .select_a0_gpio = GPIO_DT_SPEC_GET_BY_IDX(DT_DRV_INST(index), cell_select_a0_gpios, 0), \
         .select_a1_gpio = GPIO_DT_SPEC_GET_BY_IDX(DT_DRV_INST(index), cell_select_a1_gpios, 0), \
+        .pwm_device = DEVICE_DT_GET(DT_INST_PROP(index, pwm)),                                  \
+        .pwm_channel = DT_INST_PROP(index, pwm_channel),                                        \
     };                                                                                          \
                                                                                                 \
     DEVICE_DT_INST_DEFINE(index, cell_balancer_init, NULL,                                      \

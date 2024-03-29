@@ -19,3 +19,13 @@ properties:
     type: phandle-array
     required: true
     description: cell select A1 GPIO
+  
+  pwm:
+    type: phandle
+    required: true
+    description: PWM device
+  
+  pwm-channel:
+    type: int
+    required: true
+    description: PWM channel

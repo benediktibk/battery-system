@@ -74,6 +74,8 @@
 		enable-gpios = <&gpioh 0 GPIO_ACTIVE_HIGH>;
 		cell-select-a0-gpios = <&gpiob 8 GPIO_ACTIVE_HIGH>;
 		cell-select-a1-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
+		pwm = <&cell_balancer_pwm>;
+		pwm-channel = <0>;
 	};
 };
 
@@ -198,4 +200,14 @@
 	#size-cells = <0>;
 	st,adc-clock-source = <SYNC>;
 	st,adc-prescaler = <1>;
+};
+
+&timers2 {
+	status = "okay";
+	st,prescaler = <0>;
+	cell_balancer_pwm: pwm {
+		status = "okay";
+		pinctrl-0 = <&tim2_ch1_pa15>;
+		pinctrl-names = "default";
+	};
 };

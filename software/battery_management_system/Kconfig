@@ -64,6 +64,16 @@ config CELL_BALANCER_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on CELL_BALANCER
 
+config CELL_BALANCER_PERIOD_NS
+	int "PWM period for cell balancing in ns"
+	default 10
+	depends on CELL_BALANCER
+
+config CELL_BALANCER_PULSE_NS
+	int "PWM pulse for cell balancing in ns"
+	default 1
+	depends on CELL_BALANCER
+
 config BMS_LOOP_TIME_MS
 	int "loop time for BMS in ms"
 
@@ -79,7 +89,7 @@ config MAXIMUM_CELL_TEMPERATURE_CELSIUS
 config MAXIMUM_ERROR_TIME_MS
 	int "maximum time an error can persist in ms"
 
-	config MINIMUM_CELL_VOLTAGE_MV
+config MINIMUM_CELL_VOLTAGE_MV
 		int "minimum cell voltage in mV"
 
 config MAXIMUM_CELL_VOLTAGE_MV
