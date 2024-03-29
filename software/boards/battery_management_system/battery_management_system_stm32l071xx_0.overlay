@@ -75,7 +75,7 @@
 		cell-select-a0-gpios = <&gpiob 8 GPIO_ACTIVE_HIGH>;
 		cell-select-a1-gpios = <&gpiob 9 GPIO_ACTIVE_HIGH>;
 		pwm = <&cell_balancer_pwm>;
-		pwm-channel = <0>;
+		pwm-channel = <1>;
 	};
 };
 
