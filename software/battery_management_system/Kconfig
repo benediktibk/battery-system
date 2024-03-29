@@ -54,4 +54,10 @@ config POWER_CONTROL_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on POWER_CONTROL
 
+config BMS_LOOP_TIME_MS
+	int "loop time for BMS in ms"
+
+config MAXIMUM_BMS_PCB_TEMPERATURE_CELSIUS
+	int "maximum BMS PCB temperature in degree celsius"
+
 endmenu

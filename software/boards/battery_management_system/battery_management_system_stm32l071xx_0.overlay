@@ -120,6 +120,36 @@
 		address-width = <16>;
 		timeout = <5>;
 	};
+
+	bms_temp: bms_temp@48 {
+		compatible = "onnn,nct75";
+		reg = <0x48>;
+		status = "okay";
+	};
+
+	cell_temp1: cell_temp1@49 {
+		compatible = "onnn,nct75";
+		reg = <0x49>;
+		status = "okay";
+	};
+
+	cell_temp2: cell_temp2@4A {
+		compatible = "onnn,nct75";
+		reg = <0x4A>;
+		status = "okay";
+	};
+
+	cell_temp3: cell_temp3@4B {
+		compatible = "onnn,nct75";
+		reg = <0x4B>;
+		status = "okay";
+	};
+
+	cell_temp4: cell_temp4@4C {
+		compatible = "onnn,nct75";
+		reg = <0x4C>;
+		status = "okay";
+	};
 };
 
 &flash0 {
