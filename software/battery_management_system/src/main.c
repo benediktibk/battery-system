@@ -3,6 +3,7 @@
 #include <zephyr/drivers/sensor.h>
 #include <zephyr/kernel.h>
 #include <zephyr/logging/log.h>
+#include <zephyr/shell/shell.h>
 
 #include "cells_measurement.h"
 #include "power_control.h"
@@ -238,3 +239,30 @@ int main(void)
         k_sleep(K_MSEC(CONFIG_BMS_LOOP_TIME_MS));
     }
 }
+
+static int battery_state_shell_get(
+    const struct shell *sh,
+    size_t argc,
+    char **argv)
+{
+    shell_print(sh, "battery current: %9i µA", battery_state.battery_current);
+    shell_print(sh, "state of charge: %3i %%", battery_state.state_of_charge);
+    shell_print(sh, "BMS PCB temperature: %i °C", battery_state.bms_pcb_temperature);
+    shell_print(sh, "battery monitor temperature: %i °C", battery_state.battery_monitor_temperature);
+
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        shell_print(sh, "cell %i voltage: %i mV", i, battery_state.cell_voltages[i]);
+    }
+
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        shell_print(sh, "cell %i temperature: %i °C", i, battery_state.cell_temperatures[i]);
+    }
+
+    return 0;
+}
+
+SHELL_STATIC_SUBCMD_SET_CREATE(battery_state_command,
+                               SHELL_CMD_ARG(get, NULL, "get battery state", battery_state_shell_get, 1, 0),
+                               SHELL_SUBCMD_SET_END);
+
+SHELL_CMD_REGISTER(battery_state, &battery_state_command, "battery state", NULL);
