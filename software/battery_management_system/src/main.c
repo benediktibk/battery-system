@@ -25,6 +25,12 @@ const struct device *power_control_device = DEVICE_DT_GET(DT_NODELABEL(power_con
 const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
 const struct device *battery_monitor_device = DEVICE_DT_GET(DT_NODELABEL(battery_monitor));
 const struct device *cells_measurement_device = DEVICE_DT_GET(DT_NODELABEL(cells_measurement));
+const struct device *cell_temperature_devices[CELL_COUNT] = {
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp1)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp2)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp3)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp4)),
+};
 static struct battery_state battery_state = { 0 };
 
 static bool check_device_ready(const struct device *device)
@@ -54,6 +60,16 @@ static bool check_ready(void)
     if (!check_device_ready(battery_monitor_device)) {
         return false;
     }
+
+    if (!check_device_ready(cells_measurement_device)) {
+        return false;
+    }
+
+    // for (size_t i = 0; i < CELL_COUNT; ++i) {
+    //     if (!check_device_ready(cell_temperature_devices[i])) {
+    //         return false;
+    //     }
+    // }
 
     return true;
 }
@@ -108,7 +124,7 @@ static bool fetch_battery_monitor(void)
         return false;
     }
 
-    battery_state.bms_pcb_temperature = sensor_value.val1;
+    battery_state.battery_monitor_temperature = sensor_value.val1;
 
     result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_STATE_OF_CHARGE, &sensor_value);
 
@@ -139,6 +155,31 @@ static bool fetch_cell_voltages(void)
     return true;
 }
 
+// static bool fetch_cell_temperatures(void)
+// {
+//     struct sensor_value sensor_value;
+
+//     for (size_t i = 0; i < CELL_COUNT; ++i) {
+//         int result = sensor_sample_fetch(cell_temperature_devices[i]);
+
+//         if (result != 0) {
+//             LOG_ERR("unable to fetch cell %i temperature", i);
+//             return false;
+//         }
+
+//         result = sensor_channel_get(cell_temperature_devices[i], SENSOR_CHAN_AMBIENT_TEMP, &sensor_value);
+
+//         if (result != 0) {
+//             LOG_ERR("unable to get cell %i temperature", i);
+//             return false;
+//         }
+
+//         battery_state.cell_temperatures[i] = sensor_value.val1;
+//     }
+
+//     return true;
+// }
+
 static void emergency_shutdown(void)
 {
     LOG_ERR("executing emergency shutdown");
@@ -163,6 +204,10 @@ static bool execute(void)
         return false;
     }
 
+    // if (!fetch_cell_temperatures()) {
+    //     return false;
+    // }
+
     if (battery_state.bms_pcb_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
         LOG_ERR("BMS temperature is too high: %i °C", battery_state.bms_pcb_temperature);
         return false;
@@ -173,29 +218,29 @@ static bool execute(void)
         return false;
     }
 
-    for (size_t i = 0; i < CELL_COUNT; ++i) {
-        if (battery_state.cell_temperatures[i] < CONFIG_MINIMUM_CELL_TEMPERATURE_CELSIUS) {
-            LOG_ERR("cell %i temperature is too low: %i °C", i, battery_state.cell_temperatures[i]);
-            return false;
-        }
+    // for (size_t i = 0; i < CELL_COUNT; ++i) {
+    //     if (battery_state.cell_temperatures[i] < CONFIG_MINIMUM_CELL_TEMPERATURE_CELSIUS) {
+    //         LOG_ERR("cell %i temperature is too low: %i °C", i, battery_state.cell_temperatures[i]);
+    //         return false;
+    //     }
 
-        if (battery_state.cell_temperatures[i] > CONFIG_MAXIMUM_CELL_TEMPERATURE_CELSIUS) {
-            LOG_ERR("cell %i temperature is too high: %i °C", i, battery_state.cell_temperatures[i]);
-            return false;
-        }
-    }
+    //     if (battery_state.cell_temperatures[i] > CONFIG_MAXIMUM_CELL_TEMPERATURE_CELSIUS) {
+    //         LOG_ERR("cell %i temperature is too high: %i °C", i, battery_state.cell_temperatures[i]);
+    //         return false;
+    //     }
+    // }
 
-    for (size_t i = 0; i < CELL_COUNT; ++i) {
-        if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
-            LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
-            return false;
-        }
+    // for (size_t i = 0; i < CELL_COUNT; ++i) {
+    //     if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
+    //         LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
+    //         return false;
+    //     }
 
-        if (battery_state.cell_voltages[i] > CONFIG_MAXIMUM_CELL_VOLTAGE_MV) {
-            LOG_ERR("cell %i voltage is too high: %i mV", i, battery_state.cell_voltages[i]);
-            return false;
-        }
-    }
+    //     if (battery_state.cell_voltages[i] > CONFIG_MAXIMUM_CELL_VOLTAGE_MV) {
+    //         LOG_ERR("cell %i voltage is too high: %i mV", i, battery_state.cell_voltages[i]);
+    //         return false;
+    //     }
+    // }
 
     return true;
 }
