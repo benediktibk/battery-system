@@ -12,3 +12,6 @@ rom-battery-management-system-%-internal:
 
 ram-battery-management-system-%-internal:
 	west build -d build/$*/battery_management_system -t ram_report -s battery_management_system
+
+debug-battery-management-system-%-internal: build/%/battery_management_system.elf
+	gdb-multiarch --command=scripts/debug.gdb $<

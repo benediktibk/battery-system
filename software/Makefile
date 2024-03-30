@@ -34,6 +34,10 @@ ram-battery-management-system-debug: ram-battery-management-system-debug-interna
 
 ram-battery-management-system-release: ram-battery-management-system-release-internal
 
+debug-battery-management-system-debug: debug-battery-management-system-debug-internal
+
+debug-battery-management-system-release: debug-battery-management-system-release-internal
+
 include makefiles/build_directories.inc
 include makefiles/binaries.inc
 include makefiles/west_tools.inc
