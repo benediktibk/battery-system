@@ -25,11 +25,11 @@ const struct device *power_control_device = DEVICE_DT_GET(DT_NODELABEL(power_con
 const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
 const struct device *battery_monitor_device = DEVICE_DT_GET(DT_NODELABEL(battery_monitor));
 const struct device *cells_measurement_device = DEVICE_DT_GET(DT_NODELABEL(cells_measurement));
-const struct device *cell_temperature_devices[CELL_COUNT] = {
+const struct device *cell_temperature_devices[] = {
     DEVICE_DT_GET(DT_NODELABEL(cell_temp1)),
-    DEVICE_DT_GET(DT_NODELABEL(cell_temp2)),
-    DEVICE_DT_GET(DT_NODELABEL(cell_temp3)),
-    DEVICE_DT_GET(DT_NODELABEL(cell_temp4)),
+    // DEVICE_DT_GET(DT_NODELABEL(cell_temp2)),
+    // DEVICE_DT_GET(DT_NODELABEL(cell_temp3)),
+    // DEVICE_DT_GET(DT_NODELABEL(cell_temp4)),
 };
 static struct battery_state battery_state = { 0 };
 
@@ -155,30 +155,30 @@ static bool fetch_cell_voltages(void)
     return true;
 }
 
-// static bool fetch_cell_temperatures(void)
-// {
-//     struct sensor_value sensor_value;
+static bool fetch_cell_temperatures(void)
+{
+    struct sensor_value sensor_value;
 
-//     for (size_t i = 0; i < CELL_COUNT; ++i) {
-//         int result = sensor_sample_fetch(cell_temperature_devices[i]);
+    for (size_t i = 0; i < ARRAY_SIZE(cell_temperature_devices); ++i) {
+        int result = sensor_sample_fetch(cell_temperature_devices[i]);
 
-//         if (result != 0) {
-//             LOG_ERR("unable to fetch cell %i temperature", i);
-//             return false;
-//         }
+        if (result != 0) {
+            LOG_ERR("unable to fetch cell %i temperature", i);
+            return false;
+        }
 
-//         result = sensor_channel_get(cell_temperature_devices[i], SENSOR_CHAN_AMBIENT_TEMP, &sensor_value);
+        result = sensor_channel_get(cell_temperature_devices[i], SENSOR_CHAN_AMBIENT_TEMP, &sensor_value);
 
-//         if (result != 0) {
-//             LOG_ERR("unable to get cell %i temperature", i);
-//             return false;
-//         }
+        if (result != 0) {
+            LOG_ERR("unable to get cell %i temperature", i);
+            return false;
+        }
 
-//         battery_state.cell_temperatures[i] = sensor_value.val1;
-//     }
+        battery_state.cell_temperatures[i] = sensor_value.val1;
+    }
 
-//     return true;
-// }
+    return true;
+}
 
 static void emergency_shutdown(void)
 {
@@ -204,9 +204,9 @@ static bool execute(void)
         return false;
     }
 
-    // if (!fetch_cell_temperatures()) {
-    //     return false;
-    // }
+    if (!fetch_cell_temperatures()) {
+        return false;
+    }
 
     if (battery_state.bms_pcb_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
         LOG_ERR("BMS temperature is too high: %i °C", battery_state.bms_pcb_temperature);
