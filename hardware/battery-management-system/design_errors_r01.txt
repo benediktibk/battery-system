@@ -13,3 +13,4 @@ Q1 and Q4: pull down for gates (charge and discharge), 220kOhm
 Q40: choose smaller PMOS
 Q34, Q35, Q36, Q37, Q39: pull downs on gate
 Q38: pull up on gate to 3V3 and with zener diode to PACK_EXT
+CELL1, CELL2, CELL3, CELL4: add 100nF buffers
