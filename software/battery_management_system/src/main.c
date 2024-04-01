@@ -255,6 +255,9 @@ int main(void)
         return -1;
     }
 
+    power_control_set_charge(power_control_device, true);
+    power_control_set_discharge(power_control_device, true);
+
     LOG_INF("starting battery management system");
     status_leds_set_system_active(status_leds_device, true);
 
