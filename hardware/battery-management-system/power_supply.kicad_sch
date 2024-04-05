@@ -352,11 +352,11 @@
         )
       )
     )
-    (symbol "benediktibk:L6982C33DR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
+    (symbol "benediktibk:L6982CDR" (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (at -6.35 5.715 0)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "L6982C33DR" (at 0 5.715 0)
+      (property "Value" "L6982CDR" (at 0 5.715 0)
         (effects (font (size 1.27 1.27)) (justify left))
       )
       (property "Footprint" "benediktibk:SO-8_3.9x4.9mm_P1.27mm" (at 0 7.62 0)
@@ -365,7 +365,7 @@
       (property "Datasheet" "" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (property "RS order number" "261-4747" (at 0 0 0)
+      (property "RS order number" "228-2997" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
       (property "ki_keywords" "LDO Linear Regulator positive adjustable" (at 0 0 0)
@@ -377,13 +377,13 @@
       (property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "L6982C33DR_0_1"
+      (symbol "L6982CDR_0_1"
         (rectangle (start -7.62 3.81) (end 15.24 -12.7)
           (stroke (width 0.254) (type default))
           (fill (type background))
         )
       )
-      (symbol "L6982C33DR_1_1"
+      (symbol "L6982CDR_1_1"
         (pin power_out line (at 17.78 -2.54 180) (length 2.54)
           (name "SW" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -418,11 +418,11 @@
         )
       )
     )
-    (symbol "benediktibk:L_22uH_2A_10%" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+    (symbol "benediktibk:L_22uH_1_9A_9MHz_10%" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "L" (at -1.27 0 90)
         (effects (font (size 1.27 1.27)))
       )
-      (property "Value" "L_22uH_2A_10%" (at 1.905 0 90)
+      (property "Value" "L_22uH_1_9A_9MHz_10%" (at 1.905 0 90)
         (effects (font (size 1.27 1.27)))
       )
       (property "Footprint" "benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP" (at 0 0 0)
@@ -443,7 +443,7 @@
       (property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*" (at 0 0 0)
         (effects (font (size 1.27 1.27)) hide)
       )
-      (symbol "L_22uH_2A_10%_0_1"
+      (symbol "L_22uH_1_9A_9MHz_10%_0_1"
         (arc (start 0 -2.54) (mid 0.6323 -1.905) (end 0 -1.27)
           (stroke (width 0) (type default))
           (fill (type none))
@@ -461,7 +461,7 @@
           (fill (type none))
         )
       )
-      (symbol "L_22uH_2A_10%_1_1"
+      (symbol "L_22uH_1_9A_9MHz_10%_1_1"
         (pin passive line (at 0 3.81 270) (length 1.27)
           (name "1" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
@@ -1328,7 +1328,7 @@
   (symbol (lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%") (at 162.56 86.36 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 0307e6fd-98c5-41e5-ba5e-0aec455c2e44)
-    (property "Reference" "R11" (at 165.1 85.0899 0)
+    (property "Reference" "R12" (at 165.1 85.0899 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kOhm" (at 165.1 87.63 0)
@@ -1348,7 +1348,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R11") (unit 1)
+          (reference "R12") (unit 1)
         )
       )
     )
@@ -1357,7 +1357,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 74.93 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05afd024-c089-41d7-967b-aaa9b0e00ea7)
-    (property "Reference" "D11" (at 75.2475 123.19 0)
+    (property "Reference" "D10" (at 75.2475 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 75.2475 125.73 0)
@@ -1377,7 +1377,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D11") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -1386,7 +1386,7 @@
   (symbol (lib_id "power:GND") (at 83.82 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 0639d843-5830-4ed4-a0ca-8d95130da693)
-    (property "Reference" "#PWR015" (at 83.82 161.29 0)
+    (property "Reference" "#PWR017" (at 83.82 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 83.82 160.02 0)
@@ -1402,7 +1402,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR015") (unit 1)
+          (reference "#PWR017") (unit 1)
         )
       )
     )
@@ -1411,7 +1411,7 @@
   (symbol (lib_id "benediktibk:R_390kOhm_SMD_0603_100mW_1%") (at 162.56 25.4 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 06970e0c-ea90-4b97-a0b9-320fd6ed5736)
-    (property "Reference" "R6" (at 165.1 24.1299 0)
+    (property "Reference" "R7" (at 165.1 24.1299 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "390kOhm" (at 165.1 26.6699 0)
@@ -1431,7 +1431,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R6") (unit 1)
+          (reference "R7") (unit 1)
         )
       )
     )
@@ -1440,7 +1440,7 @@
   (symbol (lib_id "benediktibk:R_390kOhm_SMD_0603_100mW_1%") (at 162.56 77.47 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 079d05df-8bd6-4e12-a31c-df48bb054e9f)
-    (property "Reference" "R10" (at 165.1 76.1999 0)
+    (property "Reference" "R11" (at 165.1 76.1999 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "390kOhm" (at 165.1 78.7399 0)
@@ -1460,7 +1460,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R10") (unit 1)
+          (reference "R11") (unit 1)
         )
       )
     )
@@ -1469,7 +1469,7 @@
   (symbol (lib_id "benediktibk:R_39kOhm_SMD_0603_100mW_1%") (at 162.56 105.41 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 08cd49e6-9ce9-4026-83e7-590377f01941)
-    (property "Reference" "R13" (at 165.1 104.1399 0)
+    (property "Reference" "R14" (at 165.1 104.1399 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39kOhm" (at 165.1 106.6799 0)
@@ -1489,7 +1489,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R13") (unit 1)
+          (reference "R14") (unit 1)
         )
       )
     )
@@ -1498,7 +1498,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 210.82 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09302808-bdf8-4459-984a-245dd664fd66)
-    (property "Reference" "D14" (at 211.1375 66.04 0)
+    (property "Reference" "D13" (at 211.1375 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 211.1375 68.58 0)
@@ -1518,7 +1518,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D14") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 128.27 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1667e29d-6824-4aa6-9e15-a3f07ada42f2)
-    (property "Reference" "D12" (at 128.5875 123.19 0)
+    (property "Reference" "D11" (at 128.5875 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 128.5875 125.73 0)
@@ -1576,7 +1576,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D12") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1643,7 +1643,7 @@
   (symbol (lib_id "power:GND") (at 127 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 2b5665c3-ee03-4bf5-9474-4f7d2668338e)
-    (property "Reference" "#PWR021" (at 127 116.84 0)
+    (property "Reference" "#PWR023" (at 127 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 127 115.57 0)
@@ -1659,7 +1659,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR021") (unit 1)
+          (reference "#PWR023") (unit 1)
         )
       )
     )
@@ -1732,7 +1732,7 @@
   (symbol (lib_id "power:GND") (at 172.72 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 342e47b5-a447-4377-a2dc-c39c8b67d03a)
-    (property "Reference" "#PWR028" (at 172.72 116.84 0)
+    (property "Reference" "#PWR030" (at 172.72 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 115.57 0)
@@ -1748,19 +1748,19 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR028") (unit 1)
+          (reference "#PWR030") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "benediktibk:L6982C33DR") (at 106.68 26.67 0) (unit 1)
+  (symbol (lib_id "benediktibk:L6982CDR") (at 106.68 26.67 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 37dd1db2-65e6-42bb-beb1-e1e8abb4ce76)
     (property "Reference" "U2" (at 110.49 17.78 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "L6982C33DR" (at 110.49 20.32 0)
+    (property "Value" "L6982CDR" (at 110.49 20.32 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "benediktibk:SO-8_3.9x4.9mm_P1.27mm" (at 106.68 19.05 0)
@@ -1769,8 +1769,8 @@
     (property "Datasheet" "" (at 106.68 26.67 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "RS order number" "261-4747" (at 106.68 26.67 0)
-      (effects (font (size 1.27 1.27)))
+    (property "RS order number" "228-2997" (at 106.68 26.67 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid 5a63efba-7db0-4c20-87e0-841490171f86))
     (pin "2" (uuid ab67dd13-0a86-43ab-9985-2b9d6c92d366))
@@ -1821,7 +1821,7 @@
   (symbol (lib_id "power:GND") (at 86.36 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 463be7f2-61a5-4e62-bc3e-19e8b9a04c2d)
-    (property "Reference" "#PWR016" (at 86.36 64.77 0)
+    (property "Reference" "#PWR018" (at 86.36 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 63.5 0)
@@ -1837,7 +1837,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR016") (unit 1)
+          (reference "#PWR018") (unit 1)
         )
       )
     )
@@ -1875,7 +1875,7 @@
   (symbol (lib_id "power:GND") (at 144.78 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4c203684-a55e-42af-844f-8a1458e73df3)
-    (property "Reference" "#PWR023" (at 144.78 161.29 0)
+    (property "Reference" "#PWR025" (at 144.78 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 144.78 160.02 0)
@@ -1891,7 +1891,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR023") (unit 1)
+          (reference "#PWR025") (unit 1)
         )
       )
     )
@@ -1958,7 +1958,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 158.75 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58687c1d-7bf3-4ad4-b700-716edf8f0928)
-    (property "Reference" "D13" (at 159.0675 123.19 0)
+    (property "Reference" "D12" (at 159.0675 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 159.0675 125.73 0)
@@ -1978,7 +1978,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D13") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -2012,7 +2012,7 @@
   (symbol (lib_id "power:GND") (at 93.98 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 5a9d8b4f-9bfa-4ec7-9bbc-68960a1688d4)
-    (property "Reference" "#PWR018" (at 93.98 64.77 0)
+    (property "Reference" "#PWR020" (at 93.98 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 63.5 0)
@@ -2028,7 +2028,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR018") (unit 1)
+          (reference "#PWR020") (unit 1)
         )
       )
     )
@@ -2072,7 +2072,7 @@
   (symbol (lib_id "power:GND") (at 60.96 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 6644e798-17ae-46d8-b647-985c91156259)
-    (property "Reference" "#PWR012" (at 60.96 161.29 0)
+    (property "Reference" "#PWR014" (at 60.96 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 60.96 160.02 0)
@@ -2088,16 +2088,16 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR012") (unit 1)
+          (reference "#PWR014") (unit 1)
         )
       )
     )
   )
 
-  (symbol (lib_id "benediktibk:L_22uH_2A_10%") (at 156.21 20.32 270) (mirror x) (unit 1)
+  (symbol (lib_id "benediktibk:L_22uH_1_9A_9MHz_10%") (at 156.21 20.32 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 69a85d78-ccff-4a0d-94c9-262d9c9ab009)
-    (property "Reference" "L1" (at 156.21 16.51 90)
+    (property "Reference" "L1" (at 156.21 21.59 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22uH" (at 156.21 18.415 90)
@@ -2126,7 +2126,7 @@
   (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 162.56 44.45 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 6df7a885-31dc-4c2d-8ebe-f14fb8a24dd3)
-    (property "Reference" "R8" (at 165.1 43.1799 0)
+    (property "Reference" "R9" (at 165.1 43.1799 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "100kOhm" (at 170.18 45.72 0)
@@ -2146,7 +2146,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R8") (unit 1)
+          (reference "R9") (unit 1)
         )
       )
     )
@@ -2155,7 +2155,7 @@
   (symbol (lib_id "power:GND") (at 162.56 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 78686293-47fe-4c6c-a286-fd008fca3a93)
-    (property "Reference" "#PWR024" (at 162.56 64.77 0)
+    (property "Reference" "#PWR026" (at 162.56 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 63.5 0)
@@ -2171,7 +2171,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR024") (unit 1)
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -2180,7 +2180,7 @@
   (symbol (lib_id "power:GND") (at 93.98 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 833e7c42-ed48-4fa6-8c6a-913fc7987ba8)
-    (property "Reference" "#PWR019" (at 93.98 116.84 0)
+    (property "Reference" "#PWR021" (at 93.98 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 93.98 115.57 0)
@@ -2196,7 +2196,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR019") (unit 1)
+          (reference "#PWR021") (unit 1)
         )
       )
     )
@@ -2205,7 +2205,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 210.82 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 861cc8ef-c5e4-4e71-96f3-6e5cdf5e3203)
-    (property "Reference" "D16" (at 211.1375 76.2 0)
+    (property "Reference" "D14" (at 211.1375 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 211.1375 78.74 0)
@@ -2225,7 +2225,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D16") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -2338,7 +2338,7 @@
   (symbol (lib_id "benediktibk:R_39kOhm_SMD_0603_100mW_1%") (at 162.56 53.34 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 9ff5dc86-a47e-43c3-983f-f62c61380b9c)
-    (property "Reference" "R9" (at 165.1 52.0699 0)
+    (property "Reference" "R10" (at 165.1 52.0699 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "39kOhm" (at 165.1 54.6099 0)
@@ -2358,7 +2358,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R9") (unit 1)
+          (reference "R10") (unit 1)
         )
       )
     )
@@ -2367,7 +2367,7 @@
   (symbol (lib_id "power:GND") (at 128.27 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a3bb92f3-55af-4f60-a1ac-b456e27a866b)
-    (property "Reference" "#PWR022" (at 128.27 64.77 0)
+    (property "Reference" "#PWR024" (at 128.27 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 128.27 63.5 0)
@@ -2383,7 +2383,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR022") (unit 1)
+          (reference "#PWR024") (unit 1)
         )
       )
     )
@@ -2421,7 +2421,7 @@
   (symbol (lib_id "power:GND") (at 86.36 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ad239c93-5d12-4ab4-89d2-96134fd815f4)
-    (property "Reference" "#PWR017" (at 86.36 116.84 0)
+    (property "Reference" "#PWR019" (at 86.36 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 86.36 115.57 0)
@@ -2437,7 +2437,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR017") (unit 1)
+          (reference "#PWR019") (unit 1)
         )
       )
     )
@@ -2446,7 +2446,7 @@
   (symbol (lib_id "power:GND") (at 74.93 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b118483c-9da3-489a-a765-5a6cb3495dca)
-    (property "Reference" "#PWR014" (at 74.93 116.84 0)
+    (property "Reference" "#PWR016" (at 74.93 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 115.57 0)
@@ -2462,7 +2462,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR014") (unit 1)
+          (reference "#PWR016") (unit 1)
         )
       )
     )
@@ -2500,7 +2500,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 50.8 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bee29060-b1d7-4e94-a9d0-405ee8e6cc24)
-    (property "Reference" "D10" (at 51.1175 29.21 0)
+    (property "Reference" "D9" (at 51.1175 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 51.1175 31.75 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D10") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -2555,10 +2555,10 @@
     )
   )
 
-  (symbol (lib_id "benediktibk:L_22uH_2A_10%") (at 156.21 72.39 270) (mirror x) (unit 1)
+  (symbol (lib_id "benediktibk:L_22uH_1_9A_9MHz_10%") (at 156.21 72.39 270) (mirror x) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid c9c03f61-0307-46ad-9343-564933d74005)
-    (property "Reference" "L2" (at 156.21 68.58 90)
+    (property "Reference" "L2" (at 156.21 73.66 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "22uH" (at 156.21 70.485 90)
@@ -2613,13 +2613,13 @@
     )
   )
 
-  (symbol (lib_id "benediktibk:L6982C33DR") (at 106.68 78.74 0) (unit 1)
+  (symbol (lib_id "benediktibk:L6982CDR") (at 106.68 78.74 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d25ea7b4-95fc-4846-a7ef-3ac293425769)
     (property "Reference" "U3" (at 110.49 69.85 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "L6982C33DR" (at 110.49 72.39 0)
+    (property "Value" "L6982CDR" (at 110.49 72.39 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "benediktibk:SO-8_3.9x4.9mm_P1.27mm" (at 106.68 71.12 0)
@@ -2628,8 +2628,8 @@
     (property "Datasheet" "" (at 106.68 78.74 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "RS order number" "261-4747" (at 106.68 78.74 0)
-      (effects (font (size 1.27 1.27)))
+    (property "RS order number" "228-2997" (at 106.68 78.74 0)
+      (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c76242b4-9408-432b-8e1f-47fc6576085a))
     (pin "2" (uuid a731dad1-4a47-44df-9952-29678e58473e))
@@ -2680,7 +2680,7 @@
   (symbol (lib_id "power:GND") (at 220.98 29.21 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid d8c6aaea-e0f9-4d01-b069-6eecf54d8a76)
-    (property "Reference" "#PWR032" (at 220.98 35.56 0)
+    (property "Reference" "#PWR031" (at 220.98 35.56 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 220.98 34.29 0)
@@ -2696,7 +2696,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR032") (unit 1)
+          (reference "#PWR031") (unit 1)
         )
       )
     )
@@ -2705,7 +2705,7 @@
   (symbol (lib_id "power:GND") (at 172.72 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e29dd9c5-8e74-42c1-b407-9ed657194438)
-    (property "Reference" "#PWR027" (at 172.72 64.77 0)
+    (property "Reference" "#PWR029" (at 172.72 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 172.72 63.5 0)
@@ -2721,7 +2721,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR027") (unit 1)
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2730,7 +2730,7 @@
   (symbol (lib_id "power:GND") (at 111.76 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e4497287-1a3a-4d3c-826b-1c1e6ee20898)
-    (property "Reference" "#PWR020" (at 111.76 161.29 0)
+    (property "Reference" "#PWR022" (at 111.76 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 111.76 160.02 0)
@@ -2746,7 +2746,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR020") (unit 1)
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -2755,7 +2755,7 @@
   (symbol (lib_id "benediktibk:R_43kOhm_SMD_0603_100mW_1%") (at 162.56 96.52 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e9836a19-c22e-4fa7-9f9e-2f576e3bd079)
-    (property "Reference" "R12" (at 165.1 95.2499 0)
+    (property "Reference" "R13" (at 165.1 95.2499 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "43kOhm" (at 165.1 97.7899 0)
@@ -2775,7 +2775,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R12") (unit 1)
+          (reference "R13") (unit 1)
         )
       )
     )
@@ -2784,7 +2784,7 @@
   (symbol (lib_id "power:GND") (at 27.94 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e983b9cf-cce4-4f8e-8d46-2272681c9522)
-    (property "Reference" "#PWR011" (at 27.94 161.29 0)
+    (property "Reference" "#PWR013" (at 27.94 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 27.94 160.02 0)
@@ -2800,7 +2800,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR011") (unit 1)
+          (reference "#PWR013") (unit 1)
         )
       )
     )
@@ -2809,7 +2809,7 @@
   (symbol (lib_id "power:GND") (at 167.64 154.94 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid eb20804c-ba0e-4b7b-96ad-364834ce3970)
-    (property "Reference" "#PWR026" (at 167.64 161.29 0)
+    (property "Reference" "#PWR028" (at 167.64 161.29 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 167.64 160.02 0)
@@ -2825,7 +2825,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR026") (unit 1)
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -2834,7 +2834,7 @@
   (symbol (lib_id "power:GND") (at 162.56 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1ba8ec8-f14b-4cba-9270-fa2c9998d97f)
-    (property "Reference" "#PWR025" (at 162.56 116.84 0)
+    (property "Reference" "#PWR027" (at 162.56 116.84 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 162.56 115.57 0)
@@ -2850,7 +2850,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR025") (unit 1)
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -2859,7 +2859,7 @@
   (symbol (lib_id "power:GND") (at 74.93 58.42 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid f1d5a518-98a4-4cfb-b5a8-a255e27bf745)
-    (property "Reference" "#PWR013" (at 74.93 64.77 0)
+    (property "Reference" "#PWR015" (at 74.93 64.77 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Value" "GND" (at 74.93 63.5 0)
@@ -2875,7 +2875,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "#PWR013") (unit 1)
+          (reference "#PWR015") (unit 1)
         )
       )
     )
@@ -2884,7 +2884,7 @@
   (symbol (lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%") (at 162.56 34.29 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f6dd7c91-63d9-4307-a47e-f03569a2a27f)
-    (property "Reference" "R7" (at 165.1 33.0199 0)
+    (property "Reference" "R8" (at 165.1 33.0199 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "10kOhm" (at 165.1 35.56 0)
@@ -2904,7 +2904,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "R7") (unit 1)
+          (reference "R8") (unit 1)
         )
       )
     )
