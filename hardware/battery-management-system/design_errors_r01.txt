@@ -6,10 +6,7 @@ BOM export: connectors
 TMG1-01: footprint
 JTAG socket: footprint
 TJ40S04M3L: courtyard (J25)
-Q40: choose smaller PMOS
-Q38: pull up on gate to 3V3 and with zener diode to PACK_EXT
 add heatsink
-Q34, Q35, Q36, Q37, Q39: pull downs on gate
 
 done:
 power supply: L6982CDR instead of L6982C33DR
@@ -18,3 +15,6 @@ Q1 and Q4: pull down for gates (charge and discharge), 220kOhm
 CELL1, CELL2, CELL3, CELL4: add 100nF buffers
 120 Ohm: fix order number (is actually 150 Ohm)
 size: limit to cheap size of JLCPCB
+Q34, Q35, Q36, Q37, Q39: pull downs on gate
+Q38: pull up on gate to 3V3 and with zener diode to PACK_EXT
+Q40: choose smaller PMOS
