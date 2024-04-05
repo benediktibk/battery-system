@@ -531,20 +531,12 @@
       "MCU"
     ],
     [
-      "3df28b0f-4877-411d-a6e0-0c6dff0863b2",
-      "Interconnect"
-    ],
-    [
       "3d1e17ba-3c41-4767-81ce-6010cdb0d005",
       "Cell Measurement"
     ],
     [
       "3cb0d78b-1dc8-4b57-8c9a-18900dc8da61",
       "Temperature Sensors"
-    ],
-    [
-      "3d1b4e38-a765-486c-a970-a0d54d5b41d9",
-      "Cell Balancing"
     ]
   ],
   "text_variables": {}
