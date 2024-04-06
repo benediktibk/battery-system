@@ -3247,6 +3247,9 @@
 
   (gr_rect (start 20 20) (end 120 120)
     (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp dafc1062-202f-4a04-aeae-90a9ea4972ee))
+  (gr_text "DC-DC Converter 24V R01" (at 61 26) (layer "F.SilkS") (tstamp 3cdd8696-6743-4abf-99d5-ee82110f126d)
+    (effects (font (size 1.5 1.5) (thickness 0.3) bold) (justify left bottom))
+  )
 
   (segment (start 113.8 81.8) (end 108 76) (width 0.25) (layer "F.Cu") (net 1) (tstamp 1ca901b0-e166-40ce-8af1-51aba0dfa902))
   (segment (start 115.6 81.8) (end 113.8 81.8) (width 0.25) (layer "F.Cu") (net 1) (tstamp 2683cb27-5c31-4e50-ae06-fb4191f26d12))
