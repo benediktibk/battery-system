@@ -1435,7 +1435,7 @@
   (symbol (lib_id "benediktibk:LED_red_0603") (at 218.44 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 387a921a-09f8-4da4-98b9-2ad1acfb1070)
-    (property "Reference" "D16" (at 224.79 77.186 90)
+    (property "Reference" "D14" (at 224.79 77.186 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "UART_RX" (at 224.79 79.726 90)
@@ -1455,7 +1455,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/afdb149d-bd78-484c-a496-c5b66260efca"
-          (reference "D16") (unit 1)
+          (reference "D14") (unit 1)
         )
       )
     )
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "benediktibk:LED_green_0603") (at 201.93 76.2 90) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid ba2f248a-964b-4ca5-a138-1928133a3b4d)
-    (property "Reference" "D15" (at 208.28 77.7454 90)
+    (property "Reference" "D13" (at 208.28 77.7454 90)
       (effects (font (size 1.27 1.27)) (justify right))
     )
     (property "Value" "UART_TX" (at 208.28 80.2854 90)
@@ -1982,7 +1982,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/afdb149d-bd78-484c-a496-c5b66260efca"
-          (reference "D15") (unit 1)
+          (reference "D13") (unit 1)
         )
       )
     )
@@ -2074,7 +2074,7 @@
   (symbol (lib_id "benediktibk:AMPHENOL_micro_usb_10118194-0001LF") (at 125.73 45.72 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid e6385f63-1923-4174-afdf-067d23dbe10d)
-    (property "Reference" "J11" (at 126.619 30.48 0)
+    (property "Reference" "J6" (at 126.619 30.48 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "AMPHENOL_micro_usb_10118194-0001LF" (at 126.619 33.02 0)
@@ -2103,7 +2103,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/afdb149d-bd78-484c-a496-c5b66260efca"
-          (reference "J11") (unit 1)
+          (reference "J6") (unit 1)
         )
       )
     )

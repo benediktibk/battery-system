@@ -1,7 +1,6 @@
 open:
 BOM export: connectors
 TMG1-01: footprint
-JTAG socket: footprint
 add heatsink
 
 done:
@@ -18,3 +17,4 @@ bat54ws: bigger pads
 TJ40S04M3L: courtyard (J25)
 connectors: use actual connectors instead of M6 holes
 stencil: weird negative holes
+JTAG socket: footprint

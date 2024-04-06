@@ -1357,7 +1357,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 74.93 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 05afd024-c089-41d7-967b-aaa9b0e00ea7)
-    (property "Reference" "D10" (at 75.2475 123.19 0)
+    (property "Reference" "D8" (at 75.2475 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 75.2475 125.73 0)
@@ -1377,7 +1377,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D10") (unit 1)
+          (reference "D8") (unit 1)
         )
       )
     )
@@ -1498,7 +1498,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 210.82 72.39 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 09302808-bdf8-4459-984a-245dd664fd66)
-    (property "Reference" "D13" (at 211.1375 66.04 0)
+    (property "Reference" "D11" (at 211.1375 66.04 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 211.1375 68.58 0)
@@ -1518,7 +1518,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D13") (unit 1)
+          (reference "D11") (unit 1)
         )
       )
     )
@@ -1556,7 +1556,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 128.27 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 1667e29d-6824-4aa6-9e15-a3f07ada42f2)
-    (property "Reference" "D11" (at 128.5875 123.19 0)
+    (property "Reference" "D9" (at 128.5875 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 128.5875 125.73 0)
@@ -1576,7 +1576,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D11") (unit 1)
+          (reference "D9") (unit 1)
         )
       )
     )
@@ -1900,7 +1900,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 50.8 25.4 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 4ef206af-3dea-474f-a62c-16d4493d33fb)
-    (property "Reference" "D8" (at 51.1175 19.05 0)
+    (property "Reference" "D6" (at 51.1175 19.05 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 51.1175 21.59 0)
@@ -1920,7 +1920,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D8") (unit 1)
+          (reference "D6") (unit 1)
         )
       )
     )
@@ -1958,7 +1958,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 158.75 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 58687c1d-7bf3-4ad4-b700-716edf8f0928)
-    (property "Reference" "D12" (at 159.0675 123.19 0)
+    (property "Reference" "D10" (at 159.0675 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 159.0675 125.73 0)
@@ -1978,7 +1978,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D12") (unit 1)
+          (reference "D10") (unit 1)
         )
       )
     )
@@ -2205,7 +2205,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 210.82 82.55 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 861cc8ef-c5e4-4e71-96f3-6e5cdf5e3203)
-    (property "Reference" "D14" (at 211.1375 76.2 0)
+    (property "Reference" "D12" (at 211.1375 76.2 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 211.1375 78.74 0)
@@ -2225,7 +2225,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D14") (unit 1)
+          (reference "D12") (unit 1)
         )
       )
     )
@@ -2500,7 +2500,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 50.8 35.56 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid bee29060-b1d7-4e94-a9d0-405ee8e6cc24)
-    (property "Reference" "D9" (at 51.1175 29.21 0)
+    (property "Reference" "D7" (at 51.1175 29.21 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 51.1175 31.75 0)
@@ -2520,7 +2520,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D9") (unit 1)
+          (reference "D7") (unit 1)
         )
       )
     )
@@ -2529,7 +2529,7 @@
   (symbol (lib_id "benediktibk:BAT54WS") (at 44.45 129.54 0) (mirror y) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid c492c6a8-21d5-4a8b-a1e9-0001e4829254)
-    (property "Reference" "D7" (at 44.7675 123.19 0)
+    (property "Reference" "D5" (at 44.7675 123.19 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "BAT54WS" (at 44.7675 125.73 0)
@@ -2549,7 +2549,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-          (reference "D7") (unit 1)
+          (reference "D5") (unit 1)
         )
       )
     )

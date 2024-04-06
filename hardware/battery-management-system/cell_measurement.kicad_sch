@@ -1774,7 +1774,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 177.8 109.22 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 51a3ff4f-6430-49e8-9520-7406ecb7e4ca)
-    (property "Reference" "U10" (at 177.8 99.06 0)
+    (property "Reference" "U9" (at 177.8 99.06 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2904M8-13" (at 177.8 101.6 0)
@@ -1800,7 +1800,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U10") (unit 1)
+          (reference "U9") (unit 1)
         )
       )
     )
@@ -1838,7 +1838,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 83.82 30.48 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid 5e2a4341-0f04-4d3d-91cb-499261ca67f3)
-    (property "Reference" "U10" (at 82.55 29.2099 0)
+    (property "Reference" "U9" (at 82.55 29.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM2904M8-13" (at 82.55 31.75 0)
@@ -1864,7 +1864,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U10") (unit 3)
+          (reference "U9") (unit 3)
         )
       )
     )
@@ -1962,7 +1962,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 125.73 30.48 0) (unit 3)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 736ce44c-d8a4-4c5a-91d7-5cc81a584b4f)
-    (property "Reference" "U11" (at 124.46 29.2099 0)
+    (property "Reference" "U10" (at 124.46 29.2099 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (property "Value" "LM2904M8-13" (at 124.46 31.7499 0)
@@ -1988,7 +1988,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U11") (unit 3)
+          (reference "U10") (unit 3)
         )
       )
     )
@@ -2322,7 +2322,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 177.8 128.27 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid a520eda8-37a9-4e82-9109-68a00fd0962f)
-    (property "Reference" "U11" (at 177.8 118.11 0)
+    (property "Reference" "U10" (at 177.8 118.11 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2904M8-13" (at 177.8 120.65 0)
@@ -2348,7 +2348,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U11") (unit 1)
+          (reference "U10") (unit 1)
         )
       )
     )
@@ -2416,7 +2416,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 177.8 69.85 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b615cbae-a333-4706-a28f-74125249c707)
-    (property "Reference" "U10" (at 177.8 59.69 0)
+    (property "Reference" "U9" (at 177.8 59.69 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2904M8-13" (at 177.8 62.23 0)
@@ -2442,7 +2442,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U10") (unit 2)
+          (reference "U9") (unit 2)
         )
       )
     )
@@ -2647,7 +2647,7 @@
   (symbol (lib_id "benediktibk:LM2904M8-13") (at 177.8 90.17 0) (unit 2)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid f4e481e7-65b5-4e09-b1ce-148f8038aeef)
-    (property "Reference" "U11" (at 177.8 80.01 0)
+    (property "Reference" "U10" (at 177.8 80.01 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "LM2904M8-13" (at 177.8 82.55 0)
@@ -2673,7 +2673,7 @@
     (instances
       (project "battery-management-system"
         (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/3d1e17ba-3c41-4767-81ce-6010cdb0d005"
-          (reference "U11") (unit 2)
+          (reference "U10") (unit 2)
         )
       )
     )
