@@ -1,7 +1,5 @@
 open:
-BOM export: connectors
 TMG1-01: footprint
-add heatsink
 
 done:
 power supply: L6982CDR instead of L6982C33DR
@@ -18,3 +16,5 @@ TJ40S04M3L: courtyard (J25)
 connectors: use actual connectors instead of M6 holes
 stencil: weird negative holes
 JTAG socket: footprint
+add heatsink
+BOM export: connectors

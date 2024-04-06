@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <export version="E">
   <design>
-    <source>/home/benedikt/Development/battery-system/battery-management-system/battery-management-system.kicad_sch</source>
-    <date>Tue 02 Jan 2024 09:22:13 PM CET</date>
-    <tool>Eeschema 7.0.9-7.0.9~ubuntu23.04.1</tool>
+    <source>/home/benedikt/Development/battery-system/hardware/battery-management-system/battery-management-system.kicad_sch</source>
+    <date>Sat 06 Apr 2024 09:36:42 PM CEST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
         <title/>
@@ -94,25 +94,7 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="6" name="/Interconnect/" tstamps="/3df28b0f-4877-411d-a6e0-0c6dff0863b2/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>interconnect.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="7" name="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/">
+    <sheet number="6" name="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/">
       <title_block>
         <title/>
         <company/>
@@ -130,31 +112,13 @@
         <comment number="9" value=""/>
       </title_block>
     </sheet>
-    <sheet number="8" name="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/">
+    <sheet number="7" name="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/">
       <title_block>
         <title/>
         <company/>
         <rev/>
         <date/>
         <source>temperature_sensors.kicad_sch</source>
-        <comment number="1" value=""/>
-        <comment number="2" value=""/>
-        <comment number="3" value=""/>
-        <comment number="4" value=""/>
-        <comment number="5" value=""/>
-        <comment number="6" value=""/>
-        <comment number="7" value=""/>
-        <comment number="8" value=""/>
-        <comment number="9" value=""/>
-      </title_block>
-    </sheet>
-    <sheet number="9" name="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/">
-      <title_block>
-        <title/>
-        <company/>
-        <rev/>
-        <date/>
-        <source>cell_balancing.kicad_sch</source>
         <comment number="1" value=""/>
         <comment number="2" value=""/>
         <comment number="3" value=""/>
@@ -211,6 +175,17 @@
       <property name="ki_keywords" value="mounting hole"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>42d02a75-2e0e-4cb0-8044-f58385d9cf13</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>heatsink_50x50</value>
+      <footprint>benediktibk:heatsink_50x50</footprint>
+      <libsource lib="benediktibk" part="heatsink_50x50" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="battery-management-system.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>628e8f19-c6a0-4eaf-8d6b-6fb1a0535ae8</tstamps>
     </comp>
     <comp ref="D1">
       <value>BAT54WS</value>
@@ -274,36 +249,6 @@
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>44f05401-3e8d-4123-bca2-9dc6d2cbbd3e</tstamps>
     </comp>
-    <comp ref="D5">
-      <value>SBR2065D1</value>
-      <footprint>benediktibk:SBR2065D1</footprint>
-      <fields>
-        <field name="RS order number">133-3329</field>
-      </fields>
-      <libsource lib="benediktibk" part="SBR2065D1" description="Schottky diode"/>
-      <property name="RS order number" value="133-3329"/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>5a4e9905-b73e-4982-b8c5-4151ea64091e</tstamps>
-    </comp>
-    <comp ref="D6">
-      <value>SBR2065D1</value>
-      <footprint>benediktibk:SBR2065D1</footprint>
-      <fields>
-        <field name="RS order number">133-3329</field>
-      </fields>
-      <libsource lib="benediktibk" part="SBR2065D1" description="Schottky diode"/>
-      <property name="RS order number" value="133-3329"/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>1ea31dfc-fa46-450f-8513-75850f0cc1ec</tstamps>
-    </comp>
     <comp ref="F1">
       <value>20A</value>
       <footprint>benediktibk:KEYSTONE_blade_fus_holder</footprint>
@@ -335,102 +280,21 @@
       <tstamps>493edccd-d300-4815-891c-f127a141edfd</tstamps>
     </comp>
     <comp ref="J1">
-      <value>CELL4_PLUS</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
+      <value>CELLS</value>
+      <footprint>benediktibk:rspro_header_5pin_5_08mm</footprint>
+      <fields>
+        <field name="RS order number">790-0966</field>
+      </fields>
+      <libsource lib="benediktibk" part="rspro_header_5pin_5_08mm" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="RS order number" value="790-0966"/>
       <property name="Sheetname" value="Battery Pack"/>
       <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>c05dab11-7671-4893-aee3-ae5910fcb06b</tstamps>
+      <tstamps>7850ff03-b0c5-46c3-973d-4965a3f81644</tstamps>
     </comp>
     <comp ref="J2">
-      <value>CELL4_MINUS</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>f2201d68-73d8-48d0-872f-0356ecbad7e2</tstamps>
-    </comp>
-    <comp ref="J3">
-      <value>CELL3_MINUS</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>5352a2b6-fbbf-4288-9600-4ecb0846e649</tstamps>
-    </comp>
-    <comp ref="J4">
-      <value>CELL2_MINUS</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>fa84e662-6e1f-412e-8e03-819fe781d389</tstamps>
-    </comp>
-    <comp ref="J5">
-      <value>CELL1_MINUS</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>c37340ab-0a14-4120-be33-7c61aaa18895</tstamps>
-    </comp>
-    <comp ref="J6">
-      <value>VBAT+</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>3ff65ee9-3c23-4455-88b0-19d16262ead9</tstamps>
-    </comp>
-    <comp ref="J7">
-      <value>VBAT+_CHARGE</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>edffe2df-4ded-4088-8be8-c6b6451ff846</tstamps>
-    </comp>
-    <comp ref="J8">
-      <value>VBAT-</value>
-      <footprint>benediktibk:Connector_M6</footprint>
-      <libsource lib="benediktibk" part="Connector_M6" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value=""/>
-      <property name="Sheetname" value="Battery Pack"/>
-      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>139cffd5-1f62-44fc-a7d6-bb06ab21b1fe</tstamps>
-    </comp>
-    <comp ref="J24">
       <value>Charge</value>
       <footprint>benediktibk:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
@@ -445,7 +309,7 @@
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>49d334c1-3200-4934-bbf4-cbf1b63e02a6</tstamps>
     </comp>
-    <comp ref="J25">
+    <comp ref="J3">
       <value>Discharge</value>
       <footprint>benediktibk:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <fields>
@@ -459,6 +323,36 @@
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>c6a64711-2893-4529-83cf-b5137a6143f2</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>VBAT_DISCHARGE</value>
+      <footprint>benediktibk:rspro_header_2pin_5_08mm</footprint>
+      <fields>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <libsource lib="benediktibk" part="rspro_header_2pin_5_08mm" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="RS order number" value="144-4347"/>
+      <property name="Sheetname" value="Battery Pack"/>
+      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
+      <tstamps>0e0e1cc2-5311-42ad-987e-2f533cbb328a</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>VBAT_CHARGE</value>
+      <footprint>benediktibk:rspro_header_2pin_5_08mm</footprint>
+      <fields>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <libsource lib="benediktibk" part="rspro_header_2pin_5_08mm" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="RS order number" value="144-4347"/>
+      <property name="Sheetname" value="Battery Pack"/>
+      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
+      <tstamps>8c866b1c-a448-44b5-b8a4-0972df182f06</tstamps>
     </comp>
     <comp ref="Q1">
       <value>DMN3404L</value>
@@ -536,19 +430,19 @@
       <tstamps>6f7b8b1a-a193-43b2-907e-cdc3df78b57a</tstamps>
     </comp>
     <comp ref="R1">
-      <value>2mOhm</value>
-      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <value>220kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="RS order number">231-3683</field>
+        <field name="RS order number">678-9986</field>
       </fields>
-      <libsource lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%" description="Resistor"/>
-      <property name="RS order number" value="231-3683"/>
+      <libsource lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="678-9986"/>
       <property name="Sheetname" value="Battery Pack"/>
       <property name="Sheetfile" value="battery_pack.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>a84a082d-df41-4472-8429-3c4925b9047e</tstamps>
+      <tstamps>e4a9a3d6-54f7-46e5-a318-3dcc35a31662</tstamps>
     </comp>
     <comp ref="R2">
       <value>220kOhm</value>
@@ -578,9 +472,24 @@
       <property name="ki_description" value="Resistor"/>
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
-      <tstamps>a9d92d9d-e982-47cc-b2b3-bf9b97724f34</tstamps>
+      <tstamps>637e4924-7c16-4ce8-ace7-ead3a422b6ed</tstamps>
     </comp>
     <comp ref="R4">
+      <value>220kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="678-9986"/>
+      <property name="Sheetname" value="Battery Pack"/>
+      <property name="Sheetfile" value="battery_pack.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
+      <tstamps>a9d92d9d-e982-47cc-b2b3-bf9b97724f34</tstamps>
+    </comp>
+    <comp ref="R5">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -595,7 +504,7 @@
       <sheetpath names="/Battery Pack/" tstamps="/31b87c35-c096-4dc0-8978-834bec283b57/"/>
       <tstamps>fe1cfcb9-1fc0-4004-b14b-f7fddcd388f7</tstamps>
     </comp>
-    <comp ref="R5">
+    <comp ref="R6">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -790,7 +699,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>b1aa8ffe-33a6-483e-8cb7-4437f79e9c72</tstamps>
     </comp>
-    <comp ref="D7">
+    <comp ref="D5">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -805,7 +714,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>c492c6a8-21d5-4a8b-a1e9-0001e4829254</tstamps>
     </comp>
-    <comp ref="D8">
+    <comp ref="D6">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <datasheet>738-4844</datasheet>
@@ -821,23 +730,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>4ef206af-3dea-474f-a62c-16d4493d33fb</tstamps>
     </comp>
-    <comp ref="D9">
-      <value>BAT54WS</value>
-      <footprint>benediktibk:D_SOD-323</footprint>
-      <datasheet>738-4844</datasheet>
-      <fields>
-        <field name="RS order number">738-4844</field>
-      </fields>
-      <libsource lib="benediktibk" part="BAT54WS" description="Schottky diode"/>
-      <property name="RS order number" value="738-4844"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>efce9688-dced-4800-8319-e2892316dd58</tstamps>
-    </comp>
-    <comp ref="D10">
+    <comp ref="D7">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -852,7 +745,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>bee29060-b1d7-4e94-a9d0-405ee8e6cc24</tstamps>
     </comp>
-    <comp ref="D11">
+    <comp ref="D8">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -867,7 +760,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>05afd024-c089-41d7-967b-aaa9b0e00ea7</tstamps>
     </comp>
-    <comp ref="D12">
+    <comp ref="D9">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -882,7 +775,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>1667e29d-6824-4aa6-9e15-a3f07ada42f2</tstamps>
     </comp>
-    <comp ref="D13">
+    <comp ref="D10">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -897,7 +790,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>58687c1d-7bf3-4ad4-b700-716edf8f0928</tstamps>
     </comp>
-    <comp ref="D14">
+    <comp ref="D11">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <datasheet>738-4844</datasheet>
@@ -913,23 +806,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>09302808-bdf8-4459-984a-245dd664fd66</tstamps>
     </comp>
-    <comp ref="D15">
-      <value>BAT54WS</value>
-      <footprint>benediktibk:D_SOD-323</footprint>
-      <datasheet>738-4844</datasheet>
-      <fields>
-        <field name="RS order number">738-4844</field>
-      </fields>
-      <libsource lib="benediktibk" part="BAT54WS" description="Schottky diode"/>
-      <property name="RS order number" value="738-4844"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Schottky diode"/>
-      <property name="ki_keywords" value="diode Schottky"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>2ba74890-eb0b-4970-ba03-dad725746773</tstamps>
-    </comp>
-    <comp ref="D16">
+    <comp ref="D12">
       <value>BAT54WS</value>
       <footprint>benediktibk:D_SOD-323</footprint>
       <fields>
@@ -944,58 +821,13 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>861cc8ef-c5e4-4e71-96f3-6e5cdf5e3203</tstamps>
     </comp>
-    <comp ref="J9">
-      <value>5V</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>742fbb90-87a5-4028-a27a-dbebd35b4316</tstamps>
-    </comp>
-    <comp ref="J10">
-      <value>18V</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>b47c9097-d8d4-4b7b-8370-b66feb946d74</tstamps>
-    </comp>
-    <comp ref="J11">
-      <value>3V3</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>2bd21274-a17b-4775-be39-931fa654b741</tstamps>
-    </comp>
     <comp ref="L1">
       <value>22uH</value>
       <footprint>benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP</footprint>
       <fields>
         <field name="RS order number">800-4388</field>
       </fields>
-      <libsource lib="benediktibk" part="L_22uH_2A_10%" description="Inductor"/>
+      <libsource lib="benediktibk" part="L_22uH_1_9A_9MHz_10%" description="Inductor"/>
       <property name="RS order number" value="800-4388"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
@@ -1010,7 +842,7 @@
       <fields>
         <field name="RS order number">800-4388</field>
       </fields>
-      <libsource lib="benediktibk" part="L_22uH_2A_10%" description="Inductor"/>
+      <libsource lib="benediktibk" part="L_22uH_1_9A_9MHz_10%" description="Inductor"/>
       <property name="RS order number" value="800-4388"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
@@ -1019,7 +851,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>c9c03f61-0307-46ad-9343-564933d74005</tstamps>
     </comp>
-    <comp ref="R6">
+    <comp ref="R7">
       <value>390kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1034,7 +866,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>06970e0c-ea90-4b97-a0b9-320fd6ed5736</tstamps>
     </comp>
-    <comp ref="R7">
+    <comp ref="R8">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1049,7 +881,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>f6dd7c91-63d9-4307-a47e-f03569a2a27f</tstamps>
     </comp>
-    <comp ref="R8">
+    <comp ref="R9">
       <value>100kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1064,7 +896,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>6df7a885-31dc-4c2d-8ebe-f14fb8a24dd3</tstamps>
     </comp>
-    <comp ref="R9">
+    <comp ref="R10">
       <value>39kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1079,7 +911,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>9ff5dc86-a47e-43c3-983f-f62c61380b9c</tstamps>
     </comp>
-    <comp ref="R10">
+    <comp ref="R11">
       <value>390kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1094,7 +926,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>079d05df-8bd6-4e12-a31c-df48bb054e9f</tstamps>
     </comp>
-    <comp ref="R11">
+    <comp ref="R12">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1109,7 +941,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>0307e6fd-98c5-41e5-ba5e-0aec455c2e44</tstamps>
     </comp>
-    <comp ref="R12">
+    <comp ref="R13">
       <value>43kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1124,7 +956,7 @@
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>e9836a19-c22e-4fa7-9f9e-2f576e3bd079</tstamps>
     </comp>
-    <comp ref="R13">
+    <comp ref="R14">
       <value>39kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1138,51 +970,6 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
       <tstamps>08cd49e6-9ce9-4026-83e7-590377f01941</tstamps>
-    </comp>
-    <comp ref="R14">
-      <value>2mOhm</value>
-      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">231-3683</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%" description="Resistor"/>
-      <property name="RS order number" value="231-3683"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>7e02c840-12da-4428-8e15-1518e92b5887</tstamps>
-    </comp>
-    <comp ref="R15">
-      <value>2mOhm</value>
-      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">231-3683</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%" description="Resistor"/>
-      <property name="RS order number" value="231-3683"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>7cf42dd6-c614-4f17-b461-11158cf6f151</tstamps>
-    </comp>
-    <comp ref="R16">
-      <value>2mOhm</value>
-      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">231-3683</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%" description="Resistor"/>
-      <property name="RS order number" value="231-3683"/>
-      <property name="Sheetname" value="Power Supply"/>
-      <property name="Sheetfile" value="power_supply.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Power Supply/" tstamps="/b1377397-46a1-4623-af59-88e4e694ca35/"/>
-      <tstamps>8b4bb5b7-5645-42bc-abce-9e1a2824486c</tstamps>
     </comp>
     <comp ref="U1">
       <value>ICL7660</value>
@@ -1199,13 +986,13 @@
       <tstamps>2daa4579-a3ba-40a3-b317-b1607fc42163</tstamps>
     </comp>
     <comp ref="U2">
-      <value>L6982C33DR</value>
+      <value>L6982CDR</value>
       <footprint>benediktibk:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
-        <field name="RS order number">261-4747</field>
+        <field name="RS order number">228-2997</field>
       </fields>
-      <libsource lib="benediktibk" part="L6982C33DR" description="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
-      <property name="RS order number" value="261-4747"/>
+      <libsource lib="benediktibk" part="L6982CDR" description="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
+      <property name="RS order number" value="228-2997"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <property name="ki_description" value="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
@@ -1214,13 +1001,13 @@
       <tstamps>37dd1db2-65e6-42bb-beb1-e1e8abb4ce76</tstamps>
     </comp>
     <comp ref="U3">
-      <value>L6982C33DR</value>
+      <value>L6982CDR</value>
       <footprint>benediktibk:SO-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
-        <field name="RS order number">261-4747</field>
+        <field name="RS order number">228-2997</field>
       </fields>
-      <libsource lib="benediktibk" part="L6982C33DR" description="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
-      <property name="RS order number" value="261-4747"/>
+      <libsource lib="benediktibk" part="L6982CDR" description="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
+      <property name="RS order number" value="228-2997"/>
       <property name="Sheetname" value="Power Supply"/>
       <property name="Sheetfile" value="power_supply.kicad_sch"/>
       <property name="ki_description" value="700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8"/>
@@ -1347,7 +1134,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>27f3fd6a-e5e9-4bd1-bbae-2776f127b692</tstamps>
     </comp>
-    <comp ref="D17">
+    <comp ref="D13">
       <value>UART_TX</value>
       <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
@@ -1362,7 +1149,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>ba2f248a-964b-4ca5-a138-1928133a3b4d</tstamps>
     </comp>
-    <comp ref="D18">
+    <comp ref="D14">
       <value>UART_RX</value>
       <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
@@ -1392,7 +1179,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>668d6f18-53ed-4b46-a20e-add7efc6f3a1</tstamps>
     </comp>
-    <comp ref="J12">
+    <comp ref="J6">
       <value>AMPHENOL_micro_usb_10118194-0001LF</value>
       <footprint>benediktibk:AMPHENOL_10118194-0001LF</footprint>
       <fields>
@@ -1405,7 +1192,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>e6385f63-1923-4174-afdf-067d23dbe10d</tstamps>
     </comp>
-    <comp ref="R17">
+    <comp ref="R15">
       <value>27Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1420,7 +1207,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>c95d7492-d2e4-48c7-9389-f0e89edef353</tstamps>
     </comp>
-    <comp ref="R18">
+    <comp ref="R16">
       <value>27Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1435,7 +1222,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>a3b812ea-9980-4b5e-af1d-c10d3f622bba</tstamps>
     </comp>
-    <comp ref="R19">
+    <comp ref="R17">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1450,7 +1237,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>095ed692-dee4-466e-b2b1-1166b4019fe3</tstamps>
     </comp>
-    <comp ref="R20">
+    <comp ref="R18">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1465,7 +1252,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>84a05150-5723-4aad-8750-0a75a6b722e9</tstamps>
     </comp>
-    <comp ref="R21">
+    <comp ref="R19">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1480,7 +1267,7 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>911dcaa5-0bbc-4b41-b4fd-7b42386a8ec8</tstamps>
     </comp>
-    <comp ref="R22">
+    <comp ref="R20">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1495,14 +1282,14 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>943085fc-50f2-45ec-a0b6-042f3a4ba019</tstamps>
     </comp>
-    <comp ref="R23">
+    <comp ref="R21">
       <value>120Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="RS order number">901-3529</field>
+        <field name="RS order number">199-5452</field>
       </fields>
       <libsource lib="benediktibk" part="R_120Ohm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="901-3529"/>
+      <property name="RS order number" value="199-5452"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1510,14 +1297,14 @@
       <sheetpath names="/USB/" tstamps="/afdb149d-bd78-484c-a496-c5b66260efca/"/>
       <tstamps>bbaf3e11-7d1b-4b2e-8d11-c2d545fc4b80</tstamps>
     </comp>
-    <comp ref="R24">
+    <comp ref="R22">
       <value>120Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
-        <field name="RS order number">901-3529</field>
+        <field name="RS order number">199-5452</field>
       </fields>
       <libsource lib="benediktibk" part="R_120Ohm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="901-3529"/>
+      <property name="RS order number" value="199-5452"/>
       <property name="Sheetname" value="USB"/>
       <property name="Sheetfile" value="usb.kicad_sch"/>
       <property name="ki_description" value="Resistor"/>
@@ -1691,22 +1478,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>0004bba1-f2df-42ba-b33f-b1147a547a17</tstamps>
     </comp>
-    <comp ref="C30">
-      <value>1uF</value>
-      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">103-4112</field>
-      </fields>
-      <libsource lib="benediktibk" part="C_1uF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
-      <property name="RS order number" value="103-4112"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>c9f3fcd3-36b4-4fd8-9c2f-cc664ce556d0</tstamps>
-    </comp>
-    <comp ref="D19">
+    <comp ref="D15">
       <value>green</value>
       <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
@@ -1721,7 +1493,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>b3deb37b-8851-457e-8837-4e62ae9d2bbf</tstamps>
     </comp>
-    <comp ref="D20">
+    <comp ref="D16">
       <value>red</value>
       <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
@@ -1736,7 +1508,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>a7261f7e-c6c4-47e9-92fe-d7e133c359d5</tstamps>
     </comp>
-    <comp ref="D21">
+    <comp ref="D17">
       <value>yellow</value>
       <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
       <fields>
@@ -1766,80 +1538,20 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>e9d7b21f-31cd-4447-90d2-e9a9cc508fe5</tstamps>
     </comp>
-    <comp ref="J13">
-      <value>I2C</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
+    <comp ref="J7">
+      <value>ARM-JTAG-SWD</value>
+      <footprint>benediktibk:SAMTEC_FTSH-105-01-F-DV-P-TR</footprint>
       <fields>
-        <field name="RS order number">251-8092</field>
+        <field name="Description">Cortex M JTAG/SWD 10 pin connector</field>
+        <field name="RS order number">159-2372</field>
       </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
+      <libsource lib="benediktibk" part="ARM-JTAG-SWD" description=""/>
+      <property name="Description" value="Cortex M JTAG/SWD 10 pin connector"/>
+      <property name="RS order number" value="159-2372"/>
       <property name="Sheetname" value="MCU"/>
       <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>a5d524f8-7a66-466a-9aa1-0170319b1178</tstamps>
-    </comp>
-    <comp ref="J14">
-      <value>UART_INTERCONNECT</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>2765a2c7-d4d0-4dcf-8bb2-7525af8a9dc6</tstamps>
-    </comp>
-    <comp ref="J15">
-      <value>LEDS</value>
-      <footprint>benediktibk:PinHeader_1x04_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8115</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x04" description="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8115"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>cf226551-e9fc-4188-8ada-23fc53840d69</tstamps>
-    </comp>
-    <comp ref="J16">
-      <value>CHARGE/DISCHARGE</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>d18d1b1a-e222-4023-8b7d-bd13089d2446</tstamps>
-    </comp>
-    <comp ref="J17">
-      <value>UART_USB</value>
-      <footprint>benediktibk:PinHeader_1x03_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x03" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8092"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>93f90281-d81a-4d7f-af19-1fd29c577945</tstamps>
+      <tstamps>b61a069c-a399-4a6a-8471-1c5314d5e954</tstamps>
     </comp>
     <comp ref="Q6">
       <value>DMN3404L</value>
@@ -1886,7 +1598,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>1e571494-76df-4701-8821-e3c08f52b207</tstamps>
     </comp>
-    <comp ref="R25">
+    <comp ref="R23">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1901,7 +1613,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>7bf405e5-d53c-4316-863b-c56f01e08848</tstamps>
     </comp>
-    <comp ref="R26">
+    <comp ref="R24">
       <value>100Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1916,7 +1628,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>0a6212bf-55ef-4253-a49e-f272f5216953</tstamps>
     </comp>
-    <comp ref="R27">
+    <comp ref="R25">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1931,7 +1643,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>7aea7951-3a60-4bef-bfda-8388038e67b4</tstamps>
     </comp>
-    <comp ref="R28">
+    <comp ref="R26">
       <value>100Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1946,7 +1658,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>510e8f9b-fc91-4eca-a8b9-ea11e5866b28</tstamps>
     </comp>
-    <comp ref="R29">
+    <comp ref="R27">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1961,7 +1673,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>ceb358a0-0d76-4213-87e6-1c28a84a6015</tstamps>
     </comp>
-    <comp ref="R30">
+    <comp ref="R28">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1976,7 +1688,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>08b5ac42-2641-45d8-8bc9-32084272d33d</tstamps>
     </comp>
-    <comp ref="R31">
+    <comp ref="R29">
       <value>100Ohm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -1991,7 +1703,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>c7ed870c-ffa2-4cc9-96e3-21cc14d83097</tstamps>
     </comp>
-    <comp ref="R32">
+    <comp ref="R30">
       <value>4.7kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2006,22 +1718,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>50a6ff0d-22a5-4f8a-b688-0cb775abda93</tstamps>
     </comp>
-    <comp ref="R33">
-      <value>200kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">684-5537</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_200kOhm_SMD_0603_30mW_0_1%" description="Resistor"/>
-      <property name="RS order number" value="684-5537"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>4c7fbf0a-3470-4ee9-920f-44231a2cc35b</tstamps>
-    </comp>
-    <comp ref="R34">
+    <comp ref="R31">
       <value>4.7kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2036,37 +1733,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>7e56471f-18b9-44e5-9bf1-6182a54cd124</tstamps>
     </comp>
-    <comp ref="R35">
-      <value>0Ohm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1171</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%" description="Resistor"/>
-      <property name="RS order number" value="125-1171"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>c62466ca-30c2-4f22-a4d5-2635720e0e5c</tstamps>
-    </comp>
-    <comp ref="R36">
-      <value>0Ohm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1171</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%" description="Resistor"/>
-      <property name="RS order number" value="125-1171"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>170c97ae-5525-40e5-b622-2ea4b0d3a668</tstamps>
-    </comp>
-    <comp ref="R37">
+    <comp ref="R32">
       <value>10kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2080,36 +1747,6 @@
       <property name="ki_keywords" value="R res resistor"/>
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>2dc4050b-3c21-4cf0-b29a-28f8f857b5b2</tstamps>
-    </comp>
-    <comp ref="R38">
-      <value>0Ohm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1171</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%" description="Resistor"/>
-      <property name="RS order number" value="125-1171"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>3ffb112c-b39b-4300-91a2-805060296f9a</tstamps>
-    </comp>
-    <comp ref="R39">
-      <value>0Ohm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1171</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%" description="Resistor"/>
-      <property name="RS order number" value="125-1171"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>78bbc53c-7f51-49f4-b15e-784a977b92a7</tstamps>
     </comp>
     <comp ref="RESET1">
       <value>TMG1-01</value>
@@ -2127,21 +1764,6 @@
       <tstamps>65c986af-48fa-4096-bf14-99b5258dfba9</tstamps>
     </comp>
     <comp ref="U6">
-      <value>ARM-JTAG-SWD</value>
-      <footprint>benediktibk:ARM-JTAG-10-SWD-IDC</footprint>
-      <fields>
-        <field name="Description">Cortex M JTAG/SWD 10 pin connector</field>
-        <field name="RS order number">159-2372</field>
-      </fields>
-      <libsource lib="benediktibk" part="ARM-JTAG-SWD" description=""/>
-      <property name="Description" value="Cortex M JTAG/SWD 10 pin connector"/>
-      <property name="RS order number" value="159-2372"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>b61a069c-a399-4a6a-8471-1c5314d5e954</tstamps>
-    </comp>
-    <comp ref="U7">
       <value>AT24C512C</value>
       <footprint>benediktibk:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
@@ -2158,7 +1780,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>d5486622-a81e-4228-a61b-995786e03070</tstamps>
     </comp>
-    <comp ref="U8">
+    <comp ref="U7">
       <value>NCT75DR2G</value>
       <footprint>benediktibk:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
       <fields>
@@ -2175,23 +1797,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>c8bafb5b-8a1e-436e-a863-586ba0b43498</tstamps>
     </comp>
-    <comp ref="U9">
-      <value>STC3100</value>
-      <footprint>benediktibk:MSOP-8_3x3mm_P0.65mm</footprint>
-      <fields>
-        <field name="I2C address">0x70</field>
-        <field name="RS order number">795-8779</field>
-      </fields>
-      <libsource lib="benediktibk" part="STC3100" description="battery fuel gauge"/>
-      <property name="RS order number" value="795-8779"/>
-      <property name="I2C address" value="0x70"/>
-      <property name="Sheetname" value="MCU"/>
-      <property name="Sheetfile" value="mcu.kicad_sch"/>
-      <property name="ki_description" value="battery fuel gauge"/>
-      <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
-      <tstamps>9479e2c2-7750-4fbb-bbcb-abce4695c6fa</tstamps>
-    </comp>
-    <comp ref="U10">
+    <comp ref="U8">
       <value>STM32L071CZTx</value>
       <footprint>benediktibk:LQFP-48_7x7mm_P0.5mm</footprint>
       <datasheet>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf</datasheet>
@@ -2207,52 +1813,7 @@
       <sheetpath names="/MCU/" tstamps="/409f87d1-afa6-40d2-ba42-d5009501b8f9/"/>
       <tstamps>8c1b6e26-682d-4d75-b9b0-b59dcfa951d3</tstamps>
     </comp>
-    <comp ref="J18">
-      <value>rspro_header_5pin_3_5mm</value>
-      <footprint>benediktibk:rspro_header_5pin_3_5mm</footprint>
-      <fields>
-        <field name="RS order number">897-1032</field>
-      </fields>
-      <libsource lib="benediktibk" part="rspro_header_5pin_3_5mm" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="897-1032"/>
-      <property name="Sheetname" value="Interconnect"/>
-      <property name="Sheetfile" value="interconnect.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Interconnect/" tstamps="/3df28b0f-4877-411d-a6e0-0c6dff0863b2/"/>
-      <tstamps>968f4722-d788-46e4-ba3b-fbcee2af2490</tstamps>
-    </comp>
-    <comp ref="R40">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Interconnect"/>
-      <property name="Sheetfile" value="interconnect.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Interconnect/" tstamps="/3df28b0f-4877-411d-a6e0-0c6dff0863b2/"/>
-      <tstamps>824a5609-03e5-4535-80f7-c01ed6507e48</tstamps>
-    </comp>
-    <comp ref="R41">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Interconnect"/>
-      <property name="Sheetfile" value="interconnect.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Interconnect/" tstamps="/3df28b0f-4877-411d-a6e0-0c6dff0863b2/"/>
-      <tstamps>e6db8d0a-a61b-46ec-a8dc-8c1108a1b8e2</tstamps>
-    </comp>
-    <comp ref="C31">
+    <comp ref="C30">
       <value>100nF</value>
       <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
@@ -2267,7 +1828,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>0369e117-6344-45e7-b6f1-b086767ef5b7</tstamps>
     </comp>
-    <comp ref="C32">
+    <comp ref="C31">
       <value>1uF</value>
       <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
@@ -2282,7 +1843,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>7d7efb12-5f3f-4dd1-8fe8-4c2eacfd6e59</tstamps>
     </comp>
-    <comp ref="C33">
+    <comp ref="C32">
       <value>100nF</value>
       <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
@@ -2297,7 +1858,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>f2b9cfb3-ea2c-4290-9925-b8e57932ffef</tstamps>
     </comp>
-    <comp ref="C34">
+    <comp ref="C33">
       <value>1uF</value>
       <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <fields>
@@ -2311,6 +1872,66 @@
       <property name="ki_keywords" value="cap capacitor"/>
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>4c9098b7-5bda-4c98-9443-24ea71db9a79</tstamps>
+    </comp>
+    <comp ref="C34">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Cell Measurement"/>
+      <property name="Sheetfile" value="cell_measurement.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
+      <tstamps>5bc9576a-66f9-40bb-af66-111657bdeccb</tstamps>
+    </comp>
+    <comp ref="C35">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Cell Measurement"/>
+      <property name="Sheetfile" value="cell_measurement.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
+      <tstamps>0f7abadd-8397-4e95-b57b-7063be653066</tstamps>
+    </comp>
+    <comp ref="C36">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Cell Measurement"/>
+      <property name="Sheetfile" value="cell_measurement.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
+      <tstamps>610362ad-eff1-48d9-ae83-b99d521f2000</tstamps>
+    </comp>
+    <comp ref="C37">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Cell Measurement"/>
+      <property name="Sheetfile" value="cell_measurement.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
+      <tstamps>890e7761-c794-47ec-864c-eedc92866766</tstamps>
     </comp>
     <comp ref="Q9">
       <value>DMN3404L</value>
@@ -2417,7 +2038,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>060a9b05-d7fb-4810-ba5a-7feecd229f16</tstamps>
     </comp>
-    <comp ref="R42">
+    <comp ref="R33">
       <value>220kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2432,7 +2053,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>922f3b87-a5a8-433c-b2cd-143dce41350d</tstamps>
     </comp>
-    <comp ref="R43">
+    <comp ref="R34">
       <value>220kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2447,7 +2068,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>81254cb7-ccc5-43e6-a6ef-555e60252f8e</tstamps>
     </comp>
-    <comp ref="R44">
+    <comp ref="R35">
       <value>220kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2462,7 +2083,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>ac5fbc6d-ab13-49de-bb88-4423ab5eab0c</tstamps>
     </comp>
-    <comp ref="R45">
+    <comp ref="R36">
       <value>220kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2477,7 +2098,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>20977a65-8bed-4f0e-86bf-784637a36f86</tstamps>
     </comp>
-    <comp ref="R46">
+    <comp ref="R37">
       <value>100kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2492,7 +2113,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>4c5f23c6-a5f4-49b1-989c-6085be75b105</tstamps>
     </comp>
-    <comp ref="R47">
+    <comp ref="R38">
       <value>24kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2507,7 +2128,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>18092e83-3cc5-431b-b305-95f780fe1d78</tstamps>
     </comp>
-    <comp ref="R48">
+    <comp ref="R39">
       <value>100kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2522,7 +2143,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>43d4caa9-c5c7-462c-ab1e-cbcbb4efa804</tstamps>
     </comp>
-    <comp ref="R49">
+    <comp ref="R40">
       <value>36kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2537,7 +2158,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>ca1056d3-6985-4701-887c-c5cee0bf4422</tstamps>
     </comp>
-    <comp ref="R50">
+    <comp ref="R41">
       <value>100kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2552,7 +2173,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>a4ca7ee0-e91b-480e-8ba7-702499cf23fd</tstamps>
     </comp>
-    <comp ref="R51">
+    <comp ref="R42">
       <value>68kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2567,7 +2188,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>ced8f1dd-3d65-4894-961f-b4584aeed6b7</tstamps>
     </comp>
-    <comp ref="R52">
+    <comp ref="R43">
       <value>24kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2582,7 +2203,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>433f39b5-5575-4817-9e6f-3b9b02b8e11e</tstamps>
     </comp>
-    <comp ref="R53">
+    <comp ref="R44">
       <value>100kOhm</value>
       <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
       <fields>
@@ -2597,7 +2218,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>e217bf96-ca96-421d-8b0b-f9a5d68642df</tstamps>
     </comp>
-    <comp ref="U11">
+    <comp ref="U9">
       <value>LM2904M8-13</value>
       <footprint>benediktibk:MSOP-8_3x3mm_P0.65mm</footprint>
       <fields>
@@ -2612,7 +2233,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>b615cbae-a333-4706-a28f-74125249c707 5e2a4341-0f04-4d3d-91cb-499261ca67f3 51a3ff4f-6430-49e8-9520-7406ecb7e4ca</tstamps>
     </comp>
-    <comp ref="U12">
+    <comp ref="U10">
       <value>LM2904M8-13</value>
       <footprint>benediktibk:MSOP-8_3x3mm_P0.65mm</footprint>
       <fields>
@@ -2627,7 +2248,7 @@
       <sheetpath names="/Cell Measurement/" tstamps="/3d1e17ba-3c41-4767-81ce-6010cdb0d005/"/>
       <tstamps>f4e481e7-65b5-4e09-b1ce-148f8038aeef a520eda8-37a9-4e82-9109-68a00fd0962f 736ce44c-d8a4-4c5a-91d7-5cc81a584b4f</tstamps>
     </comp>
-    <comp ref="J19">
+    <comp ref="J8">
       <value>TEMP_CELL1</value>
       <footprint>benediktibk:rspro_header_4pin_3_5mm</footprint>
       <fields>
@@ -2644,7 +2265,7 @@
       <sheetpath names="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/"/>
       <tstamps>b1d70ac8-4c26-4d98-a5c2-01825ca2a641</tstamps>
     </comp>
-    <comp ref="J20">
+    <comp ref="J9">
       <value>TEMP_CELL2</value>
       <footprint>benediktibk:rspro_header_4pin_3_5mm</footprint>
       <fields>
@@ -2661,7 +2282,7 @@
       <sheetpath names="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/"/>
       <tstamps>b7bca747-81aa-485a-9bae-47aa2b2460bc</tstamps>
     </comp>
-    <comp ref="J21">
+    <comp ref="J10">
       <value>TEMP_CELL3</value>
       <footprint>benediktibk:rspro_header_4pin_3_5mm</footprint>
       <fields>
@@ -2678,7 +2299,7 @@
       <sheetpath names="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/"/>
       <tstamps>22847079-42e7-42aa-81e3-4560b1c6657a</tstamps>
     </comp>
-    <comp ref="J22">
+    <comp ref="J11">
       <value>TEMP_CELL4</value>
       <footprint>benediktibk:rspro_header_4pin_3_5mm</footprint>
       <fields>
@@ -2694,635 +2315,6 @@
       <property name="ki_keywords" value="connector"/>
       <sheetpath names="/Temperature Sensors/" tstamps="/3cb0d78b-1dc8-4b57-8c9a-18900dc8da61/"/>
       <tstamps>ff9fe887-3792-412b-87e7-6c8b7e6e123e</tstamps>
-    </comp>
-    <comp ref="C35">
-      <value>100nF</value>
-      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">242-7372</field>
-      </fields>
-      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
-      <property name="RS order number" value="242-7372"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Unpolarized capacitor"/>
-      <property name="ki_keywords" value="cap capacitor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>06dc5769-f9e2-425c-b447-5967032ad4b0</tstamps>
-    </comp>
-    <comp ref="J23">
-      <value>Conn_01x05</value>
-      <footprint>benediktibk:PinHeader_1x05_P2.54mm_Vertical</footprint>
-      <fields>
-        <field name="RS order number">251-8121</field>
-      </fields>
-      <libsource lib="benediktibk" part="Conn_01x05" description="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="RS order number" value="251-8121"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
-      <property name="ki_keywords" value="connector"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>453810e0-0f43-4096-80ab-b4819ab7afbc</tstamps>
-    </comp>
-    <comp ref="L3">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>345752f3-d9e8-48b1-b714-2ff85ce7aa80</tstamps>
-    </comp>
-    <comp ref="L4">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>7a849150-2ac2-4f20-8db4-02064980019d</tstamps>
-    </comp>
-    <comp ref="L5">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>34d53d69-1768-4dbc-b323-02dfee51fc1b</tstamps>
-    </comp>
-    <comp ref="L6">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>fcdbc37d-ddc4-4afc-abec-6edaf845e1ab</tstamps>
-    </comp>
-    <comp ref="L7">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>93cec55b-b04c-4c50-822f-3bb8886ccd4a</tstamps>
-    </comp>
-    <comp ref="L8">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>d27bb19a-0186-494d-acd6-09211884540e</tstamps>
-    </comp>
-    <comp ref="L9">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>e6f628f1-19db-4c12-9a34-6652df2c4235</tstamps>
-    </comp>
-    <comp ref="L10">
-      <value>L_220µH_1A</value>
-      <footprint>benediktibk:L_Wuerth_HCI-1050</footprint>
-      <fields>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <libsource lib="benediktibk" part="L_220µH_1A" description="Inductor"/>
-      <property name="RS order number" value="789-6971"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Inductor"/>
-      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>5743452a-d73a-46a2-9e21-3e53bff29f3e</tstamps>
-    </comp>
-    <comp ref="Q16">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>4c3a2494-8716-4cb2-954a-074f13e3626a</tstamps>
-    </comp>
-    <comp ref="Q17">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>bd8617d5-9d82-47a4-b531-d891389fcf42</tstamps>
-    </comp>
-    <comp ref="Q18">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>45a4cb42-b43c-476d-a6da-85d13d6d91f1</tstamps>
-    </comp>
-    <comp ref="Q19">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>ba726b0c-61d3-47c2-9c69-a3df96e9eb54</tstamps>
-    </comp>
-    <comp ref="Q20">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>7c8c2c8c-e4d9-4108-9d32-ef574bed49f9</tstamps>
-    </comp>
-    <comp ref="Q21">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>3003fe4a-a4a6-4678-88dc-83c9d158e68e</tstamps>
-    </comp>
-    <comp ref="Q22">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>e24ab42e-207d-42bf-a6a5-531769759711</tstamps>
-    </comp>
-    <comp ref="Q23">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>f2b8ec68-984a-4f94-b22e-425e85148703</tstamps>
-    </comp>
-    <comp ref="Q24">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>aa45bded-2488-4d24-9fd0-2fcc56ce1569</tstamps>
-    </comp>
-    <comp ref="Q25">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>05fc55bc-a051-4b28-9d40-d747a145b55b</tstamps>
-    </comp>
-    <comp ref="Q26">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>7161721a-fcdd-4f82-94b9-c9f7a8d36eb1</tstamps>
-    </comp>
-    <comp ref="Q27">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>de97745b-d4c4-4637-ba61-05bbb125e5fa</tstamps>
-    </comp>
-    <comp ref="Q28">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>40d4fc38-e593-49ff-83fa-284ff19234fa</tstamps>
-    </comp>
-    <comp ref="Q29">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>fea65649-33fd-44fa-b01e-b40e0a8af813</tstamps>
-    </comp>
-    <comp ref="Q30">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>e3890e0d-d93e-4e44-8e93-5d9a9229bda9</tstamps>
-    </comp>
-    <comp ref="Q31">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>7c55b13f-2ce9-48b0-a109-5786b49efaf3</tstamps>
-    </comp>
-    <comp ref="Q32">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>fa59166f-1d5a-47e4-8147-7021d28528ca</tstamps>
-    </comp>
-    <comp ref="Q33">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>18760986-aa11-46b7-b480-85417468ca65</tstamps>
-    </comp>
-    <comp ref="Q34">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>9b012c7b-ac28-43ae-8961-23e277103d2f</tstamps>
-    </comp>
-    <comp ref="Q35">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>1707c360-09ca-49b3-a05b-39357a06ab22</tstamps>
-    </comp>
-    <comp ref="Q36">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>eb1c96a3-2ece-4f07-b6aa-179ad1902b86</tstamps>
-    </comp>
-    <comp ref="Q37">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>5d7deee8-117d-4d0a-a664-791ec1f3cec1</tstamps>
-    </comp>
-    <comp ref="Q38">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>ddc2728e-1444-4824-a3ad-b6df8668a5da</tstamps>
-    </comp>
-    <comp ref="Q39">
-      <value>DMN3404L</value>
-      <footprint>benediktibk:SOT-23</footprint>
-      <fields>
-        <field name="RS order number">751-4171</field>
-      </fields>
-      <libsource lib="benediktibk" part="DMN3404L" description="n-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="751-4171"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>8fa7a3b1-ed93-4122-a2ca-5af9faf612bf</tstamps>
-    </comp>
-    <comp ref="Q40">
-      <value>TJ40S04M3L</value>
-      <footprint>benediktibk:TO-252-2</footprint>
-      <fields>
-        <field name="RS order number">171-2479</field>
-      </fields>
-      <libsource lib="benediktibk" part="TJ40S04M3L" description="P-MOSFET transistor, drain/gate/source"/>
-      <property name="RS order number" value="171-2479"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="P-MOSFET transistor, drain/gate/source"/>
-      <property name="ki_keywords" value="transistor PMOS P-MOS P-MOSFET"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>02b3acda-a4dd-41a5-ba05-69fb08165b59</tstamps>
-    </comp>
-    <comp ref="R54">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>8532458f-c58c-4d0c-b7a3-ab9b11c78d9b</tstamps>
-    </comp>
-    <comp ref="R55">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>cadcbe38-66d6-423b-b9b8-27f59fc51a45</tstamps>
-    </comp>
-    <comp ref="R56">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>187569e0-a9cd-46d0-90bf-3cef3bf549a9</tstamps>
-    </comp>
-    <comp ref="R57">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>90aa2ce3-2d65-4580-a91c-b598766ead0c</tstamps>
-    </comp>
-    <comp ref="R58">
-      <value>10kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">125-1173</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="125-1173"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>88717b9f-a72c-448a-b61b-be09e8396617</tstamps>
-    </comp>
-    <comp ref="R59">
-      <value>220kOhm</value>
-      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
-      <fields>
-        <field name="RS order number">678-9986</field>
-      </fields>
-      <libsource lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%" description="Resistor"/>
-      <property name="RS order number" value="678-9986"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="Resistor"/>
-      <property name="ki_keywords" value="R res resistor"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>c1f96f75-f52d-49f5-8dee-b22fadb5088b</tstamps>
-    </comp>
-    <comp ref="U13">
-      <value>MC74VHC139</value>
-      <footprint>benediktibk:TSSOP-16_4.4x5mm_P0.65mm</footprint>
-      <fields>
-        <field name="RS order number">806-3917</field>
-      </fields>
-      <libsource lib="benediktibk" part="MC74VHC139" description="4 channel multiplexer, two units"/>
-      <property name="RS order number" value="806-3917"/>
-      <property name="Sheetname" value="Cell Balancing"/>
-      <property name="Sheetfile" value="cell_balancing.kicad_sch"/>
-      <property name="ki_description" value="4 channel multiplexer, two units"/>
-      <sheetpath names="/Cell Balancing/" tstamps="/3d1b4e38-a765-486c-a970-a0d54d5b41d9/"/>
-      <tstamps>59f3bac7-389b-4ada-9e8e-f8b93c7a35ae</tstamps>
     </comp>
   </components>
   <libparts>
@@ -3349,23 +2341,22 @@
     </libpart>
     <libpart lib="benediktibk" part="ARM-JTAG-SWD">
       <fields>
-        <field name="Reference">U</field>
+        <field name="Reference">J</field>
         <field name="Value">ARM-JTAG-SWD</field>
-        <field name="Footprint">benediktibk:ARM-JTAG-10-SWD-IDC</field>
-        <field name="Description">Cortex M JTAG/SWD 10 pin connector</field>
+        <field name="Footprint">benediktibk:SAMTEC_FTSH-105-01-F-DV-P-TR</field>
         <field name="RS order number">159-2372</field>
       </fields>
       <pins>
-        <pin num="GND@1" name="GND" type="power_in"/>
-        <pin num="GND@2" name="GND" type="power_in"/>
-        <pin num="GND@3" name="GND" type="power_in"/>
-        <pin num="RESET" name="RESET" type="bidirectional"/>
-        <pin num="RXI" name="RXI" type="bidirectional"/>
-        <pin num="SWCLK" name="SWCLK" type="bidirectional"/>
-        <pin num="SWDIO" name="SWDIO" type="bidirectional"/>
-        <pin num="SWO" name="SWO" type="bidirectional"/>
-        <pin num="TXO" name="TXO" type="bidirectional"/>
-        <pin num="VREF" name="VREF" type="power_in"/>
+        <pin num="01" name="VCC" type="passive"/>
+        <pin num="02" name="SWDIO" type="passive"/>
+        <pin num="03" name="GND" type="passive"/>
+        <pin num="04" name="SWCLK" type="passive"/>
+        <pin num="05" name="GND" type="passive"/>
+        <pin num="06" name="SWO" type="passive"/>
+        <pin num="07" name="KEY" type="passive"/>
+        <pin num="08" name="NC" type="passive"/>
+        <pin num="09" name="GND" type="passive"/>
+        <pin num="10" name="RESET" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="AT24C512C">
@@ -3587,82 +2578,6 @@
         <pin num="2" name="Pin_2" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="benediktibk" part="Conn_01x03">
-      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x03</field>
-        <field name="Footprint">benediktibk:PinHeader_1x03_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">251-8092</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="Conn_01x04">
-      <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x04</field>
-        <field name="Footprint">benediktibk:PinHeader_1x04_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">251-8115</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="Conn_01x05">
-      <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Conn_01x05</field>
-        <field name="Footprint">benediktibk:PinHeader_1x05_P2.54mm_Vertical</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">251-8121</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-        <pin num="2" name="Pin_2" type="passive"/>
-        <pin num="3" name="Pin_3" type="passive"/>
-        <pin num="4" name="Pin_4" type="passive"/>
-        <pin num="5" name="Pin_5" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="Connector_M6">
-      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Connector*:*_1x??_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">J</field>
-        <field name="Value">Connector_M6</field>
-        <field name="Footprint">benediktibk:Connector_M6</field>
-        <field name="Datasheet">~</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Pin_1" type="passive"/>
-      </pins>
-    </libpart>
     <libpart lib="benediktibk" part="DMN3404L">
       <description>n-MOSFET transistor, drain/gate/source</description>
       <docs>~</docs>
@@ -3751,16 +2666,16 @@
         <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="benediktibk" part="L6982C33DR">
+    <libpart lib="benediktibk" part="L6982CDR">
       <description>700mA Micropower Low Dropout Linear Regulator, adjustable output voltage, SO-8</description>
       <footprints>
         <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">L6982C33DR</field>
+        <field name="Value">L6982CDR</field>
         <field name="Footprint">benediktibk:SO-8_3.9x4.9mm_P1.27mm</field>
-        <field name="RS order number">261-4747</field>
+        <field name="RS order number">228-2997</field>
       </fields>
       <pins>
         <pin num="1" name="SW" type="power_out"/>
@@ -3856,7 +2771,7 @@
         <pin num="8" name="V+" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="benediktibk" part="L_220µH_1A">
+    <libpart lib="benediktibk" part="L_22uH_1_9A_9MHz_10%">
       <description>Inductor</description>
       <docs>~</docs>
       <footprints>
@@ -3867,28 +2782,7 @@
       </footprints>
       <fields>
         <field name="Reference">L</field>
-        <field name="Value">L_220µH_1A</field>
-        <field name="Footprint">benediktibk:L_Wuerth_HCI-1050</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">789-6971</field>
-      </fields>
-      <pins>
-        <pin num="1" name="1" type="passive"/>
-        <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="L_22uH_2A_10%">
-      <description>Inductor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>Choke_*</fp>
-        <fp>*Coil*</fp>
-        <fp>Inductor_*</fp>
-        <fp>L_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">L</field>
-        <field name="Value">L_22uH_2A_10%</field>
+        <field name="Value">L_22uH_1_9A_9MHz_10%</field>
         <field name="Footprint">benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP</field>
         <field name="Datasheet">~</field>
         <field name="RS order number">800-4388</field>
@@ -3896,36 +2790,6 @@
       <pins>
         <pin num="1" name="1" type="passive"/>
         <pin num="2" name="2" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="MC74VHC139">
-      <description>4 channel multiplexer, two units</description>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">MC74VHC139</field>
-        <field name="Footprint">benediktibk:TSSOP-16_4.4x5mm_P0.65mm</field>
-        <field name="RS order number">806-3917</field>
-      </fields>
-      <pins>
-        <pin num="1" name="Ea" type="input"/>
-        <pin num="2" name="A0a" type="input"/>
-        <pin num="3" name="A1a" type="input"/>
-        <pin num="4" name="Y0a" type="output"/>
-        <pin num="5" name="Y1a" type="output"/>
-        <pin num="6" name="Y2a" type="output"/>
-        <pin num="7" name="Y3a" type="output"/>
-        <pin num="8" name="GND" type="power_in"/>
-        <pin num="9" name="Y3b" type="output"/>
-        <pin num="10" name="Y2b" type="output"/>
-        <pin num="11" name="Y1b" type="output"/>
-        <pin num="12" name="Y0b" type="output"/>
-        <pin num="13" name="A1b" type="input"/>
-        <pin num="14" name="A0b" type="input"/>
-        <pin num="15" name="Eb" type="input"/>
-        <pin num="16" name="V_{CC}" type="power_in"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="MountingHole_Pad_M6">
@@ -3964,24 +2828,6 @@
         <pin num="6" name="A1" type="input"/>
         <pin num="7" name="A0" type="input"/>
         <pin num="8" name="V_{CC}" type="power_in"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_0Ohm_SMD_0603_100mW_0%</field>
-        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">125-1171</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
       </pins>
     </libpart>
     <libpart lib="benediktibk" part="R_100Ohm_SMD_0603_100mW_1%">
@@ -4049,25 +2895,7 @@
         <field name="Value">R_120Ohm_SMD_0603_100mW_1%</field>
         <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
-        <field name="RS order number">901-3529</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="R_200kOhm_SMD_0603_30mW_0_1%">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_200kOhm_SMD_0603_30mW_0_1%</field>
-        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">684-5537</field>
+        <field name="RS order number">199-5452</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -4122,24 +2950,6 @@
         <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
         <field name="Datasheet">~</field>
         <field name="RS order number">213-2058</field>
-      </fields>
-      <pins>
-        <pin num="1" name="" type="passive"/>
-        <pin num="2" name="" type="passive"/>
-      </pins>
-    </libpart>
-    <libpart lib="benediktibk" part="R_2mOhm_SMD_2512_5W_1%">
-      <description>Resistor</description>
-      <docs>~</docs>
-      <footprints>
-        <fp>R_*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">R</field>
-        <field name="Value">R_2mOhm_SMD_2512_5W_1%</field>
-        <field name="Footprint">benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
-        <field name="Datasheet">~</field>
-        <field name="RS order number">231-3683</field>
       </fields>
       <pins>
         <pin num="1" name="" type="passive"/>
@@ -4273,28 +3083,6 @@
         <pin num="2" name="K" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="benediktibk" part="STC3100">
-      <description>battery fuel gauge</description>
-      <footprints>
-        <fp>SOT?23*</fp>
-      </footprints>
-      <fields>
-        <field name="Reference">U</field>
-        <field name="Value">STC3100</field>
-        <field name="Footprint">benediktibk:MSOP-8_3x3mm_P0.65mm</field>
-        <field name="RS order number">795-8779</field>
-      </fields>
-      <pins>
-        <pin num="1" name="IO0" type="input"/>
-        <pin num="2" name="ROSC" type="input"/>
-        <pin num="3" name="SDA" type="bidirectional"/>
-        <pin num="4" name="SCL" type="input"/>
-        <pin num="5" name="GND" type="power_in"/>
-        <pin num="6" name="CG" type="input"/>
-        <pin num="7" name="VCC" type="power_in"/>
-        <pin num="8" name="VIN" type="input"/>
-      </pins>
-    </libpart>
     <libpart lib="benediktibk" part="STM32L071CZTx">
       <description>ARM Cortex-M0+ MCU, 192KB flash, 20KB RAM, 32MHz, 1.65-3.6V, 37 GPIO, LQFP-48</description>
       <docs>http://www.st.com/st-web-ui/static/active/en/resource/technical/document/datasheet/DM00141136.pdf</docs>
@@ -4392,6 +3180,43 @@
         <pin num="4" name="B" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="benediktibk" part="heatsink_50x50">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">heatsink_50x50</field>
+        <field name="Footprint">benediktibk:heatsink_50x50</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="rspro_header_2pin_5_08mm">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">benediktibk:rspro_header_2pin_5_08mm</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="benediktibk" part="rspro_header_4pin_3_5mm">
       <description>Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
@@ -4412,7 +3237,7 @@
         <pin num="4" name="Pin_4" type="passive"/>
       </pins>
     </libpart>
-    <libpart lib="benediktibk" part="rspro_header_5pin_3_5mm">
+    <libpart lib="benediktibk" part="rspro_header_5pin_5_08mm">
       <description>Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
       <docs>~</docs>
       <footprints>
@@ -4420,10 +3245,10 @@
       </footprints>
       <fields>
         <field name="Reference">J</field>
-        <field name="Value">rspro_header_5pin_3_5mm</field>
-        <field name="Footprint">benediktibk:rspro_header_5pin_3_5mm</field>
+        <field name="Value">rspro_header_5pin_5_08mm</field>
+        <field name="Footprint">benediktibk:rspro_header_5pin_5_08mm</field>
         <field name="Datasheet">~</field>
-        <field name="RS order number">897-1032</field>
+        <field name="RS order number">790-0966</field>
       </fields>
       <pins>
         <pin num="1" name="Pin_1" type="passive"/>
@@ -4441,6 +3266,7 @@
   </libraries>
   <nets>
     <net code="1" name="/3V3">
+      <node ref="C11" pin="1" pintype="passive"/>
       <node ref="C20" pin="1" pintype="passive"/>
       <node ref="C21" pin="1" pintype="passive"/>
       <node ref="C22" pin="1" pintype="passive"/>
@@ -4448,317 +3274,204 @@
       <node ref="C24" pin="1" pintype="passive"/>
       <node ref="C25" pin="1" pintype="passive"/>
       <node ref="C27" pin="1" pintype="passive"/>
-      <node ref="C30" pin="1" pintype="passive"/>
-      <node ref="C35" pin="1" pintype="passive"/>
-      <node ref="D19" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D20" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D21" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="FB2" pin="2" pintype="passive"/>
-      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J19" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J20" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J21" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J22" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J7" pin="01" pinfunction="VCC" pintype="passive"/>
+      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R18" pin="1" pintype="passive"/>
       <node ref="R19" pin="1" pintype="passive"/>
       <node ref="R20" pin="1" pintype="passive"/>
-      <node ref="R21" pin="1" pintype="passive"/>
-      <node ref="R22" pin="1" pintype="passive"/>
-      <node ref="R29" pin="1" pintype="passive"/>
-      <node ref="R32" pin="1" pintype="passive"/>
-      <node ref="R34" pin="1" pintype="passive"/>
-      <node ref="R40" pin="1" pintype="passive"/>
-      <node ref="R41" pin="1" pintype="passive"/>
-      <node ref="R5" pin="1" pintype="passive"/>
-      <node ref="U10" pin="1" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U10" pin="24" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U10" pin="36" pinfunction="VDDIO2" pintype="power_in"/>
-      <node ref="U10" pin="48" pinfunction="VDD" pintype="power_in"/>
-      <node ref="U13" pin="15" pinfunction="Eb" pintype="input"/>
-      <node ref="U13" pin="16" pinfunction="V_{CC}" pintype="power_in"/>
-      <node ref="U6" pin="VREF" pinfunction="VREF" pintype="power_in"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U6" pin="8" pinfunction="V_{CC}" pintype="power_in"/>
       <node ref="U7" pin="8" pinfunction="V_{CC}" pintype="power_in"/>
-      <node ref="U8" pin="8" pinfunction="V_{CC}" pintype="power_in"/>
-      <node ref="U9" pin="7" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U8" pin="1" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="24" pinfunction="VDD" pintype="power_in"/>
+      <node ref="U8" pin="36" pinfunction="VDDIO2" pintype="power_in"/>
+      <node ref="U8" pin="48" pinfunction="VDD" pintype="power_in"/>
     </net>
     <net code="2" name="/5V">
-      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J18" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q11" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
       <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="3" name="/5V_EXT">
-      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J18" pin="3" pinfunction="Pin_3" pintype="passive"/>
-    </net>
-    <net code="4" name="/5V_USB">
+    <net code="3" name="/5V_USB">
       <node ref="C13" pin="1" pintype="passive"/>
       <node ref="C15" pin="1" pintype="passive"/>
       <node ref="C17" pin="1" pintype="passive"/>
-      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D16" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D7" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="FB1" pin="2" pintype="passive"/>
-      <node ref="R23" pin="1" pintype="passive"/>
-      <node ref="R24" pin="1" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="1" pintype="passive"/>
       <node ref="U5" pin="12" pinfunction="VCC" pintype="power_in"/>
     </net>
-    <net code="5" name="/18V">
-      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="Q40" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="Q40" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="R15" pin="1" pintype="passive"/>
-      <node ref="R44" pin="1" pintype="passive"/>
-      <node ref="R54" pin="1" pintype="passive"/>
-      <node ref="R55" pin="1" pintype="passive"/>
-      <node ref="R56" pin="1" pintype="passive"/>
-      <node ref="R57" pin="1" pintype="passive"/>
-      <node ref="R58" pin="1" pintype="passive"/>
-      <node ref="R59" pin="1" pintype="passive"/>
+    <net code="4" name="/18V">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
     </net>
-    <net code="6" name="/Battery Pack/CELL1_MINUS">
-      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="Q23" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q32" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="R1" pin="1" pintype="passive"/>
-      <node ref="U9" pin="6" pinfunction="CG" pintype="input"/>
-    </net>
-    <net code="7" name="/Battery Pack/CELL2_MINUS">
-      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="5" name="/Battery Pack/CELL2_MINUS">
+      <node ref="J1" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Q15" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q21" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q22" pin="2" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="8" name="/Battery Pack/CELL3_MINUS">
-      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="6" name="/Battery Pack/CELL3_MINUS">
+      <node ref="J1" pin="3" pinfunction="Pin_3" pintype="passive"/>
       <node ref="Q14" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q19" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q20" pin="2" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="9" name="/Battery Pack/CELL4_MINUS">
-      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="7" name="/Battery Pack/CELL4_MINUS">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
       <node ref="Q13" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q17" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q18" pin="2" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="10" name="/Battery Pack/CHARGE_AVAILABLE">
+    <net code="8" name="/Battery Pack/CHARGE_AVAILABLE">
       <node ref="Q5" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
-      <node ref="U10" pin="28" pinfunction="PB15" pintype="bidirectional"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="U8" pin="28" pinfunction="PB15" pintype="bidirectional"/>
     </net>
-    <net code="11" name="/Battery Pack/PACK">
+    <net code="9" name="/Battery Pack/PACK">
       <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q12" pin="3" pinfunction="S" pintype="passive"/>
-      <node ref="Q16" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="Q33" pin="3" pinfunction="D" pintype="passive"/>
     </net>
-    <net code="12" name="/CELL_BALANCING_A0">
-      <node ref="J23" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="U10" pin="45" pinfunction="PB8" pintype="bidirectional"/>
-      <node ref="U13" pin="2" pinfunction="A0a" pintype="input"/>
-    </net>
-    <net code="13" name="/CELL_BALANCING_A1">
-      <node ref="J23" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U10" pin="46" pinfunction="PB9" pintype="bidirectional"/>
-      <node ref="U13" pin="3" pinfunction="A1a" pintype="input"/>
-    </net>
-    <net code="14" name="/CELL_BALANCING_STROBE">
-      <node ref="J23" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="Q38" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U10" pin="38" pinfunction="PA15" pintype="bidirectional"/>
-      <node ref="U13" pin="1" pinfunction="Ea" pintype="input"/>
-    </net>
-    <net code="15" name="/CHARGE">
-      <node ref="J16" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="10" name="/CHARGE">
       <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U10" pin="26" pinfunction="PB13" pintype="bidirectional"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U8" pin="26" pinfunction="PB13" pintype="bidirectional"/>
     </net>
-    <net code="16" name="/Cell Balancing/CHARGE_CELL1">
-      <node ref="Q22" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q23" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q30" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q31" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q34" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R54" pin="2" pintype="passive"/>
+    <net code="11" name="/Cell Measurement/CELL1">
+      <node ref="C37" pin="1" pintype="passive"/>
+      <node ref="U10" pin="1" pintype="output"/>
+      <node ref="U10" pin="2" pinfunction="-" pintype="input"/>
+      <node ref="U8" pin="10" pinfunction="PA0" pintype="bidirectional"/>
     </net>
-    <net code="17" name="/Cell Balancing/CHARGE_CELL2">
-      <node ref="Q20" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q21" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q28" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q29" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q35" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R55" pin="2" pintype="passive"/>
+    <net code="12" name="/Cell Measurement/CELL2">
+      <node ref="C36" pin="1" pintype="passive"/>
+      <node ref="U10" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U10" pin="7" pintype="output"/>
+      <node ref="U8" pin="11" pinfunction="PA1" pintype="bidirectional"/>
     </net>
-    <net code="18" name="/Cell Balancing/CHARGE_CELL3">
-      <node ref="Q18" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q19" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q26" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q27" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q36" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R56" pin="2" pintype="passive"/>
+    <net code="13" name="/Cell Measurement/CELL3">
+      <node ref="C35" pin="1" pintype="passive"/>
+      <node ref="U8" pin="12" pinfunction="PA2" pintype="bidirectional"/>
+      <node ref="U9" pin="1" pintype="output"/>
+      <node ref="U9" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="19" name="/Cell Balancing/CHARGE_CELL4">
-      <node ref="Q16" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q17" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q24" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q25" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q37" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R57" pin="2" pintype="passive"/>
+    <net code="14" name="/Cell Measurement/CELL4">
+      <node ref="C34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="13" pinfunction="PA3" pintype="bidirectional"/>
+      <node ref="U9" pin="6" pinfunction="-" pintype="input"/>
+      <node ref="U9" pin="7" pintype="output"/>
     </net>
-    <net code="20" name="/Cell Balancing/DISCHARGE">
-      <node ref="Q32" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q33" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="Q38" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R58" pin="2" pintype="passive"/>
-    </net>
-    <net code="21" name="/Cell Measurement/CELL1">
-      <node ref="U10" pin="10" pinfunction="PA0" pintype="bidirectional"/>
-      <node ref="U12" pin="1" pintype="output"/>
-      <node ref="U12" pin="2" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="22" name="/Cell Measurement/CELL2">
-      <node ref="U10" pin="11" pinfunction="PA1" pintype="bidirectional"/>
-      <node ref="U11" pin="1" pintype="output"/>
-      <node ref="U11" pin="2" pinfunction="-" pintype="input"/>
-    </net>
-    <net code="23" name="/Cell Measurement/CELL3">
-      <node ref="U10" pin="12" pinfunction="PA2" pintype="bidirectional"/>
-      <node ref="U12" pin="6" pinfunction="-" pintype="input"/>
-      <node ref="U12" pin="7" pintype="output"/>
-    </net>
-    <net code="24" name="/Cell Measurement/CELL4">
-      <node ref="U10" pin="13" pinfunction="PA3" pintype="bidirectional"/>
-      <node ref="U11" pin="6" pinfunction="-" pintype="input"/>
-      <node ref="U11" pin="7" pintype="output"/>
-    </net>
-    <net code="25" name="/DISCHARGE">
-      <node ref="J16" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="15" name="/DISCHARGE">
       <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U10" pin="27" pinfunction="PB14" pintype="bidirectional"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U8" pin="27" pinfunction="PB14" pintype="bidirectional"/>
     </net>
-    <net code="26" name="/EN_CELL_BALANCING">
-      <node ref="J23" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="Q39" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U10" pin="5" pinfunction="PH0" pintype="input"/>
-    </net>
-    <net code="27" name="/EN_CELL_MEASUREMENT">
+    <net code="16" name="/EN_CELL_MEASUREMENT">
       <node ref="Q10" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q9" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R42" pin="1" pintype="passive"/>
-      <node ref="R43" pin="1" pintype="passive"/>
-      <node ref="U10" pin="33" pinfunction="PA12" pintype="bidirectional"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="U8" pin="33" pinfunction="PA12" pintype="bidirectional"/>
     </net>
-    <net code="28" name="/Interconnect/UART_RX">
-      <node ref="J14" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J18" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="R35" pin="1" pintype="passive"/>
-      <node ref="R40" pin="2" pintype="passive"/>
-    </net>
-    <net code="29" name="/Interconnect/UART_TX">
-      <node ref="J14" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J18" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="R36" pin="1" pintype="passive"/>
-      <node ref="R41" pin="2" pintype="passive"/>
-    </net>
-    <net code="30" name="/MCU/LED1">
-      <node ref="J15" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="17" name="/MCU/LED1">
       <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R25" pin="2" pintype="passive"/>
-      <node ref="U10" pin="4" pinfunction="PC15" pintype="bidirectional"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+      <node ref="U8" pin="4" pinfunction="PC15" pintype="bidirectional"/>
     </net>
-    <net code="31" name="/MCU/LED2">
-      <node ref="J15" pin="2" pinfunction="Pin_2" pintype="passive"/>
+    <net code="18" name="/MCU/LED2">
       <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R27" pin="2" pintype="passive"/>
-      <node ref="U10" pin="3" pinfunction="PC14" pintype="bidirectional"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+      <node ref="U8" pin="3" pinfunction="PC14" pintype="bidirectional"/>
     </net>
-    <net code="32" name="/MCU/LED3">
-      <node ref="J15" pin="3" pinfunction="Pin_3" pintype="passive"/>
+    <net code="19" name="/MCU/LED3">
       <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R30" pin="2" pintype="passive"/>
-      <node ref="U10" pin="2" pinfunction="PC13" pintype="bidirectional"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="U8" pin="2" pinfunction="PC13" pintype="bidirectional"/>
     </net>
-    <net code="33" name="/MCU/NRST">
+    <net code="20" name="/MCU/NRST">
       <node ref="C26" pin="1" pintype="passive"/>
-      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="J7" pin="10" pinfunction="RESET" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
       <node ref="RESET1" pin="3" pinfunction="B" pintype="passive"/>
       <node ref="RESET1" pin="4" pinfunction="B" pintype="passive"/>
-      <node ref="U10" pin="7" pinfunction="NRST" pintype="input"/>
-      <node ref="U6" pin="RESET" pinfunction="RESET" pintype="bidirectional"/>
+      <node ref="U8" pin="7" pinfunction="NRST" pintype="input"/>
     </net>
-    <net code="34" name="/MCU/SCL">
-      <node ref="J13" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J19" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J20" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J21" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J22" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R32" pin="2" pintype="passive"/>
-      <node ref="U10" pin="42" pinfunction="PB6" pintype="bidirectional"/>
-      <node ref="U7" pin="6" pinfunction="SCL" pintype="input"/>
-      <node ref="U8" pin="2" pinfunction="SCL" pintype="input"/>
-      <node ref="U9" pin="4" pinfunction="SCL" pintype="input"/>
+    <net code="21" name="/MCU/SCL">
+      <node ref="J10" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J11" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J8" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="SCL" pintype="input"/>
+      <node ref="U7" pin="2" pinfunction="SCL" pintype="input"/>
+      <node ref="U8" pin="42" pinfunction="PB6" pintype="bidirectional"/>
     </net>
-    <net code="35" name="/MCU/SDA">
-      <node ref="J13" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J19" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J20" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J21" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J22" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="R34" pin="2" pintype="passive"/>
-      <node ref="U10" pin="43" pinfunction="PB7" pintype="bidirectional"/>
-      <node ref="U7" pin="5" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="U8" pin="1" pinfunction="SDA" pintype="bidirectional"/>
-      <node ref="U9" pin="3" pinfunction="SDA" pintype="bidirectional"/>
+    <net code="22" name="/MCU/SDA">
+      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J8" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="U6" pin="5" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U7" pin="1" pinfunction="SDA" pintype="bidirectional"/>
+      <node ref="U8" pin="43" pinfunction="PB7" pintype="bidirectional"/>
     </net>
-    <net code="36" name="/MCU/SWCLK">
-      <node ref="U10" pin="37" pinfunction="PA14" pintype="bidirectional"/>
-      <node ref="U6" pin="SWCLK" pinfunction="SWCLK" pintype="bidirectional"/>
+    <net code="23" name="/MCU/SWCLK">
+      <node ref="J7" pin="04" pinfunction="SWCLK" pintype="passive"/>
+      <node ref="U8" pin="37" pinfunction="PA14" pintype="bidirectional"/>
     </net>
-    <net code="37" name="/MCU/SWDIO">
-      <node ref="U10" pin="34" pinfunction="PA13" pintype="bidirectional"/>
-      <node ref="U6" pin="SWDIO" pinfunction="SWDIO" pintype="bidirectional"/>
+    <net code="24" name="/MCU/SWDIO">
+      <node ref="J7" pin="02" pinfunction="SWDIO" pintype="passive"/>
+      <node ref="U8" pin="34" pinfunction="PA13" pintype="bidirectional"/>
     </net>
-    <net code="38" name="/MCU/UART_USB_RX">
-      <node ref="J17" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R19" pin="2" pintype="passive"/>
-      <node ref="R38" pin="2" pintype="passive"/>
+    <net code="25" name="/MCU/UART_USB_RX">
+      <node ref="R17" pin="2" pintype="passive"/>
       <node ref="U5" pin="1" pinfunction="TXD" pintype="output"/>
+      <node ref="U8" pin="31" pinfunction="PA10" pintype="bidirectional"/>
     </net>
-    <net code="39" name="/MCU/UART_USB_TX">
-      <node ref="J17" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R20" pin="2" pintype="passive"/>
-      <node ref="R39" pin="2" pintype="passive"/>
+    <net code="26" name="/MCU/UART_USB_TX">
+      <node ref="R18" pin="2" pintype="passive"/>
       <node ref="U5" pin="4" pinfunction="RXD" pintype="input"/>
+      <node ref="U8" pin="30" pinfunction="PA9" pintype="bidirectional"/>
     </net>
-    <net code="40" name="/MCU/VDDA">
+    <net code="27" name="/MCU/VDDA">
       <node ref="C28" pin="1" pintype="passive"/>
       <node ref="C29" pin="1" pintype="passive"/>
       <node ref="FB2" pin="1" pintype="passive"/>
-      <node ref="U10" pin="9" pinfunction="VDDA" pintype="power_in"/>
+      <node ref="U8" pin="9" pinfunction="VDDA" pintype="power_in"/>
     </net>
-    <net code="41" name="/PACK_EXT">
+    <net code="28" name="/PACK_EXT">
       <node ref="C3" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
       <node ref="U3" pin="5" pinfunction="EN/CLKN" pintype="input"/>
       <node ref="U3" pin="7" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="42" name="/Power Supply/9V4">
+    <net code="29" name="/Power Supply/9V4">
       <node ref="C4" pin="1" pintype="passive"/>
-      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U4" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="43" name="GND">
+    <net code="30" name="GND">
       <node ref="C10" pin="2" pintype="passive"/>
       <node ref="C11" pin="2" pintype="passive"/>
       <node ref="C12" pin="2" pintype="passive"/>
@@ -4787,47 +3500,40 @@
       <node ref="C33" pin="2" pintype="passive"/>
       <node ref="C34" pin="2" pintype="passive"/>
       <node ref="C35" pin="2" pintype="passive"/>
+      <node ref="C36" pin="2" pintype="passive"/>
+      <node ref="C37" pin="2" pintype="passive"/>
       <node ref="C4" pin="2" pintype="passive"/>
       <node ref="C5" pin="2" pintype="passive"/>
       <node ref="C6" pin="2" pintype="passive"/>
-      <node ref="D5" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D6" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
       <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
-      <node ref="J10" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J11" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J12" pin="5" pinfunction="GND" pintype="passive"/>
-      <node ref="J12" pin="S1" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S2" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S3" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S4" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S5" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J12" pin="S6" pinfunction="SHIELD" pintype="passive"/>
-      <node ref="J13" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J14" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J15" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J16" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J17" pin="3" pinfunction="Pin_3" pintype="passive"/>
-      <node ref="J18" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J19" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J20" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J21" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J22" pin="4" pinfunction="Pin_4" pintype="passive"/>
-      <node ref="J23" pin="5" pinfunction="Pin_5" pintype="passive"/>
-      <node ref="J24" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J25" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="J8" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="J9" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="H5" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="J10" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J11" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J3" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J6" pin="5" pinfunction="GND" pintype="passive"/>
+      <node ref="J6" pin="S1" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S2" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S3" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S4" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S5" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J6" pin="S6" pinfunction="SHIELD" pintype="passive"/>
+      <node ref="J7" pin="03" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="05" pinfunction="GND" pintype="passive"/>
+      <node ref="J7" pin="09" pinfunction="GND" pintype="passive"/>
+      <node ref="J8" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="J9" pin="4" pinfunction="Pin_4" pintype="passive"/>
       <node ref="Q1" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q10" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q34" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q35" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q36" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q37" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q38" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q39" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q4" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q5" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q6" pin="2" pinfunction="S" pintype="passive"/>
@@ -4835,33 +3541,25 @@
       <node ref="Q8" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="Q9" pin="2" pinfunction="S" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
-      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R23" pin="1" pintype="passive"/>
       <node ref="R25" pin="1" pintype="passive"/>
-      <node ref="R27" pin="1" pintype="passive"/>
-      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R32" pin="1" pintype="passive"/>
       <node ref="R33" pin="2" pintype="passive"/>
-      <node ref="R37" pin="1" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
       <node ref="R42" pin="2" pintype="passive"/>
-      <node ref="R43" pin="2" pintype="passive"/>
-      <node ref="R47" pin="2" pintype="passive"/>
-      <node ref="R49" pin="2" pintype="passive"/>
-      <node ref="R51" pin="2" pintype="passive"/>
-      <node ref="R53" pin="2" pintype="passive"/>
-      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
       <node ref="RESET1" pin="1" pinfunction="A" pintype="passive"/>
       <node ref="RESET1" pin="2" pinfunction="A" pintype="passive"/>
       <node ref="U1" pin="3" pinfunction="GND" pintype="passive"/>
       <node ref="U1" pin="5" pinfunction="V_{OUT}" pintype="passive"/>
-      <node ref="U10" pin="23" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U10" pin="35" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U10" pin="47" pinfunction="VSS" pintype="power_in"/>
-      <node ref="U10" pin="8" pinfunction="VSSA" pintype="power_in"/>
-      <node ref="U11" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U12" pin="4" pinfunction="V-" pintype="power_in"/>
-      <node ref="U13" pin="13" pinfunction="A1b" pintype="input"/>
-      <node ref="U13" pin="14" pinfunction="A0b" pintype="input"/>
-      <node ref="U13" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U10" pin="4" pinfunction="V-" pintype="power_in"/>
       <node ref="U2" pin="6" pinfunction="AGND" pintype="passive"/>
       <node ref="U2" pin="8" pinfunction="PGND" pintype="passive"/>
       <node ref="U3" pin="6" pinfunction="AGND" pintype="passive"/>
@@ -4870,523 +3568,387 @@
       <node ref="U4" pin="5" pinfunction="V_{OUT}" pintype="passive"/>
       <node ref="U5" pin="13" pinfunction="GND" pintype="power_in"/>
       <node ref="U5" pin="5" pinfunction="GND" pintype="power_in"/>
-      <node ref="U6" pin="GND@1" pinfunction="GND" pintype="power_in"/>
-      <node ref="U6" pin="GND@2" pinfunction="GND" pintype="power_in"/>
-      <node ref="U6" pin="GND@3" pinfunction="GND" pintype="power_in"/>
-      <node ref="U7" pin="1" pinfunction="A0" pintype="input"/>
-      <node ref="U7" pin="2" pinfunction="A1" pintype="input"/>
-      <node ref="U7" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U6" pin="1" pinfunction="A0" pintype="input"/>
+      <node ref="U6" pin="2" pinfunction="A1" pintype="input"/>
+      <node ref="U6" pin="3" pinfunction="A2" pintype="input"/>
+      <node ref="U6" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="WP" pintype="input"/>
       <node ref="U7" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U7" pin="7" pinfunction="WP" pintype="input"/>
-      <node ref="U8" pin="4" pinfunction="GND" pintype="power_in"/>
-      <node ref="U8" pin="5" pinfunction="A2" pintype="input"/>
-      <node ref="U8" pin="6" pinfunction="A1" pintype="input"/>
-      <node ref="U8" pin="7" pinfunction="A0" pintype="input"/>
-      <node ref="U9" pin="5" pinfunction="GND" pintype="power_in"/>
-      <node ref="U9" pin="8" pinfunction="VIN" pintype="input"/>
+      <node ref="U7" pin="5" pinfunction="A2" pintype="input"/>
+      <node ref="U7" pin="6" pinfunction="A1" pintype="input"/>
+      <node ref="U7" pin="7" pinfunction="A0" pintype="input"/>
+      <node ref="U8" pin="23" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="35" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="47" pinfunction="VSS" pintype="power_in"/>
+      <node ref="U8" pin="8" pinfunction="VSSA" pintype="power_in"/>
+      <node ref="U9" pin="4" pinfunction="V-" pintype="power_in"/>
     </net>
-    <net code="44" name="Net-(D1-K)">
+    <net code="31" name="Net-(D1-K)">
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="1" pintype="passive"/>
-    </net>
-    <net code="45" name="Net-(D3-K)">
-      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="D5" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="F1" pin="2" pintype="passive"/>
-    </net>
-    <net code="46" name="Net-(D4-A)">
-      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
-      <node ref="D6" pin="2" pinfunction="K" pintype="passive"/>
-      <node ref="F2" pin="2" pintype="passive"/>
-      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R4" pin="1" pintype="passive"/>
     </net>
-    <net code="47" name="Net-(D10-K)">
+    <net code="32" name="Net-(D3-K)">
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="F1" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D4-A)">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="F2" pin="2" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D5-K)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D6-K)">
       <node ref="C2" pin="1" pintype="passive"/>
-      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U2" pin="5" pinfunction="EN/CLKN" pintype="input"/>
       <node ref="U2" pin="7" pinfunction="VIN" pintype="power_in"/>
     </net>
-    <net code="48" name="Net-(D11-A)">
-      <node ref="C1" pin="1" pintype="passive"/>
-      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D7" pin="1" pinfunction="K" pintype="passive"/>
-    </net>
-    <net code="49" name="Net-(D12-K)">
+    <net code="36" name="Net-(D10-A)">
       <node ref="C9" pin="1" pintype="passive"/>
-      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D11-A)">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D13-A)">
       <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R21" pin="2" pintype="passive"/>
     </net>
-    <net code="50" name="Net-(D13-K)">
-      <node ref="C10" pin="1" pintype="passive"/>
+    <net code="39" name="Net-(D13-K)">
       <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="J10" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="R15" pin="2" pintype="passive"/>
-    </net>
-    <net code="51" name="Net-(D14-A)">
-      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J9" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="R14" pin="1" pintype="passive"/>
-    </net>
-    <net code="52" name="Net-(D17-A)">
-      <node ref="D17" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R23" pin="2" pintype="passive"/>
-    </net>
-    <net code="53" name="Net-(D17-K)">
-      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U5" pin="14" pinfunction="CBUS1" pintype="bidirectional"/>
     </net>
-    <net code="54" name="Net-(D18-A)">
-      <node ref="D18" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="R24" pin="2" pintype="passive"/>
+    <net code="40" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
     </net>
-    <net code="55" name="Net-(D18-K)">
-      <node ref="D18" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="41" name="Net-(D14-K)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="U5" pin="7" pinfunction="CBUS2" pintype="bidirectional"/>
     </net>
-    <net code="56" name="Net-(D19-K)">
-      <node ref="D19" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="42" name="Net-(D15-K)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D16-K)">
+      <node ref="D16" pin="1" pinfunction="K" pintype="passive"/>
       <node ref="R26" pin="1" pintype="passive"/>
     </net>
-    <net code="57" name="Net-(D20-K)">
-      <node ref="D20" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R28" pin="1" pintype="passive"/>
+    <net code="44" name="Net-(D17-K)">
+      <node ref="D17" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="1" pintype="passive"/>
     </net>
-    <net code="58" name="Net-(D21-K)">
-      <node ref="D21" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R31" pin="1" pintype="passive"/>
-    </net>
-    <net code="59" name="Net-(J6-Pin_1)">
-      <node ref="F1" pin="1" pintype="passive"/>
-      <node ref="J6" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="60" name="Net-(J7-Pin_1)">
-      <node ref="F2" pin="1" pintype="passive"/>
-      <node ref="J7" pin="1" pinfunction="Pin_1" pintype="passive"/>
-    </net>
-    <net code="61" name="Net-(J9-Pin_1)">
-      <node ref="C12" pin="1" pintype="passive"/>
-      <node ref="J9" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R10" pin="1" pintype="passive"/>
-      <node ref="R14" pin="2" pintype="passive"/>
-    </net>
-    <net code="62" name="Net-(J11-Pin_1)">
-      <node ref="C11" pin="1" pintype="passive"/>
-      <node ref="J11" pin="1" pinfunction="Pin_1" pintype="passive"/>
-      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="R16" pin="2" pintype="passive"/>
-      <node ref="R6" pin="1" pintype="passive"/>
-    </net>
-    <net code="63" name="Net-(J12-D+)">
-      <node ref="J12" pin="3" pinfunction="D+" pintype="passive"/>
-      <node ref="R18" pin="2" pintype="passive"/>
-    </net>
-    <net code="64" name="Net-(J12-D-)">
-      <node ref="J12" pin="2" pinfunction="D-" pintype="passive"/>
-      <node ref="R17" pin="2" pintype="passive"/>
-    </net>
-    <net code="65" name="Net-(J12-VCC)">
-      <node ref="C18" pin="1" pintype="passive"/>
-      <node ref="FB1" pin="1" pintype="passive"/>
-      <node ref="J12" pin="1" pinfunction="VCC" pintype="passive"/>
-    </net>
-    <net code="66" name="Net-(J24-Pin_1)">
-      <node ref="J24" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="45" name="Net-(J2-Pin_1)">
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
       <node ref="R2" pin="2" pintype="passive"/>
     </net>
-    <net code="67" name="Net-(J25-Pin_1)">
-      <node ref="J25" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    <net code="46" name="Net-(J3-Pin_1)">
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
     </net>
-    <net code="68" name="Net-(L3-Pad2)">
-      <node ref="L3" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L4" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="47" name="Net-(J4-Pin_1)">
+      <node ref="F1" pin="1" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="69" name="Net-(L4-Pad2)">
-      <node ref="L4" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L5" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="48" name="Net-(J5-Pin_1)">
+      <node ref="F2" pin="1" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
     </net>
-    <net code="70" name="Net-(L5-Pad2)">
-      <node ref="L5" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L6" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="49" name="Net-(J6-D+)">
+      <node ref="J6" pin="3" pinfunction="D+" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
     </net>
-    <net code="71" name="Net-(L6-Pad2)">
-      <node ref="L6" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L7" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="50" name="Net-(J6-D-)">
+      <node ref="J6" pin="2" pinfunction="D-" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
     </net>
-    <net code="72" name="Net-(L7-Pad2)">
-      <node ref="L7" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L8" pin="1" pinfunction="1" pintype="passive"/>
+    <net code="51" name="Net-(J6-VCC)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="FB1" pin="1" pintype="passive"/>
+      <node ref="J6" pin="1" pinfunction="VCC" pintype="passive"/>
     </net>
-    <net code="73" name="Net-(L8-Pad2)">
-      <node ref="L8" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="L9" pin="1" pinfunction="1" pintype="passive"/>
-    </net>
-    <net code="74" name="Net-(L10-Pad1)">
-      <node ref="L10" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="L9" pin="2" pinfunction="2" pintype="passive"/>
-    </net>
-    <net code="75" name="Net-(Q2-S)">
+    <net code="52" name="Net-(Q2-S)">
       <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
       <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
     </net>
-    <net code="76" name="Net-(Q6-D)">
+    <net code="53" name="Net-(Q6-D)">
       <node ref="Q6" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(Q7-D)">
+      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="R26" pin="2" pintype="passive"/>
     </net>
-    <net code="77" name="Net-(Q7-D)">
-      <node ref="Q7" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R28" pin="2" pintype="passive"/>
-    </net>
-    <net code="78" name="Net-(Q8-D)">
+    <net code="55" name="Net-(Q8-D)">
       <node ref="Q8" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
     </net>
-    <net code="79" name="Net-(Q10-D)">
+    <net code="56" name="Net-(Q10-D)">
       <node ref="Q10" pin="3" pinfunction="D" pintype="passive"/>
       <node ref="Q11" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
     </net>
-    <net code="80" name="Net-(Q11-D)">
+    <net code="57" name="Net-(Q11-D)">
+      <node ref="C30" pin="1" pintype="passive"/>
       <node ref="C31" pin="1" pintype="passive"/>
       <node ref="C32" pin="1" pintype="passive"/>
       <node ref="C33" pin="1" pintype="passive"/>
-      <node ref="C34" pin="1" pintype="passive"/>
       <node ref="Q11" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="U11" pin="8" pinfunction="V+" pintype="power_in"/>
-      <node ref="U12" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U10" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="U9" pin="8" pinfunction="V+" pintype="power_in"/>
     </net>
-    <net code="81" name="Net-(Q12-D)">
+    <net code="58" name="Net-(Q12-D)">
       <node ref="Q12" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
     </net>
-    <net code="82" name="Net-(Q12-G)">
+    <net code="59" name="Net-(Q12-G)">
       <node ref="Q12" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q13" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q14" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q15" pin="1" pinfunction="G" pintype="input"/>
       <node ref="Q9" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
     </net>
-    <net code="83" name="Net-(Q13-D)">
+    <net code="60" name="Net-(Q13-D)">
       <node ref="Q13" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="R48" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
     </net>
-    <net code="84" name="Net-(Q14-D)">
+    <net code="61" name="Net-(Q14-D)">
       <node ref="Q14" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="R50" pin="1" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+      <node ref="U9" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="85" name="Net-(Q15-D)">
+    <net code="62" name="Net-(Q15-D)">
       <node ref="Q15" pin="2" pinfunction="D" pintype="passive"/>
-      <node ref="R52" pin="1" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+      <node ref="U10" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="86" name="Net-(Q16-D)">
-      <node ref="Q16" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q24" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="63" name="Net-(R7-Pad2)">
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
     </net>
-    <net code="87" name="Net-(Q17-S)">
-      <node ref="Q17" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q25" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="64" name="Net-(R10-Pad1)">
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
     </net>
-    <net code="88" name="Net-(Q18-D)">
-      <node ref="Q18" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q26" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="65" name="Net-(R11-Pad2)">
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
     </net>
-    <net code="89" name="Net-(Q19-S)">
-      <node ref="Q19" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q27" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="66" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
     </net>
-    <net code="90" name="Net-(Q20-D)">
-      <node ref="Q20" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q28" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="67" name="Net-(R39-Pad2)">
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
     </net>
-    <net code="91" name="Net-(Q21-S)">
-      <node ref="Q21" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q29" pin="3" pinfunction="D" pintype="passive"/>
+    <net code="68" name="Net-(R41-Pad2)">
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
     </net>
-    <net code="92" name="Net-(Q22-D)">
-      <node ref="Q22" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q30" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="93" name="Net-(Q23-S)">
-      <node ref="Q23" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q31" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="94" name="Net-(Q24-S)">
-      <node ref="L10" pin="2" pinfunction="2" pintype="passive"/>
-      <node ref="Q24" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q26" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q28" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q30" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q32" pin="3" pinfunction="D" pintype="passive"/>
-    </net>
-    <net code="95" name="Net-(Q25-S)">
-      <node ref="L3" pin="1" pinfunction="1" pintype="passive"/>
-      <node ref="Q25" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q27" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q29" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q31" pin="2" pinfunction="S" pintype="passive"/>
-      <node ref="Q33" pin="2" pinfunction="S" pintype="passive"/>
-    </net>
-    <net code="96" name="Net-(Q34-G)">
-      <node ref="Q34" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U13" pin="4" pinfunction="Y0a" pintype="output"/>
-    </net>
-    <net code="97" name="Net-(Q35-G)">
-      <node ref="Q35" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U13" pin="5" pinfunction="Y1a" pintype="output"/>
-    </net>
-    <net code="98" name="Net-(Q36-G)">
-      <node ref="Q36" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U13" pin="6" pinfunction="Y2a" pintype="output"/>
-    </net>
-    <net code="99" name="Net-(Q37-G)">
-      <node ref="Q37" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="U13" pin="7" pinfunction="Y3a" pintype="output"/>
-    </net>
-    <net code="100" name="Net-(Q39-D)">
-      <node ref="Q39" pin="3" pinfunction="D" pintype="passive"/>
-      <node ref="Q40" pin="1" pinfunction="G" pintype="input"/>
-      <node ref="R59" pin="2" pintype="passive"/>
-    </net>
-    <net code="101" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2" pintype="passive"/>
-      <node ref="R7" pin="1" pintype="passive"/>
-    </net>
-    <net code="102" name="Net-(R8-Pad2)">
-      <node ref="R8" pin="2" pintype="passive"/>
-      <node ref="R9" pin="1" pintype="passive"/>
-    </net>
-    <net code="103" name="Net-(R10-Pad2)">
-      <node ref="R10" pin="2" pintype="passive"/>
-      <node ref="R11" pin="1" pintype="passive"/>
-    </net>
-    <net code="104" name="Net-(R12-Pad2)">
-      <node ref="R12" pin="2" pintype="passive"/>
-      <node ref="R13" pin="1" pintype="passive"/>
-    </net>
-    <net code="105" name="Net-(U1-CAP+)">
+    <net code="69" name="Net-(U1-CAP+)">
       <node ref="C1" pin="2" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="CAP+" pintype="bidirectional"/>
     </net>
-    <net code="106" name="Net-(U2-BOOT)">
+    <net code="70" name="Net-(U2-BOOT)">
       <node ref="C8" pin="2" pintype="passive"/>
       <node ref="U2" pin="2" pinfunction="BOOT" pintype="input"/>
     </net>
-    <net code="107" name="Net-(U2-FB{slash}VOUT)">
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="R8" pin="1" pintype="passive"/>
+    <net code="71" name="Net-(U2-FB{slash}VOUT)">
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
       <node ref="U2" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
     </net>
-    <net code="108" name="Net-(U2-SW)">
+    <net code="72" name="Net-(U2-SW)">
       <node ref="C8" pin="1" pintype="passive"/>
       <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U2" pin="1" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="109" name="Net-(U2-VCC)">
+    <net code="73" name="Net-(U2-VCC)">
       <node ref="C5" pin="1" pintype="passive"/>
       <node ref="U2" pin="3" pinfunction="VCC" pintype="power_out"/>
     </net>
-    <net code="110" name="Net-(U3-BOOT)">
+    <net code="74" name="Net-(U3-BOOT)">
       <node ref="C7" pin="2" pintype="passive"/>
       <node ref="U3" pin="2" pinfunction="BOOT" pintype="input"/>
     </net>
-    <net code="111" name="Net-(U3-FB{slash}VOUT)">
-      <node ref="R11" pin="2" pintype="passive"/>
-      <node ref="R12" pin="1" pintype="passive"/>
+    <net code="75" name="Net-(U3-FB{slash}VOUT)">
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
       <node ref="U3" pin="4" pinfunction="FB/VOUT" pintype="power_out"/>
     </net>
-    <net code="112" name="Net-(U3-SW)">
+    <net code="76" name="Net-(U3-SW)">
       <node ref="C7" pin="1" pintype="passive"/>
       <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U3" pin="1" pinfunction="SW" pintype="power_out"/>
     </net>
-    <net code="113" name="Net-(U3-VCC)">
+    <net code="77" name="Net-(U3-VCC)">
       <node ref="C6" pin="1" pintype="passive"/>
       <node ref="U3" pin="3" pinfunction="VCC" pintype="power_out"/>
     </net>
-    <net code="114" name="Net-(U4-CAP+)">
+    <net code="78" name="Net-(U4-CAP+)">
       <node ref="C9" pin="2" pintype="passive"/>
       <node ref="U4" pin="2" pinfunction="CAP+" pintype="bidirectional"/>
     </net>
-    <net code="115" name="Net-(U5-3V3OUT)">
+    <net code="79" name="Net-(U5-3V3OUT)">
       <node ref="C19" pin="1" pintype="passive"/>
       <node ref="U5" pin="10" pinfunction="3V3OUT" pintype="power_out"/>
       <node ref="U5" pin="11" pinfunction="~{RESET}" pintype="input"/>
       <node ref="U5" pin="3" pinfunction="VCCIO" pintype="power_in"/>
     </net>
-    <net code="116" name="Net-(U5-USBDM)">
+    <net code="80" name="Net-(U5-USBDM)">
       <node ref="C14" pin="1" pintype="passive"/>
-      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
       <node ref="U5" pin="9" pinfunction="USBDM" pintype="bidirectional"/>
     </net>
-    <net code="117" name="Net-(U5-USBDP)">
+    <net code="81" name="Net-(U5-USBDP)">
       <node ref="C16" pin="1" pintype="passive"/>
-      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
       <node ref="U5" pin="8" pinfunction="USBDP" pintype="bidirectional"/>
     </net>
-    <net code="118" name="Net-(U5-~{CTS})">
-      <node ref="R22" pin="2" pintype="passive"/>
+    <net code="82" name="Net-(U5-~{CTS})">
+      <node ref="R20" pin="2" pintype="passive"/>
       <node ref="U5" pin="6" pinfunction="~{CTS}" pintype="input"/>
     </net>
-    <net code="119" name="Net-(U5-~{RTS})">
-      <node ref="R21" pin="2" pintype="passive"/>
+    <net code="83" name="Net-(U5-~{RTS})">
+      <node ref="R19" pin="2" pintype="passive"/>
       <node ref="U5" pin="2" pinfunction="~{RTS}" pintype="output"/>
     </net>
-    <net code="120" name="Net-(U9-ROSC)">
-      <node ref="R33" pin="1" pintype="passive"/>
-      <node ref="U9" pin="2" pinfunction="ROSC" pintype="input"/>
+    <net code="84" name="Net-(U8-BOOT0)">
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="U8" pin="44" pinfunction="BOOT0" pintype="input"/>
     </net>
-    <net code="121" name="Net-(U10-BOOT0)">
+    <net code="85" name="Net-(U9B-+)">
       <node ref="R37" pin="2" pintype="passive"/>
-      <node ref="U10" pin="44" pinfunction="BOOT0" pintype="input"/>
-    </net>
-    <net code="122" name="Net-(U10-PA9)">
-      <node ref="R39" pin="1" pintype="passive"/>
-      <node ref="U10" pin="30" pinfunction="PA9" pintype="bidirectional"/>
-    </net>
-    <net code="123" name="Net-(U10-PA10)">
       <node ref="R38" pin="1" pintype="passive"/>
-      <node ref="U10" pin="31" pinfunction="PA10" pintype="bidirectional"/>
+      <node ref="U9" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="124" name="Net-(U10-PB10)">
-      <node ref="R36" pin="2" pintype="passive"/>
-      <node ref="U10" pin="21" pinfunction="PB10" pintype="bidirectional"/>
+    <net code="86" name="Net-(U10A-+)">
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="U10" pin="3" pinfunction="+" pintype="input"/>
     </net>
-    <net code="125" name="Net-(U10-PB11)">
-      <node ref="R35" pin="2" pintype="passive"/>
-      <node ref="U10" pin="22" pinfunction="PB11" pintype="bidirectional"/>
+    <net code="87" name="unconnected-(J6-ID-Pad4)">
+      <node ref="J6" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
     </net>
-    <net code="126" name="Net-(U11A-+)">
-      <node ref="R50" pin="2" pintype="passive"/>
-      <node ref="R51" pin="1" pintype="passive"/>
-      <node ref="U11" pin="3" pinfunction="+" pintype="input"/>
+    <net code="88" name="unconnected-(J7-KEY-Pad07)">
+      <node ref="J7" pin="07" pinfunction="KEY" pintype="passive+no_connect"/>
     </net>
-    <net code="127" name="Net-(U11B-+)">
-      <node ref="R46" pin="2" pintype="passive"/>
-      <node ref="R47" pin="1" pintype="passive"/>
-      <node ref="U11" pin="5" pinfunction="+" pintype="input"/>
+    <net code="89" name="unconnected-(J7-NC-Pad08)">
+      <node ref="J7" pin="08" pinfunction="NC" pintype="passive+no_connect"/>
     </net>
-    <net code="128" name="Net-(U12A-+)">
-      <node ref="R52" pin="2" pintype="passive"/>
-      <node ref="R53" pin="1" pintype="passive"/>
-      <node ref="U12" pin="3" pinfunction="+" pintype="input"/>
+    <net code="90" name="unconnected-(J7-SWO-Pad06)">
+      <node ref="J7" pin="06" pinfunction="SWO" pintype="passive+no_connect"/>
     </net>
-    <net code="129" name="Net-(U12B-+)">
-      <node ref="R48" pin="2" pintype="passive"/>
-      <node ref="R49" pin="1" pintype="passive"/>
-      <node ref="U12" pin="5" pinfunction="+" pintype="input"/>
-    </net>
-    <net code="130" name="unconnected-(J12-ID-Pad4)">
-      <node ref="J12" pin="4" pinfunction="ID" pintype="passive+no_connect"/>
-    </net>
-    <net code="131" name="unconnected-(U1-CAP--Pad4)">
+    <net code="91" name="unconnected-(U1-CAP--Pad4)">
       <node ref="U1" pin="4" pinfunction="CAP-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="132" name="unconnected-(U1-LV-Pad6)">
+    <net code="92" name="unconnected-(U1-LV-Pad6)">
       <node ref="U1" pin="6" pinfunction="LV" pintype="input+no_connect"/>
     </net>
-    <net code="133" name="unconnected-(U1-NC-Pad1)">
+    <net code="93" name="unconnected-(U1-NC-Pad1)">
       <node ref="U1" pin="1" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="134" name="unconnected-(U1-OSC-Pad7)">
+    <net code="94" name="unconnected-(U1-OSC-Pad7)">
       <node ref="U1" pin="7" pinfunction="OSC" pintype="input+no_connect"/>
     </net>
-    <net code="135" name="unconnected-(U4-CAP--Pad4)">
+    <net code="95" name="unconnected-(U4-CAP--Pad4)">
       <node ref="U4" pin="4" pinfunction="CAP-" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="136" name="unconnected-(U4-LV-Pad6)">
+    <net code="96" name="unconnected-(U4-LV-Pad6)">
       <node ref="U4" pin="6" pinfunction="LV" pintype="input+no_connect"/>
     </net>
-    <net code="137" name="unconnected-(U4-NC-Pad1)">
+    <net code="97" name="unconnected-(U4-NC-Pad1)">
       <node ref="U4" pin="1" pinfunction="NC" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="138" name="unconnected-(U4-OSC-Pad7)">
+    <net code="98" name="unconnected-(U4-OSC-Pad7)">
       <node ref="U4" pin="7" pinfunction="OSC" pintype="input+no_connect"/>
     </net>
-    <net code="139" name="unconnected-(U5-CBUS0-Pad15)">
+    <net code="99" name="unconnected-(U5-CBUS0-Pad15)">
       <node ref="U5" pin="15" pinfunction="CBUS0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="140" name="unconnected-(U5-CBUS3-Pad16)">
+    <net code="100" name="unconnected-(U5-CBUS3-Pad16)">
       <node ref="U5" pin="16" pinfunction="CBUS3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="141" name="unconnected-(U6-PadRXI)">
-      <node ref="U6" pin="RXI" pinfunction="RXI" pintype="bidirectional+no_connect"/>
+    <net code="101" name="unconnected-(U7-ALERT-Pad3)">
+      <node ref="U7" pin="3" pinfunction="ALERT" pintype="input+no_connect"/>
     </net>
-    <net code="142" name="unconnected-(U6-PadSWO)">
-      <node ref="U6" pin="SWO" pinfunction="SWO" pintype="bidirectional+no_connect"/>
+    <net code="102" name="unconnected-(U8-PA4-Pad14)">
+      <node ref="U8" pin="14" pinfunction="PA4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="143" name="unconnected-(U6-PadTXO)">
-      <node ref="U6" pin="TXO" pinfunction="TXO" pintype="bidirectional+no_connect"/>
+    <net code="103" name="unconnected-(U8-PA5-Pad15)">
+      <node ref="U8" pin="15" pinfunction="PA5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="144" name="unconnected-(U8-ALERT-Pad3)">
-      <node ref="U8" pin="3" pinfunction="ALERT" pintype="input+no_connect"/>
+    <net code="104" name="unconnected-(U8-PA6-Pad16)">
+      <node ref="U8" pin="16" pinfunction="PA6" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="145" name="unconnected-(U9-IO0-Pad1)">
-      <node ref="U9" pin="1" pinfunction="IO0" pintype="input+no_connect"/>
+    <net code="105" name="unconnected-(U8-PA7-Pad17)">
+      <node ref="U8" pin="17" pinfunction="PA7" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="146" name="unconnected-(U10-PA4-Pad14)">
-      <node ref="U10" pin="14" pinfunction="PA4" pintype="bidirectional+no_connect"/>
+    <net code="106" name="unconnected-(U8-PA8-Pad29)">
+      <node ref="U8" pin="29" pinfunction="PA8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="147" name="unconnected-(U10-PA5-Pad15)">
-      <node ref="U10" pin="15" pinfunction="PA5" pintype="bidirectional+no_connect"/>
+    <net code="107" name="unconnected-(U8-PA11-Pad32)">
+      <node ref="U8" pin="32" pinfunction="PA11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="148" name="unconnected-(U10-PA6-Pad16)">
-      <node ref="U10" pin="16" pinfunction="PA6" pintype="bidirectional+no_connect"/>
+    <net code="108" name="unconnected-(U8-PA15-Pad38)">
+      <node ref="U8" pin="38" pinfunction="PA15" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="149" name="unconnected-(U10-PA7-Pad17)">
-      <node ref="U10" pin="17" pinfunction="PA7" pintype="bidirectional+no_connect"/>
+    <net code="109" name="unconnected-(U8-PB0-Pad18)">
+      <node ref="U8" pin="18" pinfunction="PB0" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="150" name="unconnected-(U10-PA8-Pad29)">
-      <node ref="U10" pin="29" pinfunction="PA8" pintype="bidirectional+no_connect"/>
+    <net code="110" name="unconnected-(U8-PB1-Pad19)">
+      <node ref="U8" pin="19" pinfunction="PB1" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="151" name="unconnected-(U10-PA11-Pad32)">
-      <node ref="U10" pin="32" pinfunction="PA11" pintype="bidirectional+no_connect"/>
+    <net code="111" name="unconnected-(U8-PB2-Pad20)">
+      <node ref="U8" pin="20" pinfunction="PB2" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="152" name="unconnected-(U10-PB0-Pad18)">
-      <node ref="U10" pin="18" pinfunction="PB0" pintype="bidirectional+no_connect"/>
+    <net code="112" name="unconnected-(U8-PB3-Pad39)">
+      <node ref="U8" pin="39" pinfunction="PB3" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="153" name="unconnected-(U10-PB1-Pad19)">
-      <node ref="U10" pin="19" pinfunction="PB1" pintype="bidirectional+no_connect"/>
+    <net code="113" name="unconnected-(U8-PB4-Pad40)">
+      <node ref="U8" pin="40" pinfunction="PB4" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="154" name="unconnected-(U10-PB2-Pad20)">
-      <node ref="U10" pin="20" pinfunction="PB2" pintype="bidirectional+no_connect"/>
+    <net code="114" name="unconnected-(U8-PB5-Pad41)">
+      <node ref="U8" pin="41" pinfunction="PB5" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="155" name="unconnected-(U10-PB3-Pad39)">
-      <node ref="U10" pin="39" pinfunction="PB3" pintype="bidirectional+no_connect"/>
+    <net code="115" name="unconnected-(U8-PB8-Pad45)">
+      <node ref="U8" pin="45" pinfunction="PB8" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="156" name="unconnected-(U10-PB4-Pad40)">
-      <node ref="U10" pin="40" pinfunction="PB4" pintype="bidirectional+no_connect"/>
+    <net code="116" name="unconnected-(U8-PB9-Pad46)">
+      <node ref="U8" pin="46" pinfunction="PB9" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="157" name="unconnected-(U10-PB5-Pad41)">
-      <node ref="U10" pin="41" pinfunction="PB5" pintype="bidirectional+no_connect"/>
+    <net code="117" name="unconnected-(U8-PB10-Pad21)">
+      <node ref="U8" pin="21" pinfunction="PB10" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="158" name="unconnected-(U10-PB12-Pad25)">
-      <node ref="U10" pin="25" pinfunction="PB12" pintype="bidirectional+no_connect"/>
+    <net code="118" name="unconnected-(U8-PB11-Pad22)">
+      <node ref="U8" pin="22" pinfunction="PB11" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="159" name="unconnected-(U10-PH1-Pad6)">
-      <node ref="U10" pin="6" pinfunction="PH1" pintype="input+no_connect"/>
+    <net code="119" name="unconnected-(U8-PB12-Pad25)">
+      <node ref="U8" pin="25" pinfunction="PB12" pintype="bidirectional+no_connect"/>
     </net>
-    <net code="160" name="unconnected-(U13-Y0b-Pad12)">
-      <node ref="U13" pin="12" pinfunction="Y0b" pintype="output+no_connect"/>
+    <net code="120" name="unconnected-(U8-PH0-Pad5)">
+      <node ref="U8" pin="5" pinfunction="PH0" pintype="input+no_connect"/>
     </net>
-    <net code="161" name="unconnected-(U13-Y1b-Pad11)">
-      <node ref="U13" pin="11" pinfunction="Y1b" pintype="output+no_connect"/>
-    </net>
-    <net code="162" name="unconnected-(U13-Y2b-Pad10)">
-      <node ref="U13" pin="10" pinfunction="Y2b" pintype="output+no_connect"/>
-    </net>
-    <net code="163" name="unconnected-(U13-Y3b-Pad9)">
-      <node ref="U13" pin="9" pinfunction="Y3b" pintype="output+no_connect"/>
+    <net code="121" name="unconnected-(U8-PH1-Pad6)">
+      <node ref="U8" pin="6" pinfunction="PH1" pintype="input+no_connect"/>
     </net>
   </nets>
 </export>
