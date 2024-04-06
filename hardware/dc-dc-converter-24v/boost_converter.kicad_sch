@@ -794,6 +794,41 @@
         )
       )
     )
+    (symbol "benediktibk:MountingHole_Pad_M6" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole_Pad_M6" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_Pad_M6_0_1"
+        (circle (center 0 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "MountingHole_Pad_M6_1_1"
+        (pin input line (at 0 -2.54 90) (length 2.54)
+          (name "1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "benediktibk:R_0Ohm_SMD_0603_100mW_0%" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -1488,6 +1523,113 @@
         )
       )
     )
+    (symbol "benediktibk:heatsink_50x50" (pin_numbers hide) (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 6.35 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "heatsink_50x50" (at 0 4.445 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "benediktibk:heatsink_50x50" (at 0.127 9.906 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 7.62 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole with connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*Pad*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "heatsink_50x50_0_1"
+        (circle (center -7.62 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+        (circle (center -2.54 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+        (circle (center 2.54 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+        (circle (center 7.62 1.27) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+      (symbol "heatsink_50x50_1_1"
+        (pin input line (at -7.62 -2.54 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -2.54 -2.54 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 2.54 -2.54 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at 7.62 -2.54 90) (length 2.54)
+          (name "GND" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "benediktibk:rspro_header_2pin_5_08mm" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 2.54 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x02" (at 0 -5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "benediktibk:rspro_header_2pin_5_08mm" (at 0.381 2.032 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "RS order number" "144-4347" (at 0.635 4.318 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "rspro_header_2pin_5_08mm_1_1"
+        (rectangle (start 0 -3.683) (end 1.27 -3.937)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0 -1.143) (end 1.27 -1.397)
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0 0) (end 2.54 -5.08)
+          (stroke (width 0.254) (type default))
+          (fill (type background))
+        )
+        (pin passive line (at -3.81 -1.27 0) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at -3.81 -3.81 0) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "#PWR" (at 0 -6.35 0)
         (effects (font (size 1.27 1.27)) hide)
@@ -1525,6 +1667,46 @@
         (pin power_in line (at 0 0 270) (length 0) hide
           (name "GND" (effects (font (size 1.27 1.27))))
           (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "#FLG" (at 0 1.905 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Value" "PWR_FLAG" (at 0 3.81 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "flag power" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "PWR_FLAG_0_0"
+        (pin power_out line (at 0 0 90) (length 0)
+          (name "pwr" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "PWR_FLAG_0_1"
+        (polyline
+          (pts
+            (xy 0 0)
+            (xy 0 1.27)
+            (xy -1.016 1.905)
+            (xy 0 2.54)
+            (xy 1.016 1.905)
+            (xy 0 1.27)
+          )
+          (stroke (width 0) (type default))
+          (fill (type none))
         )
       )
     )
@@ -1590,6 +1772,9 @@
   (junction (at 143.51 71.12) (diameter 0) (color 0 0 0 0)
     (uuid b5a7c1d3-34c6-4d98-bc18-3f14501a3132)
   )
+  (junction (at 251.46 33.02) (diameter 0) (color 0 0 0 0)
+    (uuid b993bd50-32d0-477a-a1bf-114d0cc739f6)
+  )
   (junction (at 143.51 99.06) (diameter 0) (color 0 0 0 0)
     (uuid bf623d61-448c-4905-82a9-179c39a47fdd)
   )
@@ -1604,9 +1789,6 @@
   )
   (junction (at 191.77 80.01) (diameter 0) (color 0 0 0 0)
     (uuid da71abb0-64a4-4a99-bd4d-e6ba943cb943)
-  )
-  (junction (at 251.46 33.02) (diameter 0) (color 0 0 0 0)
-    (uuid e1453088-1387-468a-936d-9db9980ff061)
   )
   (junction (at 107.95 132.08) (diameter 0) (color 0 0 0 0)
     (uuid e8dfccc2-406a-4fd4-b36d-a9ede03090eb)
@@ -1674,9 +1856,17 @@
     (stroke (width 0) (type default))
     (uuid 1da10cf7-1fb6-431a-b70f-42d769b8d150)
   )
+  (wire (pts (xy 231.14 109.22) (xy 231.14 57.15))
+    (stroke (width 0) (type default))
+    (uuid 20892ed8-3419-4c39-a06c-154214bf28c7)
+  )
   (wire (pts (xy 154.94 99.06) (xy 158.75 99.06))
     (stroke (width 0) (type default))
     (uuid 20a57833-e308-4112-a85c-87afb8c5501b)
+  )
+  (wire (pts (xy 77.47 161.29) (xy 77.47 163.83))
+    (stroke (width 0) (type default))
+    (uuid 20cf7d62-ddea-435b-88d6-9dfe453421fe)
   )
   (wire (pts (xy 124.46 76.2) (xy 134.62 76.2))
     (stroke (width 0) (type default))
@@ -1685,6 +1875,10 @@
   (wire (pts (xy 36.83 76.2) (xy 36.83 71.12))
     (stroke (width 0) (type default))
     (uuid 23dc869c-4fab-404d-bb62-1a68b2b9e85c)
+  )
+  (wire (pts (xy 72.39 161.29) (xy 72.39 163.83))
+    (stroke (width 0) (type default))
+    (uuid 23ebdc2a-cce5-44d3-a39e-8ab0e4089cc5)
   )
   (wire (pts (xy 107.95 53.34) (xy 107.95 57.15))
     (stroke (width 0) (type default))
@@ -1710,13 +1904,17 @@
     (stroke (width 0) (type default))
     (uuid 2bf569ee-ccbb-49ad-8dd3-36644cc23419)
   )
-  (wire (pts (xy 227.33 46.99) (xy 229.87 46.99))
+  (wire (pts (xy 227.33 46.99) (xy 232.41 46.99))
     (stroke (width 0) (type default))
     (uuid 2d507db0-d1c9-4c09-92e8-fa8bd55606fb)
   )
   (wire (pts (xy 219.71 33.02) (xy 238.76 33.02))
     (stroke (width 0) (type default))
     (uuid 2d709961-4ced-4092-b0c5-60090eaa87b5)
+  )
+  (wire (pts (xy 33.02 161.29) (xy 33.02 163.83))
+    (stroke (width 0) (type default))
+    (uuid 30110452-d8ce-4687-9115-79a76082c7d0)
   )
   (wire (pts (xy 36.83 59.69) (xy 36.83 63.5))
     (stroke (width 0) (type default))
@@ -1737,6 +1935,10 @@
   (wire (pts (xy 52.07 83.82) (xy 90.17 83.82))
     (stroke (width 0) (type default))
     (uuid 374a8d94-5987-458d-aae3-8459813b7313)
+  )
+  (wire (pts (xy 41.91 161.29) (xy 41.91 163.83))
+    (stroke (width 0) (type default))
+    (uuid 390085f1-7378-4817-abd7-ad5dee9349ca)
   )
   (wire (pts (xy 143.51 109.22) (xy 138.43 109.22))
     (stroke (width 0) (type default))
@@ -1774,6 +1976,10 @@
     (stroke (width 0) (type default))
     (uuid 44246cd7-3953-4017-b223-c264ded3b42d)
   )
+  (wire (pts (xy 231.14 57.15) (xy 219.71 57.15))
+    (stroke (width 0) (type default))
+    (uuid 468610f3-0004-420b-8bc7-ae132ab1cbce)
+  )
   (wire (pts (xy 105.41 53.34) (xy 105.41 71.12))
     (stroke (width 0) (type default))
     (uuid 48c36ce5-9bc6-4f52-bf41-307e9584c499)
@@ -1786,9 +1992,17 @@
     (stroke (width 0) (type default))
     (uuid 4cfdabf7-7c95-44dc-8e1f-3e7834cf6130)
   )
+  (wire (pts (xy 163.83 95.25) (xy 163.83 107.95))
+    (stroke (width 0) (type default))
+    (uuid 50bc587c-9de2-4e9d-89a8-bd774ef8ee12)
+  )
   (wire (pts (xy 132.08 142.24) (xy 132.08 146.05))
     (stroke (width 0) (type default))
     (uuid 50e5fb1e-e5e8-4c3e-91e5-085986168f18)
+  )
+  (wire (pts (xy 67.31 161.29) (xy 67.31 163.83))
+    (stroke (width 0) (type default))
+    (uuid 517d09cc-0bcf-40ad-8270-110d06c0f647)
   )
   (wire (pts (xy 25.4 33.02) (xy 25.4 52.07))
     (stroke (width 0) (type default))
@@ -1797,6 +2011,10 @@
   (wire (pts (xy 86.36 93.98) (xy 90.17 93.98))
     (stroke (width 0) (type default))
     (uuid 54d0683d-223f-4c7d-93d7-645c2ff8af29)
+  )
+  (wire (pts (xy 229.87 107.95) (xy 229.87 66.04))
+    (stroke (width 0) (type default))
+    (uuid 56b71c54-e9aa-47d5-9ae5-e5da529e6a75)
   )
   (wire (pts (xy 107.95 156.21) (xy 119.38 156.21))
     (stroke (width 0) (type default))
@@ -1818,6 +2036,10 @@
     (stroke (width 0) (type default))
     (uuid 5aabf57a-c9e1-4f63-aea4-297d71f96a17)
   )
+  (wire (pts (xy 160.02 91.44) (xy 160.02 95.25))
+    (stroke (width 0) (type default))
+    (uuid 5ac2cedd-eba4-4024-8500-c126b7cd04b8)
+  )
   (wire (pts (xy 125.73 33.02) (xy 125.73 38.1))
     (stroke (width 0) (type default))
     (uuid 5c062b17-1569-47d9-88a0-6350971f545b)
@@ -1829,6 +2051,10 @@
   (wire (pts (xy 25.4 59.69) (xy 25.4 63.5))
     (stroke (width 0) (type default))
     (uuid 5dbf94c1-1127-44cf-9cca-b1179d7e69e4)
+  )
+  (wire (pts (xy 62.23 161.29) (xy 62.23 163.83))
+    (stroke (width 0) (type default))
+    (uuid 5eeb1bf9-4492-423b-9e8a-e3a02c9e4b3f)
   )
   (wire (pts (xy 53.34 76.2) (xy 36.83 76.2))
     (stroke (width 0) (type default))
@@ -1898,7 +2124,7 @@
     (stroke (width 0) (type default))
     (uuid 7953b9c9-4285-4a6e-9440-0afa1497312b)
   )
-  (wire (pts (xy 24.13 33.02) (xy 25.4 33.02))
+  (wire (pts (xy 21.59 33.02) (xy 25.4 33.02))
     (stroke (width 0) (type default))
     (uuid 7958baa5-7690-4904-9d5b-e94d051e0baa)
   )
@@ -1966,6 +2192,10 @@
     (stroke (width 0) (type default))
     (uuid 8f2bbe30-69f1-431f-816c-14598fdeb5c6)
   )
+  (wire (pts (xy 273.05 35.56) (xy 273.05 36.83))
+    (stroke (width 0) (type default))
+    (uuid 8f66ece9-5faf-4a0e-8744-979510bd6020)
+  )
   (wire (pts (xy 124.46 88.9) (xy 161.29 88.9))
     (stroke (width 0) (type default))
     (uuid 914bfdc6-6584-4b15-b8b9-57ad9150493e)
@@ -2021,6 +2251,10 @@
   (wire (pts (xy 63.5 91.44) (xy 63.5 81.28))
     (stroke (width 0) (type default))
     (uuid 9b772ea5-0b82-42f2-b19d-b70bf0cba63d)
+  )
+  (wire (pts (xy 163.83 107.95) (xy 229.87 107.95))
+    (stroke (width 0) (type default))
+    (uuid 9c19c10a-9685-4aef-a982-8a6d47ef6734)
   )
   (wire (pts (xy 238.76 33.02) (xy 251.46 33.02))
     (stroke (width 0) (type default))
@@ -2078,6 +2312,10 @@
     (stroke (width 0) (type default))
     (uuid ace8a6ca-446d-46e9-89a0-e5d18c90eab3)
   )
+  (wire (pts (xy 124.46 91.44) (xy 160.02 91.44))
+    (stroke (width 0) (type default))
+    (uuid ad3444cb-f1a3-4b50-a4ba-2671b02af9bd)
+  )
   (wire (pts (xy 143.51 72.39) (xy 143.51 71.12))
     (stroke (width 0) (type default))
     (uuid ad494944-168e-417a-a213-63ca3cbc59bf)
@@ -2086,17 +2324,13 @@
     (stroke (width 0) (type default))
     (uuid ada353cf-8305-4d57-ba33-76c1556a5ea9)
   )
-  (wire (pts (xy 228.6 109.22) (xy 143.51 109.22))
+  (wire (pts (xy 143.51 109.22) (xy 231.14 109.22))
     (stroke (width 0) (type default))
     (uuid af33622a-634a-4cc9-af5e-ecf51b980827)
   )
   (wire (pts (xy 160.02 83.82) (xy 160.02 78.74))
     (stroke (width 0) (type default))
     (uuid af4f6515-3755-42e2-b13a-3c858d01abee)
-  )
-  (wire (pts (xy 251.46 33.02) (xy 274.32 33.02))
-    (stroke (width 0) (type default))
-    (uuid af51c9f3-78fd-46f6-b310-25bc6fd02ab2)
   )
   (wire (pts (xy 80.01 33.02) (xy 105.41 33.02))
     (stroke (width 0) (type default))
@@ -2134,6 +2368,10 @@
     (stroke (width 0) (type default))
     (uuid c2d3dd64-e34c-495e-bdca-9ce568e46edb)
   )
+  (wire (pts (xy 50.8 161.29) (xy 50.8 163.83))
+    (stroke (width 0) (type default))
+    (uuid c7e75497-d197-4a7d-ab15-14a347457a50)
+  )
   (wire (pts (xy 191.77 57.15) (xy 191.77 60.96))
     (stroke (width 0) (type default))
     (uuid c8b86c5c-9e2a-4f4c-b2e6-9197f5cbcf47)
@@ -2158,7 +2396,11 @@
     (stroke (width 0) (type default))
     (uuid cf9b972c-f5a8-476b-958e-633743106bbc)
   )
-  (wire (pts (xy 227.33 66.04) (xy 228.6 66.04))
+  (wire (pts (xy 21.59 35.56) (xy 22.86 35.56))
+    (stroke (width 0) (type default))
+    (uuid d185e7df-cf48-4e71-b6fd-6f01e80bfab1)
+  )
+  (wire (pts (xy 227.33 66.04) (xy 229.87 66.04))
     (stroke (width 0) (type default))
     (uuid d1e45e86-3fe1-41f2-bdef-3c94ef26006c)
   )
@@ -2170,7 +2412,7 @@
     (stroke (width 0) (type default))
     (uuid d3df56e2-8950-4d71-bb71-a5498f5eddfb)
   )
-  (wire (pts (xy 229.87 46.99) (xy 229.87 110.49))
+  (wire (pts (xy 232.41 46.99) (xy 232.41 110.49))
     (stroke (width 0) (type default))
     (uuid d4316a43-ef24-423a-9d59-483b2b0caac5)
   )
@@ -2210,6 +2452,14 @@
     (stroke (width 0) (type default))
     (uuid dfcac583-8f52-43b8-aa32-410600fbee6c)
   )
+  (wire (pts (xy 160.02 95.25) (xy 163.83 95.25))
+    (stroke (width 0) (type default))
+    (uuid e0a9ead5-14d5-4959-b5ee-9fdc8a6122d7)
+  )
+  (wire (pts (xy 22.86 35.56) (xy 22.86 36.83))
+    (stroke (width 0) (type default))
+    (uuid e152c519-e086-4851-b0f1-2cf115e06baa)
+  )
   (wire (pts (xy 219.71 57.15) (xy 219.71 60.96))
     (stroke (width 0) (type default))
     (uuid e172bf5c-c199-4df7-85e0-baf36c2304b1)
@@ -2217,6 +2467,10 @@
   (wire (pts (xy 119.38 156.21) (xy 119.38 158.75))
     (stroke (width 0) (type default))
     (uuid e353985b-be50-4366-80bf-9ab76c4e7921)
+  )
+  (wire (pts (xy 251.46 33.02) (xy 274.32 33.02))
+    (stroke (width 0) (type default))
+    (uuid e5ff8d4f-afbc-4b99-9585-368e830160ab)
   )
   (wire (pts (xy 191.77 33.02) (xy 149.86 33.02))
     (stroke (width 0) (type default))
@@ -2234,7 +2488,7 @@
     (stroke (width 0) (type default))
     (uuid ea4850c2-40c0-4923-928c-923ac5fcea2f)
   )
-  (wire (pts (xy 229.87 110.49) (xy 137.16 110.49))
+  (wire (pts (xy 232.41 110.49) (xy 137.16 110.49))
     (stroke (width 0) (type default))
     (uuid ea6b7f69-4636-46bd-88e1-3edc5f98d567)
   )
@@ -2249,10 +2503,6 @@
   (wire (pts (xy 92.71 119.38) (xy 92.71 124.46))
     (stroke (width 0) (type default))
     (uuid ec17b5d1-d670-45a6-b631-ac80e3c96cab)
-  )
-  (wire (pts (xy 228.6 66.04) (xy 228.6 109.22))
-    (stroke (width 0) (type default))
-    (uuid ec81fc7d-30c3-4604-b197-d6ae3ce227ed)
   )
   (wire (pts (xy 53.34 59.69) (xy 53.34 76.2))
     (stroke (width 0) (type default))
@@ -2278,6 +2528,10 @@
     (stroke (width 0) (type default))
     (uuid f385a9a3-7512-4848-9f0f-67a483c9039e)
   )
+  (wire (pts (xy 274.32 35.56) (xy 273.05 35.56))
+    (stroke (width 0) (type default))
+    (uuid f4cf3c01-8de3-419b-80c1-a0e24ffcb643)
+  )
   (wire (pts (xy 102.87 110.49) (xy 105.41 110.49))
     (stroke (width 0) (type default))
     (uuid f5262e30-e2f1-47f2-afa6-5c4f1d4b2cb0)
@@ -2297,6 +2551,10 @@
   (wire (pts (xy 102.87 109.22) (xy 92.71 109.22))
     (stroke (width 0) (type default))
     (uuid fdb83596-ba0e-4f7e-bcf1-ee23684124c1)
+  )
+  (wire (pts (xy 24.13 161.29) (xy 24.13 163.83))
+    (stroke (width 0) (type default))
+    (uuid ffaa1809-e840-47b3-b9eb-18bd10cf3bba)
   )
 
   (label "Vcc" (at 158.75 71.12 0) (fields_autoplaced)
@@ -2328,15 +2586,6 @@
     (uuid e2bbdd2e-3178-46ec-89eb-5728f2d18bb0)
   )
 
-  (hierarchical_label "24V" (shape input) (at 274.32 33.02 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left))
-    (uuid c53cfb7d-981c-4d69-a27c-b3da02962f08)
-  )
-  (hierarchical_label "12V" (shape input) (at 24.13 33.02 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right))
-    (uuid f6239107-8f02-4fb3-8d70-df2888ada021)
-  )
-
   (symbol (lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%") (at 119.38 149.86 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 02c48eaa-c633-4fad-af5f-c2e3012c075c)
@@ -2358,6 +2607,11 @@
     (pin "2" (uuid 514bff23-bc1c-4e31-943c-af1ff679b374))
     (pin "1" (uuid be142baa-eedd-437e-84d6-0d830656af16))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R11") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R11") (unit 1)
@@ -2383,6 +2637,11 @@
     )
     (pin "1" (uuid e717fe00-5bcb-4b82-b7a2-cacdceb522b1))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR013") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR013") (unit 1)
@@ -2408,6 +2667,11 @@
     )
     (pin "1" (uuid a08e3b2d-cb04-49d9-8e60-04774a0895ae))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR017") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR017") (unit 1)
@@ -2433,6 +2697,11 @@
     )
     (pin "1" (uuid 53f9fe8d-ea1f-4a50-b4f8-b40ec3762d84))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR016") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR016") (unit 1)
@@ -2462,6 +2731,11 @@
     (pin "2" (uuid 7074f765-836d-4c55-9f30-f56b7d11134b))
     (pin "1" (uuid ba229634-d091-4453-9e76-26c6dd892aa5))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "D5") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "D5") (unit 1)
@@ -2487,6 +2761,11 @@
     )
     (pin "1" (uuid 65e0c256-31bc-4aa3-90eb-2e61e152bd17))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR018") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR018") (unit 1)
@@ -2516,6 +2795,11 @@
     (pin "2" (uuid 74698f76-af4d-48f1-8918-3e32232e07d7))
     (pin "1" (uuid 988047f9-8da6-40c9-bd2f-4a22b30eda01))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C10") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C10") (unit 1)
@@ -2545,6 +2829,11 @@
     (pin "2" (uuid ddf91aef-e5f5-46a0-946e-317f3de2d989))
     (pin "1" (uuid 112f834e-4018-4a7e-8b22-9a1c1df2561c))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R9") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R9") (unit 1)
@@ -2574,6 +2863,11 @@
     (pin "1" (uuid 57cd9af3-8053-4f6d-aef0-b19b4d1465c5))
     (pin "2" (uuid 6719e422-f60c-421c-b37a-5a9decb941a0))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "L1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "L1") (unit 1)
@@ -2603,6 +2897,11 @@
     (pin "1" (uuid 08e3c3d2-d2c2-47f6-9e2f-bb2b3871cec9))
     (pin "2" (uuid b87f63f4-ab4a-4f47-b647-e765e5b02b43))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R7") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R7") (unit 1)
@@ -2628,6 +2927,11 @@
     )
     (pin "1" (uuid d73fe4fc-0315-4a1e-a726-af1fa5f0c746))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR07") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR07") (unit 1)
@@ -2653,6 +2957,11 @@
     )
     (pin "1" (uuid 4dfa2c72-8845-4ff4-86e4-fa29d44d136d))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR014") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR014") (unit 1)
@@ -2682,9 +2991,39 @@
     (pin "2" (uuid 6e9e7bd3-66bc-4f37-b30e-7bd7bf6d64f9))
     (pin "1" (uuid f2164241-e094-45e7-b794-787d51dd8d73))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R13") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R13") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 273.05 36.83 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 38e8334c-d6d9-4a25-874e-34d4debc2aa3)
+    (property "Reference" "#PWR06" (at 273.05 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 273.05 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 273.05 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 273.05 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0741e947-3140-427e-9490-716458a9f0b8))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR06") (unit 1)
         )
       )
     )
@@ -2707,6 +3046,11 @@
     )
     (pin "1" (uuid 129beecc-6b80-4cad-97ab-8dac0eb1c9b2))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR021") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR021") (unit 1)
@@ -2737,9 +3081,39 @@
     (pin "3" (uuid 2bd6378b-12f6-47de-a7ca-3d1244695890))
     (pin "2" (uuid 30645344-60ab-45b7-94af-3ee8edabd0d0))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "Q3") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "Q3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:MountingHole_Pad_M6") (at 24.13 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 465a0606-3620-4c2c-bb78-d0bba99c593a)
+    (property "Reference" "H1" (at 26.67 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad_M6" (at 19.05 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (at 24.13 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 24.13 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 52262d05-fa21-4308-97b9-1de543826b40))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -2766,6 +3140,11 @@
     (pin "1" (uuid a5c3ea6d-3398-447b-b6e1-41ec770e79b9))
     (pin "2" (uuid 551d36a6-7c55-4b46-b10a-ee411c84deef))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R10") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R10") (unit 1)
@@ -2791,9 +3170,39 @@
     )
     (pin "1" (uuid e96a490a-9e98-45aa-b1e0-057964fe61d4))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR02") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR02") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 77.47 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 4d4a3230-31f4-44d2-92f5-249fc820e20e)
+    (property "Reference" "#PWR030" (at 77.47 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 77.47 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 77.47 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 77.47 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 0d7e63a5-3ba5-4a22-9b88-8e2ede244154))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR030") (unit 1)
         )
       )
     )
@@ -2820,6 +3229,11 @@
     (pin "1" (uuid 3b220c20-6be0-43ad-bb69-3ba8bb8404e6))
     (pin "2" (uuid 3ffcd889-09e9-4422-a391-58bb5633c94e))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R16") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R16") (unit 1)
@@ -2849,6 +3263,11 @@
     (pin "2" (uuid f4af5948-beb5-43b9-92b6-f64ddfd333d0))
     (pin "1" (uuid bb6d720b-1df1-4eba-a077-0beb8d27fb39))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R12") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R12") (unit 1)
@@ -2878,6 +3297,11 @@
     (pin "2" (uuid cab2fcd5-f266-44f4-a559-fdc79068fb54))
     (pin "1" (uuid d156d49e-4456-4fb0-ac3a-e711e65773ee))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R15") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R15") (unit 1)
@@ -2907,6 +3331,11 @@
     (pin "1" (uuid 00eb8d2a-75f7-4c92-8121-127b5a5b05cc))
     (pin "2" (uuid cc486342-388e-4a34-9b2e-fcbc5176d53c))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C2") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C2") (unit 1)
@@ -2936,9 +3365,42 @@
     (pin "2" (uuid 0912c7fd-415e-440d-9657-d0e0ec420ce5))
     (pin "1" (uuid ea8ca38d-cf2e-4f71-b3a6-a1c3316364f7))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "D1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "D1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:heatsink_50x50") (at 69.85 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 5e2cce23-1586-4bb9-a8f6-212d2e61703c)
+    (property "Reference" "H5" (at 69.85 151.13 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "heatsink_50x50" (at 69.85 153.67 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "benediktibk:heatsink_50x50" (at 69.977 148.844 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 69.85 151.13 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1614c34e-112f-42be-a489-461f09e80e65))
+    (pin "3" (uuid 8b0ea5b5-331a-4829-9ff4-68699b0cdb8a))
+    (pin "2" (uuid 0032360f-3a96-4a2b-ac63-7de321c7c0d9))
+    (pin "4" (uuid adc65702-deec-4890-ac70-cf18ee36e841))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "H5") (unit 1)
         )
       )
     )
@@ -2961,9 +3423,64 @@
     )
     (pin "1" (uuid 2107be62-7fc1-4a91-88b9-8955719d2032))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR011") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR011") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:MountingHole_Pad_M6") (at 33.02 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 5f85f645-c1ba-43f1-9c38-dfd1f136954f)
+    (property "Reference" "H2" (at 35.56 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad_M6" (at 27.94 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (at 33.02 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 33.02 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5a21d07d-8a52-49a8-a6d4-2b5f731a5800))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 72.39 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 62fedd0c-90e1-431a-81f7-f42d00cd43dc)
+    (property "Reference" "#PWR029" (at 72.39 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 72.39 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 72.39 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 72.39 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8e0cd64e-1cb9-4a7d-8c90-07e8a1d3e0db))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR029") (unit 1)
         )
       )
     )
@@ -2990,6 +3507,11 @@
     (pin "2" (uuid 552487ec-6a59-40aa-8202-6a9d7b6a4ce0))
     (pin "1" (uuid c61e66ae-2164-42d6-9bf6-ae3a77e9535b))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R3") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R3") (unit 1)
@@ -3019,6 +3541,11 @@
     (pin "1" (uuid 15e95e39-23d2-4871-badb-adadf2261558))
     (pin "2" (uuid 8c3d9606-6d8e-4506-a2dd-9b1bc4a9207a))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R1") (unit 1)
@@ -3049,6 +3576,11 @@
     (pin "3" (uuid 4d18f511-c3e8-497e-ac13-aac7313f48a9))
     (pin "2" (uuid 64473851-889b-4859-bd01-7bb149c32e01))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "Q4") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "Q4") (unit 1)
@@ -3074,6 +3606,11 @@
     )
     (pin "1" (uuid 32c5d0a1-adfd-428f-a11f-1470e4b41ec2))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR04") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR04") (unit 1)
@@ -3103,9 +3640,39 @@
     (pin "1" (uuid eea02b3a-57d0-42fc-9860-d53bbd229d38))
     (pin "2" (uuid 2917cb04-e143-4023-b434-98bee409c387))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C14") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C14") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:MountingHole_Pad_M6") (at 41.91 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 6a7f41d2-7c6d-4a14-8cea-02a46282f57b)
+    (property "Reference" "H3" (at 44.45 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad_M6" (at 36.83 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (at 41.91 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 41.91 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid e40adb7b-bc2c-442c-99a0-d311bfa53a67))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -3128,9 +3695,43 @@
     )
     (pin "1" (uuid 5e6ea480-80b9-4cec-bdbc-be4f891ab42d))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR03") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR03") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:rspro_header_2pin_5_08mm") (at 278.13 31.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 70b9ed9f-8069-43d3-811d-8ab63072e53b)
+    (property "Reference" "J2" (at 278.13 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "24V" (at 278.13 29.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "benediktibk:rspro_header_2pin_5_08mm" (at 278.511 29.718 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 278.13 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "RS order number" "144-4347" (at 278.765 27.432 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 4ac501b8-b1e5-4b2e-95d9-b1a15da61f1e))
+    (pin "2" (uuid 98b50175-8473-4b6d-9e65-33525178e1a5))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -3157,6 +3758,11 @@
     (pin "2" (uuid 255b0cba-8216-455c-a652-21b99d97651e))
     (pin "1" (uuid 84c86d70-7ffa-4c6c-bde5-38460ec7878e))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C9") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C9") (unit 1)
@@ -3186,6 +3792,11 @@
     (pin "1" (uuid 0fa2c1ce-a4d4-49be-b6fb-4647b1f0801b))
     (pin "2" (uuid b5a24d17-160e-4832-90a2-95fe54943ffe))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C4") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C4") (unit 1)
@@ -3215,6 +3826,11 @@
     (pin "2" (uuid fe95d549-e836-423b-b376-40e686ed3102))
     (pin "1" (uuid 8eac83f5-f781-4775-a0ad-2d93882fb9a5))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C3") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C3") (unit 1)
@@ -3244,6 +3860,11 @@
     (pin "1" (uuid 53ace28e-5a35-4f61-ab92-910dfbc174f5))
     (pin "2" (uuid 2e39933b-8cc8-4bb2-869d-acfd4572cf4d))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R14") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R14") (unit 1)
@@ -3273,9 +3894,43 @@
     (pin "2" (uuid 71b93503-6757-40c2-baa3-179baad60b85))
     (pin "1" (uuid 7ad810e8-94e4-4b4f-9e89-a05cde9f7d43))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R17") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R17") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:rspro_header_2pin_5_08mm") (at 17.78 31.75 0) (mirror y) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 8404edd3-7de6-4921-bcf0-0cf285011803)
+    (property "Reference" "J1" (at 17.78 39.37 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "12V" (at 17.78 29.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "benediktibk:rspro_header_2pin_5_08mm" (at 17.399 29.718 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 17.78 31.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "RS order number" "144-4347" (at 17.145 27.432 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f6ae29b9-c3f2-4c37-8e02-8d4398a978ed))
+    (pin "2" (uuid 50156ee0-3bb5-4e9c-8f52-a5508e3b432a))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "J1") (unit 1)
         )
       )
     )
@@ -3298,6 +3953,11 @@
     )
     (pin "1" (uuid de740817-8bc4-4314-bd8e-4af9f84af4ff))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR010") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR010") (unit 1)
@@ -3327,6 +3987,11 @@
     (pin "1" (uuid 15e1a1cd-16ed-45a1-810f-deea44e0b511))
     (pin "2" (uuid 0620f5da-d44c-4ae1-8cdf-02eb777bcd24))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C11") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C11") (unit 1)
@@ -3352,6 +4017,11 @@
     )
     (pin "1" (uuid a7394ecb-7d85-4e91-9e8c-3bd697fd47a0))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR019") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR019") (unit 1)
@@ -3377,6 +4047,11 @@
     )
     (pin "1" (uuid 4e5d6575-496b-4086-a515-97d5fbf39c7e))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR09") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR09") (unit 1)
@@ -3402,9 +4077,39 @@
     )
     (pin "1" (uuid 2f72b4f7-dc93-4fe3-977a-356991971ecf))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR01") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 62.23 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 8ebc90a8-8fff-44e8-afbf-acb1c2538c70)
+    (property "Reference" "#PWR027" (at 62.23 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 62.23 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 62.23 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 62.23 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid a04c2892-8e49-401e-9520-678782d92eda))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR027") (unit 1)
         )
       )
     )
@@ -3431,6 +4136,11 @@
     (pin "2" (uuid 7a39e890-ed52-4c8f-83f6-0aecf21805a9))
     (pin "1" (uuid db95ffcb-4d28-4649-b8d3-8fffca02c2fd))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C13") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C13") (unit 1)
@@ -3460,6 +4170,11 @@
     (pin "2" (uuid 627606b9-05de-46d0-917e-50ebd79be849))
     (pin "1" (uuid acb65728-8a30-4700-b4b3-0742115cd8ed))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R5") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R5") (unit 1)
@@ -3490,6 +4205,11 @@
     (pin "3" (uuid c3e48ff7-24d1-4f39-b16e-923179f9f6e2))
     (pin "2" (uuid 48ca35dd-8f96-4cdc-9019-8b960e1520e4))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "Q2") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "Q2") (unit 1)
@@ -3519,6 +4239,11 @@
     (pin "2" (uuid 4789ca24-e46e-4ef6-9575-c4f754900783))
     (pin "1" (uuid 976d2d71-0c7b-471f-85f5-1a5c6a15b597))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C6") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C6") (unit 1)
@@ -3544,6 +4269,11 @@
     )
     (pin "1" (uuid 00aa10ec-a70a-40b9-8671-d7ffb7d0ff39))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR020") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR020") (unit 1)
@@ -3573,9 +4303,39 @@
     (pin "1" (uuid fc98c993-ffcc-4ac2-8890-a0f7a0b982b2))
     (pin "2" (uuid dfa231d4-f63f-4e72-ba54-b0e66f1126bb))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C12") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C12") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "benediktibk:MountingHole_Pad_M6") (at 50.8 158.75 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid b2498242-5ef3-4bd1-bbfe-13252321ae45)
+    (property "Reference" "H4" (at 53.34 156.21 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole_Pad_M6" (at 45.72 152.4 0)
+      (effects (font (size 1.27 1.27)) (justify left) hide)
+    )
+    (property "Footprint" "benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom" (at 50.8 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 50.8 158.75 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid d92ee35e-6ba4-429d-b3ed-c01214cfd150))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "H4") (unit 1)
         )
       )
     )
@@ -3629,6 +4389,11 @@
     (pin "15" (uuid fe042bac-0aaf-433d-9b18-400205c51866))
     (pin "29" (uuid 2b7131ba-05e4-41df-af4f-41b7fc3e0292))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "U1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "U1") (unit 1)
@@ -3658,9 +4423,89 @@
     (pin "1" (uuid f76b3959-ad9c-4137-97d9-332dd6a456dd))
     (pin "2" (uuid 74474959-c8a3-4223-a75f-7906e634c244))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R4") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R4") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:PWR_FLAG") (at 107.95 57.15 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid babef719-b84a-46dd-928b-a12a4da65520)
+    (property "Reference" "#FLG01" (at 109.855 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "PWR_FLAG" (at 111.76 57.15 90)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "" (at 107.95 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 107.95 57.15 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 14c8adf0-099e-4cb3-b227-84ef62118d3c))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#FLG01") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 33.02 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bd6f4448-ef29-4e63-a04d-0adc87376ff4)
+    (property "Reference" "#PWR024" (at 33.02 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 33.02 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 33.02 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 33.02 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 5af4911b-f152-4be9-b8c7-8478697ebc4f))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR024") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 50.8 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid bde851e7-628f-4f31-a54e-097d320ccc3d)
+    (property "Reference" "#PWR026" (at 50.8 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 50.8 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 50.8 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 50.8 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f82320be-11a7-40be-ab07-21d2088d69b2))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR026") (unit 1)
         )
       )
     )
@@ -3687,6 +4532,11 @@
     (pin "1" (uuid 526b6b07-6f3b-4a21-8f58-094e4cbdcb02))
     (pin "2" (uuid 4b36bcdc-ec66-467b-81ce-65a332eeff87))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C15") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C15") (unit 1)
@@ -3717,9 +4567,64 @@
     (pin "3" (uuid 5d423b8e-5b93-456a-948b-eaba565a2113))
     (pin "2" (uuid 69e93fc8-bc3a-4f15-b043-d355b39af017))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "Q1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 41.91 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid c7cf17c5-d68b-4e31-a40c-291f17e42095)
+    (property "Reference" "#PWR025" (at 41.91 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 41.91 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 41.91 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 41.91 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 1567205a-e506-4e1d-9cd8-c606b22403bf))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR025") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 67.31 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid cb40f778-2844-453c-a339-630187cabfef)
+    (property "Reference" "#PWR028" (at 67.31 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 67.31 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 67.31 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 67.31 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f6e9d588-1cbc-4a6d-82cb-724a8e6f0856))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR028") (unit 1)
         )
       )
     )
@@ -3746,6 +4651,11 @@
     (pin "2" (uuid 570f944a-4b04-4747-a703-8614c32ff94b))
     (pin "1" (uuid ca30f0a3-5bc8-4e6a-a50f-3cdbc181a8ab))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R6") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R6") (unit 1)
@@ -3775,9 +4685,39 @@
     (pin "1" (uuid f6af5649-740d-4f03-a847-25a38c92f430))
     (pin "2" (uuid 0f3cb788-de6a-416a-b7a7-da2034c50da2))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C1") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 24.13 163.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ce9965fc-a669-4391-944e-8d6ae78402fc)
+    (property "Reference" "#PWR022" (at 24.13 170.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 24.13 168.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 24.13 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 24.13 163.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 722ae368-cf6e-484e-b38c-f1d1bcc2a1e1))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR022") (unit 1)
         )
       )
     )
@@ -3804,6 +4744,11 @@
     (pin "2" (uuid c1e0af77-67b0-41c8-80de-0e95052e56ce))
     (pin "1" (uuid aa02976d-51df-40ec-989c-475dca90df78))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "D2") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "D2") (unit 1)
@@ -3833,6 +4778,11 @@
     (pin "1" (uuid ad16651f-5a4b-4c5d-87d7-491c79cc688e))
     (pin "2" (uuid 3e341e21-d843-4ba0-b6c6-b4a17999ad37))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R8") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R8") (unit 1)
@@ -3862,6 +4812,11 @@
     (pin "2" (uuid 1ac0310a-d000-42a1-81af-1bb0aac33390))
     (pin "1" (uuid 2c129db5-0cca-471a-8a1c-aee3452d2e5a))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C8") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C8") (unit 1)
@@ -3887,6 +4842,11 @@
     )
     (pin "1" (uuid 4c530816-5f0a-4911-ac5c-bfdc86cd8e70))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR023") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR023") (unit 1)
@@ -3916,6 +4876,11 @@
     (pin "2" (uuid d68ebdb3-561c-4172-be90-ed1152f8c600))
     (pin "1" (uuid 055f97fd-fb61-4c3e-8af3-e7e46231ee0d))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "D4") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "D4") (unit 1)
@@ -3945,6 +4910,11 @@
     (pin "2" (uuid 09ae6b1f-2e20-451d-9e82-0cb1200c0be1))
     (pin "1" (uuid 0e58510f-4e67-47ce-862a-2bb0a160139a))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C16") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C16") (unit 1)
@@ -3974,6 +4944,11 @@
     (pin "1" (uuid e4773572-d3f5-4eb4-b874-acfd7c81993a))
     (pin "2" (uuid 012ed072-44ff-4cee-9afe-a32c9cd89191))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "R2") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "R2") (unit 1)
@@ -3999,6 +4974,11 @@
     )
     (pin "1" (uuid 093bf672-55c9-45a6-9df2-0b094c6a541c))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR012") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR012") (unit 1)
@@ -4028,6 +5008,11 @@
     (pin "1" (uuid 7fcd308e-fc5c-4ca8-a521-f7d1924f9ee3))
     (pin "2" (uuid 2db867a1-f2f5-4585-a33a-882ff22aee09))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "C7") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "C7") (unit 1)
@@ -4053,9 +5038,39 @@
     )
     (pin "1" (uuid 07312616-92fa-4378-a8b0-71364a02f205))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR015") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR015") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 22.86 36.83 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid f9ed0181-3821-4523-b4f1-806e25ce40f3)
+    (property "Reference" "#PWR05" (at 22.86 43.18 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 22.86 41.91 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 22.86 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 22.86 36.83 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid f062e78a-7503-44be-a732-0170426a4174))
+    (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR05") (unit 1)
         )
       )
     )
@@ -4078,6 +5093,11 @@
     )
     (pin "1" (uuid 1431fa93-6a05-419d-abce-d25d1a0088da))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "#PWR08") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "#PWR08") (unit 1)
@@ -4107,11 +5127,20 @@
     (pin "2" (uuid 697fc323-3fb0-4774-8b52-42148d4dabe1))
     (pin "1" (uuid 6afebe3c-5efa-49c6-9f2d-7b0c29862fc1))
     (instances
+      (project "boost_converter"
+        (path "/025e8a4b-7703-4950-94ea-9045aefa9ecf"
+          (reference "D3") (unit 1)
+        )
+      )
       (project "dc-dc-converter-24v"
         (path "/f3858519-f688-4645-91dc-9843c9d0ed53/67b0f940-ee28-426e-86d0-0e12eee6baf8"
           (reference "D3") (unit 1)
         )
       )
     )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
   )
 )
