@@ -1,11 +1,7 @@
 open:
-bat54ws: bigger pads
-connectors: use actual connectors instead of M6 holes
-stencil: weird negative holes
 BOM export: connectors
 TMG1-01: footprint
 JTAG socket: footprint
-TJ40S04M3L: courtyard (J25)
 add heatsink
 
 done:
@@ -18,3 +14,7 @@ size: limit to cheap size of JLCPCB
 Q34, Q35, Q36, Q37, Q39: pull downs on gate
 Q38: pull up on gate to 3V3 and with zener diode to PACK_EXT
 Q40: choose smaller PMOS
+bat54ws: bigger pads
+TJ40S04M3L: courtyard (J25)
+connectors: use actual connectors instead of M6 holes
+stencil: weird negative holes
