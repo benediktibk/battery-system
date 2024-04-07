@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>/home/benedikt/Development/battery-system/hardware/dc-dc-converter-24v/dc-dc-converter-24v.kicad_sch</source>
-    <date>Sun 07 Apr 2024 08:18:36 AM CEST</date>
+    <date>Sun 07 Apr 2024 08:24:17 AM CEST</date>
     <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -449,10 +449,10 @@
       <value>2.5µH</value>
       <footprint>benediktibk:ETQP8</footprint>
       <fields>
-        <field name="RS order number"> 238-3683</field>
+        <field name="RS order number">238-3683</field>
       </fields>
       <libsource lib="benediktibk" part="L_2_5µH_30A" description="Inductor"/>
-      <property name="RS order number" value=" 238-3683"/>
+      <property name="RS order number" value="238-3683"/>
       <property name="Sheetname" value="Boost Converter"/>
       <property name="Sheetfile" value="boost_converter.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -819,10 +819,10 @@
       <value>2.5µH</value>
       <footprint>benediktibk:ETQP8</footprint>
       <fields>
-        <field name="RS order number"> 238-3683</field>
+        <field name="RS order number">238-3683</field>
       </fields>
       <libsource lib="benediktibk" part="L_2_5µH_30A" description="Inductor"/>
-      <property name="RS order number" value=" 238-3683"/>
+      <property name="RS order number" value="238-3683"/>
       <property name="Sheetname" value="Output Filter"/>
       <property name="Sheetfile" value="output_filter.kicad_sch"/>
       <property name="ki_description" value="Inductor"/>
@@ -1070,7 +1070,7 @@
         <field name="Value">L_2_5µH_30A</field>
         <field name="Footprint">benediktibk:ETQP8</field>
         <field name="Datasheet">~</field>
-        <field name="RS order number"> 238-3683</field>
+        <field name="RS order number">238-3683</field>
       </fields>
       <pins>
         <pin num="1" name="1" type="passive"/>
