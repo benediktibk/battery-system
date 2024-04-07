@@ -1,0 +1,1598 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/benedikt/Development/battery-system/hardware/dc-dc-converter-24v/dc-dc-converter-24v.kicad_sch</source>
+    <date>Sun 07 Apr 2024 08:18:36 AM CEST</date>
+    <tool>Eeschema 7.0.10-7.0.10~ubuntu23.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>dc-dc-converter-24v.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>boost_converter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/Output Filter/" tstamps="/8f8f2bb4-fdfe-4421-bc8c-e8dc6b7f806e/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>output_filter.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="H1">
+      <value>MountingHole_Pad_M6</value>
+      <footprint>benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom</footprint>
+      <libsource lib="benediktibk" part="MountingHole_Pad_M6" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>2790c4bc-ad01-4f92-a03b-ca451a9630f7</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole_Pad_M6</value>
+      <footprint>benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom</footprint>
+      <libsource lib="benediktibk" part="MountingHole_Pad_M6" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b26d0a29-6a6d-470a-aa9c-7f5bade21b53</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole_Pad_M6</value>
+      <footprint>benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom</footprint>
+      <libsource lib="benediktibk" part="MountingHole_Pad_M6" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d0945429-a4c9-45fe-9744-41782be92319</tstamps>
+    </comp>
+    <comp ref="H4">
+      <value>MountingHole_Pad_M6</value>
+      <footprint>benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom</footprint>
+      <libsource lib="benediktibk" part="MountingHole_Pad_M6" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>64edda69-4f25-4ad5-99de-fafd5dc0eeaf</tstamps>
+    </comp>
+    <comp ref="H5">
+      <value>heatsink_50x50</value>
+      <footprint>benediktibk:heatsink_50x50</footprint>
+      <libsource lib="benediktibk" part="heatsink_50x50" description="Mounting Hole with connection"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole with connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>033e79ef-ffe3-4c6f-a889-7c6cf7c6f538</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>12V</value>
+      <footprint>benediktibk:rspro_header_2pin_5_08mm</footprint>
+      <fields>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <libsource lib="benediktibk" part="rspro_header_2pin_5_08mm" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="RS order number" value="144-4347"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f7960f55-b52a-4aa5-aa05-c6edd85586c5</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>24V</value>
+      <footprint>benediktibk:rspro_header_2pin_5_08mm</footprint>
+      <fields>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <libsource lib="benediktibk" part="rspro_header_2pin_5_08mm" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="RS order number" value="144-4347"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="dc-dc-converter-24v.kicad_sch"/>
+      <property name="ki_description" value="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="connector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dedc21db-12d0-4426-8a64-b92f4ed7044e</tstamps>
+    </comp>
+    <comp ref="C1">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>59a07a9a-0089-48f8-b06d-8523a9d7e7de</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>78b1deeb-9315-43be-87e2-a3db128b21ab</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>1uF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_1uF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="103-4112"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>a9e461ff-f501-467c-8912-3b8a37dfe641</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>f4088e87-8a7d-42c4-ab0b-cf83851cc101</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>560pF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">135-6233</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_560pF_SMD_0603_50V_5%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="135-6233"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>dc1982fc-da22-4827-b541-61a1e4b3b74a</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>240pF</value>
+      <footprint>benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-0496</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_240pF_SMD_0805_250V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-0496"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>7413da73-e4e4-477a-8187-294e45c8aec1</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>33nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">135-8365</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_33nF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="135-8365"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>18494d8c-d596-41f8-9faa-821654ff7de9</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>1uF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_1uF_SMD_0603_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="103-4112"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>90322dd2-19f6-4dc5-a326-30bcb2d8d382</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>4.7uF</value>
+      <footprint>benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">113-8707</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_4_7uF_SMD_0805_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="113-8707"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>6982711b-7e1c-4424-94eb-f7249e01bf46</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>891b49e6-0363-4e75-8141-0e6690a09043</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>100nF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_100nF_SMD_0603_50V" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="242-7372"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>b07e2bdc-2594-4926-8b1f-274d9ae84037</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>47uF</value>
+      <footprint>benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47uF_SMD_1206_25V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-3060"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>e7a4de1f-28c2-4a04-80ba-6998a335968d</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>47pF</value>
+      <footprint>benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">135-6508</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47pF_SMD_0603_100V_5%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="135-6508"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>be4b2a91-661d-43a3-9ffa-8f53572fccfd</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>4.7uF</value>
+      <footprint>benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">113-8707</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_4_7uF_SMD_0805_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="113-8707"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>cc4c5aef-e512-4e7b-aa7b-4651e07b55d2</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>47uF</value>
+      <footprint>benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47uF_SMD_1206_25V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-3060"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>79330050-5a8f-43a3-b7a5-ca9b0b7aec27</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>Vin</value>
+      <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">466-3706</field>
+      </fields>
+      <libsource lib="benediktibk" part="LED_green_0603" description="Light emitting diode"/>
+      <property name="RS order number" value="466-3706"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>5a2673f9-dba9-44ab-82d6-3476cd083eba</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>Vout good</value>
+      <footprint>benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">466-3706</field>
+      </fields>
+      <libsource lib="benediktibk" part="LED_green_0603" description="Light emitting diode"/>
+      <property name="RS order number" value="466-3706"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Light emitting diode"/>
+      <property name="ki_keywords" value="LED diode"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>d7746f83-d0ef-41c8-9894-cba8387a58ff</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>BAT54WS</value>
+      <footprint>benediktibk:D_SOD-323</footprint>
+      <fields>
+        <field name="RS order number">738-4844</field>
+      </fields>
+      <libsource lib="benediktibk" part="BAT54WS" description="Schottky diode"/>
+      <property name="RS order number" value="738-4844"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>ff994aa9-4db1-40fd-827e-4d9dae514e92</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>BAT54WS</value>
+      <footprint>benediktibk:D_SOD-323</footprint>
+      <fields>
+        <field name="RS order number">738-4844</field>
+      </fields>
+      <libsource lib="benediktibk" part="BAT54WS" description="Schottky diode"/>
+      <property name="RS order number" value="738-4844"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>e366c19a-1b3d-4094-a862-c217cfe36916</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>BAT54WS</value>
+      <footprint>benediktibk:D_SOD-323</footprint>
+      <fields>
+        <field name="RS order number">738-4844</field>
+      </fields>
+      <libsource lib="benediktibk" part="BAT54WS" description="Schottky diode"/>
+      <property name="RS order number" value="738-4844"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Schottky diode"/>
+      <property name="ki_keywords" value="diode Schottky"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>0b219a08-2a91-42c1-8120-d47d3e9a23fa</tstamps>
+    </comp>
+    <comp ref="L1">
+      <value>2.5µH</value>
+      <footprint>benediktibk:ETQP8</footprint>
+      <fields>
+        <field name="RS order number"> 238-3683</field>
+      </fields>
+      <libsource lib="benediktibk" part="L_2_5µH_30A" description="Inductor"/>
+      <property name="RS order number" value=" 238-3683"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>2901a76d-c6cc-4eaa-942d-1ec0ae6416fd</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>SQJA42EP</value>
+      <footprint>benediktibk:SQJA42EPT1_GE3</footprint>
+      <fields>
+        <field name="RS order number">188-5140</field>
+      </fields>
+      <libsource lib="benediktibk" part="SQJA42EP" description="n-MOSFET transistor, drain/gate/source"/>
+      <property name="RS order number" value="188-5140"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>a841bd00-d62c-4c35-9ce8-89223e60e62d</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>SQJA42EP</value>
+      <footprint>benediktibk:SQJA42EPT1_GE3</footprint>
+      <fields>
+        <field name="RS order number">188-5140</field>
+      </fields>
+      <libsource lib="benediktibk" part="SQJA42EP" description="n-MOSFET transistor, drain/gate/source"/>
+      <property name="RS order number" value="188-5140"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>c67d5318-3a7e-4428-a72a-812ea2aa13c9</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>SQJA42EP</value>
+      <footprint>benediktibk:SQJA42EPT1_GE3</footprint>
+      <fields>
+        <field name="RS order number">188-5140</field>
+      </fields>
+      <libsource lib="benediktibk" part="SQJA42EP" description="n-MOSFET transistor, drain/gate/source"/>
+      <property name="RS order number" value="188-5140"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>66b822d8-8d9a-497f-bdb2-14b9887906a7</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>SQJA42EP</value>
+      <footprint>benediktibk:SQJA42EPT1_GE3</footprint>
+      <fields>
+        <field name="RS order number">188-5140</field>
+      </fields>
+      <libsource lib="benediktibk" part="SQJA42EP" description="n-MOSFET transistor, drain/gate/source"/>
+      <property name="RS order number" value="188-5140"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="n-MOSFET transistor, drain/gate/source"/>
+      <property name="ki_keywords" value="transistor NMOS N-MOS N-MOSFET"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>4521f8aa-6932-4b25-a3ce-87730e46830d</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>1kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2266</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_1kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2266"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>665af53b-f79a-4046-8168-c6edabf504bc</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>1kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">213-2266</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_1kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="213-2266"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>f1724067-d579-4147-b71f-bccd55075d0b</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>10kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1173"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>639664aa-0fe3-4b30-88e8-27380991727c</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>24kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">199-5507</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_24kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="199-5507"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>b6df6e95-4091-4ee6-bca0-986c1c53751e</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>93.1kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">708-9013</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_93_1kOhm_SMD_0603_100mW_0_1%" description="Resistor"/>
+      <property name="RS order number" value="708-9013"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>9c2b8031-8f2e-4f6c-b816-e30420d73103</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>220kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="678-9986"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>cbc42622-86ed-473f-ac18-e315eaa31566</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>43kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0386</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_43kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="679-0386"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>2e7879cd-9e50-4da9-8f00-5835bdd7697f</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>0Ohm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1171</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%" description="Resistor"/>
+      <property name="RS order number" value="125-1171"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>da7b99db-d4b3-4f92-8d91-0ced299e3d2f</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>2kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">901-3563</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_2kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="901-3563"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>1da6c28c-130c-4d27-9f4d-a5210f16fc89</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>10Ohm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">901-3516</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_10Ohm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="901-3516"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>4852c101-9589-4a38-b007-5580bbf494fb</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>10kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1173"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>02c48eaa-c633-4fad-af5f-c2e3012c075c</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>10kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1173"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>585a4e47-27c6-4531-947c-212b103d6d70</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>20kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">199-5491</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_20kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="199-5491"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>5552797d-2295-4d49-b379-37552abc5a9d</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>270kOhm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">679-0077</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_270kOhm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="679-0077"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>80a8319a-b5a9-498c-98e5-80971f9ddc3d</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>100Ohm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1172</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100Ohm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1172"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>57754b07-344f-483f-a145-d3a5099ef138</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>100Ohm</value>
+      <footprint>benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">125-1172</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_100Ohm_SMD_0603_100mW_1%" description="Resistor"/>
+      <property name="RS order number" value="125-1172"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>37cd50d9-8082-4710-9682-d5c1d2664c4d</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>4mOhm</value>
+      <footprint>benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">824-0304</field>
+      </fields>
+      <libsource lib="benediktibk" part="R_4mOhm_SMD_2512_2W_1%" description="Resistor"/>
+      <property name="RS order number" value="824-0304"/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>7c98dedc-1fc5-4d35-a4a5-8796d875a71a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>LM5176</value>
+      <footprint>benediktibk:LM5176</footprint>
+      <libsource lib="benediktibk" part="LM5176" description=""/>
+      <property name="RS order number" value=""/>
+      <property name="Sheetname" value="Boost Converter"/>
+      <property name="Sheetfile" value="boost_converter.kicad_sch"/>
+      <sheetpath names="/Boost Converter/" tstamps="/67b0f940-ee28-426e-86d0-0e12eee6baf8/"/>
+      <tstamps>b62f9c0a-35af-46a2-b255-442044c9fc93</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>4.7uF</value>
+      <footprint>benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">113-8707</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_4_7uF_SMD_0805_50V_10%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="113-8707"/>
+      <property name="Sheetname" value="Output Filter"/>
+      <property name="Sheetfile" value="output_filter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Output Filter/" tstamps="/8f8f2bb4-fdfe-4421-bc8c-e8dc6b7f806e/"/>
+      <tstamps>7c2faa15-9b7b-47a4-88c0-71dcdbe8fc5f</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>47uF</value>
+      <footprint>benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</footprint>
+      <fields>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <libsource lib="benediktibk" part="C_47uF_SMD_1206_25V_20%" description="Unpolarized capacitor"/>
+      <property name="RS order number" value="788-3060"/>
+      <property name="Sheetname" value="Output Filter"/>
+      <property name="Sheetfile" value="output_filter.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/Output Filter/" tstamps="/8f8f2bb4-fdfe-4421-bc8c-e8dc6b7f806e/"/>
+      <tstamps>a64b462e-ee23-429c-a997-f36e4377f531</tstamps>
+    </comp>
+    <comp ref="L2">
+      <value>2.5µH</value>
+      <footprint>benediktibk:ETQP8</footprint>
+      <fields>
+        <field name="RS order number"> 238-3683</field>
+      </fields>
+      <libsource lib="benediktibk" part="L_2_5µH_30A" description="Inductor"/>
+      <property name="RS order number" value=" 238-3683"/>
+      <property name="Sheetname" value="Output Filter"/>
+      <property name="Sheetfile" value="output_filter.kicad_sch"/>
+      <property name="ki_description" value="Inductor"/>
+      <property name="ki_keywords" value="inductor choke coil reactor magnetic"/>
+      <sheetpath names="/Output Filter/" tstamps="/8f8f2bb4-fdfe-4421-bc8c-e8dc6b7f806e/"/>
+      <tstamps>72aa165d-7abe-47bf-86ab-b7afc4fdfc57</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="benediktibk" part="BAT54WS">
+      <description>Schottky diode</description>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">BAT54WS</field>
+        <field name="Footprint">benediktibk:D_SOD-323</field>
+        <field name="RS order number">738-4844</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_100nF_SMD_0603_50V">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_100nF_SMD_0603_50V</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">242-7372</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_1uF_SMD_0603_50V_10%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_1uF_SMD_0603_50V_10%</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">103-4112</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_240pF_SMD_0805_250V_10%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_240pF_SMD_0805_250V_10%</field>
+        <field name="Footprint">benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">788-0496</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_33nF_SMD_0603_50V_10%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_33nF_SMD_0603_50V_10%</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">135-8365</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_47pF_SMD_0603_100V_5%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_47pF_SMD_0603_100V_5%</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">135-6508</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_47uF_SMD_1206_25V_20%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_47uF_SMD_1206_25V_20%</field>
+        <field name="Footprint">benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">788-3060</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_4_7uF_SMD_0805_50V_10%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_4_7uF_SMD_0805_50V_10%</field>
+        <field name="Footprint">benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">113-8707</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="C_560pF_SMD_0603_50V_5%">
+      <description>Unpolarized capacitor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_560pF_SMD_0603_50V_5%</field>
+        <field name="Footprint">benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">135-6233</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="LED_green_0603">
+      <description>Light emitting diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>LED*</fp>
+        <fp>LED_SMD:*</fp>
+        <fp>LED_THT:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED_green_0603</field>
+        <field name="Footprint">benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">466-3706</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="LM5176">
+      <footprints>
+        <fp>HTSSOP*4.4x7.8mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM5176</field>
+        <field name="Footprint">benediktibk:LM5176</field>
+      </fields>
+      <pins>
+        <pin num="1" name="EN/UVLO" type="input"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="VISNS" type="input"/>
+        <pin num="4" name="MODE" type="input"/>
+        <pin num="5" name="DITH" type="input"/>
+        <pin num="6" name="RT/SYNC" type="input"/>
+        <pin num="7" name="SLOPE" type="input"/>
+        <pin num="8" name="SS" type="input"/>
+        <pin num="9" name="COMP" type="output"/>
+        <pin num="10" name="AGND" type="power_in"/>
+        <pin num="11" name="FB" type="input"/>
+        <pin num="12" name="VOSNS" type="input"/>
+        <pin num="13" name="ISNS-" type="input"/>
+        <pin num="14" name="ISNS+" type="input"/>
+        <pin num="15" name="CSG" type="input"/>
+        <pin num="16" name="CS" type="input"/>
+        <pin num="17" name="PGOOD" type="open_collector"/>
+        <pin num="18" name="SW2" type="input"/>
+        <pin num="19" name="HDRV2" type="output"/>
+        <pin num="20" name="BOOT2" type="input"/>
+        <pin num="21" name="LDRV2" type="output"/>
+        <pin num="22" name="PGND" type="power_out"/>
+        <pin num="23" name="VCC" type="power_out"/>
+        <pin num="24" name="BIAS" type="input"/>
+        <pin num="25" name="LDRV1" type="output"/>
+        <pin num="26" name="BOOT1" type="input"/>
+        <pin num="27" name="HDRV1" type="output"/>
+        <pin num="28" name="SW1" type="input"/>
+        <pin num="29" name="PAD" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="L_2_5µH_30A">
+      <description>Inductor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Choke_*</fp>
+        <fp>*Coil*</fp>
+        <fp>Inductor_*</fp>
+        <fp>L_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">L_2_5µH_30A</field>
+        <field name="Footprint">benediktibk:ETQP8</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number"> 238-3683</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="MountingHole_Pad_M6">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole_Pad_M6</field>
+        <field name="Footprint">benediktibk:MountingHole_6.4mm_M6_Pad_TopBottom</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_0Ohm_SMD_0603_100mW_0%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_0Ohm_SMD_0603_100mW_0%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">125-1171</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_100Ohm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_100Ohm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">125-1172</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_10Ohm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10Ohm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">901-3516</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_10kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_10kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">125-1173</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_1kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_1kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">213-2266</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_20kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_20kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">199-5491</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_220kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_220kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">678-9986</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_24kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_24kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">199-5507</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_270kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_270kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0077</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_2kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_2kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">901-3563</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_43kOhm_SMD_0603_100mW_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_43kOhm_SMD_0603_100mW_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">679-0386</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_4mOhm_SMD_2512_2W_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_4mOhm_SMD_2512_2W_1%</field>
+        <field name="Footprint">benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">824-0304</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="R_93_1kOhm_SMD_0603_100mW_0_1%">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R_93_1kOhm_SMD_0603_100mW_0_1%</field>
+        <field name="Footprint">benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">708-9013</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="SQJA42EP">
+      <description>n-MOSFET transistor, drain/gate/source</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">SQJA42EP</field>
+        <field name="Footprint">benediktibk:SQJA42EPT1_GE3</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">188-5140</field>
+      </fields>
+      <pins>
+        <pin num="1" name="S" type="passive"/>
+        <pin num="2" name="G" type="input"/>
+        <pin num="3" name="D" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="heatsink_50x50">
+      <description>Mounting Hole with connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*Pad*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">heatsink_50x50</field>
+        <field name="Footprint">benediktibk:heatsink_50x50</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="input"/>
+        <pin num="2" name="GND" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+        <pin num="4" name="GND" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="benediktibk" part="rspro_header_2pin_5_08mm">
+      <description>Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x02</field>
+        <field name="Footprint">benediktibk:rspro_header_2pin_5_08mm</field>
+        <field name="Datasheet">~</field>
+        <field name="RS order number">144-4347</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="benediktibk">
+      <uri>/home/benedikt/Development/electronics-library/symbols/benediktibk.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="/Boost Converter/12V">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q1" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+    </net>
+    <net code="2" name="/Boost Converter/Vcc">
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="U1" pin="23" pinfunction="VCC" pintype="power_out"/>
+    </net>
+    <net code="3" name="/Boost Converter/Vout">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="L2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+      <node ref="U1" pin="12" pinfunction="VOSNS" pintype="input"/>
+      <node ref="U1" pin="24" pinfunction="BIAS" pintype="input"/>
+    </net>
+    <net code="4" name="/Output Filter/24VFILT">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="L2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="5" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="H5" pin="1" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="2" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="H5" pin="4" pinfunction="GND" pintype="input"/>
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="J2" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="AGND" pintype="power_in"/>
+      <node ref="U1" pin="13" pinfunction="ISNS-" pintype="input"/>
+      <node ref="U1" pin="14" pinfunction="ISNS+" pintype="input"/>
+      <node ref="U1" pin="22" pinfunction="PGND" pintype="power_out"/>
+      <node ref="U1" pin="29" pinfunction="PAD" pintype="power_in"/>
+    </net>
+    <net code="6" name="Net-(C7-Pad2)">
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(D2-A)">
+      <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D2-K)">
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="17" pinfunction="PGOOD" pintype="open_collector"/>
+    </net>
+    <net code="10" name="Net-(D3-K)">
+      <node ref="D3" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+    </net>
+    <net code="11" name="Net-(D4-K)">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="D4" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="26" pinfunction="BOOT1" pintype="input"/>
+    </net>
+    <net code="12" name="Net-(D5-K)">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="U1" pin="20" pinfunction="BOOT2" pintype="input"/>
+    </net>
+    <net code="13" name="Net-(Q1-G)">
+      <node ref="Q1" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="27" pinfunction="HDRV1" pintype="output"/>
+    </net>
+    <net code="14" name="Net-(Q1-S)">
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="L1" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="28" pinfunction="SW1" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(Q2-G)">
+      <node ref="Q2" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="25" pinfunction="LDRV1" pintype="output"/>
+    </net>
+    <net code="16" name="Net-(Q2-S)">
+      <node ref="Q2" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="Net-(Q3-G)">
+      <node ref="Q3" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="19" pinfunction="HDRV2" pintype="output"/>
+    </net>
+    <net code="18" name="Net-(Q3-S)">
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="L1" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="D" pintype="passive"/>
+      <node ref="U1" pin="18" pinfunction="SW2" pintype="input"/>
+    </net>
+    <net code="19" name="Net-(Q4-G)">
+      <node ref="Q4" pin="2" pinfunction="G" pintype="input"/>
+      <node ref="U1" pin="21" pinfunction="LDRV2" pintype="output"/>
+    </net>
+    <net code="20" name="Net-(R13-Pad2)">
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+    </net>
+    <net code="21" name="Net-(U1-COMP)">
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="COMP" pintype="output"/>
+    </net>
+    <net code="22" name="Net-(U1-CS)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="U1" pin="16" pinfunction="CS" pintype="input"/>
+    </net>
+    <net code="23" name="Net-(U1-CSG)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="U1" pin="15" pinfunction="CSG" pintype="input"/>
+    </net>
+    <net code="24" name="Net-(U1-DITH)">
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="DITH" pintype="input"/>
+    </net>
+    <net code="25" name="Net-(U1-EN{slash}UVLO)">
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="EN/UVLO" pintype="input"/>
+    </net>
+    <net code="26" name="Net-(U1-FB)">
+      <node ref="R12" pin="1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="FB" pintype="input"/>
+    </net>
+    <net code="27" name="Net-(U1-MODE)">
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="MODE" pintype="input"/>
+    </net>
+    <net code="28" name="Net-(U1-RT{slash}SYNC)">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="6" pinfunction="RT/SYNC" pintype="input"/>
+    </net>
+    <net code="29" name="Net-(U1-SLOPE)">
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="U1" pin="7" pinfunction="SLOPE" pintype="input"/>
+    </net>
+    <net code="30" name="Net-(U1-SS)">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="U1" pin="8" pinfunction="SS" pintype="input"/>
+    </net>
+    <net code="31" name="Net-(U1-VIN)">
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="VIN" pintype="power_in"/>
+    </net>
+    <net code="32" name="Net-(U1-VISNS)">
+      <node ref="R9" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pinfunction="VISNS" pintype="input"/>
+    </net>
+    <net code="33" name="unconnected-(H1-Pad1)">
+      <node ref="H1" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="34" name="unconnected-(H2-Pad1)">
+      <node ref="H2" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="35" name="unconnected-(H3-Pad1)">
+      <node ref="H3" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+    <net code="36" name="unconnected-(H4-Pad1)">
+      <node ref="H4" pin="1" pinfunction="1" pintype="input"/>
+    </net>
+  </nets>
+</export>
