@@ -23,3 +23,6 @@ software/build
 
 # Python
 software/.venv
+
+# FreeCAD
+*.FCStd1
