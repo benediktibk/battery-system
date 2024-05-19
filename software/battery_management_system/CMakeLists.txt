@@ -16,7 +16,5 @@ target_sources(app PRIVATE
 	src/cell_voltage.c
 	src/cells_measurement.c
 	src/power_control.c
-	src/cell_balancer.c
 	src/power_control_shell.c
-	src/cell_balancer_shell.c
 )

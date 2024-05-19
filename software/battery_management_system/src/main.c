@@ -12,18 +12,14 @@
 LOG_MODULE_REGISTER(battery_management_system, CONFIG_BATTERY_MANAGEMENT_SYSTEM_LOG_LEVEL);
 
 struct battery_state {
-    int32_t battery_current; // in µA
     int8_t cell_temperatures[CELL_COUNT]; // in °C
     uint16_t cell_voltages[CELL_COUNT]; // in mV
     int8_t bms_pcb_temperature; // in °C
-    int8_t battery_monitor_temperature; // in °C
-    uint8_t state_of_charge; // in percent
 };
 
 const struct device *status_leds_device = DEVICE_DT_GET(DT_NODELABEL(status_leds));
 const struct device *power_control_device = DEVICE_DT_GET(DT_NODELABEL(power_control));
 const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
-const struct device *battery_monitor_device = DEVICE_DT_GET(DT_NODELABEL(battery_monitor));
 const struct device *cells_measurement_device = DEVICE_DT_GET(DT_NODELABEL(cells_measurement));
 const struct device *cell_temperature_devices[] = {
     DEVICE_DT_GET(DT_NODELABEL(cell_temp1)),
@@ -54,10 +50,6 @@ static bool check_ready(void)
     }
 
     if (!check_device_ready(bms_temp_device)) {
-        return false;
-    }
-
-    if (!check_device_ready(battery_monitor_device)) {
         return false;
     }
 
@@ -93,47 +85,6 @@ static bool fetch_bms_pcb_temperature(void)
     }
 
     battery_state.bms_pcb_temperature = sensor_value.val1;
-
-    return true;
-}
-
-static bool fetch_battery_monitor(void)
-{
-    struct sensor_value sensor_value;
-
-    int result = sensor_sample_fetch(battery_monitor_device);
-
-    if (result != 0) {
-        LOG_ERR("unable to read out battery monitor");
-        return false;
-    }
-
-    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_AVG_CURRENT, &sensor_value);
-
-    if (result != 0) {
-        LOG_ERR("unable to get current from battery monitor");
-        return false;
-    }
-
-    battery_state.battery_current = sensor_value.val1 * 1000 * 1000 + sensor_value.val2;
-
-    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_TEMP, &sensor_value);
-
-    if (result != 0) {
-        LOG_ERR("unable to get temperature from battery monitor");
-        return false;
-    }
-
-    battery_state.battery_monitor_temperature = sensor_value.val1;
-
-    result = sensor_channel_get(battery_monitor_device, SENSOR_CHAN_GAUGE_STATE_OF_CHARGE, &sensor_value);
-
-    if (result != 0) {
-        LOG_ERR("unable to get state of charge from battery monitor");
-        return false;
-    }
-
-    battery_state.state_of_charge = sensor_value.val1;
 
     return true;
 }
@@ -192,10 +143,6 @@ static void emergency_shutdown(void)
 
 static bool execute(void)
 {
-    if (!fetch_battery_monitor()) {
-        return false;
-    }
-
     if (!fetch_bms_pcb_temperature()) {
         return false;
     }
@@ -210,11 +157,6 @@ static bool execute(void)
 
     if (battery_state.bms_pcb_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
         LOG_ERR("BMS temperature is too high: %i °C", battery_state.bms_pcb_temperature);
-        return false;
-    }
-
-    if (battery_state.battery_monitor_temperature >= CONFIG_MAXIMUM_PCB_TEMPERATURE_CELSIUS) {
-        LOG_ERR("BMS PCB temperature is too high: %i °C", battery_state.battery_monitor_temperature);
         return false;
     }
 
@@ -293,10 +235,7 @@ static int battery_state_shell_get(
     size_t argc,
     char **argv)
 {
-    shell_print(sh, "battery current: %9i µA", battery_state.battery_current);
-    shell_print(sh, "state of charge: %3i %%", battery_state.state_of_charge);
     shell_print(sh, "BMS PCB temperature: %i °C", battery_state.bms_pcb_temperature);
-    shell_print(sh, "battery monitor temperature: %i °C", battery_state.battery_monitor_temperature);
 
     for (size_t i = 0; i < CELL_COUNT; ++i) {
         shell_print(sh, "cell %i voltage: %i mV", i, battery_state.cell_voltages[i]);

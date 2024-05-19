@@ -1,0 +1,185 @@
+/ {
+	chosen {
+		zephyr,sram = &sram0;
+		zephyr,flash = &flash0;
+		zephyr,console = &usart1;
+		zephyr,shell-uart = &usart1;
+	};
+
+	status_leds: status_leds {
+		compatible = "benediktibk,status-leds";
+		status = "okay";
+		system-active-gpios = <&gpioc 15 GPIO_ACTIVE_HIGH>;
+		error-gpios = <&gpioc 14 GPIO_ACTIVE_HIGH>;
+		debug-gpios = <&gpioc 13 GPIO_ACTIVE_HIGH>;
+	};
+
+	cell_voltage1: cell_voltage1 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <0>;
+		voltage-divider-upper = <24>;
+		voltage-divider-lower = <100>;
+	};
+
+	cell_voltage2: cell_voltage2 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <1>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <68>;
+	};
+
+	cell_voltage3: cell_voltage3 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <2>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <36>;
+	};
+
+	cell_voltage4: cell_voltage4 {
+		compatible = "benediktibk,cell-voltage";
+		status = "okay";
+		adc = <&adc1>;
+		adc-channel = <3>;
+		voltage-divider-upper = <100>;
+		voltage-divider-lower = <24>;
+	};
+
+	cells_measurement: cells_measurement {
+		compatible = "benediktibk,cells-measurement";
+		status = "okay";
+		cell-voltages = <&cell_voltage1>,
+						<&cell_voltage2>,
+						<&cell_voltage3>,
+						<&cell_voltage4>;
+		enable-gpios = <&gpioa 12 GPIO_ACTIVE_HIGH>;
+	};
+
+	power_control: power_control {
+		compatible = "benediktibk,power-control";
+		status = "okay";
+		charge-gpios = <&gpiob 13 GPIO_ACTIVE_HIGH>;
+		discharge-gpios = <&gpiob 14 GPIO_ACTIVE_HIGH>;
+		charge-available-gpios = <&gpiob 15 GPIO_ACTIVE_LOW>;
+	};
+};
+
+&clk_hsi {
+	status = "okay";
+	clock-frequency = <DT_FREQ_M(16)>;
+};
+
+&pll {
+	status = "okay";
+	div = <2>;
+	mul = <4>;
+	clocks = <&clk_hsi>;
+};
+
+&rcc {
+	clocks = <&pll>;
+	clock-frequency = <DT_FREQ_M(32)>;
+	ahb-prescaler = <1>;
+	apb1-prescaler = <1>;
+	apb2-prescaler = <1>;
+};
+
+&usart1 {
+	status = "okay";
+	pinctrl-0 = <&usart1_tx_pa9>,
+				<&usart1_rx_pa10>;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+};
+
+&lpuart1 {
+	status = "okay";
+	pinctrl-0 = <&lpuart1_tx_pb10>,
+				<&lpuart1_rx_pb11>;
+	pinctrl-names = "default";
+	current-speed = <115200>;
+};
+
+&i2c1 {
+	status = "okay";
+	pinctrl-0 = <&i2c1_scl_pb6>,
+				<&i2c1_sda_pb7>;
+	pinctrl-names = "default";
+
+	ext_memory: ext_memory@50 {
+		compatible = "atmel,at24";
+		reg = <0x50>;
+		status = "okay";
+		size = <65536>;
+		pagesize = <128>;
+		address-width = <16>;
+		timeout = <5>;
+	};
+
+	bms_temp: bms_temp@48 {
+		compatible = "onnn,nct75";
+		reg = <0x48>;
+		status = "okay";
+	};
+
+	cell_temp1: cell_temp1@49 {
+		compatible = "onnn,nct75";
+		reg = <0x49>;
+		status = "okay";
+	};
+
+	cell_temp2: cell_temp2@4a {
+		compatible = "onnn,nct75";
+		reg = <0x4a>;
+		status = "okay";
+	};
+
+	cell_temp3: cell_temp3@4b {
+		compatible = "onnn,nct75";
+		reg = <0x4b>;
+		status = "okay";
+	};
+
+	cell_temp4: cell_temp4@4c {
+		compatible = "onnn,nct75";
+		reg = <0x4c>;
+		status = "okay";
+	};
+};
+
+&flash0 {
+	reg = <0x8000000 0x30000>;
+	partitions {
+		compatible = "fixed-partitions";
+		#address-cells = <0x1>;
+		#size-cells = <0x1>;
+
+		main_partition: main_partition@0 {
+			label = "main";
+			reg = <0x0 0x30000>;
+			read-only;
+		};
+	};
+};
+
+&sram0 {
+	reg = <0x20000000 0x1800>;
+};
+
+&adc1 {
+	status = "okay";
+	pinctrl-0 = <&adc_in0_pa0>,
+				<&adc_in1_pa1>,
+				<&adc_in2_pa2>,
+				<&adc_in3_pa3>;
+	pinctrl-names = "default";
+	#address-cells = <1>;
+	#size-cells = <0>;
+	st,adc-clock-source = <SYNC>;
+	st,adc-prescaler = <1>;
+};
