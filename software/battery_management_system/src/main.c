@@ -23,9 +23,9 @@ const struct device *bms_temp_device = DEVICE_DT_GET(DT_NODELABEL(bms_temp));
 const struct device *cells_measurement_device = DEVICE_DT_GET(DT_NODELABEL(cells_measurement));
 const struct device *cell_temperature_devices[] = {
     DEVICE_DT_GET(DT_NODELABEL(cell_temp1)),
-    // DEVICE_DT_GET(DT_NODELABEL(cell_temp2)),
-    // DEVICE_DT_GET(DT_NODELABEL(cell_temp3)),
-    // DEVICE_DT_GET(DT_NODELABEL(cell_temp4)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp2)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp3)),
+    DEVICE_DT_GET(DT_NODELABEL(cell_temp4)),
 };
 static struct battery_state battery_state = { 0 };
 
@@ -57,11 +57,11 @@ static bool check_ready(void)
         return false;
     }
 
-    // for (size_t i = 0; i < CELL_COUNT; ++i) {
-    //     if (!check_device_ready(cell_temperature_devices[i])) {
-    //         return false;
-    //     }
-    // }
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        if (!check_device_ready(cell_temperature_devices[i])) {
+            return false;
+        }
+    }
 
     return true;
 }
