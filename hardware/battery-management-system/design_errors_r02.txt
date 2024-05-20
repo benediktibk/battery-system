@@ -1,0 +1,6 @@
+open:
+jtag connector: courtyard too small (cable connector is actually bigger)
+courtyard phoenix connectors (cable connectors are actually bigger)
+heatsink: uses complete top/bottom layer, not only a courtyard
+
+done:
