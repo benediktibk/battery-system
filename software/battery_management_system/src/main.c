@@ -160,29 +160,30 @@ static bool execute(void)
         return false;
     }
 
-    // for (size_t i = 0; i < CELL_COUNT; ++i) {
-    //     if (battery_state.cell_temperatures[i] < CONFIG_MINIMUM_CELL_TEMPERATURE_CELSIUS) {
-    //         LOG_ERR("cell %i temperature is too low: %i °C", i, battery_state.cell_temperatures[i]);
-    //         return false;
-    //     }
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
+        if (battery_state.cell_temperatures[i] < CONFIG_MINIMUM_CELL_TEMPERATURE_CELSIUS) {
+            LOG_ERR("cell %i temperature is too low: %i °C", i, battery_state.cell_temperatures[i]);
+            return false;
+        }
 
-    //     if (battery_state.cell_temperatures[i] > CONFIG_MAXIMUM_CELL_TEMPERATURE_CELSIUS) {
-    //         LOG_ERR("cell %i temperature is too high: %i °C", i, battery_state.cell_temperatures[i]);
-    //         return false;
-    //     }
-    // }
+        if (battery_state.cell_temperatures[i] > CONFIG_MAXIMUM_CELL_TEMPERATURE_CELSIUS) {
+            LOG_ERR("cell %i temperature is too high: %i °C", i, battery_state.cell_temperatures[i]);
+            return false;
+        }
+    }
 
-    // for (size_t i = 0; i < CELL_COUNT; ++i) {
-    //     if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
-    //         LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
-    //         return false;
-    //     }
+    // TODO: due to a design error all other voltages are incorrect
+    for (size_t i = 0; i < 1; ++i) {
+        if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
+            LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
+            return false;
+        }
 
-    //     if (battery_state.cell_voltages[i] > CONFIG_MAXIMUM_CELL_VOLTAGE_MV) {
-    //         LOG_ERR("cell %i voltage is too high: %i mV", i, battery_state.cell_voltages[i]);
-    //         return false;
-    //     }
-    // }
+        if (battery_state.cell_voltages[i] > CONFIG_MAXIMUM_CELL_VOLTAGE_MV) {
+            LOG_ERR("cell %i voltage is too high: %i mV", i, battery_state.cell_voltages[i]);
+            return false;
+        }
+    }
 
     return true;
 }
