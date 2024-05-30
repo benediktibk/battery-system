@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 1,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [],
@@ -22,8 +22,8 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": true,
-      "tracks": false,
+      "text": false,
+      "tracks": true,
       "vias": false,
       "zones": false
     },
@@ -64,8 +64,14 @@
       39,
       40
     ],
-    "visible_layers": "ffc9020_fffffff8",
+    "visible_layers": "ffc9020_ffffffff",
     "zone_display_mode": 0
+  },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
   },
   "meta": {
     "filename": "dc-dc-converter-24v.kicad_prl",
