@@ -5,6 +5,135 @@
 	(uuid "f3858519-f688-4645-91dc-9843c9d0ed53")
 	(paper "A4")
 	(lib_symbols
+		(symbol "benediktibk:7443641000B"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "L"
+				(at 16.51 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "7443641000B"
+				(at 16.51 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "benediktibk:7443641000B"
+				(at 16.51 -94.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/7443641000.pdf"
+				(at 16.51 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "WE-HCF Series Type SMT Shielded Wire-wound SMD Inductor with a MnZn Core, 10 uH +/-20% Shielded 47.5A Idc"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "710-7443641000B"
+				(at 16.51 -494.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "7443641000B_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 15.24 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 20.32 0 180)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "benediktibk:BAT54WS"
 			(pin_numbers hide)
 			(pin_names
@@ -159,151 +288,6 @@
 				)
 			)
 		)
-		(symbol "benediktibk:C_100nF_SMD_0603_50V"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_100nF_SMD_0603_50V"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "242-7372"
-				(at 17.526 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_100nF_SMD_0603_50V_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_100nF_SMD_0603_50V_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "benediktibk:C_1uF_SMD_0603_50V_10%"
 			(pin_numbers hide)
 			(pin_names
@@ -411,296 +395,6 @@
 				)
 			)
 			(symbol "C_1uF_SMD_0603_50V_10%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:C_240pF_SMD_0805_250V_10%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_240pF_SMD_0805_250V_10%"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "788-0496"
-				(at 17.526 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_240pF_SMD_0805_250V_10%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_240pF_SMD_0805_250V_10%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:C_33nF_SMD_0603_50V_10%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_33nF_SMD_0603_50V_10%"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "135-8365"
-				(at 17.526 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_33nF_SMD_0603_50V_10%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_33nF_SMD_0603_50V_10%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 2.794)
@@ -1086,151 +780,6 @@
 				)
 			)
 		)
-		(symbol "benediktibk:C_47pF_SMD_0603_100V_5%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_47pF_SMD_0603_100V_5%"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "135-6508"
-				(at 17.526 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_47pF_SMD_0603_100V_5%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_47pF_SMD_0603_100V_5%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "benediktibk:C_47uF_SMD_1206_25V_20%"
 			(pin_numbers hide)
 			(pin_names
@@ -1521,151 +1070,6 @@
 				)
 			)
 		)
-		(symbol "benediktibk:C_560pF_SMD_0603_50V_5%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "C"
-				(at 0.635 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "C_560pF_SMD_0603_50V_5%"
-				(at 0.635 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-				(at 0.9652 -3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Unpolarized capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "135-6233"
-				(at 17.526 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "cap capacitor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "C_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "C_560pF_SMD_0603_50V_5%_0_1"
-				(polyline
-					(pts
-						(xy -2.032 -0.762) (xy 2.032 -0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 0.762) (xy 2.032 0.762)
-					)
-					(stroke
-						(width 0.508)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "C_560pF_SMD_0603_50V_5%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.794)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "benediktibk:LED_green_0603"
 			(pin_numbers hide)
 			(pin_names
@@ -1854,39 +1258,49 @@
 				)
 			)
 		)
-		(symbol "benediktibk:LM5176"
+		(symbol "benediktibk:LM5122MHX_NOPB"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "U"
-				(at -8.89 13.97 0)
+			(property "Reference" "IC"
+				(at 31.75 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Value" "LM5176"
-				(at 1.27 -2.54 0)
+			(property "Value" "LM5122MHX_NOPB"
+				(at 31.75 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "benediktibk:LM5176"
-				(at 5.08 0 0)
+			(property "Footprint" "benediktibk:SOP65P640X110-21N"
+				(at 31.75 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
-						(italic yes)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "http://www.ti.com/lit/gpn/LM5122"
+				(at 31.75 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "3-65V Wide Vin, Current Mode Synchronous Boost Controller with Multiphase Capability"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1895,37 +1309,20 @@
 					(hide yes)
 				)
 			)
-			(property "Description" ""
-				(at 0 0 0)
+			(property "Mouser Part Number" "595-LM5122MHX/NOPB"
+				(at 31.75 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "RS order number" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "HTSSOP*4.4x7.8mm*P0.65mm*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "LM5176_0_1"
+			(symbol "LM5122MHX_NOPB_1_1"
 				(rectangle
-					(start -10.16 12.7)
-					(end 19.05 -16.51)
+					(start 5.08 2.54)
+					(end 30.48 -30.48)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -1934,12 +1331,10 @@
 						(type background)
 					)
 				)
-			)
-			(symbol "LM5176_1_1"
-				(pin input line
-					(at 0 15.24 270)
-					(length 2.54)
-					(name "EN/UVLO"
+				(pin passive line
+					(at 0 0 0)
+					(length 5.08)
+					(name "SYNCOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1954,10 +1349,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at -12.7 -2.54 0)
-					(length 2.54)
-					(name "AGND"
+				(pin passive line
+					(at 0 -22.86 0)
+					(length 5.08)
+					(name "FB"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1972,10 +1367,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 -19.05 90)
-					(length 2.54)
-					(name "FB"
+				(pin passive line
+					(at 35.56 -22.86 180)
+					(length 5.08)
+					(name "COMP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1990,10 +1385,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 21.59 -15.24 180)
-					(length 2.54)
-					(name "VOSNS"
+				(pin passive line
+					(at 35.56 -20.32 180)
+					(length 5.08)
+					(name "SLOPE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2008,10 +1403,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 15.24 270)
-					(length 2.54)
-					(name "ISNS-"
+				(pin passive line
+					(at 35.56 -17.78 180)
+					(length 5.08)
+					(name "MODE"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2026,10 +1421,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 10.16 15.24 270)
-					(length 2.54)
-					(name "ISNS+"
+				(pin passive line
+					(at 35.56 -15.24 180)
+					(length 5.08)
+					(name "RES"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2044,10 +1439,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 21.59 -2.54 180)
-					(length 2.54)
-					(name "CSG"
+				(pin passive line
+					(at 35.56 -12.7 180)
+					(length 5.08)
+					(name "PGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2062,10 +1457,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 21.59 0 180)
-					(length 2.54)
-					(name "CS"
+				(pin passive line
+					(at 35.56 -10.16 180)
+					(length 5.08)
+					(name "LO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2080,10 +1475,10 @@
 						)
 					)
 				)
-				(pin open_collector line
-					(at -12.7 10.16 0)
-					(length 2.54)
-					(name "PGOOD"
+				(pin passive line
+					(at 35.56 -7.62 180)
+					(length 5.08)
+					(name "VCC"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2098,10 +1493,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 21.59 -10.16 180)
-					(length 2.54)
-					(name "SW2"
+				(pin passive line
+					(at 35.56 -5.08 180)
+					(length 5.08)
+					(name "SW"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2116,10 +1511,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 21.59 -12.7 180)
-					(length 2.54)
-					(name "HDRV2"
+				(pin passive line
+					(at 35.56 -2.54 180)
+					(length 5.08)
+					(name "HO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2134,10 +1529,10 @@
 						)
 					)
 				)
-				(pin power_in line
-					(at 5.08 15.24 270)
-					(length 2.54)
-					(name "VIN"
+				(pin passive line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "OPT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2152,10 +1547,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 21.59 -7.62 180)
-					(length 2.54)
-					(name "BOOT2"
+				(pin passive line
+					(at 35.56 0 180)
+					(length 5.08)
+					(name "BST"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2170,10 +1565,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 21.59 -5.08 180)
-					(length 2.54)
-					(name "LDRV2"
+				(pin passive line
+					(at 17.78 -35.56 90)
+					(length 5.08)
+					(name "EP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2188,154 +1583,10 @@
 						)
 					)
 				)
-				(pin power_out line
-					(at -12.7 -5.08 0)
-					(length 2.54)
-					(name "PGND"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "22"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_out line
-					(at 0 -19.05 90)
-					(length 2.54)
-					(name "VCC"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "23"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at -12.7 0 0)
-					(length 2.54)
-					(name "BIAS"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "24"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 21.59 2.54 180)
-					(length 2.54)
-					(name "LDRV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "25"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 21.59 7.62 180)
-					(length 2.54)
-					(name "BOOT1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "26"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin output line
-					(at 21.59 10.16 180)
-					(length 2.54)
-					(name "HDRV1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "27"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 21.59 5.08 180)
-					(length 2.54)
-					(name "SW1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "28"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin power_in line
-					(at -12.7 -7.62 0)
-					(length 2.54)
-					(name "PAD"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "29"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin input line
-					(at 2.54 15.24 270)
-					(length 2.54)
-					(name "VISNS"
+				(pin passive line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "CSN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2350,10 +1601,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 7.62 0)
-					(length 2.54)
-					(name "MODE"
+				(pin passive line
+					(at 0 -7.62 0)
+					(length 5.08)
+					(name "CSP"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2368,10 +1619,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 2.54 -19.05 90)
-					(length 2.54)
-					(name "DITH"
+				(pin passive line
+					(at 0 -10.16 0)
+					(length 5.08)
+					(name "VIN"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2386,10 +1637,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 5.08 0)
-					(length 2.54)
-					(name "RT/SYNC"
+				(pin passive line
+					(at 0 -12.7 0)
+					(length 5.08)
+					(name "UVLO"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2404,10 +1655,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at 7.62 -19.05 90)
-					(length 2.54)
-					(name "SLOPE"
+				(pin passive line
+					(at 0 -15.24 0)
+					(length 5.08)
+					(name "SS"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2422,10 +1673,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -12.7 2.54 0)
-					(length 2.54)
-					(name "SS"
+				(pin passive line
+					(at 0 -17.78 0)
+					(length 5.08)
+					(name "SYNCIN/RT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2440,10 +1691,10 @@
 						)
 					)
 				)
-				(pin output line
-					(at 5.08 -19.05 90)
-					(length 2.54)
-					(name "COMP"
+				(pin passive line
+					(at 0 -20.32 0)
+					(length 5.08)
+					(name "AGND"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2451,172 +1702,6 @@
 						)
 					)
 					(number "9"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:L_2_5µH_30A"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "L"
-				(at -1.27 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "L_2_5µH_30A"
-				(at 1.905 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:ETQP8"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "238-3683"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_2_5µH_30A_0_1"
-				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "L_2_5µH_30A_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2719,526 +1804,6 @@
 						)
 					)
 					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_0Ohm_SMD_0603_100mW_0%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_0Ohm_SMD_0603_100mW_0%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "125-1171"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_0Ohm_SMD_0603_100mW_0%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_0Ohm_SMD_0603_100mW_0%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_100Ohm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_100Ohm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "125-1172"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_100Ohm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_100Ohm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_10Ohm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_10Ohm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "901-3516"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_10Ohm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_10Ohm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_10kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_10kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "125-1173"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_10kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_10kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3378,7 +1943,7 @@
 				)
 			)
 		)
-		(symbol "benediktibk:R_20kOhm_SMD_0603_100mW_1%"
+		(symbol "benediktibk:R_2mOhm_SMD_2512_5W_1%"
 			(pin_numbers hide)
 			(pin_names
 				(offset 0)
@@ -3394,787 +1959,7 @@
 					)
 				)
 			)
-			(property "Value" "R_20kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "199-5491"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_20kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_20kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_220kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_220kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "678-9986"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_220kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_220kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_24kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_24kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "199-5507"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_24kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_24kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_270kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_270kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "679-0077"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_270kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_270kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_2kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_2kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "901-3563"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_2kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_2kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_43kOhm_SMD_0603_100mW_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_43kOhm_SMD_0603_100mW_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "679-0386"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_43kOhm_SMD_0603_100mW_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_43kOhm_SMD_0603_100mW_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_4mOhm_SMD_2512_2W_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_4mOhm_SMD_2512_2W_1%"
+			(property "Value" "R_2mOhm_SMD_2512_5W_1%"
 				(at -5.588 -1.016 90)
 				(effects
 					(font
@@ -4209,7 +1994,7 @@
 					(hide yes)
 				)
 			)
-			(property "RS order number" "824-0304"
+			(property "RS order number" "231-3683"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -4236,7 +2021,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "R_4mOhm_SMD_2512_2W_1%_0_1"
+			(symbol "R_2mOhm_SMD_2512_5W_1%_0_1"
 				(rectangle
 					(start -1.016 -2.54)
 					(end 1.016 2.54)
@@ -4249,137 +2034,7 @@
 					)
 				)
 			)
-			(symbol "R_4mOhm_SMD_2512_2W_1%_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
-		(symbol "benediktibk:R_93_1kOhm_SMD_0603_100mW_0_1%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.032 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_93_1kOhm_SMD_0603_100mW_0_1%"
-				(at -5.588 -1.016 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-				(at -10.16 0.508 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "RS order number" "708-9013"
-				(at -17.78 1.27 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_93_1kOhm_SMD_0603_100mW_0_1%_0_1"
-				(rectangle
-					(start -1.016 -2.54)
-					(end 1.016 2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_93_1kOhm_SMD_0603_100mW_0_1%_1_1"
+			(symbol "R_2mOhm_SMD_2512_5W_1%_1_1"
 				(pin passive line
 					(at 0 3.81 270)
 					(length 1.27)
@@ -5052,102 +2707,12 @@
 				)
 			)
 		)
-		(symbol "power:PWR_FLAG"
-			(power)
-			(pin_numbers hide)
-			(pin_names
-				(offset 0) hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "#FLG"
-				(at 0 1.905 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Value" "PWR_FLAG"
-				(at 0 3.81 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Special symbol for telling ERC where power comes from"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "flag power"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "PWR_FLAG_0_0"
-				(pin power_out line
-					(at 0 0 90)
-					(length 0)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "PWR_FLAG_0_1"
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-		)
+	)
+	(junction
+		(at 177.8 62.23)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07b1a066-de47-4961-ae7a-47835860fbd4")
 	)
 	(junction
 		(at 39.37 43.18)
@@ -5162,22 +2727,10 @@
 		(uuid "0a4c756a-f620-439d-b612-a60d60985247")
 	)
 	(junction
-		(at 110.49 162.56)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0be6fdb7-cabe-48c2-837a-eaab9d292db3")
-	)
-	(junction
 		(at 248.92 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0d29c8ac-1cd8-4113-981a-7f0901c15f73")
-	)
-	(junction
-		(at 121.92 186.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "106558d5-49c1-474e-841f-107d127ab914")
 	)
 	(junction
 		(at 52.07 19.05)
@@ -5190,12 +2743,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c5f82e2-e404-4f84-8bbd-6e07cd8d681d")
-	)
-	(junction
-		(at 168.91 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "205200bf-8dbb-4baf-99bd-5b5aa0e73e6a")
 	)
 	(junction
 		(at 248.92 41.91)
@@ -5216,22 +2763,10 @@
 		(uuid "257462fd-ec2e-4782-ad26-00c217261347")
 	)
 	(junction
-		(at 88.9 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "272b45aa-730a-434d-8012-80f2231facae")
-	)
-	(junction
 		(at 52.07 43.18)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2de892db-c0ca-44c6-afa8-a06d660e0192")
-	)
-	(junction
-		(at 222.25 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3d788d52-9657-42cb-89f4-127a63fbe90d")
 	)
 	(junction
 		(at 237.49 41.91)
@@ -5240,46 +2775,10 @@
 		(uuid "3f604d45-a77d-4043-965b-41868246104d")
 	)
 	(junction
-		(at 146.05 129.54)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4349cd8a-85c5-4202-9d2d-fd63a0ed4281")
-	)
-	(junction
-		(at 115.57 97.79)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f0a19bc-dadf-4d4d-a798-a6f03c9ea8a7")
-	)
-	(junction
-		(at 110.49 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4f4e3a76-eec5-427a-b57f-1db0f4f4b915")
-	)
-	(junction
-		(at 146.05 111.76)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "541f8694-7308-464b-98b3-258b797aedfe")
-	)
-	(junction
-		(at 39.37 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6204c51f-09c2-4cb9-8e47-0245450e7325")
-	)
-	(junction
 		(at 261.62 41.91)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "675b8f00-9e7e-44d5-9b46-e62072ed6186")
-	)
-	(junction
-		(at 82.55 86.36)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "778d14d3-2359-4e50-b1e8-a4f71e2dfb0c")
 	)
 	(junction
 		(at 224.79 17.78)
@@ -5288,34 +2787,10 @@
 		(uuid "855de372-65f1-4893-91e3-ed948073f631")
 	)
 	(junction
-		(at 107.95 63.5)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8a0e7e1c-24e8-4770-9185-331b9e04fbf6")
-	)
-	(junction
-		(at 194.31 124.46)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "8b02d15b-5a41-48e2-bbe3-cddcdec09f33")
-	)
-	(junction
 		(at 63.5 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "90a1dd59-5bc5-4512-b667-4358a4bdd2a9")
-	)
-	(junction
-		(at 88.9 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "965e6ca1-37f2-40e4-a343-dd696c1cebf4")
-	)
-	(junction
-		(at 194.31 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "9ff5c914-9de9-4706-9fb2-56622c36828f")
 	)
 	(junction
 		(at 39.37 19.05)
@@ -5330,46 +2805,16 @@
 		(uuid "a7b1d1fd-d7be-4e82-80ca-ac264d95413a")
 	)
 	(junction
-		(at 55.88 106.68)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9f5c1c6-0ee5-499c-aabb-c4f112e8fec1")
-	)
-	(junction
-		(at 110.49 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c8bb3eb5-fa58-42ee-90cf-750e0de6d306")
-	)
-	(junction
-		(at 146.05 101.6)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d47387cd-86fa-458f-b81a-5fc321fd82fe")
-	)
-	(junction
-		(at 146.05 139.7)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "df75febd-e71b-4fbb-85a1-e3d7fee562ef")
-	)
-	(junction
-		(at 168.91 110.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e01cddc4-b670-4a87-a83c-07b578522e41")
-	)
-	(junction
 		(at 237.49 17.78)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e0e9ef85-e107-43ec-b580-4b199696870b")
 	)
 	(junction
-		(at 82.55 63.5)
+		(at 116.84 125.73)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "f4f57321-cb99-4bfa-b688-6481a51d8fbe")
+		(uuid "e5a990cb-5e73-4882-a6cb-ebe4104ce026")
 	)
 	(junction
 		(at 261.62 17.78)
@@ -5377,47 +2822,25 @@
 		(color 0 0 0 0)
 		(uuid "fa367b96-c865-4d09-a804-2e6677a1790a")
 	)
-	(junction
-		(at 134.62 172.72)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fceab7df-5491-4fa8-927e-1a07f2ae46de")
-	)
-	(junction
-		(at 194.31 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ff2b2126-9fc5-4f19-9a58-f7049565dc29")
-	)
 	(wire
 		(pts
-			(xy 88.9 133.35) (xy 88.9 124.46)
+			(xy 138.43 83.82) (xy 138.43 86.36)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "00991c69-ad8f-4fc1-82ac-c62bd40d6a91")
+		(uuid "0108268c-1801-40ea-a423-9033808e45e5")
 	)
 	(wire
 		(pts
-			(xy 140.97 152.4) (xy 140.97 149.86)
+			(xy 120.65 107.95) (xy 116.84 107.95)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "04fd69e6-fd5a-4a48-9d3e-a33b7526ad61")
-	)
-	(wire
-		(pts
-			(xy 110.49 63.5) (xy 194.31 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "053bb518-5cd4-4341-9099-042dc1931696")
+		(uuid "054c1f2d-3d4e-4944-b699-731156a4ddac")
 	)
 	(wire
 		(pts
@@ -5431,56 +2854,6 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 110.49) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "07d59657-10de-4a1b-8fd4-1ec70d64e0ac")
-	)
-	(wire
-		(pts
-			(xy 162.56 125.73) (xy 166.37 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0a163f04-a449-49d7-b233-2ad163a7c23e")
-	)
-	(wire
-		(pts
-			(xy 157.48 129.54) (xy 161.29 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b139703-1a07-499b-afde-15ca5b4d1411")
-	)
-	(wire
-		(pts
-			(xy 177.8 110.49) (xy 168.91 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c4aa428-d97a-4d57-9909-3c1666c13945")
-	)
-	(wire
-		(pts
-			(xy 110.49 162.56) (xy 110.49 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0e7272c7-621e-405c-ae20-895ba1455482")
-	)
-	(wire
-		(pts
 			(xy 248.92 35.56) (xy 248.92 41.91)
 		)
 		(stroke
@@ -5488,16 +2861,6 @@
 			(type default)
 		)
 		(uuid "0f8fb986-3d9c-484d-88c8-25a7350afe99")
-	)
-	(wire
-		(pts
-			(xy 194.31 63.5) (xy 194.31 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0f9e0807-7d13-4167-a07d-1eaec8d8b59a")
 	)
 	(wire
 		(pts
@@ -5511,16 +2874,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 63.5) (xy 107.95 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0ff7165c-ab7e-416f-82c1-6c98bb8d696d")
-	)
-	(wire
-		(pts
 			(xy 63.5 19.05) (xy 76.2 19.05)
 		)
 		(stroke
@@ -5528,26 +2881,6 @@
 			(type default)
 		)
 		(uuid "1019e7b8-e58d-4cf4-9ce8-7e97e1e22d3e")
-	)
-	(wire
-		(pts
-			(xy 110.49 135.89) (xy 110.49 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "115325ae-d905-4e4b-a10d-e4ef69066b32")
-	)
-	(wire
-		(pts
-			(xy 77.47 109.22) (xy 92.71 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "11ebd18c-ea55-4cfd-99f5-3da84eda5bee")
 	)
 	(wire
 		(pts
@@ -5561,73 +2894,33 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 96.52) (xy 71.12 97.79)
+			(xy 135.89 63.5) (xy 135.89 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "14b9009e-6abd-48f2-a40b-a087c0d5f6e6")
+		(uuid "15abcdf3-5e67-47d2-92ea-4d0a5ed907e8")
 	)
 	(wire
 		(pts
-			(xy 161.29 111.76) (xy 161.29 107.95)
+			(xy 138.43 140.97) (xy 138.43 143.51)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "16d8c96f-3fa0-48ec-a387-7122859fa7da")
+		(uuid "18818906-5cb7-4bd4-913a-a28b9217b883")
 	)
 	(wire
 		(pts
-			(xy 115.57 97.79) (xy 113.03 97.79)
+			(xy 116.84 107.95) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "17c4ecda-cef6-4629-be87-6e094a4b9ae9")
-	)
-	(wire
-		(pts
-			(xy 121.92 148.59) (xy 121.92 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c1b048b-f837-483c-a8f9-923b2aa43a93")
-	)
-	(wire
-		(pts
-			(xy 55.88 106.68) (xy 39.37 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1c9126ac-5376-4ecf-89da-907069669cb8")
-	)
-	(wire
-		(pts
-			(xy 173.99 87.63) (xy 194.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1e532448-1455-4072-baf8-719ae4b5afa1")
-	)
-	(wire
-		(pts
-			(xy 128.27 132.08) (xy 127 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ec7ea55-2d65-44dc-b3cf-ba745bd8f8cb")
+		(uuid "203cc0e5-01e2-463e-9c67-8d6b3639a595")
 	)
 	(wire
 		(pts
@@ -5671,16 +2964,6 @@
 	)
 	(wire
 		(pts
-			(xy 82.55 96.52) (xy 82.55 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "239dae15-c2d2-4302-ae95-d0fe99d3812d")
-	)
-	(wire
-		(pts
 			(xy 21.59 21.59) (xy 22.86 21.59)
 		)
 		(stroke
@@ -5688,16 +2971,6 @@
 			(type default)
 		)
 		(uuid "25802cfb-6681-40de-b985-4cc84f3d1e33")
-	)
-	(wire
-		(pts
-			(xy 127 114.3) (xy 162.56 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "25dc33f2-de9c-4f12-8c04-bb2bc8230b16")
 	)
 	(wire
 		(pts
@@ -5711,56 +2984,6 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 124.46) (xy 194.31 120.65)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "27472727-f2ee-47bd-b7d6-300615117652")
-	)
-	(wire
-		(pts
-			(xy 105.41 86.36) (xy 105.41 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2966bb38-3d35-4e13-b884-37b139c75070")
-	)
-	(wire
-		(pts
-			(xy 54.61 129.54) (xy 54.61 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "29a20451-6b84-4c38-886a-6d1de76b0a98")
-	)
-	(wire
-		(pts
-			(xy 128.27 135.89) (xy 128.27 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2f237ab6-d782-44a8-bf87-f843dddb622d")
-	)
-	(wire
-		(pts
-			(xy 168.91 110.49) (xy 163.83 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "309bceb6-3548-451e-b8c2-07b79f9f73c1")
-	)
-	(wire
-		(pts
 			(xy 224.79 35.56) (xy 224.79 41.91)
 		)
 		(stroke
@@ -5768,46 +2991,6 @@
 			(type default)
 		)
 		(uuid "3119e0d7-a17b-4c60-a3c9-d0545897a09d")
-	)
-	(wire
-		(pts
-			(xy 127 121.92) (xy 162.56 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "32a60d18-7d0b-4aba-a3f6-61389a003a36")
-	)
-	(wire
-		(pts
-			(xy 162.56 121.92) (xy 162.56 125.73)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "33c9448a-a919-46cf-ad3b-e356b0183a86")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 105.41 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "34066482-9096-4092-9b28-6b3ab03f8cf3")
-	)
-	(wire
-		(pts
-			(xy 107.95 63.5) (xy 107.95 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35ce8724-7ee1-4b15-b0a6-09ca8125d641")
 	)
 	(wire
 		(pts
@@ -5821,33 +3004,13 @@
 	)
 	(wire
 		(pts
-			(xy 127 119.38) (xy 163.83 119.38)
+			(xy 162.56 115.57) (xy 156.21 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3712e89c-7659-404e-b45e-1afa6c787c48")
-	)
-	(wire
-		(pts
-			(xy 222.25 87.63) (xy 222.25 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3816c163-01fc-4850-ba59-c156cda00116")
-	)
-	(wire
-		(pts
-			(xy 146.05 138.43) (xy 146.05 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3865fc5a-173f-4888-bc2a-5df9f15def73")
+		(uuid "37e071a2-7396-415c-b982-0388cfe537de")
 	)
 	(wire
 		(pts
@@ -5861,33 +3024,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 130.81) (xy 146.05 129.54)
+			(xy 116.84 125.73) (xy 116.84 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3a1f38dd-1d2c-408a-9927-c77dc918dac1")
-	)
-	(wire
-		(pts
-			(xy 110.49 87.63) (xy 110.49 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a66a6eb-17b9-433b-a081-9eeab6afff9a")
-	)
-	(wire
-		(pts
-			(xy 233.68 139.7) (xy 233.68 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3d35e714-eb38-4f35-9a2b-4b12ecb7ff61")
+		(uuid "3b0cbada-8972-4a5d-ad52-1e2d8e6dadd7")
 	)
 	(wire
 		(pts
@@ -5901,233 +3044,13 @@
 	)
 	(wire
 		(pts
-			(xy 194.31 110.49) (xy 194.31 113.03)
+			(xy 162.56 86.36) (xy 162.56 115.57)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "3e76ecc4-d7ae-4378-b0b6-823152bf78f5")
-	)
-	(wire
-		(pts
-			(xy 82.55 83.82) (xy 82.55 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3ea64f18-79d9-4d02-9802-cd2a53bc0120")
-	)
-	(wire
-		(pts
-			(xy 121.92 173.99) (xy 121.92 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "42a767b5-646d-4d39-adcf-b05e4b1ba958")
-	)
-	(wire
-		(pts
-			(xy 234.95 140.97) (xy 139.7 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "434c2a71-32d5-4764-9df0-861c333d5444")
-	)
-	(wire
-		(pts
-			(xy 168.91 120.65) (xy 168.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "435ff9ff-b0d4-4eb4-8119-8801da11560c")
-	)
-	(wire
-		(pts
-			(xy 88.9 121.92) (xy 92.71 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "44a52a2f-5c00-4aec-8257-0707d53c026e")
-	)
-	(wire
-		(pts
-			(xy 41.91 116.84) (xy 92.71 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "46be9153-cf5d-42f6-8d45-8d7394ee904b")
-	)
-	(wire
-		(pts
-			(xy 88.9 119.38) (xy 92.71 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47d8edcf-947e-46de-b3c3-9a3f6aadb795")
-	)
-	(wire
-		(pts
-			(xy 55.88 90.17) (xy 55.88 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "47e327db-20fb-4a39-aa34-deab29da7077")
-	)
-	(wire
-		(pts
-			(xy 66.04 129.54) (xy 66.04 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4857f24f-7fc6-471a-b333-d718606aa7a5")
-	)
-	(wire
-		(pts
-			(xy 41.91 129.54) (xy 41.91 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "498e6bc7-0cc4-4d90-a915-2fa037e57cfb")
-	)
-	(wire
-		(pts
-			(xy 134.62 137.16) (xy 134.62 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4a7e1e3e-e206-488e-8cec-73ce5c9b33a2")
-	)
-	(wire
-		(pts
-			(xy 137.16 91.44) (xy 172.72 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b69244b-9144-4d6e-8637-bb91c438d608")
-	)
-	(wire
-		(pts
-			(xy 139.7 129.54) (xy 127 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4b6e6deb-c8e3-4a1f-9f86-5c6d063c6df0")
-	)
-	(wire
-		(pts
-			(xy 107.95 83.82) (xy 107.95 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4be38df5-d27a-4243-affa-fe0f729a1e84")
-	)
-	(wire
-		(pts
-			(xy 115.57 95.25) (xy 115.57 97.79)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e513be6-1f63-4f3e-b90b-41b77a8aeec6")
-	)
-	(wire
-		(pts
-			(xy 41.91 116.84) (xy 41.91 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ed22203-8127-40a0-b4c7-8240643a7920")
-	)
-	(wire
-		(pts
-			(xy 66.04 121.92) (xy 66.04 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "50bbaa8e-3ba5-44ac-9828-2633dcfdc358")
-	)
-	(wire
-		(pts
-			(xy 113.03 139.7) (xy 113.03 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52aebac9-22fc-41e4-949a-47815c7a6112")
-	)
-	(wire
-		(pts
-			(xy 110.49 63.5) (xy 110.49 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "52be1bfa-8f58-47cc-83e1-9fd0e8ae3c33")
-	)
-	(wire
-		(pts
-			(xy 146.05 124.46) (xy 127 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53c96aab-3b76-48f3-abc7-38683091d7a0")
-	)
-	(wire
-		(pts
-			(xy 162.56 114.3) (xy 162.56 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "53fba840-e7ca-48f7-8b4b-96b179784fd2")
-	)
-	(wire
-		(pts
-			(xy 161.29 107.95) (xy 173.99 107.95)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "547ebcbc-217c-4244-a997-48c3a2368ea9")
+		(uuid "4e5f0443-ee8e-42f5-bd8c-0f37ec8b6071")
 	)
 	(wire
 		(pts
@@ -6138,46 +3061,6 @@
 			(type default)
 		)
 		(uuid "570a2589-72e6-4920-b7f6-d49a6132119c")
-	)
-	(wire
-		(pts
-			(xy 115.57 135.89) (xy 115.57 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "57102d57-d283-4170-aa09-9904efd7f316")
-	)
-	(wire
-		(pts
-			(xy 222.25 101.6) (xy 222.25 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5748f116-6a49-499c-ac57-9c588f31f993")
-	)
-	(wire
-		(pts
-			(xy 121.92 166.37) (xy 121.92 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "599de638-4dfa-4df0-8861-4f4f74dc9cde")
-	)
-	(wire
-		(pts
-			(xy 175.26 96.52) (xy 186.69 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5d22dec4-4e77-40fa-8e28-b4fb5b753424")
 	)
 	(wire
 		(pts
@@ -6201,13 +3084,13 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 83.82) (xy 110.49 87.63)
+			(xy 191.77 62.23) (xy 177.8 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "5ff5c0f3-04db-4ff3-902d-d1280d961bd7")
+		(uuid "5ff0cceb-6898-43c9-97b0-250aec9b6175")
 	)
 	(wire
 		(pts
@@ -6221,16 +3104,6 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 63.5) (xy 82.55 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6035fb6b-907a-424f-b8e0-1ab3afb9092f")
-	)
-	(wire
-		(pts
 			(xy 224.79 41.91) (xy 224.79 43.18)
 		)
 		(stroke
@@ -6238,76 +3111,6 @@
 			(type default)
 		)
 		(uuid "607b5563-4a11-4855-a59d-8a54c6350034")
-	)
-	(wire
-		(pts
-			(xy 222.25 72.39) (xy 222.25 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60eea8ef-c861-4e1f-a8c3-72a5fef70fd3")
-	)
-	(wire
-		(pts
-			(xy 140.97 170.18) (xy 140.97 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c12d9f-7c6f-4660-aef8-c39d48161d5c")
-	)
-	(wire
-		(pts
-			(xy 194.31 82.55) (xy 194.31 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63933999-1ce3-49ea-9d6f-1943f34452bb")
-	)
-	(wire
-		(pts
-			(xy 107.95 135.89) (xy 107.95 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63a33a82-a737-4294-9fef-584a2b8463c8")
-	)
-	(wire
-		(pts
-			(xy 97.79 88.9) (xy 97.79 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6494cba4-298d-4ad5-be6b-d867294c7b18")
-	)
-	(wire
-		(pts
-			(xy 97.79 87.63) (xy 110.49 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64db2052-fa3a-4545-b89d-92bc4e5e7b3a")
-	)
-	(wire
-		(pts
-			(xy 110.49 186.69) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "64fbd40f-47a8-43fe-8280-b81376b81db6")
 	)
 	(wire
 		(pts
@@ -6321,43 +3124,13 @@
 	)
 	(wire
 		(pts
-			(xy 233.68 87.63) (xy 222.25 87.63)
+			(xy 177.8 62.23) (xy 138.43 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "65c260d1-5e8c-4222-9805-0867b490811b")
-	)
-	(wire
-		(pts
-			(xy 54.61 114.3) (xy 54.61 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "69146b74-c6ba-45b2-82a4-8187d944303c")
-	)
-	(wire
-		(pts
-			(xy 39.37 82.55) (xy 39.37 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6ee4067d-f8bd-4822-abf0-aedf3078a62d")
-	)
-	(wire
-		(pts
-			(xy 142.24 109.22) (xy 142.24 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6eef3614-4bdb-4795-877a-3f90c8718c33")
+		(uuid "6a41b324-71a9-4a26-abf3-3f16f23757d7")
 	)
 	(wire
 		(pts
@@ -6371,26 +3144,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 73.66) (xy 110.49 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6f79659b-f1c7-4fc9-a43e-ad3651e3fdd1")
-	)
-	(wire
-		(pts
-			(xy 163.83 110.49) (xy 163.83 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7258e4d0-7499-4490-9db5-45823f263f76")
-	)
-	(wire
-		(pts
 			(xy 273.05 20.32) (xy 273.05 41.91)
 		)
 		(stroke
@@ -6398,16 +3151,6 @@
 			(type default)
 		)
 		(uuid "73fa5a57-e77e-4769-a390-aafed8846e98")
-	)
-	(wire
-		(pts
-			(xy 146.05 102.87) (xy 146.05 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "75dd6908-b2ee-4c89-b115-ae6f7e081179")
 	)
 	(wire
 		(pts
@@ -6431,33 +3174,13 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 78.74) (xy 55.88 82.55)
+			(xy 138.43 62.23) (xy 138.43 63.5)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "79742448-41e7-482f-a2e9-481d20cc84d1")
-	)
-	(wire
-		(pts
-			(xy 234.95 77.47) (xy 234.95 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7af84b61-f290-4350-bd8e-f95c198dc9cd")
-	)
-	(wire
-		(pts
-			(xy 168.91 110.49) (xy 168.91 113.03)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7b81085c-2434-4154-84e0-b34d707b7c46")
+		(uuid "7872ea07-413d-4011-a1ee-ae1ab95349bd")
 	)
 	(wire
 		(pts
@@ -6471,16 +3194,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 124.46) (xy 88.9 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7bc586ff-7bcb-4401-8c6c-23a2aacdea1a")
-	)
-	(wire
-		(pts
 			(xy 27.94 63.5) (xy 27.94 82.55)
 		)
 		(stroke
@@ -6491,33 +3204,13 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 91.44) (xy 172.72 77.47)
+			(xy 156.21 118.11) (xy 160.02 118.11)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "7d41b937-62e1-40f6-86ce-c31b22003c94")
-	)
-	(wire
-		(pts
-			(xy 105.41 139.7) (xy 95.25 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7d99fdc7-c6e8-4efb-936b-a2c336a98db9")
-	)
-	(wire
-		(pts
-			(xy 139.7 140.97) (xy 139.7 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e0256eb-a5f4-4818-914e-751d21ab1280")
+		(uuid "7d324c9f-90d6-4c3a-b722-5c25d7d11e56")
 	)
 	(wire
 		(pts
@@ -6531,6 +3224,16 @@
 	)
 	(wire
 		(pts
+			(xy 170.18 86.36) (xy 162.56 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7e73b3ca-c8b2-4541-a0da-fd144804e0e8")
+	)
+	(wire
+		(pts
 			(xy 212.09 17.78) (xy 224.79 17.78)
 		)
 		(stroke
@@ -6538,36 +3241,6 @@
 			(type default)
 		)
 		(uuid "80168564-d989-4aa4-9ff8-daa29c695470")
-	)
-	(wire
-		(pts
-			(xy 232.41 138.43) (xy 232.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "803ca8ec-506d-4d57-8c59-7c17f7cb7927")
-	)
-	(wire
-		(pts
-			(xy 121.92 139.7) (xy 121.92 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "80d18684-7b34-4287-98ab-6dcf989e9241")
-	)
-	(wire
-		(pts
-			(xy 77.47 129.54) (xy 77.47 133.35)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "82d2c43e-685a-4bac-8e60-0818359aa212")
 	)
 	(wire
 		(pts
@@ -6591,56 +3264,6 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 186.69) (xy 121.92 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "846a9202-eeef-44ad-ba96-fb5c87825900")
-	)
-	(wire
-		(pts
-			(xy 163.83 124.46) (xy 168.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "84d76add-cf2b-4475-87d8-c2b876adccf8")
-	)
-	(wire
-		(pts
-			(xy 142.24 101.6) (xy 146.05 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "86baa825-7b97-4f47-9caa-62b88860cdbe")
-	)
-	(wire
-		(pts
-			(xy 146.05 111.76) (xy 161.29 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "87f0dc9c-7f98-4a2a-8c79-1e47c07f75c6")
-	)
-	(wire
-		(pts
-			(xy 162.56 109.22) (xy 175.26 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8997b8ce-5d46-48e7-be87-a6d46fc0987f")
-	)
-	(wire
-		(pts
 			(xy 27.94 19.05) (xy 39.37 19.05)
 		)
 		(stroke
@@ -6648,36 +3271,6 @@
 			(type default)
 		)
 		(uuid "899da238-ac2a-417a-851d-54ac02075fc0")
-	)
-	(wire
-		(pts
-			(xy 140.97 160.02) (xy 140.97 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a42fb95-5767-403b-aabd-e848fcf15dd0")
-	)
-	(wire
-		(pts
-			(xy 110.49 162.56) (xy 121.92 162.56)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8aeb0abf-e602-42ce-b130-e343b77cf56b")
-	)
-	(wire
-		(pts
-			(xy 88.9 121.92) (xy 88.9 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8b2e9a76-543f-48e9-92e3-021100674ec7")
 	)
 	(wire
 		(pts
@@ -6691,46 +3284,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 109.22) (xy 142.24 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8d747277-0516-4c6e-a115-f6e49760451d")
-	)
-	(wire
-		(pts
-			(xy 146.05 139.7) (xy 233.68 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e13c180-3c37-41d5-88ff-789238a58700")
-	)
-	(wire
-		(pts
-			(xy 121.92 139.7) (xy 113.03 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8ec774b0-1a92-46df-a864-3f1644a45977")
-	)
-	(wire
-		(pts
-			(xy 137.16 106.68) (xy 137.16 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9185029b-2717-427b-9718-0a92bd94a081")
-	)
-	(wire
-		(pts
 			(xy 22.86 43.18) (xy 27.94 43.18)
 		)
 		(stroke
@@ -6738,16 +3291,6 @@
 			(type default)
 		)
 		(uuid "9205c59e-7d2f-4419-ab5f-ef49b6519da7")
-	)
-	(wire
-		(pts
-			(xy 163.83 116.84) (xy 127 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9454108f-5c38-4645-99e2-111afe3b250d")
 	)
 	(wire
 		(pts
@@ -6761,63 +3304,13 @@
 	)
 	(wire
 		(pts
-			(xy 135.89 149.86) (xy 135.89 135.89)
+			(xy 177.8 91.44) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "99faad28-cd70-409b-b555-9dd841800d47")
-	)
-	(wire
-		(pts
-			(xy 27.94 63.5) (xy 39.37 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9b546119-925d-4f14-a67f-55b9e380f32c")
-	)
-	(wire
-		(pts
-			(xy 173.99 107.95) (xy 173.99 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d0fb99d-8bb6-4d40-9acc-eda36c99413d")
-	)
-	(wire
-		(pts
-			(xy 134.62 172.72) (xy 140.97 172.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d64c7e9-2ff0-489c-92e6-957d5e4f4e77")
-	)
-	(wire
-		(pts
-			(xy 92.71 106.68) (xy 55.88 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e685935-b286-4920-82ab-3dcf2c0c9c9c")
-	)
-	(wire
-		(pts
-			(xy 185.42 124.46) (xy 194.31 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9f3f12c6-11ad-4829-9cd7-d6d3e1c31f9f")
+		(uuid "a1b475d9-f3fb-43ee-a4da-62ee33568f0f")
 	)
 	(wire
 		(pts
@@ -6841,33 +3334,23 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 82.55) (xy 222.25 87.63)
+			(xy 177.8 62.23) (xy 177.8 81.28)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a4f79a24-b435-47a5-b9bc-03734a5c61b4")
+		(uuid "a340ebae-44d7-4f18-b0b6-4dc137ce43ac")
 	)
 	(wire
 		(pts
-			(xy 39.37 90.17) (xy 39.37 93.98)
+			(xy 120.65 125.73) (xy 116.84 125.73)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "a5002d61-a94d-40ed-9f9b-3b98205ea758")
-	)
-	(wire
-		(pts
-			(xy 113.03 97.79) (xy 113.03 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ac73959c-5b99-445d-b328-f5ed4fc99d14")
+		(uuid "a54f7559-885c-49e1-8851-9f9e20155f0e")
 	)
 	(wire
 		(pts
@@ -6881,26 +3364,6 @@
 	)
 	(wire
 		(pts
-			(xy 140.97 149.86) (xy 135.89 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "adf223c5-2cc4-434b-b8b6-eb0c2292878d")
-	)
-	(wire
-		(pts
-			(xy 134.62 172.72) (xy 134.62 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "af93df15-70db-4df1-9b78-fd67eb559f81")
-	)
-	(wire
-		(pts
 			(xy 248.92 17.78) (xy 248.92 27.94)
 		)
 		(stroke
@@ -6911,53 +3374,13 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 96.52) (xy 97.79 97.79)
+			(xy 160.02 118.11) (xy 160.02 130.81)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b17144e9-420a-4953-bd88-8a60a620b4f8")
-	)
-	(wire
-		(pts
-			(xy 82.55 63.5) (xy 82.55 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b2f802d0-0556-40bc-98fc-2db3b9f7c7d5")
-	)
-	(wire
-		(pts
-			(xy 105.41 135.89) (xy 105.41 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84b159f-f075-4b48-b717-385e97d034aa")
-	)
-	(wire
-		(pts
-			(xy 115.57 97.79) (xy 115.57 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b84f1bec-b48a-4477-bc4e-6c10f3739d67")
-	)
-	(wire
-		(pts
-			(xy 88.9 124.46) (xy 92.71 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b9abd762-21b6-42b6-a7b0-5a336e193c1b")
+		(uuid "afe3e3af-b4e8-423a-a117-14ff78dcd7c7")
 	)
 	(wire
 		(pts
@@ -6971,6 +3394,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 62.23) (xy 135.89 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bb61d55c-4a91-4338-ade1-e6177c71d6ba")
+	)
+	(wire
+		(pts
 			(xy 110.49 22.86) (xy 110.49 24.13)
 		)
 		(stroke
@@ -6978,36 +3411,6 @@
 			(type default)
 		)
 		(uuid "bd256b3e-d3b4-4d26-a9d4-d5e9306e0eae")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 71.12 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "be462018-2686-4e69-b2a3-2223cf2bec79")
-	)
-	(wire
-		(pts
-			(xy 146.05 101.6) (xy 149.86 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c043fa3c-cb41-4fee-899f-78f8b78d51a9")
-	)
-	(wire
-		(pts
-			(xy 54.61 114.3) (xy 92.71 114.3)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c09c97f6-c454-4720-b4c8-ba853c09020a")
 	)
 	(wire
 		(pts
@@ -7031,36 +3434,6 @@
 	)
 	(wire
 		(pts
-			(xy 166.37 125.73) (xy 166.37 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c4adc44e-6b45-493d-9f43-37ece24303b3")
-	)
-	(wire
-		(pts
-			(xy 71.12 86.36) (xy 71.12 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c66aae51-2ce5-45a0-9cd7-2af110a3b2d1")
-	)
-	(wire
-		(pts
-			(xy 194.31 110.49) (xy 222.25 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c70398d4-df9c-476b-833c-ab6b5cd1c967")
-	)
-	(wire
-		(pts
 			(xy 27.94 43.18) (xy 39.37 43.18)
 		)
 		(stroke
@@ -7068,26 +3441,6 @@
 			(type default)
 		)
 		(uuid "c7591679-731b-474f-bca9-58e9218f3e5c")
-	)
-	(wire
-		(pts
-			(xy 140.97 127) (xy 127 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb621a41-9e34-44d2-864b-6157b807b4b9")
-	)
-	(wire
-		(pts
-			(xy 194.31 101.6) (xy 194.31 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "cb7468c2-cf83-46ef-ba53-0ab5d3e897a6")
 	)
 	(wire
 		(pts
@@ -7101,16 +3454,6 @@
 	)
 	(wire
 		(pts
-			(xy 110.49 180.34) (xy 110.49 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d09bb682-c22c-496f-abe0-ecad90591b4c")
-	)
-	(wire
-		(pts
 			(xy 261.62 17.78) (xy 275.59 17.78)
 		)
 		(stroke
@@ -7118,16 +3461,6 @@
 			(type default)
 		)
 		(uuid "d26042a4-ed75-4d8b-ba94-bcbcc5e5d73e")
-	)
-	(wire
-		(pts
-			(xy 77.47 121.92) (xy 77.47 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d2a5efd3-87ba-4449-aeef-147090f0b5b4")
 	)
 	(wire
 		(pts
@@ -7141,203 +3474,13 @@
 	)
 	(wire
 		(pts
-			(xy 146.05 129.54) (xy 146.05 124.46)
+			(xy 201.93 62.23) (xy 238.76 62.23)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d6b6a78d-566c-4d07-b5a2-70c8fe74a772")
-	)
-	(wire
-		(pts
-			(xy 229.87 77.47) (xy 234.95 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d75b750c-ecd9-485d-9db7-9840b4abe60a")
-	)
-	(wire
-		(pts
-			(xy 146.05 139.7) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d76a44f3-27cf-4482-b466-f87a10c82793")
-	)
-	(wire
-		(pts
-			(xy 177.8 124.46) (xy 168.91 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d7ecea7a-333c-41a1-99fc-a7e384607782")
-	)
-	(wire
-		(pts
-			(xy 212.09 87.63) (xy 222.25 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "d8640f72-527e-4f49-81e5-a1e2f97f7a7f")
-	)
-	(wire
-		(pts
-			(xy 175.26 109.22) (xy 175.26 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da43f9d5-4166-46f0-8d02-c88b94ea6017")
-	)
-	(wire
-		(pts
-			(xy 82.55 86.36) (xy 82.55 88.9)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dab51a60-5340-436d-9319-96342821e15f")
-	)
-	(wire
-		(pts
-			(xy 135.89 135.89) (xy 128.27 135.89)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db24a32c-52b7-4e82-af19-ec3762a34031")
-	)
-	(wire
-		(pts
-			(xy 105.41 142.24) (xy 105.41 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dd228be3-39d9-404f-993e-a3dfd677d2b3")
-	)
-	(wire
-		(pts
-			(xy 39.37 106.68) (xy 39.37 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dde0fd56-18ce-4ee9-a352-eb8f22c57ffd")
-	)
-	(wire
-		(pts
-			(xy 185.42 110.49) (xy 194.31 110.49)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "dfab2fd0-f235-4ae3-af59-9d8abf892e36")
-	)
-	(wire
-		(pts
-			(xy 229.87 96.52) (xy 232.41 96.52)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e0498051-ffcc-4aa2-af9e-a6333a1646ed")
-	)
-	(wire
-		(pts
-			(xy 140.97 127) (xy 140.97 139.7)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e196be74-398c-4827-965e-7b5286f39586")
-	)
-	(wire
-		(pts
-			(xy 95.25 149.86) (xy 95.25 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e28847f4-f916-4f2e-a901-3847b9ce56ff")
-	)
-	(wire
-		(pts
-			(xy 163.83 119.38) (xy 163.83 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3283cc2-fcc2-47d2-84b7-ca9782a4ba50")
-	)
-	(wire
-		(pts
-			(xy 105.41 140.97) (xy 107.95 140.97)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e386ba2e-5467-4be3-9f01-84a5c6862522")
-	)
-	(wire
-		(pts
-			(xy 194.31 87.63) (xy 194.31 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3a306b5-db67-4a2b-bcc3-142beea175ef")
-	)
-	(wire
-		(pts
-			(xy 127 106.68) (xy 137.16 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e54e41f6-009d-44bc-aad0-3f4a0f84a616")
-	)
-	(wire
-		(pts
-			(xy 134.62 184.15) (xy 134.62 189.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6808dc0-1d68-4f37-ade5-c5844cd57332")
-	)
-	(wire
-		(pts
-			(xy 194.31 124.46) (xy 194.31 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e738e984-a44e-4adb-b4b4-7620751fe862")
+		(uuid "e68ab661-2765-4ffa-8e20-c1c50a53594f")
 	)
 	(wire
 		(pts
@@ -7371,66 +3514,6 @@
 	)
 	(wire
 		(pts
-			(xy 66.04 111.76) (xy 92.71 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ecd6e5a9-5f13-48ba-bc03-d3ee8d2311c2")
-	)
-	(wire
-		(pts
-			(xy 172.72 77.47) (xy 186.69 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ed0af481-2819-4d80-abcb-f188126c3051")
-	)
-	(wire
-		(pts
-			(xy 107.95 63.5) (xy 110.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1247e51-9a76-4644-923b-c63eb077e142")
-	)
-	(wire
-		(pts
-			(xy 166.37 138.43) (xy 232.41 138.43)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1c8f1bf-2ae0-4117-938d-9492c0040dee")
-	)
-	(wire
-		(pts
-			(xy 157.48 101.6) (xy 161.29 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f2ab0c02-c74a-4f8f-9bc5-88be4830472f")
-	)
-	(wire
-		(pts
-			(xy 127 111.76) (xy 146.05 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f33cb360-5e2d-4777-a426-ada2d2e12365")
-	)
-	(wire
-		(pts
 			(xy 27.94 90.17) (xy 27.94 93.98)
 		)
 		(stroke
@@ -7438,16 +3521,6 @@
 			(type default)
 		)
 		(uuid "f59d692e-b5d6-4d3f-9832-b131260c3826")
-	)
-	(wire
-		(pts
-			(xy 146.05 129.54) (xy 149.86 129.54)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f79342fc-57d1-4927-9d0c-1a8798a80a9a")
 	)
 	(wire
 		(pts
@@ -7461,56 +3534,6 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 139.7) (xy 95.25 142.24)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fa6bb389-dda6-472f-b0b7-fb9d26a532e7")
-	)
-	(wire
-		(pts
-			(xy 194.31 87.63) (xy 204.47 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb4f8507-f0ff-414a-b7f4-7178fee05619")
-	)
-	(wire
-		(pts
-			(xy 105.41 149.86) (xy 105.41 154.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fb681fc5-4f42-40f1-b410-d3a930518eec")
-	)
-	(wire
-		(pts
-			(xy 222.25 63.5) (xy 237.49 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fc0eb2a5-15fe-4f6e-8ee3-af286723ed48")
-	)
-	(wire
-		(pts
-			(xy 121.92 184.15) (xy 121.92 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fcaff4b1-6c28-4ae4-83e3-0448482bbbfc")
-	)
-	(wire
-		(pts
 			(xy 224.79 17.78) (xy 237.49 17.78)
 		)
 		(stroke
@@ -7518,71 +3541,6 @@
 			(type default)
 		)
 		(uuid "fe8aea9d-3071-486f-b87f-672246c6901d")
-	)
-	(wire
-		(pts
-			(xy 115.57 137.16) (xy 134.62 137.16)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fec68337-d58f-4e80-b585-4a832c6fe622")
-	)
-	(label "Vcc"
-		(at 97.79 139.7 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "00a7eff0-d88b-4150-8c4d-caabbe74e577")
-	)
-	(label "Vcc"
-		(at 161.29 101.6 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "26b5961a-2555-43f6-a603-3ad07e929b86")
-	)
-	(label "Vcc"
-		(at 55.88 78.74 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "4258da0a-d283-49b3-90f7-8dbc26feaf83")
-	)
-	(label "Vcc"
-		(at 161.29 129.54 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6602e7b6-f1ab-4112-9e05-dd217391ad02")
-	)
-	(label "Vout"
-		(at 140.97 149.86 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7ee65c1c-1ced-4138-8262-7028c3eba216")
 	)
 	(label "Vout"
 		(at 212.09 17.78 0)
@@ -7607,7 +3565,7 @@
 		(uuid "a70bf409-0e91-4ac9-ab8d-030ae1288581")
 	)
 	(label "Vout"
-		(at 237.49 63.5 0)
+		(at 238.76 62.23 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7629,17 +3587,17 @@
 		(uuid "f1b62012-87c2-425c-b6b8-d7a0cbbd24c1")
 	)
 	(symbol
-		(lib_id "benediktibk:R_4mOhm_SMD_2512_2W_1%")
-		(at 194.31 116.84 0)
+		(lib_id "benediktibk:7443641000B")
+		(at 138.43 63.5 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "07bb8eb1-c624-402d-8dec-8bf10e5a3802")
-		(property "Reference" "R17"
-			(at 196.85 115.57 0)
+		(uuid "0497803b-5170-4214-bfa0-4e7e3adbbf3c")
+		(property "Reference" "L1"
+			(at 142.24 72.3899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7647,8 +3605,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "4mOhm"
-			(at 196.85 118.11 0)
+		(property "Value" "7443641000B"
+			(at 142.24 74.9299 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7656,8 +3614,28 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
-			(at 184.15 116.332 90)
+		(property "Footprint" "benediktibk:7443641000B"
+			(at 43.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://katalog.we-online.com/pbs/datasheet/7443641000.pdf"
+			(at -56.49 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "WE-HCF Series Type SMT Shielded Wire-wound SMD Inductor with a MnZn Core, 10 uH +/-20% Shielded 47.5A Idc"
+			(at 138.43 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7665,593 +3643,29 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 194.31 116.84 0)
+		(property "Mouser Part Number" "710-7443641000B"
+			(at -356.49 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 194.31 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "824-0304"
-			(at 176.53 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "59feb909-7ce4-4863-8a1f-931b1125e12a")
-		)
-		(pin "2"
-			(uuid "7ae23789-f558-4aea-badb-51e51874e019")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R17")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_2kOhm_SMD_0603_100mW_1%")
-		(at 107.95 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0bcf2a13-6851-4c99-8444-8cc97b0ed21f")
-		(property "Reference" "R9"
-			(at 102.87 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2kOhm"
-			(at 99.06 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 97.79 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 107.95 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "901-3563"
-			(at 90.17 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
+				(justify left top)
 				(hide yes)
 			)
 		)
 		(pin "2"
-			(uuid "48de3432-038f-4ad6-b698-4e47afa5b02c")
+			(uuid "8a30ed36-d72b-4ac5-9b1e-f06ba4ccead3")
 		)
 		(pin "1"
-			(uuid "4a352397-7396-4583-86d6-9acbe1c4a449")
+			(uuid "43117b60-8b59-47ae-9162-16cea4116cb0")
+		)
+		(pin "3"
+			(uuid "2b9d7f05-f487-42bf-8c24-10007145eabe")
 		)
 		(instances
-			(project "dc-dc-converter-24v"
+			(project ""
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_1kOhm_SMD_0603_100mW_1%")
-		(at 39.37 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "0beb0a54-2405-455f-906a-08a8c444fce6")
-		(property "Reference" "R2"
-			(at 41.91 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1kOhm"
-			(at 41.91 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 29.21 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 39.37 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "213-2266"
-			(at 21.59 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01a47754-dd06-47c0-b94f-6eda06bce6d9")
-		)
-		(pin "2"
-			(uuid "b4dc8c98-4b4e-4aa4-84ae-54b8e5e54a15")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:BAT54WS")
-		(at 153.67 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "11510fc4-e88c-4980-a8aa-15c00e15309b")
-		(property "Reference" "D5"
-			(at 153.3525 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54WS"
-			(at 153.3525 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:D_SOD-323"
-			(at 154.432 126.238 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 0.001 0.001)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 153.67 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "738-4844"
-			(at 152.146 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b2e73e5-b034-4bb7-a248-b7f31dbaa347")
-		)
-		(pin "1"
-			(uuid "6b3aa9db-7dc9-443a-9ee7-4f317af7e55a")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "D5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_560pF_SMD_0603_50V_5%")
-		(at 110.49 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15f07e26-5bd4-40ae-a2f6-749fa63194b4")
-		(property "Reference" "C11"
-			(at 114.3 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "560pF"
-			(at 114.3 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 111.4552 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 110.49 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "135-6233"
-			(at 128.016 175.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "03e47ed6-dab5-4e18-84d1-6206e0937ea6")
-		)
-		(pin "1"
-			(uuid "b28163ab-ee65-4848-8b6d-b28c2f46b013")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_43kOhm_SMD_0603_100mW_1%")
-		(at 82.55 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "15fbb2aa-5995-48bd-b7a1-8d9ab5b18f70")
-		(property "Reference" "R7"
-			(at 85.09 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "43kOhm"
-			(at 85.09 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.39 92.202 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "679-0386"
-			(at 64.77 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7e1bf0b2-f707-4d9b-a4c4-2595ba426d24")
-		)
-		(pin "2"
-			(uuid "0186d6be-f4d4-4c02-ab2f-6784ae66d8d9")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 97.79 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e0b72b7-c76f-4e99-adc4-00523830d1ca")
-		(property "Reference" "C10"
-			(at 101.6 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 101.6 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 98.7552 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 97.79 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "242-7372"
-			(at 115.316 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7c8278d-f217-4c79-808b-e240b2df5ea9")
-		)
-		(pin "2"
-			(uuid "e13911d9-ff24-4e7b-86b3-4e440ee808fc")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_20kOhm_SMD_0603_100mW_1%")
-		(at 140.97 156.21 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1e5b741f-d114-48b6-a358-fab0702aa9e3")
-		(property "Reference" "R13"
-			(at 143.51 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "20kOhm"
-			(at 143.51 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.81 155.702 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "199-5491"
-			(at 123.19 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4336a89d-4727-4986-b0e9-e93fa01e7cc3")
-		)
-		(pin "2"
-			(uuid "2f6283ed-5078-48b4-8609-9b385e3d1332")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R13")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -8259,16 +3673,16 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 105.41 154.94 0)
+		(at 160.02 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "1e9f3708-a38c-41b1-a108-b31333ea0972")
-		(property "Reference" "#PWR012"
-			(at 105.41 161.29 0)
+		(uuid "11d7069c-a251-4df8-8497-7615fe74040d")
+		(property "Reference" "#PWR04"
+			(at 160.02 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8277,7 +3691,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 105.41 160.02 0)
+			(at 160.02 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8285,7 +3699,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 105.41 154.94 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8294,7 +3708,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 105.41 154.94 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8303,7 +3717,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 105.41 154.94 0)
+			(at 160.02 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8312,78 +3726,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ba5501a3-7cf5-4a0f-b407-63899b54f30f")
+			(uuid "af0e528b-cbd8-4bc4-80f3-45d485a823d7")
 		)
 		(instances
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 115.57 95.25 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1fed7bf3-26eb-40c4-b995-c9a169d09470")
-		(property "Reference" "#PWR014"
-			(at 115.57 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 115.57 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 115.57 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3a5d6836-ccc8-490e-9cdb-d5a3553a0cb3")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR014")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -8516,72 +3864,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "#PWR022")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 134.62 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "270c04b9-fe21-4d7f-bc96-ac727001baee")
-		(property "Reference" "#PWR019"
-			(at 134.62 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 134.62 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 134.62 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 134.62 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7789a65c-196b-4951-bedd-75cc783a9897")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -8734,85 +4016,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 121.92 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2e3348e6-e50f-4eb1-a0f0-b79831fdc7de")
-		(property "Reference" "R11"
-			(at 124.46 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kOhm"
-			(at 124.46 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 111.76 179.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 121.92 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1173"
-			(at 104.14 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a33404d9-16e9-48ae-be2d-d2bff4fb3d83")
-		)
-		(pin "1"
-			(uuid "e4ffed17-78c0-4543-bea4-e2178376a2e5")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:R_1kOhm_SMD_0603_100mW_1%")
 		(at 27.94 86.36 0)
 		(unit 1)
@@ -8958,349 +4161,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:R_93_1kOhm_SMD_0603_100mW_0_1%")
-		(at 77.47 125.73 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3814a57f-271b-49cf-bfdb-f1c2e9b18186")
-		(property "Reference" "R5"
-			(at 80.01 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "93.1kOhm"
-			(at 80.01 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 87.63 126.238 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 77.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 77.47 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "708-9013"
-			(at 95.25 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2798d465-5d66-4909-8729-1b51925bc0ef")
-		)
-		(pin "1"
-			(uuid "bba1de11-fd9d-4ed0-bde2-6a40706c0ea9")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 77.47 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3b7adf76-f248-4e2f-8548-4f819d614688")
-		(property "Reference" "#PWR07"
-			(at 77.47 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 77.47 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 77.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 77.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "29258439-08d1-41cf-ac16-4194e12636af")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR07")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 95.25 154.94 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3ed51a77-40b9-44c6-835d-e2b7b7949792")
-		(property "Reference" "#PWR010"
-			(at 95.25 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 95.25 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 95.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 95.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 154.94 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "71b5bca7-7ee4-44de-8d1c-8e4b73d84234")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR010")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 97.79 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "477fcaa0-6d24-44c7-8028-a5dd14701684")
-		(property "Reference" "#PWR011"
-			(at 97.79 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 97.79 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 97.79 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0da31d05-873a-410b-9282-3ee1f996ef16")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR011")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 66.04 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "47d97641-a9ca-4b3e-a206-f6a4e4a20c41")
-		(property "Reference" "#PWR04"
-			(at 66.04 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 66.04 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 66.04 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f95728d-9bfb-4414-ad13-26be0afb0ba6")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:C_4700uF_THT_50V_20%")
 		(at 76.2 33.02 0)
 		(unit 1)
@@ -9374,6 +4234,209 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:LM5122MHX_NOPB")
+		(at 120.65 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5837aa74-7067-418b-900a-8171d2e10afd")
+		(property "Reference" "IC1"
+			(at 138.43 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM5122MHX_NOPB"
+			(at 138.43 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:SOP65P640X110-21N"
+			(at 152.4 200.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/gpn/LM5122"
+			(at 152.4 300.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "3-65V Wide Vin, Current Mode Synchronous Boost Controller with Multiphase Capability"
+			(at 120.65 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "595-LM5122MHX/NOPB"
+			(at 152.4 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2b074755-bdb6-4a8f-b489-e21f9d55c0ce")
+		)
+		(pin "15"
+			(uuid "f7a8c9ce-7a02-4555-ae18-89441f2e6ed6")
+		)
+		(pin "10"
+			(uuid "3a77e7b0-d4dc-46c4-9ab0-79ebd0cc2c54")
+		)
+		(pin "2"
+			(uuid "c98cd41d-13ce-4a2d-a715-d1b4f8adc944")
+		)
+		(pin "16"
+			(uuid "88db023c-b22e-4d49-878a-5b69c7059204")
+		)
+		(pin "19"
+			(uuid "a5831287-8dbe-4bec-bba2-884c0c0a1314")
+		)
+		(pin "3"
+			(uuid "d950510e-38fc-4087-902b-6cb31f835de1")
+		)
+		(pin "4"
+			(uuid "1118a107-b1b0-4592-a0d3-3483cca0b90b")
+		)
+		(pin "17"
+			(uuid "21f64bc4-6dcd-483a-b980-0c2974d186f3")
+		)
+		(pin "7"
+			(uuid "e80a2d24-4ddd-4f19-8f39-0763efb6b04f")
+		)
+		(pin "9"
+			(uuid "99c2e7ed-2e80-42be-a9c5-d252291f79ee")
+		)
+		(pin "6"
+			(uuid "11ea3a97-5f13-46b2-903c-3bc8ae5f993d")
+		)
+		(pin "8"
+			(uuid "bf93fb26-606e-4d65-b20d-49acd484ceaf")
+		)
+		(pin "5"
+			(uuid "24bd2a40-f86f-48a9-a845-0bfce816f7dc")
+		)
+		(pin "20"
+			(uuid "8bda7e2f-0465-4394-87a9-a9a3864b6b1c")
+		)
+		(pin "21"
+			(uuid "ba840b8b-5ec6-4ce3-9a1c-4a1bcf945ca8")
+		)
+		(pin "18"
+			(uuid "89d93b1e-ae8c-497d-bc45-664466d6e7c3")
+		)
+		(pin "11"
+			(uuid "70196d18-9e63-4298-a852-d4969390b636")
+		)
+		(pin "14"
+			(uuid "344dc7c5-9ba4-4a3e-9b23-3015e079fcbf")
+		)
+		(pin "13"
+			(uuid "09e1acda-2767-4716-8c36-59641a40be26")
+		)
+		(pin "12"
+			(uuid "ad8d6f89-f2b8-4489-9508-a38bda2a363e")
+		)
+		(instances
+			(project ""
+				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
+					(reference "IC1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 138.43 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "59fda2ea-d1ea-4784-ae37-807de5800b26")
+		(property "Reference" "#PWR05"
+			(at 138.43 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 138.43 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "10cd0f4f-7179-402a-95c0-0643baae9223")
+		)
+		(instances
+			(project "dc-dc-converter-24v"
+				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -9454,83 +4517,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:BAT54WS")
-		(at 153.67 101.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5f340fe7-4944-424b-ae2a-1208b0a9a67a")
-		(property "Reference" "D4"
-			(at 153.3525 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BAT54WS"
-			(at 153.3525 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:D_SOD-323"
-			(at 154.432 98.298 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 0.001 0.001)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Schottky diode"
-			(at 153.67 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "738-4844"
-			(at 152.146 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0b94c2ef-d1a7-4293-b2de-abbf0dbc028d")
-		)
-		(pin "1"
-			(uuid "3f1e2951-0593-42b8-b978-7ec5d5cf5d80")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "D4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:MountingHole_Pad_M6")
 		(at 138.43 20.32 0)
 		(unit 1)
@@ -9600,7 +4586,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 121.92 154.94 0)
+		(at 125.73 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9609,7 +4595,7 @@
 		(fields_autoplaced yes)
 		(uuid "6680cd54-ad4a-4c31-aa31-bcb01d1e46a3")
 		(property "Reference" "#PWR016"
-			(at 121.92 161.29 0)
+			(at 125.73 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9618,7 +4604,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 121.92 160.02 0)
+			(at 125.73 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9626,7 +4612,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 121.92 154.94 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9635,7 +4621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 154.94 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9644,7 +4630,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 154.94 0)
+			(at 125.73 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9665,96 +4651,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:R_270kOhm_SMD_0603_100mW_1%")
-		(at 140.97 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "70378b37-73a0-4b74-98dc-38b72316c886")
-		(property "Reference" "R14"
-			(at 143.51 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "270kOhm"
-			(at 143.51 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 130.81 165.862 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 140.97 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 140.97 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "679-0077"
-			(at 123.19 165.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8371bf4-8d82-405d-85ec-807d9a61f61e")
-		)
-		(pin "1"
-			(uuid "ecbbb339-f412-4865-ab5f-7e22b91042b7")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 41.91 133.35 0)
+		(at 116.84 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "706e0d4b-4b6e-40b7-8982-ae989a755dc8")
-		(property "Reference" "#PWR02"
-			(at 41.91 139.7 0)
+		(uuid "68103787-4175-4f80-98be-5ad056c93a7f")
+		(property "Reference" "#PWR03"
+			(at 116.84 137.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9763,7 +4670,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 41.91 138.43 0)
+			(at 116.84 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9771,7 +4678,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 41.91 133.35 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9780,7 +4687,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 41.91 133.35 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9789,7 +4696,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 41.91 133.35 0)
+			(at 116.84 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9798,12 +4705,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "35ac03dd-8c55-43c1-ab22-9c0cdb457381")
+			(uuid "f85d18b5-428b-40e7-a087-05d235408319")
 		)
 		(instances
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -9876,463 +4783,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:R_100Ohm_SMD_0603_100mW_1%")
-		(at 181.61 124.46 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "755e61dd-100a-4d49-998e-a70e8e54a703")
-		(property "Reference" "R16"
-			(at 181.61 118.11 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ohm"
-			(at 181.61 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 181.102 134.62 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1172"
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "a8a0695a-7b94-4dab-89fb-0b9bd05eaf28")
-		)
-		(pin "1"
-			(uuid "48bcf3ca-41c7-46e3-a2af-3963c0c64a5b")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 54.61 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "779d6152-425b-4a61-ac3c-774f29e9f334")
-		(property "Reference" "#PWR03"
-			(at 54.61 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 54.61 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 54.61 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "118fa752-3fa2-4325-bb3c-b83e285525f6")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 54.61 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7958146a-f57f-42e5-8b0b-591c794fa9ee")
-		(property "Reference" "C5"
-			(at 58.42 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 58.42 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 55.5752 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 54.61 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "242-7372"
-			(at 72.136 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f280c55-417f-414f-9d4d-750b30d86f2d")
-		)
-		(pin "2"
-			(uuid "899f4817-0bd3-4d41-bbe4-2d617447abc4")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 55.88 86.36 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7bdb96bb-ea49-41f4-97cc-1075a9078876")
-		(property "Reference" "R3"
-			(at 58.42 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kOhm"
-			(at 58.42 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 45.72 85.852 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 55.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 55.88 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1173"
-			(at 38.1 85.09 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "8117c907-db7c-48e5-abe0-613d7f0ab9af")
-		)
-		(pin "1"
-			(uuid "5987bdd2-30cf-4b91-9ec5-8a29a722b6bd")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_100Ohm_SMD_0603_100mW_1%")
-		(at 181.61 110.49 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7f3db4f8-8d24-485b-807b-a1d251f8f288")
-		(property "Reference" "R15"
-			(at 181.61 104.14 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "100Ohm"
-			(at 181.61 106.68 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 181.102 120.65 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 181.61 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1172"
-			(at 180.34 128.27 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2e07fc61-e30c-421b-a087-8b56a9c41298")
-		)
-		(pin "1"
-			(uuid "6be75d15-a6f0-434e-8008-73de89fc5da6")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_220kOhm_SMD_0603_100mW_1%")
-		(at 82.55 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "808b59f0-4a00-4fa8-a8e7-8f65318d3e3b")
-		(property "Reference" "R6"
-			(at 85.09 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "220kOhm"
-			(at 85.09 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 72.39 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 82.55 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "678-9986"
-			(at 64.77 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "d80203bc-9633-4d32-a243-6a1aba924b17")
-		)
-		(pin "1"
-			(uuid "e7feac46-17f7-49b6-bdae-e067641e6e78")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 129.54 24.13 0)
 		(unit 1)
@@ -10398,87 +4848,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 146.05 134.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "816bd430-2761-4d6f-9e02-00f644521fd5")
-		(property "Reference" "C15"
-			(at 149.86 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 149.86 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.0152 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "242-7372"
-			(at 163.576 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b7de1925-6d5b-472a-8728-44203fc47330")
-		)
-		(pin "2"
-			(uuid "815d32ee-7d0b-4563-bbd6-ac59ca6a03b8")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C15")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:BAT54WS")
-		(at 110.49 69.85 90)
+		(at 138.43 43.18 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10487,7 +4858,7 @@
 		(fields_autoplaced yes)
 		(uuid "8259a685-8d5a-4d1e-a1ab-e5d57f9bdf8b")
 		(property "Reference" "D3"
-			(at 113.03 68.8975 90)
+			(at 140.97 42.2275 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10496,7 +4867,7 @@
 			)
 		)
 		(property "Value" "BAT54WS"
-			(at 113.03 71.4375 90)
+			(at 140.97 44.7675 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10505,7 +4876,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:D_SOD-323"
-			(at 107.188 69.088 0)
+			(at 135.128 42.418 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10514,7 +4885,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 110.49 69.85 0)
+			(at 138.43 43.18 0)
 			(effects
 				(font
 					(size 0.001 0.001)
@@ -10523,7 +4894,7 @@
 			)
 		)
 		(property "Description" "Schottky diode"
-			(at 110.49 69.85 0)
+			(at 138.43 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10532,7 +4903,7 @@
 			)
 		)
 		(property "RS order number" "738-4844"
-			(at 115.57 71.374 0)
+			(at 143.51 44.704 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10550,321 +4921,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_47pF_SMD_0603_100V_5%")
-		(at 168.91 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8dc44aec-0708-4e5d-9e9d-b20416fd0370")
-		(property "Reference" "C16"
-			(at 172.72 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "47pF"
-			(at 172.72 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 169.8752 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 168.91 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "135-6508"
-			(at 186.436 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0b0490ce-8cfe-4022-aa2d-14c472fa1a2f")
-		)
-		(pin "2"
-			(uuid "672e66df-225b-4f51-ac57-7ffd645cf1cd")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_10Ohm_SMD_0603_100mW_1%")
-		(at 110.49 80.01 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "926ae3cc-f776-4c32-8f41-64b8574f4ca9")
-		(property "Reference" "R10"
-			(at 113.03 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10Ohm"
-			(at 113.03 81.28 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 100.33 79.502 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 110.49 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "901-3516"
-			(at 92.71 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "73f58ae5-a625-42cc-8309-7792eb0f5696")
-		)
-		(pin "2"
-			(uuid "5a9ad19c-ec48-4f5c-912b-5c5241e539bc")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_240pF_SMD_0805_250V_10%")
-		(at 121.92 144.78 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "95bbc5b4-2243-45ad-b32c-5970edf204d5")
-		(property "Reference" "C12"
-			(at 125.73 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "240pF"
-			(at 125.73 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
-			(at 122.8852 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "788-0496"
-			(at 139.446 143.51 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f5ecca5c-4bf4-4dca-92b9-7cd560187bb9")
-		)
-		(pin "1"
-			(uuid "ed360989-245f-4a28-89db-0333a5a34bb0")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_1uF_SMD_0603_50V_10%")
-		(at 95.25 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9a4efa8a-2068-4eba-a6b1-b8928db934a3")
-		(property "Reference" "C9"
-			(at 88.9 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1uF"
-			(at 88.9 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 96.2152 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 95.25 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 95.25 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "103-4112"
-			(at 112.776 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ab383a00-440d-4236-a2a4-463df0e99f92")
-		)
-		(pin "1"
-			(uuid "a6f759ad-cd91-43e6-ba11-031cc0c184c7")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C9")
 					(unit 1)
 				)
 			)
@@ -11197,34 +5253,32 @@
 	)
 	(symbol
 		(lib_id "benediktibk:SQJA42EP")
-		(at 191.77 77.47 0)
+		(at 196.85 64.77 270)
+		(mirror x)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9ee1504a-5260-42e9-b9fa-7675a3c148e9")
 		(property "Reference" "Q1"
-			(at 198.12 76.2 0)
+			(at 196.85 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Value" "SQJA42EP"
-			(at 198.12 78.74 0)
+			(at 196.85 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
 		(property "Footprint" "benediktibk:SQJA42EPT1_GE3"
-			(at 196.85 74.93 0)
+			(at 199.39 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11233,7 +5287,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 77.47 0)
+			(at 196.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11242,7 +5296,7 @@
 			)
 		)
 		(property "Description" "n-MOSFET transistor, drain/gate/source"
-			(at 191.77 77.47 0)
+			(at 196.85 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11251,7 +5305,7 @@
 			)
 		)
 		(property "RS order number" "188-5140"
-			(at 189.23 82.55 0)
+			(at 191.77 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11356,85 +5410,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:R_24kOhm_SMD_0603_100mW_1%")
-		(at 66.04 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a41c2ebb-2e4f-41c6-83df-2330e2c4892c")
-		(property "Reference" "R4"
-			(at 68.58 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "24kOhm"
-			(at 68.58 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 55.88 125.222 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 66.04 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "199-5507"
-			(at 48.26 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "81a6ffbb-3ca4-4600-8f9d-e64dc224f162")
-		)
-		(pin "2"
-			(uuid "9d4289bf-b2ed-44d9-87a8-806c439c31da")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:MountingHole_Pad_M6")
 		(at 119.38 20.32 0)
 		(unit 1)
@@ -11503,85 +5478,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 71.12 92.71 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bad56ca5-7408-4a90-b863-ae6b38982438")
-		(property "Reference" "C7"
-			(at 74.93 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 74.93 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 72.0852 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 71.12 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "242-7372"
-			(at 88.646 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ca8d785f-0905-4959-b5c3-18fbd68a9051")
-		)
-		(pin "2"
-			(uuid "5d271397-c28c-4e4a-9280-ce724cc58320")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 27.94 105.41 0)
 		(unit 1)
@@ -11642,152 +5538,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 110.49 87.63 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bd20d6cc-4257-4427-9f4f-720676081d58")
-		(property "Reference" "#FLG01"
-			(at 112.395 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 114.3 87.63 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 110.49 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 110.49 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 110.49 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30b27c12-9970-4f43-892c-2c268d852a6f")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#FLG01")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_33nF_SMD_0603_50V_10%")
-		(at 121.92 170.18 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "bda256e6-c044-4d73-8c8e-dff9cee3b68d")
-		(property "Reference" "C13"
-			(at 125.73 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "33nF"
-			(at 125.73 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 122.8852 173.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 121.92 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 121.92 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "135-8365"
-			(at 139.446 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5b0f8a98-5f1e-4ef3-bfa8-197aa2b82f05")
-		)
-		(pin "1"
-			(uuid "274d09f9-464f-4d68-9878-da854bb265cf")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C13")
 					(unit 1)
 				)
 			)
@@ -11873,35 +5623,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 146.05 106.68 0)
+		(lib_id "power:GND")
+		(at 177.8 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c1cffd27-043a-49f8-a19f-a27895bb0969")
-		(property "Reference" "C14"
-			(at 149.86 105.41 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 149.86 107.95 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 147.0152 110.49 0)
+		(uuid "c68b4061-1c9f-49ac-9f6f-676315290b51")
+		(property "Reference" "#PWR07"
+			(at 177.8 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11909,8 +5641,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 146.05 106.68 0)
+		(property "Value" "GND"
+			(at 177.8 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11918,8 +5658,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor"
-			(at 146.05 106.68 0)
+		(property "Datasheet" ""
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11927,8 +5667,8 @@
 				(hide yes)
 			)
 		)
-		(property "RS order number" "242-7372"
-			(at 163.576 105.41 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11937,171 +5677,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "397927f3-3561-42a8-9355-4e6ebbb17f56")
-		)
-		(pin "2"
-			(uuid "ea194034-017f-401c-aaa7-69c2d6b913b3")
+			(uuid "4c6cf99b-1adb-43e0-95f0-6e2d68bf788f")
 		)
 		(instances
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 134.62 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c6aa8f46-4be4-4a17-bef6-66c479693f4b")
-		(property "Reference" "R12"
-			(at 137.16 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10kOhm"
-			(at 137.16 181.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 124.46 179.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 134.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 134.62 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1173"
-			(at 116.84 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3919d02-a2c2-4d10-9170-1fb82a5a4aba")
-		)
-		(pin "1"
-			(uuid "ff21f83d-5aff-4925-9867-4c871b8fbcf8")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:L_2_5µH_30A")
-		(at 208.28 87.63 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "c7462703-a76d-4c1c-8f70-715a58137509")
-		(property "Reference" "L1"
-			(at 208.28 82.55 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2.5µH"
-			(at 208.28 85.09 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:ETQP8"
-			(at 208.28 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 208.28 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "238-3683"
-			(at 208.28 87.63 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "21f907f6-5ffc-466f-bf13-d09b95d166f1")
-		)
-		(pin "2"
-			(uuid "35e7899f-1b34-43f8-9cef-47154b7670ee")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "L1")
+					(reference "#PWR07")
 					(unit 1)
 				)
 			)
@@ -12176,167 +5757,33 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 82.55 97.79 0)
+		(lib_id "benediktibk:R_2mOhm_SMD_2512_5W_1%")
+		(at 97.79 62.23 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1f17311-ad6e-4514-8d2a-13162e16ec88")
-		(property "Reference" "#PWR08"
-			(at 82.55 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 82.55 102.87 0)
+		(uuid "d6913f3b-b7ca-47cf-9cb6-9fc89ddb79fe")
+		(property "Reference" "R2"
+			(at 97.79 55.88 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 82.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 82.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 82.55 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "9a529b0b-a64d-4dba-b196-42c843eb5b06")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 194.31 127 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d5a93ef7-f7c2-4ffc-8cc4-9a037336a3b7")
-		(property "Reference" "#PWR021"
-			(at 194.31 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.31 132.08 0)
+		(property "Value" "R_2mOhm_SMD_2512_5W_1%"
+			(at 97.79 58.42 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 194.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 194.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 194.31 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "07d0f8b3-9959-4c61-87a0-398f6a6be164")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR021")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:SQJA42EP")
-		(at 224.79 77.47 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d678140c-c851-4113-a75d-23dc76916e1b")
-		(property "Reference" "Q3"
-			(at 218.44 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SQJA42EP"
-			(at 218.44 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:SQJA42EPT1_GE3"
-			(at 219.71 74.93 0)
+		(property "Footprint" "benediktibk:R_2512_6332Metric_Pad1.40x3.35mm_HandSolder"
+			(at 97.282 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12345,7 +5792,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 224.79 77.47 0)
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12353,8 +5800,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "n-MOSFET transistor, drain/gate/source"
-			(at 224.79 77.47 0)
+		(property "Description" "Resistor"
+			(at 97.79 62.23 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12362,28 +5809,25 @@
 				(hide yes)
 			)
 		)
-		(property "RS order number" "188-5140"
-			(at 227.33 82.55 0)
+		(property "RS order number" "231-3683"
+			(at 96.52 80.01 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
-		)
-		(pin "1"
-			(uuid "2bc58e4d-79ee-438b-922d-deefa163d0cf")
-		)
-		(pin "3"
-			(uuid "cc265e94-8537-47c3-b75c-4925f23249cf")
 		)
 		(pin "2"
-			(uuid "07cc40db-1ff1-46cd-a5cd-bceee171fe28")
+			(uuid "8b66949d-3ed2-4179-a885-6e1b833c9dc1")
+		)
+		(pin "1"
+			(uuid "1461e923-659d-4a6e-9b83-51e72a2d8437")
 		)
 		(instances
-			(project "dc-dc-converter-24v"
+			(project ""
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "Q3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -12543,35 +5987,17 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:SQJA42EP")
-		(at 224.79 96.52 0)
-		(mirror y)
+		(lib_id "power:GND")
+		(at 138.43 143.51 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "de2386db-be5a-409b-9001-1a170de1c072")
-		(property "Reference" "Q4"
-			(at 218.44 95.25 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SQJA42EP"
-			(at 218.44 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:SQJA42EPT1_GE3"
-			(at 219.71 93.98 0)
+		(fields_autoplaced yes)
+		(uuid "deabec62-6fca-4b16-a4ed-53a248c17979")
+		(property "Reference" "#PWR02"
+			(at 138.43 149.86 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12579,8 +6005,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 224.79 96.52 0)
+		(property "Value" "GND"
+			(at 138.43 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12588,8 +6022,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "n-MOSFET transistor, drain/gate/source"
-			(at 224.79 96.52 0)
+		(property "Datasheet" ""
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12597,8 +6031,8 @@
 				(hide yes)
 			)
 		)
-		(property "RS order number" "188-5140"
-			(at 227.33 101.6 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 138.43 143.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12607,18 +6041,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "4eed4200-04d4-4f09-8022-457beecff558")
-		)
-		(pin "3"
-			(uuid "34f60f10-bd09-4b40-9ff1-b8fbb61186d6")
-		)
-		(pin "2"
-			(uuid "59381010-1787-461c-b591-11d3aaaef4b9")
+			(uuid "1f49ec1b-dbc0-4c8f-814b-865616cf86f0")
 		)
 		(instances
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "Q4")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -12703,74 +6131,8 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 88.9 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e19deb10-cdb6-41d6-91da-9557a3c08b26")
-		(property "Reference" "#PWR09"
-			(at 88.9 139.7 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 88.9 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 88.9 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0485a1a2-3c6c-4e71-a265-5302464a76e3")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:SQJA42EP")
-		(at 191.77 96.52 0)
+		(at 175.26 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12779,7 +6141,7 @@
 		(fields_autoplaced yes)
 		(uuid "e5798c10-9542-46d5-823f-fc812450728f")
 		(property "Reference" "Q2"
-			(at 198.12 95.25 0)
+			(at 181.61 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12788,7 +6150,7 @@
 			)
 		)
 		(property "Value" "SQJA42EP"
-			(at 198.12 97.79 0)
+			(at 181.61 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12797,7 +6159,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:SQJA42EPT1_GE3"
-			(at 196.85 93.98 0)
+			(at 180.34 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12806,7 +6168,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 191.77 96.52 0)
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12815,7 +6177,7 @@
 			)
 		)
 		(property "Description" "n-MOSFET transistor, drain/gate/source"
-			(at 191.77 96.52 0)
+			(at 175.26 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12824,7 +6186,7 @@
 			)
 		)
 		(property "RS order number" "188-5140"
-			(at 189.23 101.6 0)
+			(at 172.72 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12845,72 +6207,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "Q2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 121.92 189.23 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e80e58b4-6322-44f0-939b-ead6ed6c7c80")
-		(property "Reference" "#PWR017"
-			(at 121.92 195.58 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 121.92 194.31 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 121.92 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "01a89773-f186-43e7-b871-5fd5e9aa5efe")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR017")
 					(unit 1)
 				)
 			)
@@ -12990,389 +6286,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "C4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:LM5176")
-		(at 105.41 116.84 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "eaf5c096-2f8b-4e1b-8f3f-334f71a50dec")
-		(property "Reference" "U1"
-			(at 117.7641 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "LM5176"
-			(at 117.7641 101.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:LM5176"
-			(at 110.49 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 105.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 105.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" ""
-			(at 105.41 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "21"
-			(uuid "23109862-400c-4835-a5b4-cab7037aa665")
-		)
-		(pin "7"
-			(uuid "f1610a9d-cbdc-43d3-8399-ca3492704746")
-		)
-		(pin "26"
-			(uuid "2094aed4-07eb-4d24-9892-b1e10162f689")
-		)
-		(pin "24"
-			(uuid "81c4ba24-f19a-4ae4-b248-20c593960739")
-		)
-		(pin "22"
-			(uuid "4d43de4e-8061-4a94-9ad6-8860a45a46a9")
-		)
-		(pin "11"
-			(uuid "f05cb0cd-d336-4efb-996e-102099985692")
-		)
-		(pin "10"
-			(uuid "2f856bfc-0747-47da-a8c7-f950a3e62ed3")
-		)
-		(pin "18"
-			(uuid "54421158-8e43-4a99-af5b-8ba91ee5a339")
-		)
-		(pin "25"
-			(uuid "6af2d12f-811e-432c-9c59-eed3815ccfb8")
-		)
-		(pin "3"
-			(uuid "d5efce57-dfb3-46ff-a157-be6b855be6a0")
-		)
-		(pin "6"
-			(uuid "e5db2335-76ac-4bf3-9855-ae9e6a070cdc")
-		)
-		(pin "16"
-			(uuid "0270a1bc-7b7c-4f02-801e-f27fb1fd85e2")
-		)
-		(pin "28"
-			(uuid "c43800e7-876a-4f45-8c5e-e237443ca96b")
-		)
-		(pin "20"
-			(uuid "1a163bfe-3b9a-415c-8174-6c4dee5c80dd")
-		)
-		(pin "2"
-			(uuid "836604bf-fd9a-43ba-ba87-1b85624919d7")
-		)
-		(pin "17"
-			(uuid "73bd651a-a227-4f1e-9a62-b736baf1ec7b")
-		)
-		(pin "19"
-			(uuid "d7864282-e6cf-42d6-a0bf-c219b57734d7")
-		)
-		(pin "9"
-			(uuid "0f58a3ca-9d48-4971-a085-b4fd8840934f")
-		)
-		(pin "1"
-			(uuid "c02e9783-754f-4516-898d-7a21f4a3dd8b")
-		)
-		(pin "27"
-			(uuid "845ac670-8093-405b-aa2e-d969b45b53f1")
-		)
-		(pin "23"
-			(uuid "1d848107-ac73-4f9e-8b72-1a1ae8ef0907")
-		)
-		(pin "8"
-			(uuid "d1d94cb1-3b0c-4c7d-8f96-d615df9273f0")
-		)
-		(pin "5"
-			(uuid "edb42cb3-1b0b-4ce5-9409-2927a5981ddc")
-		)
-		(pin "4"
-			(uuid "f0498ab6-8f38-47f7-aac9-2bbb190c59e2")
-		)
-		(pin "13"
-			(uuid "56cebb23-e586-4cbf-864c-7d6d11e242e2")
-		)
-		(pin "12"
-			(uuid "f4d0d011-3cc2-4bcb-8358-bff9a69640e6")
-		)
-		(pin "14"
-			(uuid "46ceac03-dc2d-4804-8cda-4997d4ea9c33")
-		)
-		(pin "15"
-			(uuid "d2f5d37a-b287-44cc-9280-10edbdf96f75")
-		)
-		(pin "29"
-			(uuid "f25b8403-dbb3-4b62-9249-181d3f5a12f4")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:R_0Ohm_SMD_0603_100mW_0%")
-		(at 105.41 146.05 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "eca847f3-1858-45c3-9600-a2ec4d88b3e4")
-		(property "Reference" "R8"
-			(at 100.33 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0Ohm"
-			(at 99.06 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 95.25 145.542 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 105.41 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "125-1171"
-			(at 87.63 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6e4dc350-8bb3-4565-bd01-af81c67b77ed")
-		)
-		(pin "2"
-			(uuid "509236bb-ab5a-407d-8c28-f3e149ecfc44")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 71.12 97.79 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efb6ab5b-a4d5-4924-b7de-7761e4752224")
-		(property "Reference" "#PWR05"
-			(at 71.12 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 71.12 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 71.12 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "521c0477-576b-40e1-ab87-e91decf908d5")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:LED_green_0603")
-		(at 39.37 97.79 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3847203-0310-4c3f-8587-1307023c516b")
-		(property "Reference" "D2"
-			(at 45.72 99.3514 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Vout good"
-			(at 40.64 93.98 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "466-3706"
-			(at 39.37 97.79 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b460f17b-1f1f-4d4b-be1f-2e532a54319e")
-		)
-		(pin "1"
-			(uuid "4d7ddca0-a9c5-402c-8e79-56e15c2fc8e7")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -13531,85 +6444,6 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "C21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
-		(at 41.91 125.73 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f9ba3e25-8739-4453-a827-eb7f9a9b5f1d")
-		(property "Reference" "C3"
-			(at 45.72 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100nF"
-			(at 45.72 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
-			(at 42.8752 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 41.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 41.91 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "242-7372"
-			(at 59.436 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "138e1c0e-0541-4d86-927a-021f952043b2")
-		)
-		(pin "2"
-			(uuid "7aa7c00e-c0c8-4747-94ef-fa7b1c61be50")
-		)
-		(instances
-			(project "dc-dc-converter-24v"
-				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
-					(reference "C3")
 					(unit 1)
 				)
 			)
