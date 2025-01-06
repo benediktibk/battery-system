@@ -22,7 +22,7 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": false,
+      "text": true,
       "tracks": false,
       "vias": false,
       "zones": false
@@ -64,7 +64,7 @@
       39,
       40
     ],
-    "visible_layers": "ffc9020_7fffffff",
+    "visible_layers": "ffc9030_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
