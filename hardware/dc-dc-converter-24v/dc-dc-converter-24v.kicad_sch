@@ -4955,6 +4955,12 @@
 		(uuid "0d29c8ac-1cd8-4113-981a-7f0901c15f73")
 	)
 	(junction
+		(at 266.7 63.5)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0e8a56d0-ea46-44df-9a0b-cd847e86d66c")
+	)
+	(junction
 		(at 52.07 19.05)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5257,6 +5263,16 @@
 			(type default)
 		)
 		(uuid "091f77cb-f0ba-4ada-88b6-0d8f1155acdf")
+	)
+	(wire
+		(pts
+			(xy 266.7 90.17) (xy 266.7 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ea11f06-b9f2-4a9e-9f06-5a000bf33682")
 	)
 	(wire
 		(pts
@@ -5640,7 +5656,7 @@
 	)
 	(wire
 		(pts
-			(xy 251.46 63.5) (xy 279.4 63.5)
+			(xy 251.46 63.5) (xy 266.7 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5677,6 +5693,16 @@
 			(type default)
 		)
 		(uuid "44d5a69e-cd74-4881-9465-2cb105a44ea4")
+	)
+	(wire
+		(pts
+			(xy 266.7 63.5) (xy 279.4 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47bffd71-c91f-4d9e-875b-6d618e5a6bd2")
 	)
 	(wire
 		(pts
@@ -5767,6 +5793,16 @@
 			(type default)
 		)
 		(uuid "570a2589-72e6-4920-b7f6-d49a6132119c")
+	)
+	(wire
+		(pts
+			(xy 266.7 63.5) (xy 266.7 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b99c86e-58ae-44ec-a402-3f2ce6301c5a")
 	)
 	(wire
 		(pts
@@ -6617,6 +6653,16 @@
 			(type default)
 		)
 		(uuid "d5f00f4f-5622-4674-b141-9de21bae37a7")
+	)
+	(wire
+		(pts
+			(xy 266.7 101.6) (xy 266.7 105.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d926cc9c-8197-4b02-aaf4-a13277e22b38")
 	)
 	(wire
 		(pts
@@ -9010,6 +9056,84 @@
 			(project "dc-dc-converter-24v"
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:LED_green_0603")
+		(at 266.7 97.79 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7da73325-2d36-446d-9769-6dcade528827")
+		(property "Reference" "D3"
+			(at 273.05 99.3514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "Vout"
+			(at 267.97 93.98 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "benediktibk:D_0603_1608Metric_Pad1.05x0.95mm_HandSolder"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "466-3706"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c57f2ad2-9e81-466b-a1c1-663c6b128a7d")
+		)
+		(pin "1"
+			(uuid "98c4d58f-6333-4c50-8c37-1968cff89c89")
+		)
+		(instances
+			(project "dc-dc-converter-24v"
+				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -11782,6 +11906,85 @@
 		)
 	)
 	(symbol
+		(lib_id "benediktibk:R_1kOhm_SMD_0603_100mW_1%")
+		(at 266.7 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ef8b19ee-acea-4279-8285-829114b03d3e")
+		(property "Reference" "R15"
+			(at 269.24 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "1kOhm"
+			(at 269.24 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 256.54 85.852 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 266.7 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2266"
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "30cf0c4a-bcc2-46d5-b0c6-88e208840c23")
+		)
+		(pin "2"
+			(uuid "1ec564a0-1466-447a-969b-30d38290ea38")
+		)
+		(instances
+			(project "dc-dc-converter-24v"
+				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
+					(reference "R15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "benediktibk:R_6_8kOhm_SMD_0603_210mW_0_1%")
 		(at 76.2 129.54 0)
 		(unit 1)
@@ -12169,6 +12372,72 @@
 			(project ""
 				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
 					(reference "C9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GNDPWR")
+		(at 266.7 105.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f8f4eb03-3c19-4fdd-ae46-dd0cbd721772")
+		(property "Reference" "#PWR024"
+			(at 266.7 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GNDPWR"
+			(at 266.573 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 266.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 266.7 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GNDPWR\" , global ground"
+			(at 266.7 105.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "32372d52-d311-45b2-a9b0-f5e8fed38991")
+		)
+		(instances
+			(project "dc-dc-converter-24v"
+				(path "/f3858519-f688-4645-91dc-9843c9d0ed53"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
