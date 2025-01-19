@@ -2093,6 +2093,123 @@
 				)
 			)
 		)
+		(symbol "benediktibk:heatsink_18x18"
+			(pin_numbers hide)
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "heatsink_18x18"
+				(at 0 4.445 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "benediktibk:heatsink_18x18"
+				(at 0.127 9.906 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at -0.254 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser order number" "490-HSB06-181810"
+				(at 0.508 5.842 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*Pad*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "heatsink_18x18_0_1"
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -0.889 0) (xy -0.889 2.54) (xy -1.524 2.54) (xy -1.524 0) (xy -2.159 0) (xy -2.159 2.54)
+						(xy -2.794 2.54) (xy -2.794 -1.27) (xy -0.889 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.254 0) (xy -0.254 2.54) (xy 0.381 2.54) (xy 0.381 0) (xy 1.016 0) (xy 1.016 2.54) (xy 1.651 2.54)
+						(xy 1.651 0) (xy 2.286 0) (xy 2.286 2.54) (xy 2.921 2.54) (xy 2.921 -1.27) (xy -0.889 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "heatsink_18x18_1_1"
+				(pin bidirectional line
+					(at 0 -3.81 90)
+					(length 2.54)
+					(name "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "PAD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "benediktibk:rspro_header_2pin_5_08mm"
 			(pin_names
 				(offset 1.016) hide)
@@ -2811,6 +2928,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 44.45) (xy 130.81 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29982ebb-5e62-4594-870a-2313f3f50864")
+	)
+	(wire
+		(pts
 			(xy 133.35 90.17) (xy 133.35 92.71)
 		)
 		(stroke
@@ -3228,16 +3355,6 @@
 			(type default)
 		)
 		(uuid "bdeb2870-a654-4b7c-b60f-e1dc0ae8a02f")
-	)
-	(wire
-		(pts
-			(xy 100.33 44.45) (xy 130.81 44.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7bc7e29-ef11-4ffe-960b-d614015b7b18")
 	)
 	(wire
 		(pts
@@ -5523,6 +5640,81 @@
 		)
 	)
 	(symbol
+		(lib_id "benediktibk:heatsink_18x18")
+		(at 144.78 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b37d95b5-a103-446c-b396-3a043ef36c1a")
+		(property "Reference" "H6"
+			(at 143.256 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "heatsink_18x18"
+			(at 138.43 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:heatsink_18x18"
+			(at 144.907 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 144.526 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser order number" "490-HSB06-181810"
+			(at 145.288 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "1d474674-f49c-47a8-b46c-a7601307aa5c")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
+					(reference "H6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "benediktibk:DMN3404L")
 		(at 92.71 90.17 0)
 		(unit 1)
@@ -5743,6 +5935,81 @@
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:heatsink_18x18")
+		(at 85.09 40.64 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "d1882e9a-86e5-4725-b0b0-f0bc6237e517")
+		(property "Reference" "H5"
+			(at 83.566 34.036 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "heatsink_18x18"
+			(at 78.74 36.322 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:heatsink_18x18"
+			(at 85.217 30.734 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 85.09 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 84.836 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser order number" "490-HSB06-181810"
+			(at 85.598 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "96c38b77-d9ea-4077-ad80-49de55fb9cc3")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
+					(reference "H5")
 					(unit 1)
 				)
 			)

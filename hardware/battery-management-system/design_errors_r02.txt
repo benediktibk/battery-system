@@ -1,9 +1,9 @@
 open:
-jtag connector: courtyard too small (cable connector is actually bigger)
-courtyard phoenix connectors (cable connectors are actually bigger)
-heatsink: uses complete top/bottom layer, not only a courtyard
-heatsink: thermal vias are required for actual heat transfer
-polarity protection: replace diodes in series with anti parallel diodes, which in case of a fault short the fuse
 
 done:
 cell voltage measurements are not using the proper inputs for the opamps
+jtag connector: courtyard too small (cable connector is actually bigger)
+courtyard phoenix connectors (cable connectors are actually bigger)
+polarity protection: replace diodes in series with anti parallel diodes, which in case of a fault short the fuse
+heatsink: uses complete top/bottom layer, not only a courtyard
+heatsink: thermal vias are required for actual heat transfer
