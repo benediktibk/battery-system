@@ -2691,6 +2691,12 @@
 		)
 	)
 	(junction
+		(at 48.26 157.48)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "03532433-30ff-44f5-b46d-2201d9389572")
+	)
+	(junction
 		(at 68.58 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2805,6 +2811,16 @@
 			(type default)
 		)
 		(uuid "02d26585-070d-42e7-94c6-73b499f79a9a")
+	)
+	(wire
+		(pts
+			(xy 38.1 156.21) (xy 38.1 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "046f6045-940e-42d1-93ed-6a58a351b552")
 	)
 	(wire
 		(pts
@@ -3078,6 +3094,16 @@
 	)
 	(wire
 		(pts
+			(xy 38.1 157.48) (xy 48.26 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "691311dd-587d-4a5c-be9f-8eae352fd3a1")
+	)
+	(wire
+		(pts
 			(xy 171.45 62.23) (xy 158.75 62.23)
 		)
 		(stroke
@@ -3188,7 +3214,7 @@
 	)
 	(wire
 		(pts
-			(xy 48.26 151.13) (xy 48.26 158.75)
+			(xy 48.26 151.13) (xy 48.26 157.48)
 		)
 		(stroke
 			(width 0)
@@ -3235,6 +3261,16 @@
 			(type default)
 		)
 		(uuid "9662fe1f-6759-4528-b3c5-1227b78c24ef")
+	)
+	(wire
+		(pts
+			(xy 48.26 157.48) (xy 48.26 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "967bbfd7-46ca-4c22-996b-73701bc4fdf2")
 	)
 	(wire
 		(pts
@@ -3977,6 +4013,81 @@
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:heatsink_18x18")
+		(at 38.1 152.4 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1d66f089-a679-4fd9-9680-9213f39038e7")
+		(property "Reference" "H7"
+			(at 36.576 145.796 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "heatsink_18x18"
+			(at 31.75 148.082 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:heatsink_18x18"
+			(at 38.227 142.494 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 38.1 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 37.846 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser order number" "490-HSB06-181810"
+			(at 38.608 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "PAD"
+			(uuid "efd8f15e-4467-494e-8190-4e50366dfaa0")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/31b87c35-c096-4dc0-8978-834bec283b57"
+					(reference "H7")
 					(unit 1)
 				)
 			)
