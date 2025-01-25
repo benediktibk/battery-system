@@ -1179,7 +1179,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "40b80cac-69d3-405e-811a-061bf08c3bc1")
-		(property "Reference" "H3"
+		(property "Reference" "H2"
 			(at 261.62 20.32 0)
 			(effects
 				(font
@@ -1230,7 +1230,7 @@
 		(instances
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2"
-					(reference "H3")
+					(reference "H2")
 					(unit 1)
 				)
 			)
@@ -1380,7 +1380,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5432c336-89d7-4a81-a4ff-bd7095c71cc2")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR03"
 			(at 236.22 48.26 0)
 			(effects
 				(font
@@ -1430,7 +1430,7 @@
 		(instances
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2"
-					(reference "#PWR02")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -1446,7 +1446,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6a2abece-9d45-4dee-91d1-78dde124d3b0")
-		(property "Reference" "H2"
+		(property "Reference" "H3"
 			(at 238.76 35.56 0)
 			(effects
 				(font
@@ -1497,7 +1497,7 @@
 		(instances
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2"
-					(reference "H2")
+					(reference "H3")
 					(unit 1)
 				)
 			)
@@ -1645,7 +1645,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d4180efc-77f0-41da-8760-0b7700201e5f")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR02"
 			(at 259.08 33.02 0)
 			(effects
 				(font
@@ -1695,7 +1695,7 @@
 		(instances
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2"
-					(reference "#PWR03")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
