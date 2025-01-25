@@ -2595,9 +2595,9 @@
 		)
 		(symbol "power:GND"
 			(power)
+			(pin_numbers hide)
 			(pin_names
-				(offset 0)
-			)
+				(offset 0) hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
@@ -2671,8 +2671,8 @@
 			(symbol "GND_1_1"
 				(pin power_in line
 					(at 0 0 270)
-					(length 0) hide
-					(name "GND"
+					(length 0)
+					(name "~"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3760,7 +3760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 85.09 52.07 0)
 			(effects
 				(font
@@ -3839,7 +3839,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 262.89 43.18 0)
 			(effects
 				(font
@@ -3919,7 +3919,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 218.44 71.12 0)
 			(effects
 				(font
@@ -3997,7 +3997,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 153.67 82.55 0)
 			(effects
 				(font
@@ -4138,7 +4138,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 218.44 99.06 0)
 			(effects
 				(font
@@ -4284,7 +4284,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 106.68 73.66 0)
 			(effects
 				(font
@@ -4361,7 +4361,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 133.35 96.52 0)
 			(effects
 				(font
@@ -4536,7 +4536,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -4680,7 +4680,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 95.25 104.14 0)
 			(effects
 				(font
@@ -4825,7 +4825,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 48.26 158.75 0)
 			(effects
 				(font
@@ -4892,7 +4892,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x05, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 41.91 68.58 0)
 			(effects
 				(font
@@ -4978,7 +4978,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Fuse"
 			(at 250.19 44.45 0)
 			(effects
 				(font
@@ -5055,7 +5055,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 85.09 66.04 0)
 			(effects
 				(font
@@ -5133,7 +5133,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 64.77 158.75 0)
 			(effects
 				(font
@@ -5278,7 +5278,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
 			(at 135.89 46.99 0)
 			(effects
 				(font
@@ -5359,7 +5359,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 91.44 158.75 0)
 			(effects
 				(font
@@ -5424,7 +5424,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "P-MOSFET transistor, drain/gate/source"
 			(at 95.25 46.99 0)
 			(effects
 				(font
@@ -5506,7 +5506,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "n-MOSFET transistor, drain/gate/source"
 			(at 142.24 90.17 0)
 			(effects
 				(font
@@ -5586,7 +5586,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 144.78 66.04 0)
 			(effects
 				(font
@@ -5664,7 +5664,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 256.54 50.8 0)
 			(effects
 				(font
@@ -5729,7 +5729,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 81.28 124.46 0)
 			(effects
 				(font
@@ -5871,7 +5871,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "n-MOSFET transistor, drain/gate/source"
 			(at 92.71 90.17 0)
 			(effects
 				(font
@@ -5951,7 +5951,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 68.58 124.46 0)
 			(effects
 				(font
@@ -6018,7 +6018,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 157.48 73.66 0)
 			(effects
 				(font
@@ -6172,7 +6172,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Schottky diode"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -6250,7 +6250,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 78.74 158.75 0)
 			(effects
 				(font
@@ -6315,7 +6315,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Resistor"
 			(at 83.82 96.52 0)
 			(effects
 				(font
@@ -6393,7 +6393,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
 			(at 102.87 82.55 0)
 			(effects
 				(font
