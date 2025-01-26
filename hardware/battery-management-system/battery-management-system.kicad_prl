@@ -23,9 +23,9 @@
       "lockedItems": false,
       "otherItems": false,
       "pads": false,
-      "text": true,
-      "tracks": false,
-      "vias": false,
+      "text": false,
+      "tracks": true,
+      "vias": true,
       "zones": false
     },
     "visible_items": [
