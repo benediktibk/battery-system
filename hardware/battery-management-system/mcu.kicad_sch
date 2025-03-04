@@ -712,6 +712,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "581-KGM15BR71H104KM"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -857,6 +866,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -994,6 +1012,15 @@
 				)
 			)
 			(property "RS order number" "103-4112"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -6415,6 +6442,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+			(at 147.066 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e605d968-b4f7-486d-bd3d-802d1825b0f7")
 		)
@@ -6795,6 +6831,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 114.046 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cc3ce9de-2805-4c44-9745-bafa768da59f")
 		)
@@ -6943,6 +6988,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 82.296 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 82.296 39.37 0)
 			(effects
 				(font
@@ -7675,6 +7729,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 107.696 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "53cc0a4a-45f4-4e50-a587-85a65da65d6b")
 		)
@@ -7972,6 +8035,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 94.996 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "05906b28-a9f7-430c-8351-5c6f92904f28")
 		)
@@ -8043,6 +8115,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 134.366 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 134.366 39.37 0)
 			(effects
 				(font
@@ -8498,6 +8579,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 92.456 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 92.456 121.92 0)
 			(effects
 				(font
@@ -9621,6 +9711,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 48.006 120.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c3094c9c-64c7-42f1-bb55-75155b54e899")
 		)
@@ -9777,6 +9876,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 70.866 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "fd4ddb0f-49da-45b2-b521-da017cac91d7")
 		)
@@ -9848,6 +9956,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 120.396 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 120.396 39.37 0)
 			(effects
 				(font

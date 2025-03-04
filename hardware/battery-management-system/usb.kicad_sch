@@ -496,6 +496,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "581-KGM15BR71H104KM"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -633,6 +642,15 @@
 				)
 			)
 			(property "RS order number" "135-6315"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "80-C0603C103M5R3121"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -3681,6 +3699,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 119.126 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b340cab5-2226-4e07-b7fc-6db0814119ab")
 		)
@@ -4050,6 +4077,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "80-C0603C103M5R3121"
+			(at 119.126 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "50ac6fee-b145-49e4-9797-25b2de244d16")
 		)
@@ -4121,6 +4157,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 114.046 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 114.046 78.74 0)
 			(effects
 				(font
@@ -4266,6 +4311,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 101.346 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 101.346 78.74 0)
 			(effects
 				(font

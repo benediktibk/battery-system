@@ -67,6 +67,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -204,6 +213,15 @@
 				)
 			)
 			(property "RS order number" "103-4112"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -639,6 +657,15 @@
 				)
 			)
 			(property "RS order number" "788-3060"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "810-C3216X5R1E476M"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -5886,6 +5913,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 232.156 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "83890b80-c097-40af-bd01-e78e7ac50416")
 		)
@@ -6274,6 +6310,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 219.456 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "afce645d-5b43-4e20-86d4-cb24ac38bbf2")
 		)
@@ -6460,6 +6505,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 232.156 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "526b20f0-6c09-429c-8705-0d2bd28003bc")
 		)
@@ -6610,6 +6664,15 @@
 			)
 		)
 		(property "RS order number" "788-3060"
+			(at 145.796 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
 			(at 145.796 113.03 0)
 			(effects
 				(font
@@ -6862,6 +6925,15 @@
 			)
 		)
 		(property "RS order number" "103-4112"
+			(at 206.756 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 206.756 113.03 0)
 			(effects
 				(font
@@ -7297,6 +7369,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 232.156 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7466cc91-105e-4eb2-ba8c-a2572a35ab31")
 		)
@@ -7666,6 +7747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 48.006 171.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "64ac0028-2e5d-4c3b-acc4-b733263e1d2c")
 		)
@@ -7802,6 +7892,15 @@
 			)
 		)
 		(property "RS order number" "788-3060"
+			(at 145.796 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
 			(at 145.796 157.48 0)
 			(effects
 				(font
@@ -8045,6 +8144,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 219.456 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dbc59ab-025f-48a4-adab-65770a1a04b7")
 		)
@@ -8116,6 +8224,15 @@
 			)
 		)
 		(property "RS order number" "788-3060"
+			(at 48.006 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
 			(at 48.006 82.55 0)
 			(effects
 				(font
@@ -8672,6 +8789,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
+			(at 232.156 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ed8dafc1-b07f-4bc3-b7f0-5f94b29dd933")
 		)
@@ -8751,6 +8877,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 48.006 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ea042e5-b136-4a7b-8d11-9ac96ac5fb1b")
 		)
@@ -8822,6 +8957,15 @@
 			)
 		)
 		(property "RS order number" "103-4112"
+			(at 206.756 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 206.756 157.48 0)
 			(effects
 				(font
@@ -9280,6 +9424,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 48.006 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5f9b4aee-3f77-4c94-adcb-34d41f4cb4c5")
 		)
@@ -9438,6 +9591,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+			(at 206.756 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c132bc7d-2420-4647-8705-149912c7cc95")
 		)
@@ -9509,6 +9671,15 @@
 			)
 		)
 		(property "RS order number" "172-1575"
+			(at 219.456 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
 			(at 219.456 24.13 0)
 			(effects
 				(font
@@ -9760,6 +9931,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 145.796 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "27d3093f-45c7-4d9c-8ed1-2b3897dcf97a")
 		)
@@ -9831,6 +10011,15 @@
 			)
 		)
 		(property "RS order number" "103-4112"
+			(at 206.756 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
 			(at 206.756 24.13 0)
 			(effects
 				(font
@@ -9918,6 +10107,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 145.796 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0dde578e-8244-4b3e-8b1f-37fb56e18575")
 		)
@@ -9989,6 +10187,15 @@
 			)
 		)
 		(property "RS order number" "172-1575"
+			(at 219.456 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL31A106MBHNNNE"
 			(at 219.456 68.58 0)
 			(effects
 				(font
