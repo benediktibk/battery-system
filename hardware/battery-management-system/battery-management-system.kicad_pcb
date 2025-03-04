@@ -288,7 +288,7 @@
 		(uuid "00b53f20-6c3c-430a-b8a2-780ec1f44b21")
 		(at 31 40.72)
 		(property "Reference" "F1"
-			(at -8.69 2.47 90)
+			(at 2.6 -5.42 0)
 			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "90ee55e6-d580-4bf0-94cc-ec340a2e5fb4")
@@ -6303,7 +6303,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D14"
-			(at -3.5 0.1 0)
+			(at -3.72 0.1 0)
 			(layer "F.SilkS")
 			(uuid "5fffb53c-9d74-44e1-a949-eebba5a26f72")
 			(effects
@@ -6577,7 +6577,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J3"
-			(at 0 -2.33 90)
+			(at -0.69 5.755 180)
 			(layer "F.SilkS")
 			(uuid "73abcc63-6590-431c-a5a7-0d95fa60a883")
 			(effects
@@ -7147,7 +7147,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J4"
-			(at -0.1 -2.925 90)
+			(at 0.21 5.705 180)
 			(layer "F.SilkS")
 			(uuid "d3e4a474-1577-4490-8fef-533c6b9730cd")
 			(effects
@@ -7935,7 +7935,7 @@
 		(descr "Diode SMD 0603 (1608 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: http://www.tortai-tech.com/upload/download/2011102023233369053.pdf), generated with kicad-footprint-generator")
 		(tags "diode handsolder")
 		(property "Reference" "D16"
-			(at -3.6 0 0)
+			(at -3.72 -0.02 0)
 			(layer "F.SilkS")
 			(uuid "9638c6a2-4c01-4437-978a-b0a2000ca6e0")
 			(effects
