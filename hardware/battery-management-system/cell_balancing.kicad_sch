@@ -781,7 +781,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "584-LT8584EFE#PBF"
+			(property "Mouser Part Number" "584-LT8584EFE#PBF"
 				(at 26.67 -494.92 0)
 				(effects
 					(font
@@ -1162,7 +1162,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "994-NA6252-ALD"
+			(property "Mouser Part Number" "994-NA6252-ALD"
 				(at 16.51 -494.92 0)
 				(effects
 					(font
@@ -1906,7 +1906,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "490-HSB06-181810"
+			(property "Mouser Part Number" "490-HSB06-181810"
 				(at 0.508 5.842 0)
 				(effects
 					(font
@@ -5673,6 +5673,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "584-LT8584EFE#PBF"
+			(at 113.03 519.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "47603c7e-e8e3-40d5-af89-96ee3bc1f8ee")
 		)
@@ -6179,6 +6189,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 88.138 51.308 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "628869cc-5779-4de3-b990-bf00886d0c16")
 		)
@@ -6325,6 +6344,16 @@
 			)
 		)
 		(property "Mouser order number" "994-NA6252-ALD"
+			(at 172.72 511.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "994-NA6252-ALD"
 			(at 172.72 511.43 0)
 			(effects
 				(font
@@ -6734,6 +6763,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "994-NA6252-ALD"
+			(at 172.72 555.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "0c4bdf48-70b9-481c-953b-948c65eff060")
 		)
@@ -6987,6 +7026,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 88.138 95.758 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "8592493b-5d4b-4d6c-8970-4de59e029bf2")
 		)
@@ -7054,6 +7102,16 @@
 			)
 		)
 		(property "Mouser order number" "994-NA6252-ALD"
+			(at 172.72 600.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "994-NA6252-ALD"
 			(at 172.72 600.33 0)
 			(effects
 				(font
@@ -7386,6 +7444,16 @@
 			)
 		)
 		(property "Mouser order number" "584-LT8584EFE#PBF"
+			(at 113.03 563.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "584-LT8584EFE#PBF"
 			(at 113.03 563.5 0)
 			(effects
 				(font
@@ -8212,6 +8280,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "994-NA6252-ALD"
+			(at 172.72 644.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "dcb0cd03-e0ae-4296-bc59-e3f06fca07cf")
 		)
@@ -8375,6 +8453,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "584-LT8584EFE#PBF"
+			(at 113.03 652.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "c1f59248-3fd6-4cdc-9f26-d4e50d4c3a9b")
 		)
@@ -8491,6 +8579,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 88.138 184.658 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 88.138 184.658 0)
 			(effects
 				(font
@@ -9049,6 +9146,16 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "584-LT8584EFE#PBF"
+			(at 113.03 607.95 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
 		(pin "13"
 			(uuid "a374aa92-c3d1-4719-b81c-f2b1bad3eecd")
 		)
@@ -9560,6 +9667,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 88.138 140.208 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 88.138 140.208 0)
 			(effects
 				(font

@@ -2143,7 +2143,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "490-HSB06-181810"
+			(property "Mouser Part Number" "490-HSB06-181810"
 				(at 0.508 5.842 0)
 				(effects
 					(font
@@ -4070,6 +4070,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 38.608 146.558 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "efd8f15e-4467-494e-8190-4e50366dfaa0")
 		)
@@ -5802,6 +5811,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 145.288 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "1d474674-f49c-47a8-b46c-a7601307aa5c")
 		)
@@ -6095,6 +6113,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 85.598 34.798 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 85.598 34.798 0)
 			(effects
 				(font
