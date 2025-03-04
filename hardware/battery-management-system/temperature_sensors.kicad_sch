@@ -703,7 +703,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 27.94 30.48 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -715,7 +714,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 27.94 27.94 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -727,7 +725,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 27.94 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3585,7 +3585,6 @@
 	(hierarchical_label "SDA"
 		(shape bidirectional)
 		(at 107.95 130.81 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3597,7 +3596,6 @@
 	(hierarchical_label "DISCHARGE"
 		(shape input)
 		(at 130.81 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3609,7 +3607,6 @@
 	(hierarchical_label "CELL1_MINUS"
 		(shape output)
 		(at 52.07 73.66 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3621,7 +3618,6 @@
 	(hierarchical_label "CELL3_MINUS"
 		(shape output)
 		(at 52.07 68.58 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3633,7 +3629,6 @@
 	(hierarchical_label "CELL4_MINUS"
 		(shape output)
 		(at 52.07 66.04 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3645,7 +3640,6 @@
 	(hierarchical_label "SCL"
 		(shape input)
 		(at 107.95 133.35 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3657,7 +3651,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 62.23 111.76 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3669,7 +3662,6 @@
 	(hierarchical_label "PACK"
 		(shape output)
 		(at 52.07 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3681,7 +3673,6 @@
 	(hierarchical_label "PACK_EXT"
 		(shape output)
 		(at 171.45 62.23 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3693,7 +3684,6 @@
 	(hierarchical_label "CELL2_MINUS"
 		(shape output)
 		(at 52.07 71.12 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3705,7 +3695,6 @@
 	(hierarchical_label "CHARGE"
 		(shape input)
 		(at 81.28 90.17 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

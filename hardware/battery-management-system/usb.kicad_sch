@@ -3376,7 +3376,6 @@
 	(hierarchical_label "UART_RX"
 		(shape input)
 		(at 257.81 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3388,7 +3387,6 @@
 	(hierarchical_label "UART_TX"
 		(shape output)
 		(at 257.81 85.09 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3400,7 +3398,6 @@
 	(hierarchical_label "5V_USB"
 		(shape output)
 		(at 26.67 36.83 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3412,7 +3409,6 @@
 	(hierarchical_label "3V3"
 		(shape input)
 		(at 26.67 67.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

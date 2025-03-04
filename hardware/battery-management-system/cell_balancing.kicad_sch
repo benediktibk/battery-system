@@ -5469,7 +5469,6 @@
 	(hierarchical_label "CELL1_ENABLE"
 		(shape input)
 		(at 72.39 172.72 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5481,7 +5480,6 @@
 	(hierarchical_label "CELL3_MINUS"
 		(shape input)
 		(at 30.48 105.41 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5493,7 +5491,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 214.63 16.51 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5505,7 +5502,6 @@
 	(hierarchical_label "CELL4_ENABLE"
 		(shape input)
 		(at 72.39 39.37 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5517,7 +5513,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 214.63 105.41 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5529,7 +5524,6 @@
 	(hierarchical_label "CELL4_MINUS"
 		(shape input)
 		(at 30.48 60.96 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5541,7 +5535,6 @@
 	(hierarchical_label "CELL2_ENABLE"
 		(shape input)
 		(at 72.39 128.27 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5553,7 +5546,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 214.63 149.86 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5565,7 +5557,6 @@
 	(hierarchical_label "CELL1_MINUS"
 		(shape input)
 		(at 30.48 194.31 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5577,7 +5568,6 @@
 	(hierarchical_label "CELL2_MINUS"
 		(shape input)
 		(at 30.48 149.86 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5589,7 +5579,6 @@
 	(hierarchical_label "CELL3_ENABLE"
 		(shape input)
 		(at 72.39 83.82 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5601,7 +5590,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 30.48 16.51 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -5613,7 +5601,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 214.63 60.96 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

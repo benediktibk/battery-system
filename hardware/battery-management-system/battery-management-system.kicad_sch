@@ -962,7 +962,6 @@
 	)
 	(label "18V"
 		(at 161.29 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -973,7 +972,6 @@
 	)
 	(label "5V"
 		(at 74.93 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -984,7 +982,6 @@
 	)
 	(label "DISCHARGE"
 		(at 203.2 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -995,7 +992,6 @@
 	)
 	(label "EN_CELL_MEASUREMENT"
 		(at 73.66 102.87 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1006,7 +1002,6 @@
 	)
 	(label "5V_USB"
 		(at 110.49 34.29 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1017,7 +1012,6 @@
 	)
 	(label "DISCHARGE"
 		(at 12.7 87.63 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1028,7 +1022,6 @@
 	)
 	(label "CHARGE"
 		(at 12.7 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1039,7 +1032,6 @@
 	)
 	(label "3V3"
 		(at 236.22 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1050,7 +1042,6 @@
 	)
 	(label "3V3"
 		(at 143.51 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1061,7 +1052,6 @@
 	)
 	(label "5V_USB"
 		(at 275.59 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1072,7 +1062,6 @@
 	)
 	(label "CHARGE"
 		(at 203.2 76.2 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1083,7 +1072,6 @@
 	)
 	(label "PACK_EXT"
 		(at 63.5 83.82 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1094,7 +1082,6 @@
 	)
 	(label "PACK_EXT"
 		(at 110.49 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1105,7 +1092,6 @@
 	)
 	(label "3V3"
 		(at 12.7 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1116,7 +1102,6 @@
 	)
 	(label "EN_CELL_MEASUREMENT"
 		(at 201.93 91.44 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1127,7 +1112,6 @@
 	)
 	(label "5V"
 		(at 161.29 30.48 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1138,7 +1122,6 @@
 	)
 	(label "3V3"
 		(at 161.29 26.67 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1149,7 +1132,6 @@
 	)
 	(label "3V3"
 		(at 236.22 101.6 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -1160,7 +1142,6 @@
 	)
 	(label "18V"
 		(at 74.93 80.01 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

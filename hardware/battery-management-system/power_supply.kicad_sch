@@ -3489,7 +3489,6 @@
 	)
 	(label "9V4"
 		(at 83.82 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3500,7 +3499,6 @@
 	)
 	(label "5V"
 		(at 219.71 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3511,7 +3509,6 @@
 	)
 	(label "5V"
 		(at 20.32 140.97 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3520,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 203.2 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3535,7 +3531,6 @@
 	(hierarchical_label "5V_USB"
 		(shape input)
 		(at 43.18 35.56 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3547,7 +3542,6 @@
 	(hierarchical_label "PACK_EXT"
 		(shape input)
 		(at 69.85 77.47 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3559,7 +3553,6 @@
 	(hierarchical_label "PACK_EXT"
 		(shape input)
 		(at 43.18 25.4 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3571,7 +3564,6 @@
 	(hierarchical_label "5V"
 		(shape output)
 		(at 224.79 72.39 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3583,7 +3575,6 @@
 	(hierarchical_label "3V3"
 		(shape output)
 		(at 190.5 20.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3595,7 +3586,6 @@
 	(hierarchical_label "18V"
 		(shape output)
 		(at 193.04 129.54 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)

@@ -3333,7 +3333,6 @@
 	(hierarchical_label "CELL2_MINUS"
 		(shape input)
 		(at 82.55 109.22 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3345,7 +3344,6 @@
 	(hierarchical_label "CELL4"
 		(shape output)
 		(at 199.39 69.85 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3357,7 +3355,6 @@
 	(hierarchical_label "CELL2"
 		(shape output)
 		(at 199.39 109.22 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3369,7 +3366,6 @@
 	(hierarchical_label "CELL3"
 		(shape output)
 		(at 199.39 90.17 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3381,7 +3377,6 @@
 	(hierarchical_label "5V"
 		(shape input)
 		(at 25.4 20.32 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3393,7 +3388,6 @@
 	(hierarchical_label "PACK"
 		(shape input)
 		(at 82.55 54.61 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3405,7 +3399,6 @@
 	(hierarchical_label "18V"
 		(shape input)
 		(at 22.86 82.55 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3417,7 +3410,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 35.56 38.1 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3429,7 +3421,6 @@
 	(hierarchical_label "EN"
 		(shape input)
 		(at 22.86 118.11 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3441,7 +3432,6 @@
 	(hierarchical_label "CELL4_MINUS"
 		(shape input)
 		(at 82.55 73.66 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3453,7 +3443,6 @@
 	(hierarchical_label "CELL3_MINUS"
 		(shape input)
 		(at 82.55 91.44 180)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3465,7 +3454,6 @@
 	(hierarchical_label "CELL1"
 		(shape output)
 		(at 199.39 128.27 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
