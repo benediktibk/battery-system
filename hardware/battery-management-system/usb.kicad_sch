@@ -804,6 +804,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "791-0603N470J101CT"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -941,6 +950,15 @@
 				)
 			)
 			(property "RS order number" "113-8707"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "187-CL21A475KBQNNNE"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -1840,6 +1858,15 @@
 				)
 			)
 			(property "RS order number" "125-1173"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -3499,6 +3526,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 132.08 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d08c19de-6c33-4868-b143-3cbe3585ec62")
 		)
@@ -3990,6 +4026,15 @@
 			)
 		)
 		(property "RS order number" "113-8707"
+			(at 89.916 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A475KBQNNNE"
 			(at 89.916 78.74 0)
 			(effects
 				(font
@@ -4695,6 +4740,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 144.78 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "70b75993-1795-471c-84a9-ed46d51b30e5")
 		)
@@ -4906,6 +4960,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 157.48 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ab9ca993-0145-48d0-8f73-78ce1ed728e2")
 		)
@@ -4977,6 +5040,15 @@
 			)
 		)
 		(property "RS order number" "125-1173"
+			(at 170.18 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 			(at 170.18 74.93 0)
 			(effects
 				(font
@@ -5064,6 +5136,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "791-0603N470J101CT"
+			(at 92.456 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d9db0959-a6fa-4202-aa2c-fcfa0c865b43")
 		)
@@ -5135,6 +5216,15 @@
 			)
 		)
 		(property "RS order number" "135-6508"
+			(at 105.156 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "791-0603N470J101CT"
 			(at 105.156 110.49 0)
 			(effects
 				(font

@@ -366,7 +366,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" " 80-C0603C223K4RAC"
+			(property "Mouser Part Number" "80-C0603C223K4RAC"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -1651,6 +1651,15 @@
 				)
 			)
 			(property "RS order number" "901-3581"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -5834,6 +5843,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
+			(at 124.46 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "814c4fd7-5df6-463b-869b-6688a0f0c19a")
 		)
@@ -5992,7 +6010,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 80-C0603C223K4RAC"
+		(property "Mouser Part Number" "80-C0603C223K4RAC"
 			(at 159.766 19.05 0)
 			(effects
 				(font
@@ -6137,7 +6155,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 80-C0603C223K4RAC"
+		(property "Mouser Part Number" "80-C0603C223K4RAC"
 			(at 159.766 107.95 0)
 			(effects
 				(font
@@ -6585,6 +6603,15 @@
 			)
 		)
 		(property "RS order number" "901-3581"
+			(at 124.46 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 			(at 124.46 162.56 0)
 			(effects
 				(font
@@ -7659,7 +7686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 80-C0603C223K4RAC"
+		(property "Mouser Part Number" "80-C0603C223K4RAC"
 			(at 159.766 152.4 0)
 			(effects
 				(font
@@ -8057,6 +8084,15 @@
 			)
 		)
 		(property "RS order number" "901-3581"
+			(at 124.46 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 			(at 124.46 29.21 0)
 			(effects
 				(font
@@ -9132,6 +9168,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
+			(at 124.46 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "31c06d93-3df2-4205-af1c-fa8115deecc3")
 		)
@@ -9758,7 +9803,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 80-C0603C223K4RAC"
+		(property "Mouser Part Number" "80-C0603C223K4RAC"
 			(at 159.766 63.5 0)
 			(effects
 				(font

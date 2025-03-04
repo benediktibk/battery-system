@@ -2392,6 +2392,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -2514,6 +2523,15 @@
 				)
 			)
 			(property "RS order number" "901-3581"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -6592,6 +6610,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 99.06 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7c068e7c-2d5e-4561-a28f-4d8762cafc79")
 		)
@@ -7294,6 +7321,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 176.53 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c1067307-4b2a-4470-88db-401bbbcc0263")
 		)
@@ -7563,6 +7599,15 @@
 			)
 		)
 		(property "RS order number" "901-3581"
+			(at 118.11 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 			(at 118.11 73.66 0)
 			(effects
 				(font
@@ -8208,6 +8253,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 63.5 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c20cad8b-eeff-4a8c-8592-0e98b4598693")
 		)
@@ -8276,6 +8330,15 @@
 			)
 		)
 		(property "RS order number" "125-1173"
+			(at 26.67 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 			(at 26.67 168.91 0)
 			(effects
 				(font
@@ -8354,6 +8417,15 @@
 			)
 		)
 		(property "RS order number" "901-3581"
+			(at 130.81 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-4701ELF"
 			(at 130.81 73.66 0)
 			(effects
 				(font
@@ -9456,6 +9528,15 @@
 			)
 		)
 		(property "RS order number" "125-1173"
+			(at 62.23 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 			(at 62.23 68.58 0)
 			(effects
 				(font

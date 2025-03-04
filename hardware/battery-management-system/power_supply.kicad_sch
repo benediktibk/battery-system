@@ -1468,6 +1468,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "603-RT0603FRE13100KL"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -1590,6 +1599,15 @@
 				)
 			)
 			(property "RS order number" "125-1173"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -1728,6 +1746,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "603-RT0603FRE07390KL"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -1858,6 +1885,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "603-RC0603FR-1039KL"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -1980,6 +2016,15 @@
 				)
 			)
 			(property "RS order number" "679-0386"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RT0603FRE0743KL"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -3693,6 +3738,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
+			(at 144.78 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e39a2f4d-b246-4c0b-95c5-edb93475b135")
 		)
@@ -3916,6 +3970,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE07390KL"
+			(at 144.78 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7e9b4457-94f7-44b2-842c-a275ad4b93ed")
 		)
@@ -3995,6 +4058,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE07390KL"
+			(at 144.78 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "314e3a58-e03b-49d4-a4a2-cfcdb279ac73")
 		)
@@ -4066,6 +4138,15 @@
 			)
 		)
 		(property "RS order number" "679-0285"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1039KL"
 			(at 144.78 104.14 0)
 			(effects
 				(font
@@ -5898,6 +5979,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 144.78 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "156c7fb0-eb20-470a-9b47-60e72c5b4269")
 		)
@@ -6462,6 +6552,15 @@
 			)
 		)
 		(property "RS order number" "679-0285"
+			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-1039KL"
 			(at 144.78 52.07 0)
 			(effects
 				(font
@@ -7623,6 +7722,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE0743KL"
+			(at 144.78 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b3956168-b4da-4c45-9fa3-3785cea5df78")
 		)
@@ -7957,6 +8065,15 @@
 			)
 		)
 		(property "RS order number" "125-1173"
+			(at 144.78 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
 			(at 144.78 33.02 0)
 			(effects
 				(font
