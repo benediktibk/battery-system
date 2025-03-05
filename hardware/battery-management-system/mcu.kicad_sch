@@ -66,6 +66,14 @@
 					)
 				)
 			)
+			(property "Mouser Part Number" "200-FTSH10501FDVK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(symbol "ARM-JTAG-SWD_0_0"
 				(rectangle
 					(start -7.62 7.62)
@@ -547,6 +555,15 @@
 				)
 			)
 			(property "RS order number" "724-1403"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-BLM11P300S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1172,6 +1189,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "621-DMN3404L-7"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "transistor NMOS N-MOS N-MOSFET"
 				(at 0 0 0)
 				(effects
@@ -1464,6 +1490,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "604-AP1608SGC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1652,6 +1687,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "604-APH1608SURCK"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1832,6 +1876,15 @@
 				)
 			)
 			(property "RS order number" "861-0087"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "604-APG1608SYKC/T"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2254,6 +2307,15 @@
 				)
 			)
 			(property "RS order number" "125-1172"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "279-CRGH0603F100R"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -6698,6 +6760,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "279-CRGH0603F100R"
+			(at 19.05 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "932c97c4-83d7-4c37-aece-9e5cbbc82fe4")
 		)
@@ -6768,6 +6839,15 @@
 			)
 		)
 		(property "RS order number" "751-4171"
+			(at 31.75 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
 			(at 31.75 185.42 0)
 			(effects
 				(font
@@ -6936,6 +7016,15 @@
 			)
 		)
 		(property "RS order number" "861-0087"
+			(at 109.22 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APG1608SYKC/T"
 			(at 109.22 158.75 0)
 			(effects
 				(font
@@ -7168,6 +7257,15 @@
 			)
 		)
 		(property "RS order number" "751-4171"
+			(at 104.14 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
 			(at 104.14 185.42 0)
 			(effects
 				(font
@@ -7687,6 +7785,15 @@
 			)
 		)
 		(property "RS order number" "125-1172"
+			(at 55.88 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "279-CRGH0603F100R"
 			(at 55.88 167.64 0)
 			(effects
 				(font
@@ -8578,6 +8685,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
+			(at 68.58 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b88bc06f-c74a-431f-b2f4-1844f0273d57")
 		)
@@ -9029,6 +9145,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-APH1608SURCK"
+			(at 73.66 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5c4063e6-6f63-40ee-a83a-cddfc9d449cf")
 		)
@@ -9098,6 +9223,15 @@
 			)
 		)
 		(property "RS order number" "466-3706"
+			(at 36.83 158.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-AP1608SGC"
 			(at 36.83 158.75 0)
 			(effects
 				(font
@@ -9182,6 +9316,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "200-FTSH10501FDVK"
+			(at 40.64 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "10"
@@ -9345,6 +9487,15 @@
 			)
 		)
 		(property "RS order number" "125-1172"
+			(at 91.44 167.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "279-CRGH0603F100R"
 			(at 91.44 167.64 0)
 			(effects
 				(font
@@ -9870,6 +10021,15 @@
 			)
 		)
 		(property "RS order number" "724-1403"
+			(at 110.49 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "81-BLM11P300S"
 			(at 110.49 31.75 0)
 			(effects
 				(font

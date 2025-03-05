@@ -1797,6 +1797,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "621-SBR2065D1-13"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -7046,6 +7055,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-SBR2065D1-13"
+			(at 184.404 21.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "74e09666-1258-40c0-82c2-2be9c33db9fc")
 		)
@@ -7474,6 +7492,15 @@
 			)
 		)
 		(property "RS order number" "133-3329"
+			(at 184.404 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR2065D1-13"
 			(at 184.404 110.49 0)
 			(effects
 				(font
@@ -8013,6 +8040,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-SBR2065D1-13"
+			(at 184.404 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ba52c824-b5bb-4af8-819e-165402e296d3")
 		)
@@ -8346,6 +8382,15 @@
 			)
 		)
 		(property "RS order number" "133-3329"
+			(at 184.404 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR2065D1-13"
 			(at 184.404 154.94 0)
 			(effects
 				(font

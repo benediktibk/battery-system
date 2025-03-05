@@ -64,6 +64,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "637-BAT54WS"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -835,6 +844,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "968-ICL7660CBAZ-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
 				(at 0 0 0)
 				(effects
@@ -1056,6 +1074,15 @@
 				)
 			)
 			(property "RS order number" "228-2997"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-L6982CDR"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3825,6 +3852,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 76.454 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9695775a-503d-4644-a9ee-e021024ca134")
 		)
@@ -4233,6 +4269,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 212.344 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cf18558a-1b70-4a0f-b443-f2be1bd54e2a")
 		)
@@ -4392,6 +4437,15 @@
 		)
 		(property "RS order number" "738-4844"
 			(at 128.27 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 129.794 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4716,6 +4770,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "968-ICL7660CBAZ-T"
+			(at 40.64 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "4948afd3-1118-4cab-8c61-4f8478ceffd2")
 		)
@@ -4957,6 +5020,15 @@
 			)
 		)
 		(property "RS order number" "228-2997"
+			(at 106.68 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L6982CDR"
 			(at 106.68 26.67 0)
 			(effects
 				(font
@@ -5368,6 +5440,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 52.324 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c32eb7b1-d536-43bc-80c2-b4a5b20e824d")
 		)
@@ -5526,6 +5607,15 @@
 		)
 		(property "RS order number" "738-4844"
 			(at 158.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 160.274 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5733,6 +5823,15 @@
 			)
 		)
 		(property "RS order number" "197-2514"
+			(at 124.46 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "968-ICL7660CBAZ-T"
 			(at 124.46 142.24 0)
 			(effects
 				(font
@@ -6191,6 +6290,15 @@
 		)
 		(property "RS order number" "738-4844"
 			(at 210.82 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 212.344 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7021,6 +7129,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 52.324 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8dcbcc51-4f2a-478b-bd32-6f89184c8053")
 		)
@@ -7092,6 +7209,15 @@
 		)
 		(property "RS order number" "738-4844"
 			(at 44.45 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 45.974 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7331,6 +7457,15 @@
 			)
 		)
 		(property "RS order number" "228-2997"
+			(at 106.68 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "511-L6982CDR"
 			(at 106.68 78.74 0)
 			(effects
 				(font

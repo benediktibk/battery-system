@@ -64,6 +64,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "637-BAT54WS"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -667,6 +676,15 @@
 				)
 			)
 			(property "RS order number" "751-4171"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMN3404L-7"
 				(at -2.54 -5.08 0)
 				(effects
 					(font
@@ -1388,6 +1406,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "660-TLR3APSDTE2L00F7"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -1509,6 +1536,15 @@
 				)
 			)
 			(property "RS order number" "133-3329"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-SBR2065D1-13"
 				(at -1.524 -5.08 0)
 				(effects
 					(font
@@ -1661,6 +1697,15 @@
 				)
 			)
 			(property "RS order number" "795-8779"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STC3100IST"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1888,6 +1933,15 @@
 				)
 			)
 			(property "RS order number" "171-2479"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "757-TJ40S04M3LT6L1NQ"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3803,6 +3857,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 90.17 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5600cb0a-8d6d-4bb7-8fc4-4707bc892d7b")
 		)
@@ -3954,6 +4017,15 @@
 			)
 		)
 		(property "RS order number" "133-3329"
+			(at 223.52 69.596 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-SBR2065D1-13"
 			(at 223.52 69.596 0)
 			(effects
 				(font
@@ -4510,6 +4582,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "511-STC3100IST"
+			(at 91.44 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "153db8d4-5cab-403d-8552-3a68d869a6fe")
 		)
@@ -4818,6 +4899,15 @@
 			)
 		)
 		(property "RS order number" "231-3683"
+			(at 30.48 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "660-TLR3APSDTE2L00F7"
 			(at 30.48 146.05 0)
 			(effects
 				(font
@@ -5375,6 +5465,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "757-TJ40S04M3LT6L1NQ"
+			(at 135.89 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b00d0b51-3324-4526-a74b-3902ff5b4840")
 		)
@@ -5521,6 +5620,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "757-TJ40S04M3LT6L1NQ"
+			(at 95.25 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e8a646df-2660-4212-b4d0-544d365f3a19")
 		)
@@ -5595,6 +5703,15 @@
 			)
 		)
 		(property "RS order number" "751-4171"
+			(at 139.7 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
 			(at 139.7 95.25 0)
 			(effects
 				(font
@@ -5986,6 +6103,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
+			(at 90.17 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "61caf674-fc71-4b96-a14a-27e2b6619c7b")
 		)
@@ -6289,6 +6415,15 @@
 		)
 		(property "RS order number" "738-4844"
 			(at 144.78 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 149.86 53.594 0)
 			(effects
 				(font
 					(size 1.27 1.27)

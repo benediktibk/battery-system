@@ -67,6 +67,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "649-10118194-0001LF"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(symbol "AMPHENOL_micro_usb_10118194-0001LF_0_0"
 				(rectangle
 					(start -6.35 10.16)
@@ -331,6 +340,15 @@
 				)
 			)
 			(property "RS order number" "724-1403"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "81-BLM11P300S"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1108,6 +1126,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "895-FT230XS-R"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "FTDI USB UART interface converter"
 				(at 0 0 0)
 				(effects
@@ -1489,6 +1516,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "604-AP1608SGC"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "LED diode"
 				(at 0 0 0)
 				(effects
@@ -1669,6 +1705,15 @@
 				)
 			)
 			(property "RS order number" "861-0090"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "604-APH1608SURCK"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2005,6 +2050,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "603-RC0603FR-07120RL"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -2127,6 +2181,15 @@
 				)
 			)
 			(property "RS order number" "213-2058"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603FR-0727RL"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -3614,6 +3677,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "895-FT230XS-R"
+			(at 125.73 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5671c3b8-0014-40b9-9263-c5250f48c7e8")
 		)
@@ -3947,6 +4019,15 @@
 			)
 		)
 		(property "RS order number" "861-0090"
+			(at 218.44 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-APH1608SURCK"
 			(at 218.44 76.2 0)
 			(effects
 				(font
@@ -4450,6 +4531,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "81-BLM11P300S"
+			(at 85.09 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d6189fa2-f55f-4689-b020-69788e80421f")
 		)
@@ -4587,6 +4677,15 @@
 			)
 		)
 		(property "RS order number" "199-5452"
+			(at 200.66 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-07120RL"
 			(at 200.66 64.77 0)
 			(effects
 				(font
@@ -5309,6 +5408,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-0727RL"
+			(at 93.98 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "40d6fc2a-dedf-4b69-879f-4bdbd6b5b06f")
 		)
@@ -5454,6 +5562,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-AP1608SGC"
+			(at 201.93 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c174684a-e373-49c1-8570-b414ba667b37")
 		)
@@ -5533,6 +5650,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-07120RL"
+			(at 184.15 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3207eedb-631e-4283-acd9-33607d606f94")
 		)
@@ -5601,6 +5727,15 @@
 			)
 		)
 		(property "RS order number" "213-2058"
+			(at 93.98 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-0727RL"
 			(at 93.98 57.15 0)
 			(effects
 				(font
@@ -5745,6 +5880,15 @@
 			)
 		)
 		(property "RS order number" "137-0996"
+			(at 125.73 45.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "649-10118194-0001LF"
 			(at 125.73 45.72 0)
 			(effects
 				(font

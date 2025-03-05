@@ -65,6 +65,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "522-BS250FTA"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "transistor PMOS P-MOS P-MOSFET"
 				(at 0 0 0)
 				(effects
@@ -658,6 +667,15 @@
 				)
 			)
 			(property "RS order number" "751-4171"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "621-DMN3404L-7"
 				(at -2.54 -5.08 0)
 				(effects
 					(font
@@ -3676,6 +3694,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "522-BS250FTA"
+			(at 95.25 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85b6c86d-7d16-4d0d-bf8f-a1e6ef142692")
 		)
@@ -3838,6 +3865,15 @@
 			)
 		)
 		(property "RS order number" "751-4171"
+			(at 54.61 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
 			(at 54.61 43.18 0)
 			(effects
 				(font
@@ -5150,6 +5186,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "522-BS250FTA"
+			(at 95.25 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a5702f54-6b4a-4ab7-8f44-1af3cf282e06")
 		)
@@ -5223,6 +5268,15 @@
 			)
 		)
 		(property "RS order number" "215-6593"
+			(at 95.25 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "522-BS250FTA"
 			(at 95.25 76.2 0)
 			(effects
 				(font
@@ -5400,6 +5454,15 @@
 			)
 		)
 		(property "RS order number" "215-6593"
+			(at 59.69 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "522-BS250FTA"
 			(at 59.69 22.86 0)
 			(effects
 				(font
@@ -6509,6 +6572,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-DMN3404L-7"
+			(at 39.37 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "85cf7e71-85b2-4a5f-a749-b845985c6931")
 		)
@@ -6919,6 +6991,15 @@
 			)
 		)
 		(property "RS order number" "215-6593"
+			(at 95.25 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "522-BS250FTA"
 			(at 95.25 93.98 0)
 			(effects
 				(font
