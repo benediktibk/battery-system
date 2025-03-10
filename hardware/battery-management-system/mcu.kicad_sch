@@ -327,6 +327,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "556-AT24C512C-SSHM-T"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "I2C Serial EEPROM"
 				(at 0 0 0)
 				(effects
@@ -2079,6 +2088,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "863-NCT75DR2G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "I2C Serial EEPROM"
 				(at 0 0 0)
 				(effects
@@ -2723,6 +2741,15 @@
 				)
 			)
 			(property "RS order number" "196-2075"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "511-STM32L071CZT6"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3629,38 +3656,49 @@
 				)
 			)
 		)
-		(symbol "benediktibk:TMG1-01"
-			(pin_names
-				(offset 0) hide)
+		(symbol "benediktibk:TS02-66-50-BK-100-SCR-D"
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 0 3.175 0)
+			(property "Reference" "IC"
+				(at 26.67 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "TMG1-01"
-				(at 0 5.588 0)
+			(property "Value" "TS02-66-50-BK-100-SCR-D"
+				(at 26.67 5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "benediktibk:TMG1-01"
-				(at 0 7.62 0)
+			(property "Footprint" "benediktibk:TS026650BK100SCRD"
+				(at 26.67 -94.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
+			(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/ts02.pdf"
+				(at 26.67 -194.92 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "6 x 6 mm, 5 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3669,100 +3707,42 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Single Pole Single Throw (SPST) switch"
-				(at 0 0 0)
+			(property "Height" "5.2"
+				(at 26.67 -394.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "RS order number" "244-4461"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 0.001 0.001)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "switch lever"
-				(at 0 0 0)
+			(property "Mouser Part Number" "179-TS026650BK100SCR"
+				(at 26.67 -494.92 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(symbol "TMG1-01_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
+			(symbol "TS02-66-50-BK-100-SCR-D_1_1"
+				(rectangle
+					(start 5.08 2.54)
+					(end 25.4 -5.08)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
-						(type none)
+						(type background)
 					)
 				)
-				(polyline
-					(pts
-						(xy -1.524 0.254) (xy 1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TMG1-01_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -3.81) (xy -2.032 -3.81) (xy -2.032 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 -3.81) (xy 2.032 -3.81) (xy 2.032 -0.508)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "TMG1-01_1_1"
 				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
+					(at 0 0 0)
+					(length 5.08)
+					(name "NO_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3778,9 +3758,9 @@
 					)
 				)
 				(pin passive line
-					(at -5.08 -3.81 0)
-					(length 2.54)
-					(name "A"
+					(at 30.48 0 180)
+					(length 5.08)
+					(name "NO_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3796,9 +3776,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "COM_1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3814,9 +3794,9 @@
 					)
 				)
 				(pin passive line
-					(at 5.08 -3.81 180)
-					(length 2.54)
-					(name "B"
+					(at 30.48 -2.54 180)
+					(length 5.08)
+					(name "COM_2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -4033,12 +4013,6 @@
 		(uuid "022c1e1c-3533-4c37-a98b-e093ffc2af8b")
 	)
 	(junction
-		(at 83.82 99.06)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "11018895-c410-4585-a62a-c3e3321796c6")
-	)
-	(junction
 		(at 36.83 124.46)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4099,12 +4073,6 @@
 		(uuid "4413ef9f-c372-4c62-b185-2d9d19f390e3")
 	)
 	(junction
-		(at 80.01 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "4ea0cacb-02de-4cd5-b695-8b433ad4f8c6")
-	)
-	(junction
 		(at 36.83 186.69)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4121,6 +4089,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "69484cb2-6714-4867-8f4b-1af05ffdd0d2")
+	)
+	(junction
+		(at 88.9 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f0000a7-1e1d-46c2-8ef4-96cd90567446")
 	)
 	(junction
 		(at 30.48 137.16)
@@ -4189,12 +4163,6 @@
 		(uuid "a99b0d6a-81f8-4312-af4b-6ee85e67d49f")
 	)
 	(junction
-		(at 83.82 83.82)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a9b031c4-a9dc-4b02-8668-24d34d8ca338")
-	)
-	(junction
 		(at 198.12 113.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4205,6 +4173,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b07bbbf9-048d-4b2d-bde2-2f27c11be703")
+	)
+	(junction
+		(at 96.52 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b739a011-3da8-41d1-ad05-2b6505a42323")
 	)
 	(junction
 		(at 36.83 127)
@@ -4223,6 +4197,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cb87ba48-51c2-4433-86fc-aab618e3c9da")
+	)
+	(junction
+		(at 88.9 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d106cae7-823b-417d-b038-79e2a2738c28")
 	)
 	(junction
 		(at 74.93 110.49)
@@ -4259,6 +4239,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8343580-4a06-4eaf-8212-b6299045e346")
+	)
+	(junction
+		(at 58.42 83.82)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f8e0841d-ce26-4f4e-86b7-aa1f63882c4f")
 	)
 	(junction
 		(at 116.84 31.75)
@@ -4404,16 +4390,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 83.82) (xy 80.01 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "03263b3e-4115-4cfc-b6e2-656b48694442")
-	)
-	(wire
-		(pts
 			(xy 27.94 76.2) (xy 24.13 76.2)
 		)
 		(stroke
@@ -4531,16 +4507,6 @@
 			(type default)
 		)
 		(uuid "123d2d38-2f95-4c5c-b786-da7eeb04448e")
-	)
-	(wire
-		(pts
-			(xy 96.52 83.82) (xy 83.82 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "138e775b-fac8-4f77-8a65-16ab0ae6131d")
 	)
 	(wire
 		(pts
@@ -4974,16 +4940,6 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 99.06) (xy 96.52 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "525f9156-b313-4d79-8fe2-e7ef0873e3f8")
-	)
-	(wire
-		(pts
 			(xy 218.44 101.6) (xy 222.25 101.6)
 		)
 		(stroke
@@ -5061,16 +5017,6 @@
 			(type default)
 		)
 		(uuid "62fbe2de-31ea-4bf6-83ad-e2bf0752136b")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 83.82 86.36)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "63bdd659-6a04-4fd1-8b8e-b89ea067eccf")
 	)
 	(wire
 		(pts
@@ -5184,13 +5130,23 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 73.66) (xy 80.01 83.82)
+			(xy 96.52 73.66) (xy 96.52 83.82)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "79a4f1fc-f010-428d-b09d-d94eeffe4373")
+	)
+	(wire
+		(pts
+			(xy 58.42 99.06) (xy 88.9 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a91eb2b-ff29-446d-8aa8-fc6bb2e8bf44")
 	)
 	(wire
 		(pts
@@ -5244,6 +5200,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 99.06) (xy 96.52 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87617c46-625f-48f5-a962-b64ce676a133")
+	)
+	(wire
+		(pts
 			(xy 205.74 109.22) (xy 205.74 113.03)
 		)
 		(stroke
@@ -5251,6 +5217,16 @@
 			(type default)
 		)
 		(uuid "8bed2f07-b45a-4c15-99ad-9494df716cbb")
+	)
+	(wire
+		(pts
+			(xy 88.9 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d0b9bd0-385a-4c05-8d6b-74914a31f333")
 	)
 	(wire
 		(pts
@@ -5344,7 +5320,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 62.23) (xy 80.01 66.04)
+			(xy 96.52 62.23) (xy 96.52 66.04)
 		)
 		(stroke
 			(width 0)
@@ -5464,16 +5440,6 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 99.06) (xy 83.82 99.06)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a6474b73-697d-4f84-bd58-35c57aab0b62")
-	)
-	(wire
-		(pts
 			(xy 30.48 137.16) (xy 30.48 140.97)
 		)
 		(stroke
@@ -5554,6 +5520,16 @@
 	)
 	(wire
 		(pts
+			(xy 58.42 93.98) (xy 58.42 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b5398289-f3f0-43d3-83eb-65792e368462")
+	)
+	(wire
+		(pts
 			(xy 83.82 120.65) (xy 80.01 120.65)
 		)
 		(stroke
@@ -5614,7 +5590,7 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 83.82) (xy 53.34 83.82)
+			(xy 53.34 83.82) (xy 58.42 83.82)
 		)
 		(stroke
 			(width 0)
@@ -5631,16 +5607,6 @@
 			(type default)
 		)
 		(uuid "c3bba28c-f0fb-4d07-af37-539d543fa214")
-	)
-	(wire
-		(pts
-			(xy 83.82 83.82) (xy 80.01 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c3c4bcfe-e9f8-4ac9-8968-12fa3a7136e7")
 	)
 	(wire
 		(pts
@@ -5714,13 +5680,13 @@
 	)
 	(wire
 		(pts
-			(xy 80.01 96.52) (xy 80.01 99.06)
+			(xy 88.9 93.98) (xy 88.9 99.06)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "d31d48fd-77ca-42cc-b511-2b053bbe3e8b")
+		(uuid "d3acd5c2-ca82-438c-aa84-c76ea18d5261")
 	)
 	(wire
 		(pts
@@ -5754,6 +5720,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 83.82) (xy 88.9 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6d80904-476c-4619-84b0-3369dd6f370c")
+	)
+	(wire
+		(pts
 			(xy 74.93 135.89) (xy 74.93 138.43)
 		)
 		(stroke
@@ -5784,13 +5760,13 @@
 	)
 	(wire
 		(pts
-			(xy 83.82 96.52) (xy 83.82 99.06)
+			(xy 58.42 83.82) (xy 58.42 91.44)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "da98a3cd-4a4f-435b-aa31-060219a2bef3")
+		(uuid "d971a2ef-1d55-4bbc-8515-d3d6a64fa2e9")
 	)
 	(wire
 		(pts
@@ -5801,6 +5777,16 @@
 			(type default)
 		)
 		(uuid "ddd3739d-0a3a-4b79-945a-604db64abac0")
+	)
+	(wire
+		(pts
+			(xy 58.42 83.82) (xy 88.9 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ddfc83b4-caa9-4807-ab5a-961357ca1394")
 	)
 	(wire
 		(pts
@@ -5974,6 +5960,16 @@
 	)
 	(wire
 		(pts
+			(xy 100.33 83.82) (xy 96.52 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fb8daaf6-d115-4ebe-98af-2e136e355aca")
+	)
+	(wire
+		(pts
 			(xy 49.53 115.57) (xy 49.53 110.49)
 		)
 		(stroke
@@ -6053,7 +6049,7 @@
 		(uuid "3aad7ea1-9d56-4997-bf5e-ff04f3ccef3e")
 	)
 	(label "NRST"
-		(at 96.52 83.82 0)
+		(at 100.33 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6133,7 +6129,7 @@
 		(uuid "979a1c0d-9492-4f5a-93a1-b236648dc01b")
 	)
 	(label "3V3"
-		(at 80.01 62.23 0)
+		(at 96.52 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6957,6 +6953,101 @@
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
 					(reference "C29")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:TS02-66-50-BK-100-SCR-D")
+		(at 58.42 91.44 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "144519ba-1a7a-4321-a979-df17d6be28dd")
+		(property "Reference" "IC5"
+			(at 69.85 86.868 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RESET"
+			(at 78.74 87.376 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:TS026650BK100SCRD"
+			(at 85.09 186.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.sameskydevices.com/product/resource/supplyframepdf/ts02.pdf"
+			(at 85.09 286.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "6 x 6 mm, 5 mm Actuator Height, 100 gf, Black, Short Crimped, Through Hole, SPST, Tactile Switch"
+			(at 58.42 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "5.2"
+			(at 85.09 486.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "179-TS026650BK100SCR"
+			(at 85.09 586.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "453624a2-95b3-4121-8b1c-38131fdeee27")
+		)
+		(pin "2"
+			(uuid "61031136-67ba-4396-bfb5-d07547645aee")
+		)
+		(pin "4"
+			(uuid "fdc01717-aed5-48e7-945a-bd14b1ff57c6")
+		)
+		(pin "3"
+			(uuid "74205448-7b90-4a08-bd34-31c95fe14e64")
+		)
+		(instances
+			(project ""
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "IC5")
 					(unit 1)
 				)
 			)
@@ -7906,92 +7997,6 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:TMG1-01")
-		(at 83.82 91.44 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65c986af-48fa-4096-bf14-99b5258dfba9")
-		(property "Reference" "RESET1"
-			(at 86.36 90.1699 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "TMG1-01"
-			(at 86.36 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "benediktibk:TMG1-01"
-			(at 91.44 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Single Pole Single Throw (SPST) switch"
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "244-4461"
-			(at 83.82 91.44 0)
-			(effects
-				(font
-					(size 0.001 0.001)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ad87f6ff-1d18-4fa1-8fdf-619e1ead09c8")
-		)
-		(pin "2"
-			(uuid "b3a07f37-52a7-40e8-a7dd-36d4c6026417")
-		)
-		(pin "3"
-			(uuid "8fee59a4-462a-474f-a5a8-4a598e76fc60")
-		)
-		(pin "4"
-			(uuid "86171906-d8e5-4bdf-8db3-525a883bb6b5")
-		)
-		(instances
-			(project "battery-management-system"
-				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-					(reference "RESET1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 109.22 189.23 0)
 		(unit 1)
@@ -8864,6 +8869,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "511-STM32L071CZT6"
+			(at 203.2 71.12 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d1dad051-a2bb-47fc-ac1e-fda6c22b828a")
 		)
@@ -9590,6 +9604,15 @@
 				)
 			)
 		)
+		(property "Mouser Part Number" "863-NCT75DR2G"
+			(at 93.98 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b8ed4a30-0b87-45b1-87fd-75198ae03f93")
 		)
@@ -9625,7 +9648,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 80.01 69.85 0)
+		(at 96.52 69.85 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -9634,7 +9657,7 @@
 		(fields_autoplaced yes)
 		(uuid "ceb358a0-0d76-4213-87e6-1c28a84a6015")
 		(property "Reference" "R24"
-			(at 82.55 68.5799 0)
+			(at 99.06 68.5799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9643,7 +9666,7 @@
 			)
 		)
 		(property "Value" "10kOhm"
-			(at 82.55 71.1199 0)
+			(at 99.06 71.1199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9652,7 +9675,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 69.85 69.342 90)
+			(at 86.36 69.342 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9661,7 +9684,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 80.01 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9670,7 +9693,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 80.01 69.85 0)
+			(at 96.52 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9679,7 +9702,7 @@
 			)
 		)
 		(property "RS order number" "125-1173"
-			(at 62.23 68.58 0)
+			(at 78.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9688,7 +9711,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
-			(at 62.23 68.58 0)
+			(at 78.74 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9845,6 +9868,15 @@
 				(font
 					(size 1.27 1.27)
 				)
+			)
+		)
+		(property "Mouser Part Number" "556-AT24C512C-SSHM-T"
+			(at 49.53 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
 			)
 		)
 		(pin "1"

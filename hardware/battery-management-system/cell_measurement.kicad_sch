@@ -978,6 +978,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "621-LM2904M8-13"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
@@ -4819,6 +4828,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
+			(at 177.8 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "d8118e32-2ae0-4554-b726-de0e4d192dcb")
 		)
@@ -4995,6 +5013,15 @@
 			)
 		)
 		(property "RS order number" "133-3375"
+			(at 83.82 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
 			(at 83.82 30.48 0)
 			(effects
 				(font
@@ -5359,6 +5386,15 @@
 			)
 		)
 		(property "RS order number" "133-3375"
+			(at 125.73 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
 			(at 125.73 30.48 0)
 			(effects
 				(font
@@ -6387,6 +6423,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
+			(at 177.8 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "541757e6-6f1b-48db-93ae-dee1e1830f4b")
 		)
@@ -6653,6 +6698,15 @@
 			)
 		)
 		(property "RS order number" "133-3375"
+			(at 177.8 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
 			(at 177.8 69.85 0)
 			(effects
 				(font
@@ -7387,6 +7441,15 @@
 			)
 		)
 		(property "RS order number" "133-3375"
+			(at 177.8 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "621-LM2904M8-13"
 			(at 177.8 109.22 0)
 			(effects
 				(font
