@@ -193,6 +193,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "637-BAT54WS"
+				(at -1.524 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "diode Schottky"
 				(at 0 0 0)
 				(effects
@@ -342,6 +351,15 @@
 				)
 			)
 			(property "RS order number" "242-7372"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-KGM15BR71H104KM"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -640,6 +658,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -776,7 +803,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" " 80-C0603C223K4RAC"
+			(property "Mouser Part Number" "80-C0603C223K4RAC"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -1066,7 +1093,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "80-ESK478M050AQ3AA"
+			(property "Mouser Part Number" "80-ESK478M050AQ3AA"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -1389,7 +1416,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "647-UCD1J471MNQ1MS "
+			(property "Mouser Part Number" "647-UCD1J471MNQ1MS "
 				(at 0 0 0)
 				(effects
 					(font
@@ -1567,6 +1594,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "810-C3216X5R1E476M"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -1704,6 +1740,15 @@
 				)
 			)
 			(property "RS order number" "113-8707"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "187-CL21A475KBQNNNE"
 				(at 17.526 1.27 0)
 				(effects
 					(font
@@ -1991,6 +2036,15 @@
 				)
 			)
 			(property "RS order number" "466-3706"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "604-AP1608SGC"
 				(at 0 0 0)
 				(effects
 					(font
@@ -2743,6 +2797,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "279-CRGH0603F100R"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -3263,6 +3326,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "660-TLR3APSDTE2L00F7"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "R res resistor"
 				(at 0 0 0)
 				(effects
@@ -3385,6 +3457,15 @@
 				)
 			)
 			(property "RS order number" "199-5550"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "652-CR0603FX-3602ELF"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -3775,6 +3856,15 @@
 				)
 			)
 			(property "RS order number" "199-5620"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RT0603FRE0768KL"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -4456,7 +4546,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser order number" "490-HSB06-181810"
+			(property "Mouser Part Number" "490-HSB06-181810"
 				(at 0.508 5.842 0)
 				(effects
 					(font
@@ -6930,7 +7020,6 @@
 	)
 	(label "Vout"
 		(at 106.68 147.32 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6941,7 +7030,6 @@
 	)
 	(label "Vout"
 		(at 212.09 17.78 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6952,7 +7040,6 @@
 	)
 	(label "Vin"
 		(at 27.94 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6963,7 +7050,6 @@
 	)
 	(label "Vout"
 		(at 279.4 63.5 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -6974,7 +7060,6 @@
 	)
 	(label "Vin"
 		(at 76.2 19.05 0)
-		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -7203,6 +7288,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 127.508 133.858 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 127.508 133.858 0)
 			(effects
 				(font
@@ -7486,6 +7580,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "187-CL21A475KBQNNNE"
+			(at 56.896 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ac7e38d0-5521-4e5c-9955-39696ab41221")
 		)
@@ -7644,6 +7747,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 105.918 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "57ac07d7-e3d0-40e9-be6c-0d2026915168")
 		)
@@ -7777,7 +7889,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" " 80-C0603C223K4RAC"
+		(property "Mouser Part Number" "80-C0603C223K4RAC"
 			(at 166.116 153.67 0)
 			(effects
 				(font
@@ -7931,6 +8043,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 107.696 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "3a8c9fc2-6317-49e8-9d8a-aeb5b3996e8f")
 		)
@@ -8002,6 +8123,15 @@
 			)
 		)
 		(property "Mouser order number" "80-ESK478M050AQ3AA"
+			(at 93.726 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ESK478M050AQ3AA"
 			(at 93.726 31.75 0)
 			(effects
 				(font
@@ -8580,6 +8710,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RT0603FRE0768KL"
+			(at 130.81 165.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "baf15c63-cc10-4257-806e-1fc93cd3369e")
 		)
@@ -8651,6 +8790,15 @@
 			)
 		)
 		(property "RS order number" "125-1172"
+			(at 87.63 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "279-CRGH0603F100R"
 			(at 87.63 83.82 0)
 			(effects
 				(font
@@ -9094,6 +9242,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "490-HSB06-181810"
+			(at 216.408 66.548 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "PAD"
 			(uuid "ec220a10-12f7-41ea-be33-79c72513d0a4")
 		)
@@ -9161,6 +9318,15 @@
 			)
 		)
 		(property "RS order number" "466-3706"
+			(at 266.7 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "604-AP1608SGC"
 			(at 266.7 97.79 0)
 			(effects
 				(font
@@ -9694,6 +9860,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+			(at 229.616 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "be21fcab-7898-4cf2-a766-9e53b6948ee0")
 		)
@@ -9765,6 +9940,15 @@
 			)
 		)
 		(property "RS order number" "788-3060"
+			(at 255.016 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
 			(at 255.016 30.48 0)
 			(effects
 				(font
@@ -9861,6 +10045,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "647-UCD1J471MNQ1MS "
+			(at 248.92 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9447cd37-4a18-4587-9262-8cdcbaa1dacf")
 		)
@@ -9932,6 +10125,15 @@
 			)
 		)
 		(property "RS order number" "113-8707"
+			(at 242.316 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A475KBQNNNE"
 			(at 242.316 30.48 0)
 			(effects
 				(font
@@ -10098,6 +10300,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "604-AP1608SGC"
+			(at 27.94 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8ddf07ca-3356-4e04-a07e-1d82531baae1")
 		)
@@ -10233,6 +10444,15 @@
 			)
 		)
 		(property "RS order number" "242-7372"
+			(at 163.83 87.884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
 			(at 163.83 87.884 0)
 			(effects
 				(font
@@ -10531,6 +10751,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "637-BAT54WS"
+			(at 163.576 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "a6d9f8ed-fbb7-4cc9-8019-2db2beb12618")
 		)
@@ -10610,6 +10839,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "963-UMK107BJ105KA-T"
+			(at 45.466 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4f2ba82e-ef24-4a51-a9c4-fc14c61d82b2")
 		)
@@ -10681,6 +10919,15 @@
 			)
 		)
 		(property "RS order number" "113-8707"
+			(at 200.406 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "187-CL21A475KBQNNNE"
 			(at 200.406 116.84 0)
 			(effects
 				(font
@@ -10839,6 +11086,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 257.048 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 257.048 48.768 0)
 			(effects
 				(font
@@ -11053,6 +11309,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "660-TLR3APSDTE2L00F7"
+			(at 96.52 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "8b66949d-3ed2-4179-a885-6e1b833c9dc1")
 		)
@@ -11133,6 +11398,15 @@
 			)
 		)
 		(property "Mouser order number" "647-UCD1J471MNQ1MS "
+			(at 63.5 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "647-UCD1J471MNQ1MS "
 			(at 63.5 33.02 0)
 			(effects
 				(font
@@ -11508,6 +11782,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "279-CRGH0603F100R"
+			(at 72.39 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "59e96522-c468-439d-8573-f5fd4fd15a5d")
 		)
@@ -11735,6 +12018,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "810-C3216X5R1E476M"
+			(at 69.596 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0479d77d-9223-4bad-a795-46b7800568ca")
 		)
@@ -11806,6 +12098,15 @@
 			)
 		)
 		(property "Mouser order number" "490-HSB06-181810"
+			(at 126.238 71.628 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "490-HSB06-181810"
 			(at 126.238 71.628 0)
 			(effects
 				(font
@@ -12048,6 +12349,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "652-CR0603FX-3602ELF"
+			(at 83.82 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "53f7a60b-fc54-4d6a-932d-b4363cda46b6")
 		)
@@ -12198,6 +12508,15 @@
 			)
 		)
 		(property "Mouser order number" "80-ESK478M050AQ3AA"
+			(at 279.146 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "80-ESK478M050AQ3AA"
 			(at 279.146 30.48 0)
 			(effects
 				(font
