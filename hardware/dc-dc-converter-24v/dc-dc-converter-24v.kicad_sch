@@ -1902,6 +1902,15 @@
 					(hide yes)
 				)
 			)
+			(property "Mouser Part Number" "77-VJ0603A561JXAAC"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
 			(property "ki_keywords" "cap capacitor"
 				(at 0 0 0)
 				(effects
@@ -3058,6 +3067,15 @@
 				)
 			)
 			(property "RS order number" "213-2266"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RC0603FR-101KL"
 				(at -17.78 1.27 0)
 				(effects
 					(font
@@ -4255,6 +4273,15 @@
 				)
 			)
 			(property "RS order number" "188-5140"
+				(at -2.54 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "78-SQJA42EP-T1_GE3"
 				(at -2.54 -5.08 0)
 				(effects
 					(font
@@ -7668,6 +7695,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "603-RC0603FR-101KL"
+			(at 10.16 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "cd27e5bb-d37f-4eb2-bb24-a7e16628ced3")
 		)
@@ -8354,6 +8390,15 @@
 			)
 		)
 		(property "RS order number" "135-6233"
+			(at 242.57 37.084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "77-VJ0603A561JXAAC"
 			(at 242.57 37.084 0)
 			(effects
 				(font
@@ -10219,6 +10264,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SQJA42EP-T1_GE3"
+			(at 232.41 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f37369e4-d1b2-46ed-bcb5-1dd559b8185f")
 		)
@@ -11870,6 +11924,15 @@
 				(hide yes)
 			)
 		)
+		(property "Mouser Part Number" "78-SQJA42EP-T1_GE3"
+			(at 218.44 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "519b94f0-aa95-47b7-b7ff-9be4373138fa")
 		)
@@ -12183,6 +12246,15 @@
 			)
 		)
 		(property "RS order number" "213-2266"
+			(at 248.92 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RC0603FR-101KL"
 			(at 248.92 85.09 0)
 			(effects
 				(font
