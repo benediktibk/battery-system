@@ -1269,30 +1269,50 @@
 				)
 			)
 		)
-		(symbol "benediktibk:L_22uH_1_9A_9MHz_10%"
-			(pin_numbers hide)
-			(pin_names
-				(offset 1.016) hide)
+		(symbol "benediktibk:RLB0914-220KL"
+			(pin_names hide)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "L"
-				(at -1.27 0 90)
+				(at 16.51 6.35 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Value" "L_22uH_1_9A_9MHz_10%"
-				(at 1.905 0 90)
+			(property "Value" "RLB0914-220KL"
+				(at 16.51 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 				)
 			)
-			(property "Footprint" "benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP"
+			(property "Footprint" "benediktibk:RLB0914220KL"
+				(at 16.51 -96.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://www.arrow.com/en/products/rlb0914-220kl/bourns"
+				(at 16.51 -196.19 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Fixed Inductors 22uH 10% 1.9A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1301,67 +1321,33 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
+			(property "Height" "13"
+				(at 16.51 -396.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Description" "Inductor"
-				(at 0 0 0)
+			(property "Mouser Part Number" "652-RLB0914-220KL"
+				(at 16.51 -496.19 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
+					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "RS order number" "800-4388"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Mouser Part Number" "580-13R223C"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "inductor choke coil reactor magnetic"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Choke_* *Coil* Inductor_* L_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "L_22uH_1_9A_9MHz_10%_0_1"
+			(symbol "RLB0914-220KL_1_1"
 				(arc
-					(start 0 -2.54)
-					(mid 0.6323 -1.905)
-					(end 0 -1.27)
+					(start 7.62 0)
+					(mid 6.35 1.219)
+					(end 5.08 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1369,11 +1355,11 @@
 					)
 				)
 				(arc
-					(start 0 -1.27)
-					(mid 0.6323 -0.635)
-					(end 0 0)
+					(start 10.16 0)
+					(mid 8.89 1.219)
+					(end 7.62 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1381,11 +1367,11 @@
 					)
 				)
 				(arc
-					(start 0 0)
-					(mid 0.6323 0.635)
-					(end 0 1.27)
+					(start 12.7 0)
+					(mid 11.43 1.219)
+					(end 10.16 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
@@ -1393,22 +1379,20 @@
 					)
 				)
 				(arc
-					(start 0 1.27)
-					(mid 0.6323 1.905)
-					(end 0 2.54)
+					(start 15.24 0)
+					(mid 13.97 1.219)
+					(end 12.7 0)
 					(stroke
-						(width 0)
+						(width 0.254)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-			)
-			(symbol "L_22uH_1_9A_9MHz_10%_1_1"
 				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
+					(at 0 0 0)
+					(length 5.08)
 					(name "1"
 						(effects
 							(font
@@ -1425,8 +1409,8 @@
 					)
 				)
 				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
+					(at 20.32 0 180)
+					(length 5.08)
 					(name "2"
 						(effects
 							(font
@@ -2357,7 +2341,7 @@
 		(uuid "31895e9b-fea8-421a-88ab-05a59810dd52")
 	)
 	(junction
-		(at 162.56 72.39)
+		(at 172.72 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3fef6b8b-4b82-4d4d-8a89-40f6bc85020c")
@@ -2387,13 +2371,13 @@
 		(uuid "926a417b-398e-4b80-b421-2ba4859a81f3")
 	)
 	(junction
-		(at 172.72 72.39)
+		(at 182.88 72.39)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9ac2c9f9-371f-441e-8cb6-ef86091dbd53")
 	)
 	(junction
-		(at 162.56 39.37)
+		(at 172.72 39.37)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acec0976-d5df-4874-a14e-7610f382e2a6")
@@ -2405,13 +2389,13 @@
 		(uuid "ad9abf29-428f-4e6b-ae09-a186428d435a")
 	)
 	(junction
-		(at 162.56 91.44)
+		(at 172.72 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c3ed79dc-52ae-49b6-8230-11455de572dc")
 	)
 	(junction
-		(at 162.56 20.32)
+		(at 172.72 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ca265937-4cc0-4102-8b57-ba6451f00e86")
@@ -2435,7 +2419,7 @@
 		(uuid "e6e29d38-8297-4691-bc16-91b382ab1cfc")
 	)
 	(junction
-		(at 172.72 20.32)
+		(at 182.88 20.32)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ea6b82a5-29bf-43be-82c9-f7d73229c26e")
@@ -2526,7 +2510,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 29.21) (xy 162.56 30.48)
+			(xy 172.72 29.21) (xy 172.72 30.48)
 		)
 		(stroke
 			(width 0)
@@ -2566,7 +2550,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 92.71) (xy 162.56 91.44)
+			(xy 172.72 92.71) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -2606,7 +2590,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 39.37) (xy 162.56 39.37)
+			(xy 142.24 39.37) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -2706,7 +2690,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 100.33) (xy 162.56 101.6)
+			(xy 172.72 100.33) (xy 172.72 101.6)
 		)
 		(stroke
 			(width 0)
@@ -2756,7 +2740,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 91.44) (xy 162.56 90.17)
+			(xy 172.72 91.44) (xy 172.72 90.17)
 		)
 		(stroke
 			(width 0)
@@ -2766,7 +2750,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 95.25) (xy 172.72 110.49)
+			(xy 182.88 95.25) (xy 182.88 110.49)
 		)
 		(stroke
 			(width 0)
@@ -2786,7 +2770,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 20.32) (xy 162.56 21.59)
+			(xy 172.72 20.32) (xy 172.72 21.59)
 		)
 		(stroke
 			(width 0)
@@ -2836,13 +2820,23 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 172.72 87.63)
+			(xy 182.88 72.39) (xy 182.88 87.63)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "4e8b0dfb-acf5-46f6-b235-5d79034e0fa7")
+	)
+	(wire
+		(pts
+			(xy 166.37 72.39) (xy 172.72 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4ea6b2a6-9079-48f5-ba8c-8201210a3ec8")
 	)
 	(wire
 		(pts
@@ -2853,6 +2847,16 @@
 			(type default)
 		)
 		(uuid "4ed57231-637a-406e-b20c-f5f2e2939ce9")
+	)
+	(wire
+		(pts
+			(xy 142.24 20.32) (xy 146.05 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5081525d-6fd6-4722-8114-9ff5528449d2")
 	)
 	(wire
 		(pts
@@ -2886,6 +2890,16 @@
 	)
 	(wire
 		(pts
+			(xy 166.37 20.32) (xy 172.72 20.32)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542818e5-d684-42fe-8b55-75e9a9988765")
+	)
+	(wire
+		(pts
 			(xy 93.98 36.83) (xy 93.98 58.42)
 		)
 		(stroke
@@ -2896,17 +2910,7 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 72.39) (xy 162.56 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5c25f738-3297-4e1c-a557-9f399ace397e")
-	)
-	(wire
-		(pts
-			(xy 162.56 48.26) (xy 162.56 49.53)
+			(xy 172.72 48.26) (xy 172.72 49.53)
 		)
 		(stroke
 			(width 0)
@@ -2936,16 +2940,6 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 20.32) (xy 162.56 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "62c1dca1-d017-4192-b224-eae1422222ea")
-	)
-	(wire
-		(pts
 			(xy 86.36 106.68) (xy 86.36 110.49)
 		)
 		(stroke
@@ -2956,7 +2950,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 38.1) (xy 162.56 39.37)
+			(xy 172.72 38.1) (xy 172.72 39.37)
 		)
 		(stroke
 			(width 0)
@@ -3046,17 +3040,7 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 20.32) (xy 142.24 20.32)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7c35fcee-64dc-41af-9fc0-75ab242b5125")
-	)
-	(wire
-		(pts
-			(xy 162.56 73.66) (xy 162.56 72.39)
+			(xy 172.72 73.66) (xy 172.72 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3086,16 +3070,6 @@
 	)
 	(wire
 		(pts
-			(xy 152.4 72.39) (xy 142.24 72.39)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "825bd913-2516-4fc6-8237-730285c20bf7")
-	)
-	(wire
-		(pts
 			(xy 83.82 138.43) (xy 83.82 154.94)
 		)
 		(stroke
@@ -3106,7 +3080,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 43.18) (xy 172.72 58.42)
+			(xy 182.88 43.18) (xy 182.88 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3156,7 +3130,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 109.22) (xy 162.56 110.49)
+			(xy 172.72 109.22) (xy 172.72 110.49)
 		)
 		(stroke
 			(width 0)
@@ -3186,7 +3160,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 91.44) (xy 162.56 91.44)
+			(xy 142.24 91.44) (xy 172.72 91.44)
 		)
 		(stroke
 			(width 0)
@@ -3216,7 +3190,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 72.39) (xy 172.72 72.39)
+			(xy 172.72 72.39) (xy 182.88 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3246,7 +3220,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 57.15) (xy 162.56 58.42)
+			(xy 172.72 57.15) (xy 172.72 58.42)
 		)
 		(stroke
 			(width 0)
@@ -3316,6 +3290,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 72.39) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b517865a-888b-43e7-ba95-6e82e17670a9")
+	)
+	(wire
+		(pts
 			(xy 83.82 129.54) (xy 111.76 129.54)
 		)
 		(stroke
@@ -3326,7 +3310,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 81.28) (xy 162.56 82.55)
+			(xy 172.72 81.28) (xy 172.72 82.55)
 		)
 		(stroke
 			(width 0)
@@ -3356,7 +3340,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 72.39) (xy 207.01 72.39)
+			(xy 182.88 72.39) (xy 207.01 72.39)
 		)
 		(stroke
 			(width 0)
@@ -3426,7 +3410,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 35.56) (xy 172.72 20.32)
+			(xy 182.88 35.56) (xy 182.88 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3456,7 +3440,7 @@
 	)
 	(wire
 		(pts
-			(xy 172.72 20.32) (xy 190.5 20.32)
+			(xy 182.88 20.32) (xy 200.66 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3536,7 +3520,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 39.37) (xy 162.56 40.64)
+			(xy 172.72 39.37) (xy 172.72 40.64)
 		)
 		(stroke
 			(width 0)
@@ -3566,7 +3550,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 20.32) (xy 172.72 20.32)
+			(xy 172.72 20.32) (xy 182.88 20.32)
 		)
 		(stroke
 			(width 0)
@@ -3691,7 +3675,7 @@
 	)
 	(hierarchical_label "3V3"
 		(shape output)
-		(at 190.5 20.32 0)
+		(at 200.66 20.32 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3713,7 +3697,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 162.56 86.36 0)
+		(at 172.72 86.36 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3721,7 +3705,7 @@
 		(dnp no)
 		(uuid "0307e6fd-98c5-41e5-ba5e-0aec455c2e44")
 		(property "Reference" "R12"
-			(at 165.1 85.0899 0)
+			(at 175.26 85.0899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3730,7 +3714,7 @@
 			)
 		)
 		(property "Value" "10kOhm"
-			(at 165.1 87.63 0)
+			(at 175.26 87.63 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3739,7 +3723,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 85.852 90)
+			(at 162.56 85.852 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3748,7 +3732,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 86.36 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3757,7 +3741,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 86.36 0)
+			(at 172.72 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3766,7 +3750,7 @@
 			)
 		)
 		(property "RS order number" "125-1173"
-			(at 144.78 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3775,7 +3759,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
-			(at 144.78 85.09 0)
+			(at 154.94 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3953,7 +3937,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_390kOhm_SMD_0603_100mW_1%")
-		(at 162.56 25.4 0)
+		(at 172.72 25.4 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3962,7 +3946,7 @@
 		(fields_autoplaced yes)
 		(uuid "06970e0c-ea90-4b97-a0b9-320fd6ed5736")
 		(property "Reference" "R7"
-			(at 165.1 24.1299 0)
+			(at 175.26 24.1299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3971,7 +3955,7 @@
 			)
 		)
 		(property "Value" "390kOhm"
-			(at 165.1 26.6699 0)
+			(at 175.26 26.6699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3980,7 +3964,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 24.892 90)
+			(at 162.56 24.892 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3989,7 +3973,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 25.4 0)
+			(at 172.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3998,7 +3982,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 25.4 0)
+			(at 172.72 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4007,7 +3991,7 @@
 			)
 		)
 		(property "RS order number" "679-0279"
-			(at 144.78 24.13 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4016,7 +4000,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE07390KL"
-			(at 144.78 24.13 0)
+			(at 154.94 24.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4041,7 +4025,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_390kOhm_SMD_0603_100mW_1%")
-		(at 162.56 77.47 0)
+		(at 172.72 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4050,7 +4034,7 @@
 		(fields_autoplaced yes)
 		(uuid "079d05df-8bd6-4e12-a31c-df48bb054e9f")
 		(property "Reference" "R11"
-			(at 165.1 76.1999 0)
+			(at 175.26 76.1999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4059,7 +4043,7 @@
 			)
 		)
 		(property "Value" "390kOhm"
-			(at 165.1 78.7399 0)
+			(at 175.26 78.7399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4068,7 +4052,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 76.962 90)
+			(at 162.56 76.962 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4061,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 77.47 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4070,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 77.47 0)
+			(at 172.72 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4079,7 @@
 			)
 		)
 		(property "RS order number" "679-0279"
-			(at 144.78 76.2 0)
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4088,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE07390KL"
-			(at 144.78 76.2 0)
+			(at 154.94 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4129,7 +4113,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_39kOhm_SMD_0603_100mW_1%")
-		(at 162.56 105.41 0)
+		(at 172.72 105.41 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4138,7 +4122,7 @@
 		(fields_autoplaced yes)
 		(uuid "08cd49e6-9ce9-4026-83e7-590377f01941")
 		(property "Reference" "R14"
-			(at 165.1 104.1399 0)
+			(at 175.26 104.1399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4147,7 +4131,7 @@
 			)
 		)
 		(property "Value" "39kOhm"
-			(at 165.1 106.6799 0)
+			(at 175.26 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +4140,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 104.902 90)
+			(at 162.56 104.902 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +4149,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 105.41 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +4158,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 105.41 0)
+			(at 172.72 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +4167,7 @@
 			)
 		)
 		(property "RS order number" "679-0285"
-			(at 144.78 104.14 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +4176,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1039KL"
-			(at 144.78 104.14 0)
+			(at 154.94 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,6 +4636,96 @@
 		)
 	)
 	(symbol
+		(lib_id "benediktibk:RLB0914-220KL")
+		(at 146.05 20.32 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a281ccf-69cf-4ad9-8194-f857ac50b382")
+		(property "Reference" "L1"
+			(at 156.21 13.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RLB0914-220KL"
+			(at 156.21 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:RLB0914220KL"
+			(at 162.56 116.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/rlb0914-220kl/bourns"
+			(at 162.56 216.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Inductors 22uH 10% 1.9A"
+			(at 146.05 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at 162.56 416.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-RLB0914-220KL"
+			(at 162.56 516.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "076664a8-deda-438d-ab51-26ae8927a33c")
+		)
+		(pin "2"
+			(uuid "882a5ade-7ccd-412d-98fe-e1a53b91d983")
+		)
+		(instances
+			(project ""
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
+					(reference "L1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 127 110.49 0)
 		(unit 1)
@@ -4823,7 +4897,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:C_47uF_SMD_1206_25V_20%")
-		(at 172.72 39.37 0)
+		(at 182.88 39.37 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4832,7 +4906,7 @@
 		(fields_autoplaced yes)
 		(uuid "339a4312-b4f7-4565-a161-5d2d814593d2")
 		(property "Reference" "C4"
-			(at 176.53 38.0999 0)
+			(at 186.69 38.0999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4841,7 +4915,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 176.53 40.6399 0)
+			(at 186.69 40.6399 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4850,7 +4924,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 173.6852 43.18 0)
+			(at 183.8452 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4859,7 +4933,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 39.37 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4942,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 39.37 0)
+			(at 182.88 39.37 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4877,7 +4951,7 @@
 			)
 		)
 		(property "RS order number" "788-3060"
-			(at 190.246 38.1 0)
+			(at 200.406 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4960,7 @@
 			)
 		)
 		(property "Mouser Part Number" "810-C3216X5R1E476M"
-			(at 190.246 38.1 0)
+			(at 200.406 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4911,7 +4985,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 110.49 0)
+		(at 182.88 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4920,7 +4994,7 @@
 		(fields_autoplaced yes)
 		(uuid "342e47b5-a447-4377-a2dc-c39c8b67d03a")
 		(property "Reference" "#PWR029"
-			(at 172.72 116.84 0)
+			(at 182.88 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4929,7 +5003,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 115.57 0)
+			(at 182.88 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4937,7 +5011,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 110.49 0)
+			(at 182.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4946,7 +5020,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 110.49 0)
+			(at 182.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4955,7 +5029,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 110.49 0)
+			(at 182.88 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5949,94 +6023,8 @@
 		)
 	)
 	(symbol
-		(lib_id "benediktibk:L_22uH_1_9A_9MHz_10%")
-		(at 156.21 20.32 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "69a85d78-ccff-4a0d-94c9-262d9c9ab009")
-		(property "Reference" "L1"
-			(at 156.21 21.59 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uH"
-			(at 156.21 18.415 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP"
-			(at 156.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 156.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "800-4388"
-			(at 156.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "580-13R223C"
-			(at 156.21 20.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7a3591b2-acb9-4553-987b-59cb72bfb18d")
-		)
-		(pin "2"
-			(uuid "88e790d4-74ff-424a-b853-5a6a4e4b487c")
-		)
-		(instances
-			(project "battery-management-system"
-				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-					(reference "L1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
-		(at 162.56 44.45 0)
+		(at 172.72 44.45 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6044,7 +6032,7 @@
 		(dnp no)
 		(uuid "6df7a885-31dc-4c2d-8ebe-f14fb8a24dd3")
 		(property "Reference" "R9"
-			(at 165.1 43.1799 0)
+			(at 175.26 43.1799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6053,7 +6041,7 @@
 			)
 		)
 		(property "Value" "100kOhm"
-			(at 170.18 45.72 0)
+			(at 180.34 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6061,7 +6049,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 43.942 90)
+			(at 162.56 43.942 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6070,7 +6058,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 44.45 0)
+			(at 172.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6079,7 +6067,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 44.45 0)
+			(at 172.72 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6088,7 +6076,7 @@
 			)
 		)
 		(property "RS order number" "213-2531"
-			(at 144.78 43.18 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6097,7 +6085,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE13100KL"
-			(at 144.78 43.18 0)
+			(at 154.94 43.18 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6122,7 +6110,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 58.42 0)
+		(at 172.72 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6131,7 +6119,7 @@
 		(fields_autoplaced yes)
 		(uuid "78686293-47fe-4c6c-a286-fd008fca3a93")
 		(property "Reference" "#PWR022"
-			(at 162.56 64.77 0)
+			(at 172.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6140,7 +6128,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 63.5 0)
+			(at 172.72 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6148,7 +6136,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 58.42 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6157,7 +6145,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 58.42 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6166,7 +6154,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 58.42 0)
+			(at 172.72 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6624,7 +6612,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_39kOhm_SMD_0603_100mW_1%")
-		(at 162.56 53.34 0)
+		(at 172.72 53.34 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6633,7 +6621,7 @@
 		(fields_autoplaced yes)
 		(uuid "9ff5dc86-a47e-43c3-983f-f62c61380b9c")
 		(property "Reference" "R10"
-			(at 165.1 52.0699 0)
+			(at 175.26 52.0699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6642,7 +6630,7 @@
 			)
 		)
 		(property "Value" "39kOhm"
-			(at 165.1 54.6099 0)
+			(at 175.26 54.6099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6651,7 +6639,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 52.832 90)
+			(at 162.56 52.832 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6660,7 +6648,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 53.34 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6669,7 +6657,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 53.34 0)
+			(at 172.72 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6678,7 +6666,7 @@
 			)
 		)
 		(property "RS order number" "679-0285"
-			(at 144.78 52.07 0)
+			(at 154.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6687,7 +6675,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RC0603FR-1039KL"
-			(at 144.78 52.07 0)
+			(at 154.94 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6998,7 +6986,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:C_47uF_SMD_1206_25V_20%")
-		(at 172.72 91.44 0)
+		(at 182.88 91.44 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7007,7 +6995,7 @@
 		(fields_autoplaced yes)
 		(uuid "b1aa8ffe-33a6-483e-8cb7-4437f79e9c72")
 		(property "Reference" "C8"
-			(at 176.53 90.1699 0)
+			(at 186.69 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7016,7 +7004,7 @@
 			)
 		)
 		(property "Value" "47uF"
-			(at 173.355 93.98 0)
+			(at 183.515 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7025,7 +7013,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:C_1206_3216Metric_Pad1.33x1.80mm_HandSolder"
-			(at 173.6852 95.25 0)
+			(at 183.8452 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7034,7 +7022,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 172.72 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7043,7 +7031,7 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
-			(at 172.72 91.44 0)
+			(at 182.88 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7040,7 @@
 			)
 		)
 		(property "RS order number" "788-3060"
-			(at 190.246 90.17 0)
+			(at 200.406 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7061,7 +7049,7 @@
 			)
 		)
 		(property "Mouser Part Number" "810-C3216X5R1E476M"
-			(at 190.246 90.17 0)
+			(at 200.406 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7079,6 +7067,96 @@
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:RLB0914-220KL")
+		(at 146.05 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b5fc9189-9638-4587-b183-2ebb63f6122b")
+		(property "Reference" "L2"
+			(at 156.21 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RLB0914-220KL"
+			(at 156.21 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "benediktibk:RLB0914220KL"
+			(at 162.56 168.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.arrow.com/en/products/rlb0914-220kl/bourns"
+			(at 162.56 268.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Fixed Inductors 22uH 10% 1.9A"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "13"
+			(at 162.56 468.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "652-RLB0914-220KL"
+			(at 162.56 568.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09261950-2ff9-4934-89d4-9abec081a3b4")
+		)
+		(pin "2"
+			(uuid "a34168f0-85a1-4d86-ac68-471dc0f239d0")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -7253,92 +7331,6 @@
 			(project "battery-management-system"
 				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
 					(reference "D8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "benediktibk:L_22uH_1_9A_9MHz_10%")
-		(at 156.21 72.39 270)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9c03f61-0307-46ad-9343-564933d74005")
-		(property "Reference" "L2"
-			(at 156.21 73.66 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22uH"
-			(at 156.21 70.485 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "benediktibk:L_Radial_D9.5mm_P5.00mm_Fastron_07HVP"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Inductor"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RS order number" "800-4388"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "580-13R223C"
-			(at 156.21 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f7175303-8b47-4be5-87a3-5b355cd38637")
-		)
-		(pin "2"
-			(uuid "5250d80b-225a-4a22-8c5b-301deac875bf")
-		)
-		(instances
-			(project "battery-management-system"
-				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/b1377397-46a1-4623-af59-88e4e694ca35"
-					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -7690,7 +7682,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 172.72 58.42 0)
+		(at 182.88 58.42 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7699,7 +7691,7 @@
 		(fields_autoplaced yes)
 		(uuid "e29dd9c5-8e74-42c1-b407-9ed657194438")
 		(property "Reference" "#PWR023"
-			(at 172.72 64.77 0)
+			(at 182.88 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7708,7 +7700,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 172.72 63.5 0)
+			(at 182.88 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7716,7 +7708,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 172.72 58.42 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7725,7 +7717,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 172.72 58.42 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7734,7 +7726,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 172.72 58.42 0)
+			(at 182.88 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7822,7 +7814,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_43kOhm_SMD_0603_100mW_1%")
-		(at 162.56 96.52 0)
+		(at 172.72 96.52 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7831,7 +7823,7 @@
 		(fields_autoplaced yes)
 		(uuid "e9836a19-c22e-4fa7-9f9e-2f576e3bd079")
 		(property "Reference" "R13"
-			(at 165.1 95.2499 0)
+			(at 175.26 95.2499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7840,7 +7832,7 @@
 			)
 		)
 		(property "Value" "43kOhm"
-			(at 165.1 97.7899 0)
+			(at 175.26 97.7899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7849,7 +7841,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 96.012 90)
+			(at 162.56 96.012 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7858,7 +7850,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7867,7 +7859,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 96.52 0)
+			(at 172.72 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7876,7 +7868,7 @@
 			)
 		)
 		(property "RS order number" "679-0386"
-			(at 144.78 95.25 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7885,7 +7877,7 @@
 			)
 		)
 		(property "Mouser Part Number" "603-RT0603FRE0743KL"
-			(at 144.78 95.25 0)
+			(at 154.94 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8042,7 +8034,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 162.56 110.49 0)
+		(at 172.72 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8051,7 +8043,7 @@
 		(fields_autoplaced yes)
 		(uuid "f1ba8ec8-f14b-4cba-9270-fa2c9998d97f")
 		(property "Reference" "#PWR028"
-			(at 162.56 116.84 0)
+			(at 172.72 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8060,7 +8052,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 162.56 115.57 0)
+			(at 172.72 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8068,7 +8060,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 162.56 110.49 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8077,7 +8069,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 162.56 110.49 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8086,7 +8078,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 162.56 110.49 0)
+			(at 172.72 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8174,7 +8166,7 @@
 	)
 	(symbol
 		(lib_id "benediktibk:R_10kOhm_SMD_0603_100mW_1%")
-		(at 162.56 34.29 0)
+		(at 172.72 34.29 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -8182,7 +8174,7 @@
 		(dnp no)
 		(uuid "f6dd7c91-63d9-4307-a47e-f03569a2a27f")
 		(property "Reference" "R8"
-			(at 165.1 33.0199 0)
+			(at 175.26 33.0199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8191,7 +8183,7 @@
 			)
 		)
 		(property "Value" "10kOhm"
-			(at 165.1 35.56 0)
+			(at 175.26 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8200,7 +8192,7 @@
 			)
 		)
 		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 152.4 33.782 90)
+			(at 162.56 33.782 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8209,7 +8201,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 162.56 34.29 0)
+			(at 172.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8218,7 +8210,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 162.56 34.29 0)
+			(at 172.72 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8227,7 +8219,7 @@
 			)
 		)
 		(property "RS order number" "125-1173"
-			(at 144.78 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8236,7 +8228,7 @@
 			)
 		)
 		(property "Mouser Part Number" "652-CR0603FX-1002ELF"
-			(at 144.78 33.02 0)
+			(at 154.94 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
