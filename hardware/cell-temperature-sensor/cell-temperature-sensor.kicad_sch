@@ -1,1050 +1,2855 @@
-(kicad_sch (version 20230121) (generator eeschema)
-
-  (uuid dea22479-9750-4b76-8de6-2d46ccf2ac30)
-
-  (paper "A4")
-
-  (lib_symbols
-    (symbol "benediktibk:C_100nF_SMD_0603_50V" (pin_numbers hide) (pin_names (offset 0.254)) (in_bom yes) (on_board yes)
-      (property "Reference" "C" (at 0.635 2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "C_100nF_SMD_0603_50V" (at 0.635 -2.54 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 0.9652 -3.81 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "RS order number" "242-7372" (at 17.526 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "cap capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Unpolarized capacitor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "C_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "C_100nF_SMD_0603_50V_0_1"
-        (polyline
-          (pts
-            (xy -2.032 -0.762)
-            (xy 2.032 -0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy -2.032 0.762)
-            (xy 2.032 0.762)
-          )
-          (stroke (width 0.508) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "C_100nF_SMD_0603_50V_1_1"
-        (pin passive line (at 0 3.81 270) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 2.794)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "benediktibk:NCT75DR2G" (in_bom yes) (on_board yes)
-      (property "Reference" "U" (at -7.62 6.35 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "NCT75DR2G" (at 2.54 -6.35 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "benediktibk:SOIC-8_3.9x4.9mm_P1.27mm" (at -0.762 9.652 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "RS order number" "805-1854" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "I2C Serial EEPROM" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "I2C Serial EEPROM, 2Kb, SOT-23" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "SOT?23*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "NCT75DR2G_1_1"
-        (rectangle (start -7.62 5.08) (end 7.62 -5.08)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin bidirectional line (at 10.16 3.81 180) (length 2.54)
-          (name "SDA" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 1.27 180) (length 2.54)
-          (name "SCL" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at 10.16 -1.27 180) (length 2.54)
-          (name "ALERT" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 -7.62 90) (length 2.54)
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 -1.27 0) (length 2.54)
-          (name "A2" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 1.27 0) (length 2.54)
-          (name "A1" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -10.16 3.81 0) (length 2.54)
-          (name "A0" (effects (font (size 1.27 1.27))))
-          (number "7" (effects (font (size 1.27 1.27))))
-        )
-        (pin power_in line (at 0 7.62 270) (length 2.54)
-          (name "V_{CC}" (effects (font (size 1.27 1.27))))
-          (number "8" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "benediktibk:R_100kOhm_SMD_0603_100mW_1%" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "R" (at 2.032 0 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "R_100kOhm_SMD_0603_100mW_1%" (at -5.588 -1.016 90)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at -10.16 0.508 90)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "RS order number" "213-2531" (at -17.78 1.27 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "R res resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Resistor" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "R_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "R_100kOhm_SMD_0603_100mW_1%_0_1"
-        (rectangle (start -1.016 -2.54) (end 1.016 2.54)
-          (stroke (width 0.254) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "R_100kOhm_SMD_0603_100mW_1%_1_1"
-        (pin passive line (at 0 3.81 270) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 0 -3.81 90) (length 1.27)
-          (name "~" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "benediktibk:SolderWirePad" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "J" (at 0 2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Value" "SolderWirePad" (at 0 -2.54 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "connector" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "SolderWirePad_1_1"
-        (rectangle (start -1.27 0.127) (end 0 -0.127)
-          (stroke (width 0.1524) (type default))
-          (fill (type none))
-        )
-        (rectangle (start -1.27 1.27) (end 1.27 -1.27)
-          (stroke (width 0.254) (type default))
-          (fill (type background))
-        )
-        (pin passive line (at -5.08 0 0) (length 3.81)
-          (name "Pin_1" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:GND" (power) (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "#PWR" (at 0 -6.35 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "GND" (at 0 -3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "global power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Power symbol creates a global label with name \"GND\" , ground" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "GND_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 -1.27)
-            (xy 1.27 -1.27)
-            (xy 0 -2.54)
-            (xy -1.27 -1.27)
-            (xy 0 -1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-      (symbol "GND_1_1"
-        (pin power_in line (at 0 0 270) (length 0) hide
-          (name "GND" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
-    (symbol "power:PWR_FLAG" (power) (pin_numbers hide) (pin_names (offset 0) hide) (in_bom yes) (on_board yes)
-      (property "Reference" "#FLG" (at 0 1.905 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Value" "PWR_FLAG" (at 0 3.81 0)
-        (effects (font (size 1.27 1.27)))
-      )
-      (property "Footprint" "" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "Datasheet" "~" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_keywords" "flag power" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (property "ki_description" "Special symbol for telling ERC where power comes from" (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "PWR_FLAG_0_0"
-        (pin power_out line (at 0 0 90) (length 0)
-          (name "pwr" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "PWR_FLAG_0_1"
-        (polyline
-          (pts
-            (xy 0 0)
-            (xy 0 1.27)
-            (xy -1.016 1.905)
-            (xy 0 2.54)
-            (xy 1.016 1.905)
-            (xy 0 1.27)
-          )
-          (stroke (width 0) (type default))
-          (fill (type none))
-        )
-      )
-    )
-  )
-
-  (junction (at 128.27 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 09c52685-3b2d-4533-83f1-d4815bf2c8ce)
-  )
-  (junction (at 115.57 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 23bf13c6-ed2a-450c-a0a6-78a1aec8a348)
-  )
-  (junction (at 40.64 43.18) (diameter 0) (color 0 0 0 0)
-    (uuid 2e5678b0-d70f-430d-bd39-fc07aff5f048)
-  )
-  (junction (at 88.9 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 505edc0f-b75d-488f-94fe-01d883bbca90)
-  )
-  (junction (at 102.87 44.45) (diameter 0) (color 0 0 0 0)
-    (uuid 54f3b72a-1d3c-4797-b643-d3f8ef95bca3)
-  )
-  (junction (at 128.27 54.61) (diameter 0) (color 0 0 0 0)
-    (uuid 7890c176-ed58-4696-b627-9f6024cc284c)
-  )
-  (junction (at 115.57 57.15) (diameter 0) (color 0 0 0 0)
-    (uuid 9ed175dd-e14f-4812-98f5-1d2c96b07efe)
-  )
-  (junction (at 102.87 59.69) (diameter 0) (color 0 0 0 0)
-    (uuid d480c9cc-85cc-4ec3-919e-057be27654d3)
-  )
-  (junction (at 40.64 27.94) (diameter 0) (color 0 0 0 0)
-    (uuid f37ff093-1c59-4f5a-8007-feda678ad1b4)
-  )
-
-  (no_connect (at 156.21 59.69) (uuid 580142f8-fccb-4266-afe2-9a854a4a8579))
-
-  (wire (pts (xy 50.8 27.94) (xy 40.64 27.94))
-    (stroke (width 0) (type default))
-    (uuid 088c654f-7b36-44c2-91e2-f7008674bc14)
-  )
-  (wire (pts (xy 135.89 59.69) (xy 102.87 59.69))
-    (stroke (width 0) (type default))
-    (uuid 0abcfc44-8068-4d13-b4dd-c6e4820c1b3f)
-  )
-  (wire (pts (xy 102.87 69.85) (xy 102.87 72.39))
-    (stroke (width 0) (type default))
-    (uuid 115b4c98-9451-4446-85b1-7638a9761abe)
-  )
-  (wire (pts (xy 146.05 66.04) (xy 146.05 72.39))
-    (stroke (width 0) (type default))
-    (uuid 1bc48615-b411-4179-ad09-ec8dda9d4e68)
-  )
-  (wire (pts (xy 82.55 44.45) (xy 88.9 44.45))
-    (stroke (width 0) (type default))
-    (uuid 3274bcca-ff95-4ddd-aedc-de9faa2677e3)
-  )
-  (wire (pts (xy 102.87 53.34) (xy 102.87 59.69))
-    (stroke (width 0) (type default))
-    (uuid 54dc888b-e99a-4454-b3fb-3e5dd7d8ce90)
-  )
-  (wire (pts (xy 102.87 59.69) (xy 102.87 62.23))
-    (stroke (width 0) (type default))
-    (uuid 57593c1f-471f-4494-a17b-2af46e173453)
-  )
-  (wire (pts (xy 40.64 27.94) (xy 34.29 27.94))
-    (stroke (width 0) (type default))
-    (uuid 5c5978c6-f479-49ca-9e84-de9d62bc2cf2)
-  )
-  (wire (pts (xy 50.8 38.1) (xy 34.29 38.1))
-    (stroke (width 0) (type default))
-    (uuid 73d3265f-1570-44e7-8d0d-168bf4bc9e01)
-  )
-  (wire (pts (xy 115.57 53.34) (xy 115.57 57.15))
-    (stroke (width 0) (type default))
-    (uuid 7ee6e221-28b3-4465-bb2a-3543a6276897)
-  )
-  (wire (pts (xy 135.89 57.15) (xy 115.57 57.15))
-    (stroke (width 0) (type default))
-    (uuid 84a29782-bb7e-41b8-89aa-5c62cb1201ce)
-  )
-  (wire (pts (xy 102.87 45.72) (xy 102.87 44.45))
-    (stroke (width 0) (type default))
-    (uuid 916c4fda-50ff-4d31-a472-dc5f937dfa58)
-  )
-  (wire (pts (xy 40.64 48.26) (xy 40.64 43.18))
-    (stroke (width 0) (type default))
-    (uuid 927d3f02-0365-4b08-ab22-290645f33474)
-  )
-  (wire (pts (xy 128.27 54.61) (xy 128.27 62.23))
-    (stroke (width 0) (type default))
-    (uuid 933af91a-b0f2-414c-819e-266ef6946a1e)
-  )
-  (wire (pts (xy 88.9 60.96) (xy 88.9 72.39))
-    (stroke (width 0) (type default))
-    (uuid 93d0aaf2-830a-4dc5-98af-56384cc2a808)
-  )
-  (wire (pts (xy 128.27 69.85) (xy 128.27 72.39))
-    (stroke (width 0) (type default))
-    (uuid 94e53276-630f-4c22-8b36-ac4a201a8fa3)
-  )
-  (wire (pts (xy 88.9 44.45) (xy 102.87 44.45))
-    (stroke (width 0) (type default))
-    (uuid 99534f16-8c8d-484f-8a14-a4309aecbc74)
-  )
-  (wire (pts (xy 128.27 53.34) (xy 128.27 54.61))
-    (stroke (width 0) (type default))
-    (uuid 9a28f4ea-7b6e-4519-b6d0-1eddcfefead5)
-  )
-  (wire (pts (xy 50.8 33.02) (xy 34.29 33.02))
-    (stroke (width 0) (type default))
-    (uuid aa78e958-765c-4ec1-86ff-684e64ffee85)
-  )
-  (wire (pts (xy 40.64 43.18) (xy 34.29 43.18))
-    (stroke (width 0) (type default))
-    (uuid b78fa3ea-2b26-460f-aea7-530816671d80)
-  )
-  (wire (pts (xy 115.57 57.15) (xy 115.57 62.23))
-    (stroke (width 0) (type default))
-    (uuid ca34cc89-9a9d-41fd-9bdc-cfbad5513ccb)
-  )
-  (wire (pts (xy 156.21 54.61) (xy 165.1 54.61))
-    (stroke (width 0) (type default))
-    (uuid caea5c42-d689-4d31-aa80-b2eeeff1fb46)
-  )
-  (wire (pts (xy 115.57 69.85) (xy 115.57 72.39))
-    (stroke (width 0) (type default))
-    (uuid d391881c-63f3-4c8a-8b33-4c40959bcd4d)
-  )
-  (wire (pts (xy 115.57 45.72) (xy 115.57 44.45))
-    (stroke (width 0) (type default))
-    (uuid d7aedc9a-2bb3-409d-bf5e-79626104d41a)
-  )
-  (wire (pts (xy 128.27 45.72) (xy 128.27 44.45))
-    (stroke (width 0) (type default))
-    (uuid d7eda660-52d6-4556-97c8-24ce8e91cfcf)
-  )
-  (wire (pts (xy 128.27 54.61) (xy 135.89 54.61))
-    (stroke (width 0) (type default))
-    (uuid e4eb90aa-5ff4-4542-88c5-aabc7873ed32)
-  )
-  (wire (pts (xy 102.87 44.45) (xy 115.57 44.45))
-    (stroke (width 0) (type default))
-    (uuid ee66a79b-8b0e-43f3-9da9-10394ad153ee)
-  )
-  (wire (pts (xy 156.21 57.15) (xy 165.1 57.15))
-    (stroke (width 0) (type default))
-    (uuid f4460267-a2b5-467d-8ab8-6f141a92de7d)
-  )
-  (wire (pts (xy 88.9 53.34) (xy 88.9 44.45))
-    (stroke (width 0) (type default))
-    (uuid f5739b3f-6a81-4a59-887c-d8114a56670e)
-  )
-  (wire (pts (xy 128.27 44.45) (xy 146.05 44.45))
-    (stroke (width 0) (type default))
-    (uuid f97c65a0-bd59-490b-b7c8-481387551d42)
-  )
-  (wire (pts (xy 146.05 50.8) (xy 146.05 44.45))
-    (stroke (width 0) (type default))
-    (uuid fa133e62-0efe-4b0e-a061-2130f9b6e7b6)
-  )
-  (wire (pts (xy 115.57 44.45) (xy 128.27 44.45))
-    (stroke (width 0) (type default))
-    (uuid fc18f819-59e0-468c-aa60-d23166835f9d)
-  )
-
-  (label "SDA" (at 165.1 54.61 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3bc33aeb-2a7d-4905-981b-fb7e2ff554b9)
-  )
-  (label "SCL" (at 50.8 33.02 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 3c7d997b-7cd1-4183-9f43-08017e4ff6e6)
-  )
-  (label "SCL" (at 165.1 57.15 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 66fd7d9e-ce08-4274-a33d-b133714f6b37)
-  )
-  (label "3V3" (at 82.55 44.45 0) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify left bottom))
-    (uuid 6c4a59c0-6d1c-4ce7-912e-eb96d6a4eff3)
-  )
-  (label "3V3" (at 50.8 27.94 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid 7d0d795e-e438-4a1f-b610-66162e499327)
-  )
-  (label "SDA" (at 50.8 38.1 180) (fields_autoplaced)
-    (effects (font (size 1.27 1.27)) (justify right bottom))
-    (uuid ef5ffeaf-9471-4b08-a778-910ee3b24ce3)
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 40.64 27.94 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 0dd40706-a6f6-43c7-9745-cf9a9123dbb2)
-    (property "Reference" "#FLG01" (at 40.64 26.035 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 40.64 24.13 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 40.64 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid f18db9e9-04ad-4a0f-ba5c-ff60ba69649d))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#FLG01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 146.05 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 1188462a-4bbe-41d9-bf28-e96421ca4cc8)
-    (property "Reference" "#PWR052" (at 146.05 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 146.05 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 146.05 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 146.05 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 0657750f-9aaf-46bf-87f7-bb6a36abbb67))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR03") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:NCT75DR2G") (at 146.05 58.42 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 1510aa69-6264-4a68-9e31-5216a6ff1cea)
-    (property "Reference" "U9" (at 148.0694 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "NCT75DR2G" (at 148.0694 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:SOIC-8_3.9x4.9mm_P1.27mm" (at 145.288 48.768 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 146.05 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "805-1854" (at 146.05 58.42 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "I2C Address" "0x48" (at 165.1 59.69 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 023a3aec-a3e8-43a5-a171-fe915cc4caca))
-    (pin "2" (uuid 6f1dc6b7-2838-44bd-8b17-37b54e0218d8))
-    (pin "3" (uuid 47ec3d9f-b639-4615-9436-2bfcdd2be465))
-    (pin "4" (uuid 271b1afa-fc2e-4f4d-a10f-b7563875561a))
-    (pin "5" (uuid 004f0c70-650a-4835-98f6-f0ceb715e62f))
-    (pin "6" (uuid bba7e107-95fd-4041-8ce7-40afe3acc4aa))
-    (pin "7" (uuid 85164bab-4e34-442c-87e9-83982528daa1))
-    (pin "8" (uuid fa3bd483-9697-4687-aac0-9c248bfeedcc))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "U9") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "U1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 88.9 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 3d41b205-2f8b-459d-aa59-5cb39cdf852f)
-    (property "Reference" "#PWR052" (at 88.9 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 88.9 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 88.9 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 88.9 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e53a492-0a76-4914-9a72-996031dc3774))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:SolderWirePad") (at 29.21 33.02 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 51c9cd7d-c7aa-4124-bedb-63e54e10c596)
-    (property "Reference" "J2" (at 26.67 31.75 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SCL" (at 26.67 34.29 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm" (at 29.21 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 33.02 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 47af3bc3-adea-4b00-8dc8-d56c55264f2e))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "J2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 102.87 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 5a055486-13a5-4284-a658-0284f9b10553)
-    (property "Reference" "R5" (at 105.41 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 105.41 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 92.71 49.022 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 85.09 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 5b8701c5-bbbe-4dba-bd72-9f7d91b639ef))
-    (pin "1" (uuid 7e16cba6-a3ee-49b3-ba36-a05c5a9d487a))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R5") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:PWR_FLAG") (at 40.64 43.18 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 5ed8e99c-ad37-4f1e-8599-9cff5ff26c5c)
-    (property "Reference" "#FLG02" (at 40.64 41.275 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "PWR_FLAG" (at 40.64 39.37 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 40.64 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d8992e3d-8433-431b-af21-ecc944dcc928))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#FLG02") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 102.87 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 642453b4-1c88-4562-84f9-60e404f80ed0)
-    (property "Reference" "R6" (at 105.41 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 105.41 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 92.71 65.532 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 102.87 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 85.09 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 68fbe739-58b8-4067-9106-49bc5f8fbe26))
-    (pin "1" (uuid 09294e97-8ae0-4a19-add1-e99a6f4070f0))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R6") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:SolderWirePad") (at 29.21 38.1 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid 7ac1c2cd-bea1-402b-ad1a-2a65c2a812e1)
-    (property "Reference" "J3" (at 26.67 36.83 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "SDA" (at 26.67 39.37 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm" (at 29.21 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 38.1 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid b01e4f53-c5eb-469b-901b-93573db22aed))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "J3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 115.57 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 7d309aad-a0d3-4a85-a833-f70447c36e15)
-    (property "Reference" "#PWR052" (at 115.57 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 115.57 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 115.57 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 115.57 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 98444edb-537b-48b8-a416-ccfa40f41fd0))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR05") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 128.27 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 802e66ce-7e61-4811-96f5-c7585ae4e508)
-    (property "Reference" "R1" (at 130.81 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 130.81 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 118.11 49.022 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 110.49 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid eaf246d6-bde6-47fa-a9ea-9c7d06b17eec))
-    (pin "1" (uuid 39b4f3f1-4a2e-42a5-b198-63d3f7a41315))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 128.27 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 8b5945b2-01b4-46dd-b4f9-46eacd6a602d)
-    (property "Reference" "#PWR052" (at 128.27 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 128.27 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 128.27 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 128.27 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid c4c0354f-5664-46de-b9ac-5853ef814a0e))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR04") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 115.57 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid 96cc075c-d140-4c5c-985d-2cb473037dac)
-    (property "Reference" "R4" (at 118.11 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 118.11 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 105.41 65.532 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 97.79 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid c9095113-efc8-4cc9-9ccd-a733f3f7a9fa))
-    (pin "1" (uuid d219385c-af40-4dd2-b6ee-09ee9f1056e3))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 40.64 48.26 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid 9e56e945-7700-448a-8f85-96079c2430dc)
-    (property "Reference" "#PWR01" (at 40.64 54.61 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 40.64 53.34 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 40.64 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 40.64 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 5e864666-77a2-4b78-bfb5-089c022f4dcc))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR01") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:C_100nF_SMD_0603_50V") (at 88.9 57.15 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid abbf3cbb-83b5-4408-8072-43e717981457)
-    (property "Reference" "C25" (at 83.82 54.61 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100nF" (at 82.55 59.69 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder" (at 89.8652 60.96 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 88.9 57.15 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "242-7372" (at 106.426 55.88 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ba145ef4-f945-4f77-bc2f-1d94c85b060d))
-    (pin "2" (uuid ea0f2875-908f-42a7-9d8e-b2a1a2c1c59c))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "C25") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "C1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 115.57 49.53 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid b3c30507-11fd-4be9-817a-b7bd20713d08)
-    (property "Reference" "R3" (at 118.11 48.26 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 118.11 50.8 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 105.41 49.022 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 115.57 49.53 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 97.79 48.26 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid bf20b1c1-d3e8-4177-8b44-6d00d7b59a22))
-    (pin "1" (uuid 08ca6773-6388-4c90-b0e6-fe1b5e376594))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R3") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%") (at 128.27 66.04 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp yes) (fields_autoplaced)
-    (uuid be8b5f7d-c963-4e07-83fc-d46b49a89cf1)
-    (property "Reference" "R2" (at 130.81 64.77 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "100kOhm" (at 130.81 67.31 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 118.11 65.532 90)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 128.27 66.04 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "RS order number" "213-2531" (at 110.49 64.77 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "2" (uuid 1bc4c359-91ba-4ef3-a068-ff17b6b77852))
-    (pin "1" (uuid 605e81cb-764e-48de-9e3b-3f0298e0876b))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "R2") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:SolderWirePad") (at 29.21 43.18 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid ee1b3970-5ef9-40bf-a0c5-68407f9bf4c8)
-    (property "Reference" "J4" (at 26.67 41.91 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "GND" (at 26.67 44.45 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm" (at 29.21 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 43.18 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid d730fd45-7c6b-41ab-a8c9-11aa91364cab))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "J4") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "benediktibk:SolderWirePad") (at 29.21 27.94 0) (mirror y) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no)
-    (uuid f6a58090-d54b-4f27-ac24-19690d410816)
-    (property "Reference" "J1" (at 26.67 26.67 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Value" "3V3" (at 26.67 29.21 0)
-      (effects (font (size 1.27 1.27)) (justify left))
-    )
-    (property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm" (at 29.21 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "~" (at 29.21 27.94 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid ea533d59-3644-4ff6-95f9-8082823cdf55))
-    (instances
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "J1") (unit 1)
-        )
-      )
-    )
-  )
-
-  (symbol (lib_id "power:GND") (at 102.87 72.39 0) (unit 1)
-    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
-    (uuid ffc817ad-0bb2-47d8-a92f-78a1e3c6fcd4)
-    (property "Reference" "#PWR052" (at 102.87 78.74 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Value" "GND" (at 102.87 77.47 0)
-      (effects (font (size 1.27 1.27)))
-    )
-    (property "Footprint" "" (at 102.87 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (property "Datasheet" "" (at 102.87 72.39 0)
-      (effects (font (size 1.27 1.27)) hide)
-    )
-    (pin "1" (uuid 8e0fff6a-e030-45e5-9c7c-01135e47dabf))
-    (instances
-      (project "battery-management-system"
-        (path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
-          (reference "#PWR052") (unit 1)
-        )
-      )
-      (project "cell-temperature-sensor"
-        (path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
-          (reference "#PWR06") (unit 1)
-        )
-      )
-    )
-  )
-
-  (sheet_instances
-    (path "/" (page "1"))
-  )
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "dea22479-9750-4b76-8de6-2d46ccf2ac30")
+	(paper "A4")
+	(lib_symbols
+		(symbol "benediktibk:C_100nF_SMD_0603_50V"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "C"
+				(at 0.635 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "C_100nF_SMD_0603_50V"
+				(at 0.635 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+				(at 0.9652 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Unpolarized capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RS order number" "242-7372"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "581-KGM15BR71H104KM"
+				(at 17.526 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "cap capacitor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "C_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "C_100nF_SMD_0603_50V_0_1"
+				(polyline
+					(pts
+						(xy -2.032 -0.762) (xy 2.032 -0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -2.032 0.762) (xy 2.032 0.762)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "C_100nF_SMD_0603_50V_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 2.794)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "benediktibk:NCT75DR2G"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -7.62 6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NCT75DR2G"
+				(at 2.54 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "benediktibk:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at -0.762 9.652 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "I2C Serial EEPROM, 2Kb, SOT-23"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RS order number" "805-1854"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "863-NCT75DR2G"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "I2C Serial EEPROM"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOT?23*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NCT75DR2G_1_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 3.81 180)
+					(length 2.54)
+					(name "SDA"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 1.27 180)
+					(length 2.54)
+					(name "SCL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 10.16 -1.27 180)
+					(length 2.54)
+					(name "ALERT"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -1.27 0)
+					(length 2.54)
+					(name "A2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 1.27 0)
+					(length 2.54)
+					(name "A1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 3.81 0)
+					(length 2.54)
+					(name "A0"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "V_{CC}"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "benediktibk:R_100kOhm_SMD_0603_100mW_1%"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_100kOhm_SMD_0603_100mW_1%"
+				(at -5.588 -1.016 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+				(at -10.16 0.508 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "RS order number" "213-2531"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "603-RT0603FRE13100KL"
+				(at -17.78 1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_100kOhm_SMD_0603_100mW_1%_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_100kOhm_SMD_0603_100mW_1%_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "benediktibk:SolderWirePad"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SolderWirePad"
+				(at 0 -2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SolderWirePad_1_1"
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -1.27)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:GND"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "GND"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "GND_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 -1.27) (xy 1.27 -1.27) (xy 0 -2.54) (xy -1.27 -1.27) (xy 0 -1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "GND_1_1"
+				(pin power_in line
+					(at 0 0 270)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
+		(symbol "power:PWR_FLAG"
+			(power)
+			(pin_numbers hide)
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "PWR_FLAG"
+				(at 0 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Special symbol for telling ERC where power comes from"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "flag power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "PWR_FLAG_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+		)
+	)
+	(junction
+		(at 128.27 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "09c52685-3b2d-4533-83f1-d4815bf2c8ce")
+	)
+	(junction
+		(at 115.57 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "23bf13c6-ed2a-450c-a0a6-78a1aec8a348")
+	)
+	(junction
+		(at 40.64 43.18)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2e5678b0-d70f-430d-bd39-fc07aff5f048")
+	)
+	(junction
+		(at 88.9 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "505edc0f-b75d-488f-94fe-01d883bbca90")
+	)
+	(junction
+		(at 102.87 44.45)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "54f3b72a-1d3c-4797-b643-d3f8ef95bca3")
+	)
+	(junction
+		(at 128.27 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7890c176-ed58-4696-b627-9f6024cc284c")
+	)
+	(junction
+		(at 115.57 57.15)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "9ed175dd-e14f-4812-98f5-1d2c96b07efe")
+	)
+	(junction
+		(at 102.87 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d480c9cc-85cc-4ec3-919e-057be27654d3")
+	)
+	(junction
+		(at 40.64 27.94)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f37ff093-1c59-4f5a-8007-feda678ad1b4")
+	)
+	(no_connect
+		(at 156.21 59.69)
+		(uuid "580142f8-fccb-4266-afe2-9a854a4a8579")
+	)
+	(wire
+		(pts
+			(xy 50.8 27.94) (xy 40.64 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "088c654f-7b36-44c2-91e2-f7008674bc14")
+	)
+	(wire
+		(pts
+			(xy 135.89 59.69) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0abcfc44-8068-4d13-b4dd-c6e4820c1b3f")
+	)
+	(wire
+		(pts
+			(xy 102.87 69.85) (xy 102.87 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "115b4c98-9451-4446-85b1-7638a9761abe")
+	)
+	(wire
+		(pts
+			(xy 146.05 66.04) (xy 146.05 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1bc48615-b411-4179-ad09-ec8dda9d4e68")
+	)
+	(wire
+		(pts
+			(xy 82.55 44.45) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3274bcca-ff95-4ddd-aedc-de9faa2677e3")
+	)
+	(wire
+		(pts
+			(xy 102.87 53.34) (xy 102.87 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "54dc888b-e99a-4454-b3fb-3e5dd7d8ce90")
+	)
+	(wire
+		(pts
+			(xy 102.87 59.69) (xy 102.87 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "57593c1f-471f-4494-a17b-2af46e173453")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 34.29 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c5978c6-f479-49ca-9e84-de9d62bc2cf2")
+	)
+	(wire
+		(pts
+			(xy 50.8 38.1) (xy 34.29 38.1)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "73d3265f-1570-44e7-8d0d-168bf4bc9e01")
+	)
+	(wire
+		(pts
+			(xy 115.57 53.34) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7ee6e221-28b3-4465-bb2a-3543a6276897")
+	)
+	(wire
+		(pts
+			(xy 135.89 57.15) (xy 115.57 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84a29782-bb7e-41b8-89aa-5c62cb1201ce")
+	)
+	(wire
+		(pts
+			(xy 102.87 45.72) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "916c4fda-50ff-4d31-a472-dc5f937dfa58")
+	)
+	(wire
+		(pts
+			(xy 40.64 48.26) (xy 40.64 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "927d3f02-0365-4b08-ab22-290645f33474")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 128.27 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "933af91a-b0f2-414c-819e-266ef6946a1e")
+	)
+	(wire
+		(pts
+			(xy 88.9 60.96) (xy 88.9 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93d0aaf2-830a-4dc5-98af-56384cc2a808")
+	)
+	(wire
+		(pts
+			(xy 128.27 69.85) (xy 128.27 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "94e53276-630f-4c22-8b36-ac4a201a8fa3")
+	)
+	(wire
+		(pts
+			(xy 88.9 44.45) (xy 102.87 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99534f16-8c8d-484f-8a14-a4309aecbc74")
+	)
+	(wire
+		(pts
+			(xy 128.27 53.34) (xy 128.27 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9a28f4ea-7b6e-4519-b6d0-1eddcfefead5")
+	)
+	(wire
+		(pts
+			(xy 50.8 33.02) (xy 34.29 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa78e958-765c-4ec1-86ff-684e64ffee85")
+	)
+	(wire
+		(pts
+			(xy 40.64 43.18) (xy 34.29 43.18)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b78fa3ea-2b26-460f-aea7-530816671d80")
+	)
+	(wire
+		(pts
+			(xy 115.57 57.15) (xy 115.57 62.23)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ca34cc89-9a9d-41fd-9bdc-cfbad5513ccb")
+	)
+	(wire
+		(pts
+			(xy 156.21 54.61) (xy 165.1 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "caea5c42-d689-4d31-aa80-b2eeeff1fb46")
+	)
+	(wire
+		(pts
+			(xy 115.57 69.85) (xy 115.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d391881c-63f3-4c8a-8b33-4c40959bcd4d")
+	)
+	(wire
+		(pts
+			(xy 115.57 45.72) (xy 115.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7aedc9a-2bb3-409d-bf5e-79626104d41a")
+	)
+	(wire
+		(pts
+			(xy 128.27 45.72) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7eda660-52d6-4556-97c8-24ce8e91cfcf")
+	)
+	(wire
+		(pts
+			(xy 128.27 54.61) (xy 135.89 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4eb90aa-5ff4-4542-88c5-aabc7873ed32")
+	)
+	(wire
+		(pts
+			(xy 102.87 44.45) (xy 115.57 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ee66a79b-8b0e-43f3-9da9-10394ad153ee")
+	)
+	(wire
+		(pts
+			(xy 156.21 57.15) (xy 165.1 57.15)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4460267-a2b5-467d-8ab8-6f141a92de7d")
+	)
+	(wire
+		(pts
+			(xy 88.9 53.34) (xy 88.9 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f5739b3f-6a81-4a59-887c-d8114a56670e")
+	)
+	(wire
+		(pts
+			(xy 128.27 44.45) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f97c65a0-bd59-490b-b7c8-481387551d42")
+	)
+	(wire
+		(pts
+			(xy 146.05 50.8) (xy 146.05 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fa133e62-0efe-4b0e-a061-2130f9b6e7b6")
+	)
+	(wire
+		(pts
+			(xy 115.57 44.45) (xy 128.27 44.45)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc18f819-59e0-468c-aa60-d23166835f9d")
+	)
+	(label "SDA"
+		(at 165.1 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3bc33aeb-2a7d-4905-981b-fb7e2ff554b9")
+	)
+	(label "SCL"
+		(at 50.8 33.02 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "3c7d997b-7cd1-4183-9f43-08017e4ff6e6")
+	)
+	(label "SCL"
+		(at 165.1 57.15 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "66fd7d9e-ce08-4274-a33d-b133714f6b37")
+	)
+	(label "3V3"
+		(at 82.55 44.45 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6c4a59c0-6d1c-4ce7-912e-eb96d6a4eff3")
+	)
+	(label "3V3"
+		(at 50.8 27.94 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7d0d795e-e438-4a1f-b610-66162e499327")
+	)
+	(label "SDA"
+		(at 50.8 38.1 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "ef5ffeaf-9471-4b08-a778-910ee3b24ce3")
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "0dd40706-a6f6-43c7-9745-cf9a9123dbb2")
+		(property "Reference" "#FLG01"
+			(at 40.64 26.035 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f18db9e9-04ad-4a0f-ba5c-ff60ba69649d")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#FLG01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 146.05 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1188462a-4bbe-41d9-bf28-e96421ca4cc8")
+		(property "Reference" "#PWR052"
+			(at 146.05 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 146.05 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 146.05 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0657750f-9aaf-46bf-87f7-bb6a36abbb67")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:NCT75DR2G")
+		(at 146.05 58.42 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1510aa69-6264-4a68-9e31-5216a6ff1cea")
+		(property "Reference" "U9"
+			(at 148.0694 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NCT75DR2G"
+			(at 148.0694 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 145.288 48.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "I2C Serial EEPROM, 2Kb, SOT-23"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "805-1854"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "I2C Address" "0x48"
+			(at 165.1 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "863-NCT75DR2G"
+			(at 146.05 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "023a3aec-a3e8-43a5-a171-fe915cc4caca")
+		)
+		(pin "2"
+			(uuid "6f1dc6b7-2838-44bd-8b17-37b54e0218d8")
+		)
+		(pin "3"
+			(uuid "47ec3d9f-b639-4615-9436-2bfcdd2be465")
+		)
+		(pin "4"
+			(uuid "271b1afa-fc2e-4f4d-a10f-b7563875561a")
+		)
+		(pin "5"
+			(uuid "004f0c70-650a-4835-98f6-f0ceb715e62f")
+		)
+		(pin "6"
+			(uuid "bba7e107-95fd-4041-8ce7-40afe3acc4aa")
+		)
+		(pin "7"
+			(uuid "85164bab-4e34-442c-87e9-83982528daa1")
+		)
+		(pin "8"
+			(uuid "fa3bd483-9697-4687-aac0-9c248bfeedcc")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "U9")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 88.9 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "3d41b205-2f8b-459d-aa59-5cb39cdf852f")
+		(property "Reference" "#PWR052"
+			(at 88.9 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 88.9 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 88.9 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e53a492-0a76-4914-9a72-996031dc3774")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:SolderWirePad")
+		(at 29.21 33.02 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "51c9cd7d-c7aa-4124-bedb-63e54e10c596")
+		(property "Reference" "J2"
+			(at 26.67 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SCL"
+			(at 26.67 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "47af3bc3-adea-4b00-8dc8-d56c55264f2e")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 102.87 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "5a055486-13a5-4284-a658-0284f9b10553")
+		(property "Reference" "R5"
+			(at 105.41 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 105.41 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 92.71 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 85.09 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5b8701c5-bbbe-4dba-bd72-9f7d91b639ef")
+		)
+		(pin "1"
+			(uuid "7e16cba6-a3ee-49b3-ba36-a05c5a9d487a")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 40.64 43.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5ed8e99c-ad37-4f1e-8599-9cff5ff26c5c")
+		(property "Reference" "#FLG02"
+			(at 40.64 41.275 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 40.64 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 40.64 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d8992e3d-8433-431b-af21-ecc944dcc928")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#FLG02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 102.87 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "642453b4-1c88-4562-84f9-60e404f80ed0")
+		(property "Reference" "R6"
+			(at 105.41 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 105.41 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 92.71 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 102.87 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 85.09 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "68fbe739-58b8-4067-9106-49bc5f8fbe26")
+		)
+		(pin "1"
+			(uuid "09294e97-8ae0-4a19-add1-e99a6f4070f0")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:SolderWirePad")
+		(at 29.21 38.1 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "7ac1c2cd-bea1-402b-ad1a-2a65c2a812e1")
+		(property "Reference" "J3"
+			(at 26.67 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SDA"
+			(at 26.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 38.1 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b01e4f53-c5eb-469b-901b-93573db22aed")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 115.57 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7d309aad-a0d3-4a85-a833-f70447c36e15")
+		(property "Reference" "#PWR052"
+			(at 115.57 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 115.57 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 115.57 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "98444edb-537b-48b8-a416-ccfa40f41fd0")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 128.27 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "802e66ce-7e61-4811-96f5-c7585ae4e508")
+		(property "Reference" "R1"
+			(at 130.81 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 130.81 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.11 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 110.49 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "eaf246d6-bde6-47fa-a9ea-9c7d06b17eec")
+		)
+		(pin "1"
+			(uuid "39b4f3f1-4a2e-42a5-b198-63d3f7a41315")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 128.27 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8b5945b2-01b4-46dd-b4f9-46eacd6a602d")
+		(property "Reference" "#PWR052"
+			(at 128.27 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 128.27 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c4c0354f-5664-46de-b9ac-5853ef814a0e")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 115.57 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "96cc075c-d140-4c5c-985d-2cb473037dac")
+		(property "Reference" "R4"
+			(at 118.11 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 118.11 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 105.41 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 97.79 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "c9095113-efc8-4cc9-9ccd-a733f3f7a9fa")
+		)
+		(pin "1"
+			(uuid "d219385c-af40-4dd2-b6ee-09ee9f1056e3")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 40.64 48.26 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9e56e945-7700-448a-8f85-96079c2430dc")
+		(property "Reference" "#PWR01"
+			(at 40.64 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 40.64 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 40.64 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5e864666-77a2-4b78-bfb5-089c022f4dcc")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:C_100nF_SMD_0603_50V")
+		(at 88.9 57.15 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "abbf3cbb-83b5-4408-8072-43e717981457")
+		(property "Reference" "C25"
+			(at 83.82 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100nF"
+			(at 82.55 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder"
+			(at 89.8652 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 88.9 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "242-7372"
+			(at 106.426 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "581-KGM15BR71H104KM"
+			(at 106.426 55.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba145ef4-f945-4f77-bc2f-1d94c85b060d")
+		)
+		(pin "2"
+			(uuid "ea0f2875-908f-42a7-9d8e-b2a1a2c1c59c")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "C25")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "C1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 115.57 49.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "b3c30507-11fd-4be9-817a-b7bd20713d08")
+		(property "Reference" "R3"
+			(at 118.11 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 118.11 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 105.41 49.022 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 115.57 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 97.79 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "bf20b1c1-d3e8-4177-8b44-6d00d7b59a22")
+		)
+		(pin "1"
+			(uuid "08ca6773-6388-4c90-b0e6-fe1b5e376594")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:R_100kOhm_SMD_0603_100mW_1%")
+		(at 128.27 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp yes)
+		(fields_autoplaced yes)
+		(uuid "be8b5f7d-c963-4e07-83fc-d46b49a89cf1")
+		(property "Reference" "R2"
+			(at 130.81 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100kOhm"
+			(at 130.81 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
+			(at 118.11 65.532 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 128.27 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RS order number" "213-2531"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "603-RT0603FRE13100KL"
+			(at 110.49 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1bc4c359-91ba-4ef3-a068-ff17b6b77852")
+		)
+		(pin "1"
+			(uuid "605e81cb-764e-48de-9e3b-3f0298e0876b")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "R2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:SolderWirePad")
+		(at 29.21 43.18 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ee1b3970-5ef9-40bf-a0c5-68407f9bf4c8")
+		(property "Reference" "J4"
+			(at 26.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 26.67 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "d730fd45-7c6b-41ab-a8c9-11aa91364cab")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "benediktibk:SolderWirePad")
+		(at 29.21 27.94 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f6a58090-d54b-4f27-ac24-19690d410816")
+		(property "Reference" "J1"
+			(at 26.67 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "3V3"
+			(at 26.67 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "benediktibk:SolderWirePad_1x01_SMD_5x10mm"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 29.21 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ea533d59-3644-4ff6-95f9-8082823cdf55")
+		)
+		(instances
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 102.87 72.39 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ffc817ad-0bb2-47d8-a92f-78a1e3c6fcd4")
+		(property "Reference" "#PWR052"
+			(at 102.87 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 102.87 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 102.87 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e0fff6a-e030-45e5-9c7c-01135e47dabf")
+		)
+		(instances
+			(project "battery-management-system"
+				(path "/5272f0ff-3069-41a9-bca2-80beede8b4b2/409f87d1-afa6-40d2-ba42-d5009501b8f9"
+					(reference "#PWR052")
+					(unit 1)
+				)
+			)
+			(project "cell-temperature-sensor"
+				(path "/dea22479-9750-4b76-8de6-2d46ccf2ac30"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
 )
