@@ -1713,7 +1713,7 @@
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "604-APH1608SURCK"
+			(property "Mouser Part Number" "859-LTST-C190KDKT10A"
 				(at 0 0 0)
 				(effects
 					(font
@@ -4027,7 +4027,7 @@
 				(hide yes)
 			)
 		)
-		(property "Mouser Part Number" "604-APH1608SURCK"
+		(property "Mouser Part Number" "859-LTST-C190KDKT10A"
 			(at 218.44 76.2 0)
 			(effects
 				(font
