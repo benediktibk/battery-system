@@ -1,0 +1,4 @@
+open:
+footprint for EEPROM wrong
+
+done:
