@@ -172,8 +172,7 @@ static bool execute(void)
         }
     }
 
-    // TODO: due to a design error all other voltages are incorrect
-    for (size_t i = 0; i < 1; ++i) {
+    for (size_t i = 0; i < CELL_COUNT; ++i) {
         if (battery_state.cell_voltages[i] < CONFIG_MINIMUM_CELL_VOLTAGE_MV) {
             LOG_ERR("cell %i voltage is too low: %i mV", i, battery_state.cell_voltages[i]);
             return false;
