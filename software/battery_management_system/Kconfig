@@ -44,6 +44,11 @@ config CELLS_MEASUREMENT_POST_KERNEL_INIT_PRIORITY
 	default 80
 	depends on CELLS_MEASUREMENT
 
+config CELLS_MEASUREMENT_ENABLE_WAIT_TIME_MS
+	int "wait time after the measurement has been enable to allow the voltages to stabilize"
+	default 10
+	depends on CELLS_MEASUREMENT
+
 menuconfig POWER_CONTROL
 	bool "power control"
 	default y

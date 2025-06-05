@@ -28,6 +28,8 @@ bool cells_measurement_measure(
 
     gpio_pin_set_dt(&config->enable_gpio, 1);
 
+    k_sleep(K_MSEC(CONFIG_CELLS_MEASUREMENT_ENABLE_WAIT_TIME_MS));
+
     for (size_t i = 0; i < CELL_COUNT; ++i) {
         success &= cell_voltage_measure(config->cell_voltage_devices[i], &cell_voltages_raw.value[i]);
     }
