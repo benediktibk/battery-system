@@ -5,7 +5,8 @@ board:
     - name: stm32l071xx
   revision:
     format: number
-    default: "1"
+    default: "3"
     revisions:
     - name: "1"
     - name: "2"
+    - name: "3"

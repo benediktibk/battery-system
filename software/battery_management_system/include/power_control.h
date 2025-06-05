@@ -25,15 +25,5 @@ bool power_control_set_charge(
 bool power_control_set_discharge(
     const struct device *device,
     bool value);
-/*!
- * @brief check if charge is available
- * 
- * @param device instance of cell voltage
- * @param value true if charge is available
- * @return success
- */
-bool power_control_get_charge_available(
-    const struct device *device,
-    bool *value);
 
 #endif

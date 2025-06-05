@@ -14,8 +14,3 @@ properties:
     type: phandle-array
     required: true
     description: discharge GPIO
-  
-  charge-available-gpios:
-    type: phandle-array
-    required: true
-    description: charge available GPIO

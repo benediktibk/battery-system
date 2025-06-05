@@ -130,39 +130,6 @@ static int power_control_shell_not_discharge(
     return 0;
 }
 
-static int power_control_shell_get_charge_available(
-    const struct shell *sh,
-    size_t argc,
-    char **argv)
-{
-    bool value;
-
-    if (argc != 2) {
-        shell_print(sh, "invalid number of arguments\n");
-        return -1;
-    }
-
-    char *device_name = argv[1];
-
-    const struct device *device = device_get_binding(device_name);
-
-    if (device == NULL) {
-        shell_print(sh, "unable to find device %s", device_name);
-        return -2;
-    }
-
-    bool success = power_control_get_charge_available(device, &value);
-
-    if (!success) {
-        shell_print(sh, "power control failed");
-        return -3;
-    }
-
-    shell_print(sh, "charge is available: %s", value ? "YES" : "NO");
-
-    return 0;
-}
-
 static int power_control_shell_list(
     const struct shell *sh,
     size_t argc,
@@ -187,7 +154,6 @@ SHELL_STATIC_SUBCMD_SET_CREATE(power_control_command,
                                SHELL_CMD_ARG(notcharge, NULL, "disable charging", power_control_shell_not_charge, 2, 0),
                                SHELL_CMD_ARG(discharge, NULL, "enable discharging", power_control_shell_discharge, 2, 0),
                                SHELL_CMD_ARG(notdischarge, NULL, "disable discharging", power_control_shell_not_discharge, 2, 0),
-                               SHELL_CMD_ARG(get_charge_available, NULL, "get charge available", power_control_shell_get_charge_available, 2, 0),
                                SHELL_CMD_ARG(list, NULL, "list available instances", power_control_shell_list, 1, 0),
                                SHELL_SUBCMD_SET_END);
 
