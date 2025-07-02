@@ -1,4 +1,5 @@
 open:
 footprint for EEPROM wrong
+use INAs for cell measurement for increased precision
 
 done:
